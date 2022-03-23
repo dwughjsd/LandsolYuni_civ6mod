@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC90AE6D-83B6-474F-A395-55436F9E4904}" SchemaVersion="70">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{BC90AE6D-83B6-474F-A395-55436F9E4904}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}">
+					<ChildrenList>
+						<Switch Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+						<Switch Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+						<Switch Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+						<Switch Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

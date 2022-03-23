@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\WwiseProjects\Yuni\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\WwiseProjects\Yuni\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="3586259261" Language="SFX">
+			<ShortName>Landsol_Speech</ShortName>
+			<Path>Landsol_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2823041034" Name="LANS_YS_MISC_PEP_TALK_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="459928469" Language="SFX">
+					<ShortName>LANS_YS_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

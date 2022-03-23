@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_LANDSOL_MOD_TITLE</Name>
+    <Guid>f370d486-00c2-4228-bd7e-2d8a71a32af4</Guid>
+    <ProjectGuid>56d80bc3-7c87-419d-9a61-bb622a69c53d</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_LANDSOL_MOD_TEASER</Teaser>
+    <Description>LOC_LANDSOL_MOD_DESCRIPTION</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LandsolYuni</Criteria><File>Data/Yuni_Leaders.xml</File><File>Data/Yuni_Civilizations.xml</File><File>Data/Yuni_Buildings.xml</File><File>Data/Yuni_Units.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LandsolYuni</Criteria><File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File><File>Text/Yuni_Text_zh_Hans_CN.xml</File><File>Text/Yuni_ConfigText_ja_JP.xml</File><File>Text/Yuni_Text_ja_JP.xml</File><File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File><File>Text/Yuni_Text_zh_Hant_HK.xml</File><File>Text/Yuni_ConfigText_AFallback.xml</File><File>Text/Yuni_Text_AFallback.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LandsolYuni</Criteria><File>Data/Yuni_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LandsolYuni</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="Colors"><Criteria>LandsolYuni</Criteria><File>Data/Yuni_Colors.xml</File></UpdateColors><UpdateDatabase id="Gameplay_XP1"><Criteria>LandsolYuni_Expansion1</Criteria><File>Data/Yuni_Expansion1.xml</File></UpdateDatabase><UpdateDatabase id="Gameplay_XP2"><Criteria>LandsolYuni_Expansion2</Criteria><File>Data/Yuni_Expansion2.xml</File></UpdateDatabase><UpdateLogitechARX id="ARX"><Criteria>LandsolYuni</Criteria><File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File></UpdateLogitechARX><UpdateDatabase id="Gameplay_XP1_XP2"><Criteria>LandsolYuni_Expansion1_Expansion2</Criteria><File>Data/Yuni_Expansion1_Expansion2.xml</File></UpdateDatabase><UpdateAudio id="Audio"><Criteria>LandsolYuni</Criteria><File>Platforms/Windows/Audio/YuniBanks.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/Yuni_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File><File>Text/Yuni_ConfigText_ja_JP.xml</File><File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File><File>Text/Yuni_ConfigText_AFallback.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>Data/Yuni_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="ConfigColors"><File>Data/Yuni_Colors.xml</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LandsolYuni"><LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion1_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>LandsolYuni</AssemblyName>
+    <RootNamespace>LandsolYuni</RootNamespace>
+    <Authors>Dwughjsd</Authors>
+    <AssociationData><![CDATA[<Associations>
+  <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Reference type="Dlc" title="LOC_EXPANSION1_MOD_TITLE" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <SpecialThanks>KevinLiu, hemmelfort</SpecialThanks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Data\ARX\Civ_LEADER_SHINGYOUJI_YUNI.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Civilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Expansion1_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Yuni_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\1006496830.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\101507949.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\103432473.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\206622139.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\674508563.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\863210107.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\932841017.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\942316464.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Music_Bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Music_Bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Music_Bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Landsol_Speech.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\YuniBanks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_ConfigText_ja_JP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_ConfigText_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_Text_ja_JP.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_Text_zh_Hant_HK.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Data" />
+    <Folder Include="Data\ARX\" />
+    <Folder Include="Platforms" />
+    <Folder Include="Platforms\Windows" />
+    <Folder Include="Platforms\Windows\Audio" />
+    <Folder Include="Text" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="Text\Yuni_ConfigText_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Yuni_Text_zh_Hans_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <None Include="ArtDefs\Civilizations.artdef" />
+    <None Include="ArtDefs\Cultures.artdef" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="ArtDefs\Leaders.artdef" />
+    <None Include="ArtDefs\Overlay.artdef" />
+    <None Include="ArtDefs\StrategicView.artdef" />
+    <None Include="ArtDefs\Units.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="XLPs\Icons.xlp" />
+    <None Include="XLPs\Shell_Loading.xlp" />
+    <None Include="XLPs\StrategicView_UILenses.xlp" />
+    <None Include="XLPs\UILensModels.xlp" />
+    <None Include="XLPs\UI_LeaderScenes.xlp" />
+    <None Include="XLPs\UI_PrideMoments.xlp" />
+    <None Include="LandsolYuni.Art.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_SHINGYOUJIYUNI.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_SHINGYOUJIYUNI.tex" />
+    <None Include="Textures\LEADER_SHINGYOUJI_YUNI_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_SHINGYOUJI_YUNI_NEUTRAL.tex" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}" SchemaVersion="70">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Master Music Bus" ID="{AF70F97C-F862-46AD-AB45-EBEA0FAFDAD9}">
+							<ChildrenList>
+								<Bus Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Speech Bus" ID="{EE6F9EC0-28C3-430E-B0F5-A9DE4CB5D006}">
+							<Comment>This bus is for leader speech.</Comment>
+						</Bus>
+						<AuxBus Name="Reverb_Leader_Scene" ID="{5E28702E-D128-4905-BDC0-FD571754AD45}">
+							<Comment>This auxillary bus is for leader speech reverb.</Comment>
+						</AuxBus>
+						<Bus Name="Master SFX Bus" ID="{54B73BD2-0217-4525-827D-EDEB210F7879}">
+							<ChildrenList>
+								<Bus Name="Non_Interface SFX Bus" ID="{99D04EA0-6500-4724-8ACD-6FF602869C23}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" SchemaVersion="70">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{95775847-AF23-4A2E-8149-AB2F9FF0E76C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Landsol_Music_Bank" ID="{4E226DE0-E3C6-49B7-894C-DF55A643EFC3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="2" Origin="Manual"/>
+						<ObjectRef Name="Play_Music_LANDSOL" ID="{4F9BD20E-F925-409C-A155-D1271CD7355E}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="ThemeMusic_Landsol" ID="{898E502A-7641-4F75-A6F3-83842243EEC5}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Resume_Music_LANDSOL" ID="{67101937-6FD9-4D64-A7E5-863D68E01876}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Start_Music_LANDSOL" ID="{B2AD8037-7AA5-4B87-BA35-8C2E050B4860}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LeaderMusic_Landsol" ID="{7012114C-BC28-413F-BEE6-878C5F355E06}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Leader_Music_LANDSOL" ID="{26804E6E-10B2-4948-9D4A-5011F5E4F19F}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Leader_Music_LANDSOL" ID="{1D86F872-F7EF-47BA-B058-FC3E3D673BAC}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CivilizationMusic_Landsol" ID="{8FD9EF89-1DD5-42F1-9B17-EF2CD887F01D}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music_LANDSOL" ID="{13CB99CC-D924-4966-A97A-053B487707BC}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Pause_Music_LANDSOL" ID="{C485B9EC-BABD-49CA-8E5E-FAE754FCCD04}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Landsol_Speech" ID="{5C5CA03B-7850-4D9D-B8BA-751E30C3F3B1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_MISC_PEP_TALK_A" ID="{271DAF22-BD85-4D0F-A1DC-674344DEACF1}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="YuniSpeech" ID="{28ADE477-CA3F-46CA-98DA-C06999864D78}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_MISC_PEP_TALK_A" ID="{6CAFFEDA-A3E1-44F1-9F98-130C2B8ADFD2}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

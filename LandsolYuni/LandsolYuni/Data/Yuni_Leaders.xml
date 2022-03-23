@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_SHINGYOUJI_YUNI" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ROMANCE_OF_ARTS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_LANDSOL_YUNICOPTER" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Leaders>
+		<Row>
+			<LeaderType>LEADER_SHINGYOUJI_YUNI</LeaderType>
+			<Name>LOC_LEADER_SHINGYOUJI_YUNI_NAME</Name>
+			<SceneLayers>4</SceneLayers>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" Quote="LOC_LEADER_SHINGYOUJI_YUNI_QUOTE" QuoteAudio="LANS_YS_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_UNIT_LANDSOL_YUNICOPTER"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_NONRELIGIOUS_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" TraitType="TRAIT_LEADER_EXPANSIONIST"/>
+	</LeaderTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" Name="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME" Description="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_ROMANCE_OF_ARTS"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_LANDSOL_YUNICOPTER"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" Name="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME" Description="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION"/>	
+	</Traits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_LIBRARY_ONE_WRITING_SLOT"/>
+		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_LIBRARY_GREAT_WRITER_POINT"/>
+		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_GREAT_WORK_SCIENCE_WRITING"/>
+		
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_MINE_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_MINE_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_THEATER_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="UNIQUE_LEADER_UNIT_START_PROMOTED"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_CAMPUS_CULTURE"/>
+		
+		<Row TraitType="TRAIT_AGENDA_ROMANCE_OF_ARTS" ModifierId="AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE"/>
+		<Row TraitType="TRAIT_AGENDA_ROMANCE_OF_ARTS" ModifierId="AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_THEATER_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEATER_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREAT_WRITER_POINT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIBRARY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>UNIQUE_LEADER_UNIT_START_PROMOTED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_THEATER_SCIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_THEATER_SCIENCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEATER_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_THEATER_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_CAMPUS_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAMPUS_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREAT_WRITER_POINT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LIBRARY_GREAT_WRITER_POINT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>UNIQUE_LEADER_UNIT_START_PROMOTED</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_SHINGYOUJI_YUNI_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_ROMANCE_OF_ARTS" Name="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Description="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION"/>
+	</Agendas>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_SHINGYOUJI_YUNI" AgendaType="AGENDA_ROMANCE_OF_ARTS"/>
+	</HistoricalAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_ROMANCE_OF_ARTS" TraitType="TRAIT_AGENDA_ROMANCE_OF_ARTS"/>
+	</AgendaTraits>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_ROMANCE_OF_ARTS" AgendaTwo="AGENDA_CULTURED"/>
+		<Row AgendaOne="AGENDA_ROMANCE_OF_ARTS" AgendaTwo="AGENDA_TECHNOPHILE"/>
+		<Row AgendaOne="AGENDA_ROMANCE_OF_ARTS" AgendaTwo="AGENDA_DEVOUT"/>
+	</ExclusiveAgendas>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row RequirementSetId="LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_CULTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_HIGH_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_SCIENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_LOW_CULTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_HIGH_SCIENCE_LOW_CULTURE</RequirementSetId>
+			<RequirementId>REQUIRES_HAS_HIGH_SCIENCE</RequirementId>
+		</Row>
+		<Row RequirementSetId="LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
+		<Row>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_IS_LANDSOL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_STRATEGIC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_VISIBLE_RESOURCE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="PLAYER_IS_LANDSOL" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="PLAYER_IS_LANDSOL" Name="CivilizationType" Value="CIVILIZATION_LANDSOL"/>
+	</RequirementArguments>
+
+
+	<AiListTypes>
+		<Row ListType="ShingyoujiYuniTechs"/>
+		<Row ListType="ShingyoujiYuniCivics"/>
+		<Row ListType="ShingyoujiYuniWonders"/>
+		<Row ListType="ShingyoujiYuniDistricts"/>
+		<!--<Row ListType="ShingyoujiYuniFavorWalls"/>-->
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="ShingyoujiYuniTechs" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Technologies"/>
+		<Row ListType="ShingyoujiYuniWonders" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Buildings"/>
+		<Row ListType="ShingyoujiYuniCivics" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Civics"/>
+		<Row ListType="ShingyoujiYuniDistricts" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Districts"/>
+		<!--
+		<Row ListType="ShingyoujiYuniFavorWalls" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Buildings"/>
+		-->
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="ShingyoujiYuniTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="ShingyoujiYuniTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="ShingyoujiYuniTechs" Item="TECH_ROBOTICS" Favored="true"/>
+		<Row ListType="ShingyoujiYuniWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="ShingyoujiYuniWonders" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<Row ListType="ShingyoujiYuniCivics" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/>
+		<Row ListType="ShingyoujiYuniCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
+		<Row ListType="ShingyoujiYuniCivics" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="ShingyoujiYuniDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
+		<!--
+		<Row ListType="ShingyoujiYuniFavorWalls" Item="BUILDING_WALLS" Favored="true"/>
+		-->
+	</AiFavoredItems>
+
+
+<!--A nasty workaround for Babylon. Doesn't work if Babylon is modified. Doesn't work when...-->
+
+	<Modifiers>
+		<Update>
+			<Where ModifierId="MINOR_CIV_BABYLON_WRITING_BONUS"/>
+			<Set SubjectRequirementSetId="PLAYER_IS_SUZERAIN_NOT_YUNI"/>
+		</Update>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_YUNI_HAS_MET_NOT_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_YUNI_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+	</Modifiers>
+
+	<TraitModifiers>
+			<Row TraitType="MINOR_CIV_BABYLON_TRAIT" ModifierId="MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN"/>
+			<Row TraitType="MINOR_CIV_BABYLON_TRAIT" ModifierId="MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN"/>
+	</TraitModifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_IS_YUNI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SUZERAIN_NOT_YUNI</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_HAS_MET_NOT_SUZERAIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_SUZERAIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SUZERAIN_NOT_YUNI</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_SUZERAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SUZERAIN_NOT_YUNI</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_AT_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_IS_SUZERAIN_NOT_YUNI</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_NOT_YUNI</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_IS_YUNI</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_YUNI</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_HAS_MET_NOT_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_YUNI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_HAS_MET_NOT_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYERS_HAVE_MET</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_HAS_MET_NOT_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_NOT_SUZERAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_SUZERAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_YUNI_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_YUNI</RequirementId>
+		</Row>
+
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQUIRES_PLAYER_IS_YUNI" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_PLAYER_IS_NOT_YUNI" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES" Inverse="true"/>		
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_PLAYER_IS_YUNI" Name="LeaderType" Value="LEADER_SHINGYOUJI_YUNI"/>
+		<Row RequirementId="REQUIRES_PLAYER_IS_NOT_YUNI" Name="LeaderType" Value="LEADER_SHINGYOUJI_YUNI"/>
+	</RequirementArguments>
+<!--I really hate workarounds.-->
+</GameData>

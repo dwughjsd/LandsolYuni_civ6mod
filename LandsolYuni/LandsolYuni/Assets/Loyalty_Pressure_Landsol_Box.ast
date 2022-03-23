@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings/>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings/>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines/>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points/>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text=""/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="PipModel"/>
+				<m_GeoName text="PipModelGeo"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Loyalty_Pressure_Landsol_material"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="LensMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="09 - Default"/>
+						<m_MeshName text="PipModel"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..Coord3DValue">
+				<m_x>0.000000</m_x>
+				<m_y>0.000000</m_y>
+				<m_z>5.000000</m_z>
+				<m_ParamName text="Offset"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>255.000000</m_r>
+				<m_g>255.000000</m_g>
+				<m_b>255.000000</m_b>
+				<m_ParamName text="Color"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="Alpha"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>0.000000</m_x>
+				<m_y>0.000000</m_y>
+				<m_ParamName text="UVOffset"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>1.000000</m_x>
+				<m_y>1.000000</m_y>
+				<m_ParamName text="UVScale"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="RotateToAlign"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="IsBillboard"/>
+			</Element>
+			<Element class="AssetObjects..StringValue">
+				<m_Value text="NONE"/>
+				<m_ParamName text="AnimType"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="AnimDuration"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="AutoPlay"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="UILensAsset"/>
+	<m_DataFiles/>
+	<m_Name text="Loyalty_Pressure_Landsol_Box"/>
+	<m_Description text=""/>
+	<m_Tags/>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

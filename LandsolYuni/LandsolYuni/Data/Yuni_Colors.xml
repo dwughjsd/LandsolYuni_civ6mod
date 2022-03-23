@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_SHINGYOUJI_YUNI</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_STANDARD_ORANGE_LT</PrimaryColor>
+			<SecondaryColor>COLOR_STANDARD_BLUE_LT</SecondaryColor>
+			<Alt1PrimaryColor>COLOR_STANDARD_RED_DK</Alt1PrimaryColor>
+			<Alt1SecondaryColor>COLOR_STANDARD_PURPLE_LT</Alt1SecondaryColor>
+			<Alt2PrimaryColor>COLOR_STANDARD_PURPLE_LT</Alt2PrimaryColor>
+			<Alt2SecondaryColor>COLOR_STANDARD_RED_DK</Alt2SecondaryColor>
+			<Alt3PrimaryColor>COLOR_STANDARD_BLUE_LT</Alt3PrimaryColor>
+			<Alt3SecondaryColor>COLOR_STANDARD_ORANGE_LT</Alt3SecondaryColor>
+		</Row>
+	</PlayerColors>
+</GameData>

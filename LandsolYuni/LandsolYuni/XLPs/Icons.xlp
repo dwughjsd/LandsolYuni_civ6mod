@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="LeaderYuni256"/>
+			<m_ObjectName text="LeaderYuni256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni32"/>
+			<m_ObjectName text="LeaderYuni32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni45"/>
+			<m_ObjectName text="LeaderYuni45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni48"/>
+			<m_ObjectName text="LeaderYuni48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni50"/>
+			<m_ObjectName text="LeaderYuni50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni55"/>
+			<m_ObjectName text="LeaderYuni55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni64"/>
+			<m_ObjectName text="LeaderYuni64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LeaderYuni80"/>
+			<m_ObjectName text="LeaderYuni80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol45"/>
+			<m_ObjectName text="Landsol45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol128"/>
+			<m_ObjectName text="Landsol128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol22"/>
+			<m_ObjectName text="Landsol22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol256"/>
+			<m_ObjectName text="Landsol256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol30"/>
+			<m_ObjectName text="Landsol30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol32"/>
+			<m_ObjectName text="Landsol32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol36"/>
+			<m_ObjectName text="Landsol36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol44"/>
+			<m_ObjectName text="Landsol44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol48"/>
+			<m_ObjectName text="Landsol48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol50"/>
+			<m_ObjectName text="Landsol50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol64"/>
+			<m_ObjectName text="Landsol64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Landsol80"/>
+			<m_ObjectName text="Landsol80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

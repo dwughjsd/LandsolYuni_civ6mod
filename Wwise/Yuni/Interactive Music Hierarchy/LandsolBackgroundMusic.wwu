@@ -1,0 +1,2518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{37A78621-A2B7-4330-A73A-77E467A1130E}" SchemaVersion="70">
+	<InteractiveMusic>
+		<WorkUnit Name="LandsolBackgroundMusic" ID="{37A78621-A2B7-4330-A73A-77E467A1130E}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="LeaderMusic_Landsol" ID="{7012114C-BC28-413F-BEE6-878C5F355E06}" ShortID="461154702">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="LandsolLeader_Ancient" ID="{A5563426-B2C4-4778-A84D-DB4635CD5D9C}" ShortID="155084043">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolAncient" ID="{99E1F7E1-67E8-4710-9686-1415396E9B59}" ShortID="210051887">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="163925.333333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="51"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Landsol_AncientTheme" ID="{BC35938E-463E-46B6-99B9-6BC018A875EC}" ShortID="66083147">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Landsol_AncientTheme" ID="{3F02C856-F6D3-4A8F-B173-F3C2340262E6}" ShortID="205419457">
+													<Language>SFX</Language>
+													<AudioFile>Landsol_AncientTheme.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="674508563"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D07A10E7-3245-4B13-AE51-C0F6F1FE6234}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A127FFCF-4E12-46B4-959F-01BD399F36B2}">
+													<ClipList>
+														<MusicClip Name="Landsol_AncientTheme" ID="{9E6F726A-3F20-48B3-A25C-9FDF178390A7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="81962.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Landsol_AncientTheme" ID="{3F02C856-F6D3-4A8F-B173-F3C2340262E6}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{E7151C0F-A82A-4846-B9E9-C88A613142F5}"/>
+										<MusicCue Name="Exit Cue" ID="{7223E5B7-CD8D-4F3B-80AD-E5B11396C0BB}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="81805.7921966784"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{34D47F3D-1729-4917-B5C6-76990F095227}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="81593.0826234095"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{36F341F2-95AD-4622-BD21-66F8102AC80D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{C767ADC9-903E-4A0F-AA5B-178666867E04}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{27767507-6E9D-4387-94FA-6C769D07246E}" ShortID="678285942">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{2BABFB6E-94F3-4E99-908B-7B256C85456C}" ShortID="677383674">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient" ID="{99E1F7E1-67E8-4710-9686-1415396E9B59}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolLeader_Atomic" ID="{F2C745C7-282A-48AD-AD38-326FC23F69BA}" ShortID="736570043">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolAtomic" ID="{B33E5123-AE65-46DB-A73D-18C730FFE1D6}" ShortID="207874496">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="208729.065154522"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Atomic" ID="{88B438FB-EBC5-46DE-81B9-B7931E45B0A9}" ShortID="538650326">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Atomic" ID="{257F8F2E-1AC1-49D6-86D4-616EEA3E4F22}" ShortID="658440449">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Atomic.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="942316464"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7FDD3AA2-0DBA-47C2-8F31-8E343E4BD457}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{AD86EEE1-1E2B-4B12-B5CD-F516F6378CE6}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Atomic" ID="{8A062959-AE11-41B0-93D4-29EA4088E57A}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="193084.375"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Atomic" ID="{257F8F2E-1AC1-49D6-86D4-616EEA3E4F22}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{C9379758-EFC0-4960-980A-953FE7AD3FDE}"/>
+										<MusicCue Name="Exit Cue" ID="{305A1FD5-5919-425A-B08A-3A3B86F5A421}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="188656.404577279"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{A97EEA86-96A8-4025-9894-6F398CCBF1EB}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="188446.941089488"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{73AC64C1-B5BC-49C2-A564-832E637719D4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E939F427-C5AC-45EF-91D4-12B1D9879459}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{CD161513-32BD-4508-B441-9CB826C615C8}" ShortID="826703233">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{76A8E8F1-B191-4974-A2CE-39F8B479B711}" ShortID="115873068">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAtomic" ID="{B33E5123-AE65-46DB-A73D-18C730FFE1D6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolLeader_Industrial" ID="{3EEEBDCA-532F-4035-A8B7-66556F859A7B}" ShortID="85408630">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolIndustrial" ID="{A26B0C95-D45E-42B7-A0FB-B0AF88C4830F}" ShortID="764460337">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="185148.041666667"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Industrial" ID="{23F8E261-0EED-4A93-86C9-242583965E58}" ShortID="417081803">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Industrial" ID="{E17690FC-F7BF-48ED-917E-DC61F4CAFCE0}" ShortID="587969398">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="103432473"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{919CBB29-8A70-430B-897D-15533E44F433}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{F4A8E439-7CBB-4C3B-AA59-B0B6A8A2F6EF}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Industrial" ID="{EDFF27C8-1C59-44B9-93FE-897A623A097B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185148.041666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Industrial" ID="{E17690FC-F7BF-48ED-917E-DC61F4CAFCE0}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B135F767-9071-4306-85EA-F2F7D123E70E}"/>
+										<MusicCue Name="Exit Cue" ID="{300F8848-BFDD-4FDC-B2A5-AC7E169F9950}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="181870.875819132"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{6ED7E49E-86DA-4037-B8A6-8800C6222672}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="181274.561756556"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{31C11C8C-A3DA-4735-944D-99A41D88A8C6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{397A23FF-CB80-4033-9B44-BF771C819440}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6E7A3ED2-8FB5-4CE8-BEA8-D72D1E71F97F}" ShortID="732261629">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{0D47DE2D-D37E-4E52-8EF0-7B5150981ABC}" ShortID="621413008">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolIndustrial" ID="{A26B0C95-D45E-42B7-A0FB-B0AF88C4830F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolLeader_Medieval" ID="{7D1F886B-F13F-4A62-A503-F7C8054A8D0F}" ShortID="387373021">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolMedieval" ID="{062D370B-9F4A-4E27-B596-EB98A70AA871}" ShortID="729012936">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="116738.380831946"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Medieval" ID="{5F91BA98-81DB-42F6-8923-1243B9FC6778}" ShortID="74849428">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Medieval" ID="{4A3F6474-7921-4858-95C9-CEE16D1AC439}" ShortID="762203805">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Medieval.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1006496830"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{53AA98F2-E3AC-4369-98E6-A5465C32FA67}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6801D032-FB2B-4D8F-82D3-BC12DBFD6882}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Medieval" ID="{3CE93B42-F4C5-4144-B758-F4379CF9DDD4}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104176.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Medieval" ID="{4A3F6474-7921-4858-95C9-CEE16D1AC439}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2C4D14B7-6FA5-4814-AC42-2D6BB213A65D}"/>
+										<MusicCue Name="Exit Cue" ID="{35D3DAFD-89D9-4B08-A2FE-19A44954DC21}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="101455.135484653"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{B92A32D5-60C0-4E7F-A5CC-C95873148071}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="101184.755859793"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1890148D-3E87-49C6-B9B0-A4CFCBF25838}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{748F17D6-9B8F-4216-BF10-1CB38B7F1E90}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{DB11236E-6D1E-4EE1-A1D8-17DF13FD8DFC}" ShortID="159369950">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{1F41306D-1089-4C98-B9F1-6117935A369A}" ShortID="65083203">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolMedieval" ID="{062D370B-9F4A-4E27-B596-EB98A70AA871}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{2FC4501E-D72C-4A0A-ADC2-38AECFFEB30E}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{DEA891C4-AAEA-4503-939E-01DCCB7342DF}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolLeader_Ancient" ID="{A5563426-B2C4-4778-A84D-DB4635CD5D9C}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolLeader_Medieval" ID="{7D1F886B-F13F-4A62-A503-F7C8054A8D0F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolLeader_Industrial" ID="{3EEEBDCA-532F-4035-A8B7-66556F859A7B}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolLeader_Atomic" ID="{F2C745C7-282A-48AD-AD38-326FC23F69BA}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="CivilizationMusic_Landsol" ID="{8FD9EF89-1DD5-42F1-9B17-EF2CD887F01D}" ShortID="531680240">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="LandsolCiv_Ancient" ID="{AA18DA31-E53E-4D99-81DF-BA4896F34B79}" ShortID="393378838">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolAncient" ID="{E193B9D9-5F22-41B7-8C78-1F42D3EF8252}" ShortID="471228579">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="163925.333333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="51"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Landsol_AncientTheme" ID="{06BAB2BA-C045-406F-8559-A7E122D9ABAF}" ShortID="160599771">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Landsol_AncientTheme" ID="{BD69B5C1-D396-4155-AB04-8CEC98867837}" ShortID="674508563">
+													<Language>SFX</Language>
+													<AudioFile>Landsol_AncientTheme.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{83C10116-AE8D-4B10-A718-6755911DAEF6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{BB5892B4-AA86-49CE-A06B-D64BA444BBE0}">
+													<ClipList>
+														<MusicClip Name="Landsol_AncientTheme" ID="{52B9A418-CCF7-4C01-B7E1-78C61DDFFD08}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="81962.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Landsol_AncientTheme" ID="{BD69B5C1-D396-4155-AB04-8CEC98867837}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{BCB54B08-4796-4970-8943-080176263FFD}"/>
+										<MusicCue Name="Exit Cue" ID="{EE4087C3-BB4F-4BEF-B2C9-54F9CA298A3C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="81805.7921966784"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{B08E32EB-BBA7-4918-919C-FCDF259AEC0E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="81593.0826234095"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient2" ID="{FED100CF-9B9D-4CDA-BE04-11623EB8C550}" ShortID="698425501">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="66931.7721005677"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolAncient_FriendshipSensation" ID="{B7611E15-A64E-4D9D-8176-82E27234BABC}" ShortID="570621561">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolAncient_FriendshipSensation" ID="{70889C54-1ADF-42C0-9AC8-B090CB76CC28}" ShortID="932841017">
+													<Language>SFX</Language>
+													<AudioFile>LandsolAncient_FriendshipSensation.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0F984089-0979-40E9-9B8E-61C9F5AEB46C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{A3391802-F367-44C2-A9B4-EC8F1DED4ECB}">
+													<ClipList>
+														<MusicClip Name="LandsolAncient_FriendshipSensation" ID="{A5CC2C44-F910-4B96-87E8-4A9D543BF596}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="55286.5833333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolAncient_FriendshipSensation" ID="{70889C54-1ADF-42C0-9AC8-B090CB76CC28}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B13EBF2B-0BE7-4FC5-8BB1-7CF4B1C24CE0}"/>
+										<MusicCue Name="Exit Cue" ID="{BEF22B1A-6E8B-4AA0-8F1B-7D3D3572987C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="55194.3289423116"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{7133E195-79AA-43F9-947A-4A070693E854}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="55135.141053532"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient3" ID="{E640923B-8EC0-4F54-9CFE-2F3A5DAD277E}" ShortID="243634897">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="276727.722019465"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolAncient_Landsol" ID="{DE57218F-6D94-4D47-B63F-41E913356822}" ShortID="733452206">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolAncient_Landsol" ID="{E55214DF-C69F-45AC-9636-AE127864CDAC}" ShortID="101507949">
+													<Language>SFX</Language>
+													<AudioFile>LandsolAncient_Landsol.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{78A1CF9D-8C8F-4932-9095-D125B6506FA2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4C23FEDE-9E77-47E8-BC88-AA482F5A87B2}">
+													<ClipList>
+														<MusicClip Name="LandsolAncient_Landsol" ID="{4C6A9242-AE68-42D7-986E-D815AEF6A619}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="40663.4166666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolAncient_Landsol" ID="{E55214DF-C69F-45AC-9636-AE127864CDAC}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{8470A0EC-4157-4A87-8A4C-62582854E4D3}"/>
+										<MusicCue Name="Exit Cue" ID="{BA7EFA87-F217-4DE2-BAD9-BE84E37C6387}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="40689.9457623684"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{9AF2E27B-C8D7-4B5F-81F0-811020625BDC}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="40634.9351175997"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient4" ID="{14011C5F-AADF-4131-8FA6-860AB0B7DF3E}" ShortID="480995562">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="146901.003649635"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolAncient_LovingHeart" ID="{9D8D3084-5D17-4741-A332-9B47B0D2F84B}" ShortID="1040951460">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolAncient_LovingHeart" ID="{39C295CD-1BA7-454C-A86A-60EBEF0A28E7}" ShortID="863210107">
+													<Language>SFX</Language>
+													<AudioFile>LandsolAncient_LovingHeart.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1BA1AB87-39E4-419F-B617-467C8496A0AA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2C24E1CF-023A-4A36-A33C-9A3244BFBA90}">
+													<ClipList>
+														<MusicClip Name="LandsolAncient_LovingHeart" ID="{0B262F0A-B988-4FD2-B066-C33702317520}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="31495.1666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolAncient_LovingHeart" ID="{39C295CD-1BA7-454C-A86A-60EBEF0A28E7}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{51AD00FE-4097-4D87-9CA3-75121E027438}"/>
+										<MusicCue Name="Exit Cue" ID="{FDD71E5B-F507-4A54-8730-BF4BE479B22E}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="31516.6514598535"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C145B285-1B38-4296-9BAE-F5ABA037D395}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="31458.2572992699"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient5" ID="{70DC3E5F-19D0-48A8-826F-9E61896CC0DF}" ShortID="711226475">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="146901.003649635"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolAncient_SmileyContrast" ID="{F4FEB900-CB4E-405F-8240-1D4022182816}" ShortID="897061252">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolAncient_SmileyContrast" ID="{1108812E-1BA3-4123-A60E-549DA3F5497A}" ShortID="206622139">
+													<Language>SFX</Language>
+													<AudioFile>LandsolAncient_SmileyContrast.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8F8F6212-341E-43AF-8265-7B14CE49CB2A}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{6D38E7E2-C3E3-41E4-8613-4C451038F0DD}">
+													<ClipList>
+														<MusicClip Name="LandsolAncient_SmileyContrast" ID="{E36C3473-2866-49A8-91DD-6CD5D22EDEA6}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="96730.1875"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolAncient_SmileyContrast" ID="{1108812E-1BA3-4123-A60E-549DA3F5497A}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{3B78A3B7-894B-434A-91EF-D0B51FB3B4BA}"/>
+										<MusicCue Name="Exit Cue" ID="{7D4A15A0-6891-49D9-AA1E-3C9DF4FD6339}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="96669.1263346965"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{86FC0D48-8CC6-4A9A-B7D7-8F7FDEC6FE20}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="96572.8353087801"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{75B4780C-0D72-43A6-A599-FE185DA5846A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5F515F72-3AB3-47D3-92BA-C7C67A2EFAA4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{42C1D261-0B65-43C3-BF4A-B008A8EEAB41}" ShortID="9367338">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B09E30BA-C5E7-43B2-8E35-CC444064C794}" ShortID="499982181">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient" ID="{E193B9D9-5F22-41B7-8C78-1F42D3EF8252}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{9D303FC6-272E-4E27-9DE9-E86E9DECF7C2}" ShortID="928889436">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient2" ID="{FED100CF-9B9D-4CDA-BE04-11623EB8C550}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A85233F1-7AE9-4BA7-ADDA-6EA9DD8AB04B}" ShortID="518382906">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient3" ID="{E640923B-8EC0-4F54-9CFE-2F3A5DAD277E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{22446232-4E78-4A8B-A890-002BB059AE26}" ShortID="186283098">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient4" ID="{14011C5F-AADF-4131-8FA6-860AB0B7DF3E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{96A6C7EB-AC25-4B95-BC44-3652CA3561DD}" ShortID="936668194">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient5" ID="{70DC3E5F-19D0-48A8-826F-9E61896CC0DF}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolCiv_Medieval" ID="{E62E4DD0-C165-457C-8F73-3EE450CD8523}" ShortID="226856812">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolMedieval" ID="{36E0B14B-782A-4C1E-A348-741D94F8ED32}" ShortID="941172869">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="116738.380831946"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Medieval" ID="{EF200F93-2D0F-49B0-8974-499388A2C3CE}" ShortID="754011503">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Medieval" ID="{ED715226-9801-4E63-9FE9-E4AAB77394FB}" ShortID="444939849">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Medieval.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="1006496830"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6A868EF3-6F55-4173-9F79-48E67D13B16B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{4D792534-2BC4-49D8-9202-DD0A6FF1F905}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Medieval" ID="{7D4D99DF-4E12-484A-B058-63FB8792824E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104176.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Medieval" ID="{ED715226-9801-4E63-9FE9-E4AAB77394FB}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{956C54F8-5E6F-4914-9936-891578DA1E4B}"/>
+										<MusicCue Name="Exit Cue" ID="{03021639-EE8C-46AA-94D1-5583471B03A1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="103538.058743618"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{0A8FB547-2B63-4DE8-9616-A02A94EC3458}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="103362.35744871"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient2" ID="{148B5DAA-EF39-4E29-B206-98A1CAA546A0}" ShortID="535023525">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="66931.7721005677"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolAncient_FriendshipSensation" ID="{4A82BB7D-5F3C-4904-AE7F-35B6E0ABD23D}" ShortID="2947246">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolAncient_FriendshipSensation" ID="{05C31643-5148-4CE3-8E2F-72A903292317}" ShortID="587105714">
+													<Language>SFX</Language>
+													<AudioFile>LandsolAncient_FriendshipSensation.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="932841017"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{82F958A9-8DAB-436E-AED5-237918116E0C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{334B6EE5-6FE7-48C5-AA8B-6DC1A56FBC35}">
+													<ClipList>
+														<MusicClip Name="LandsolAncient_FriendshipSensation" ID="{33975039-B09B-4782-98CC-2E612BD7D020}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="55286.5833333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolAncient_FriendshipSensation" ID="{05C31643-5148-4CE3-8E2F-72A903292317}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{965A7DCC-0CAA-4DBB-8AF9-09CA5DBC78A3}"/>
+										<MusicCue Name="Exit Cue" ID="{442D4D55-26D5-4F9B-B461-4BB749699052}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="55194.3289423116"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{0903A3A5-7D00-4EFD-B1A0-5667F946E98F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="55135.141053532"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolAncient" ID="{61FA8DFA-2D2F-4AF2-8395-C01CF38063E5}" ShortID="246449994">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="163925.333333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="51"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Landsol_AncientTheme" ID="{ED7F3156-7592-47C2-ABB4-008228D7ACC5}" ShortID="781799411">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Landsol_AncientTheme" ID="{18C02D41-B44D-4EC4-A651-7B58FFBDF9CE}" ShortID="620123010">
+													<Language>SFX</Language>
+													<AudioFile>Landsol_AncientTheme.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="674508563"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1D2DEDDF-8806-4854-8E79-A14F1C4E4A96}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{0716F5EA-D08B-4475-81F6-57B1F5DFBE86}">
+													<ClipList>
+														<MusicClip Name="Landsol_AncientTheme" ID="{49CCC207-3ABF-463B-9A93-ADCACBADBD14}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="81962.6666666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Landsol_AncientTheme" ID="{18C02D41-B44D-4EC4-A651-7B58FFBDF9CE}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{B67B8BCA-3FE4-496E-A91D-BDE629957553}"/>
+										<MusicCue Name="Exit Cue" ID="{CE8D73D8-1537-4BA2-A4CE-B15122E181C1}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="81805.7921966784"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{BB2FD789-4100-4D7E-B32E-CFB7393029F6}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="81593.0826234095"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D0F42CC2-8026-4801-9D40-7674D7E77BFA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DB6FCA6E-451E-4F35-8F9E-7D4D4B4272E7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{1C422C81-F7E7-4729-9164-A99DA017EA3C}" ShortID="946760032">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{7AA4F9D5-16E2-4673-83F1-E5CC76B89CD9}" ShortID="157321897">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="LandsolMedieval" ID="{36E0B14B-782A-4C1E-A348-741D94F8ED32}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{6AE68683-B677-4BB0-8D73-EA0EA2693103}" ShortID="384537836">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient" ID="{61FA8DFA-2D2F-4AF2-8395-C01CF38063E5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D20BB49E-8BCD-469D-AF8B-4412109CA0EB}" ShortID="1038166299">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolAncient2" ID="{148B5DAA-EF39-4E29-B206-98A1CAA546A0}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolCiv_Industrial" ID="{7A91386A-12E2-4B0C-AE90-EBB044826306}" ShortID="192939437">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolIndustrial" ID="{3A5505C2-C2B7-47E0-9699-E132B622A362}" ShortID="28937703">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="185597.855672675"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Industrial" ID="{2476BB78-772A-4557-BB99-79531C06E9C7}" ShortID="908511744">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Industrial" ID="{04616D9A-A36C-42C6-967B-ACC767DF0F5F}" ShortID="127052505">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Industrial.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="103432473"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{900D163E-6F05-48A6-857E-FDC36F46417D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1FE31421-AB17-4A51-9FCC-3002CB9E03FB}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Industrial" ID="{DA73A192-E180-4B2F-8B31-74C01123151E}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185148.041666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Industrial" ID="{04616D9A-A36C-42C6-967B-ACC767DF0F5F}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{EA144F38-B3C5-450B-8E92-0B2329F58F41}"/>
+										<MusicCue Name="Exit Cue" ID="{DBB42940-E368-47F4-8FE4-EDE32BD016FE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="180255.462156923"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{5A8488B6-36B8-4600-8B32-DB5225F68430}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="179848.285865402"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolMedieval" ID="{84D6F2CE-1281-49C2-8AD4-59DDF46A6552}" ShortID="618157613">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="116738.380831946"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Medieval" ID="{2C1A5755-9221-4396-9E38-5255216745D8}" ShortID="1044508325">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Medieval" ID="{BCE78589-AD69-499A-BBFC-A54A050BEF94}" ShortID="1006496830">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Medieval.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7C36C1C8-EF77-4BD8-8D7A-A1087D4881C3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{414B9A59-1A55-457F-B45A-82A12F435AEF}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Medieval" ID="{2066A71E-1FE5-41C7-84A0-DC32F13BC5A9}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="104176.333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Medieval" ID="{BCE78589-AD69-499A-BBFC-A54A050BEF94}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{9D50C6B3-6270-4E51-9B11-9876E42450BF}"/>
+										<MusicCue Name="Exit Cue" ID="{D6970ED6-902C-4176-BA09-2E9B922A28C4}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="100874.581967388"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{C430310E-67ED-43B9-B50B-44E5338C2303}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="109705.805555555"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{056FBE6E-DF01-4B00-883C-5A66302940C7}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="100441.01865369"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{66E6459A-EDE9-4175-A4C7-07AAED2E4976}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5AC54276-A026-41CD-B191-4006F4B494B9}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{0B6DBB88-8055-4CE1-A3E1-117DC94F3889}" ShortID="432325911">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{A07F3E20-A865-4D22-A395-4ECF3F304A12}" ShortID="779541558">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolIndustrial" ID="{3A5505C2-C2B7-47E0-9699-E132B622A362}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3135D15B-2828-411F-B883-849C6C694407}" ShortID="453404169">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolMedieval" ID="{84D6F2CE-1281-49C2-8AD4-59DDF46A6552}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="LandsolCiv_Atomic" ID="{6EBC2D0C-76E2-4921-8E4F-F046F65B8628}" ShortID="922599574">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="LandsolAtomic" ID="{C0AF4A52-F48A-4C4F-A358-714BDAEE82BB}" ShortID="864702105">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="385613.458333333"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Atomic" ID="{34EA2C8B-052B-4559-ABC5-B1481BDF5F0D}" ShortID="249265367">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Atomic" ID="{781F7726-36D2-469E-91D6-E30FCEC1E7C5}" ShortID="942316464">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Atomic.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{7C1EDDEB-F708-46D5-9EE6-BBCDD174BAB0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3774B2D5-BD63-4FAE-894C-63A504EC7201}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Atomic" ID="{9FA1139E-6464-4F50-9ADB-BC789BA0EF86}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="193084.375"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Atomic" ID="{781F7726-36D2-469E-91D6-E30FCEC1E7C5}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{F504E8F8-59EA-4473-A8D2-FF0AA7178CE2}"/>
+										<MusicCue Name="Exit Cue" ID="{7182F24E-C0A4-4A00-A6C5-6DBA3C6F2479}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="187506.893273372"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{08BCCAE9-9ECE-4716-88D3-23E6D42D4142}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="187033.908019497"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="LandsolIndustrial" ID="{1F2D0826-918E-4E5B-8859-B2F9841D77E1}" ShortID="577490265">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="194340.617596683"/>
+										<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="LandsolTheme_Industrial" ID="{269FA02A-6726-4B8C-BA3B-2FB4D5367ED4}" ShortID="1025934158">
+											<PropertyList>
+												<Property Name="IsStreamingEnabled" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="LandsolTheme_Industrial" ID="{F6E8FC4C-E56C-42DC-BA01-2C550B28589C}" ShortID="103432473">
+													<Language>SFX</Language>
+													<AudioFile>LandsolTheme_Industrial.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{78ECB7CC-37CB-43CA-B3CA-08B241BCF0E7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{30129084-6C96-4110-9F47-DDA20BBB53AF}">
+													<ClipList>
+														<MusicClip Name="LandsolTheme_Industrial" ID="{5F0E2D91-FC1D-4B2F-BDD1-C9CE515C7634}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="185148.041666667"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="LandsolTheme_Industrial" ID="{F6E8FC4C-E56C-42DC-BA01-2C550B28589C}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{395BA0B1-53DD-468B-8AAC-E10EA1E89A6C}"/>
+										<MusicCue Name="Exit Cue" ID="{284EF1A8-8D92-4E79-894E-CA41ECA01C3F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="180924.954713045"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="ExitCustom" ID="{4DB31446-ECA0-4B7C-BE51-735E4AE865A5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="2"/>
+												<Property Name="TimeMs" Type="Real64" Value="179456.269742178"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{14B76399-D81D-417F-AE5D-E3807810BC2A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5E6CD6BC-08CE-4D1A-9961-EE4AAE7D9F66}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{625FC94B-7A05-4725-B3AC-03DD375F7490}" ShortID="315132418">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="3"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{78CA510E-2B4C-4DF3-A1B0-390151D28F45}" ShortID="807577403">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>60</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolAtomic" ID="{C0AF4A52-F48A-4C4F-A358-714BDAEE82BB}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0A0AC8ED-25A0-49AC-947B-6652F3B1ABDE}" ShortID="541986575">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="LandsolIndustrial" ID="{1F2D0826-918E-4E5B-8859-B2F9841D77E1}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{E3F69973-4434-4CC6-B869-9713A2ECD94A}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{FDBD3224-C32E-4D04-AEA7-13CC4FF8F4A2}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolCiv_Ancient" ID="{AA18DA31-E53E-4D99-81DF-BA4896F34B79}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolCiv_Industrial" ID="{7A91386A-12E2-4B0C-AE90-EBB044826306}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolCiv_Medieval" ID="{E62E4DD0-C165-457C-8F73-3EE450CD8523}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolCiv_Atomic" ID="{6EBC2D0C-76E2-4921-8E4F-F046F65B8628}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="ThemeMusic_Landsol" ID="{898E502A-7641-4F75-A6F3-83842243EEC5}" ShortID="1015057087">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="LandsolAncient" ID="{BF9C7208-2EF3-47DB-8754-E7F9D5044672}" ShortID="164405747">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="101793.859649123"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Landsol_AncientTheme" ID="{6B386F59-5506-437D-8CC5-1622D39023A8}" ShortID="449994585">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Landsol_AncientTheme" ID="{54E1E1AD-5BBB-4DB0-AE7F-27A844B57DB1}" ShortID="399197500">
+											<Language>SFX</Language>
+											<AudioFile>Landsol_AncientTheme.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="674508563"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{5B9EB7AC-CF8A-4722-813D-183CD0B22059}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F1D72E18-3541-4B83-9D9F-82B2EF382625}">
+											<ClipList>
+												<MusicClip Name="Landsol_AncientTheme" ID="{F5725A2B-1701-4E76-AC74-8654ABC78B72}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="81962.6666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Landsol_AncientTheme" ID="{54E1E1AD-5BBB-4DB0-AE7F-27A844B57DB1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{DC8A0AAA-8036-4218-8EAF-05782C688EC0}"/>
+								<MusicCue Name="Exit Cue" ID="{353F52FA-2ED7-47A4-8760-3B9237D1C6E9}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="81888.1578947373"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{812B30B3-73C6-4FF5-BD8A-4B54883B9A47}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="81618.6266447367"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="LandsolMedieval" ID="{3B1F4CA0-EC07-4203-995B-6DFC8A3AABF5}" ShortID="20519106">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="113640.625"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="LandsolTheme_Medieval" ID="{61AFF417-3CCB-4B26-8D5A-12C66BD6EEF3}" ShortID="80117661">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LandsolTheme_Medieval" ID="{5E519D17-A6C1-4CCD-A1C4-1D21BEAB7D38}" ShortID="150853419">
+											<Language>SFX</Language>
+											<AudioFile>LandsolTheme_Medieval.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="1006496830"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D2CC3344-3B92-47FF-B98D-93B9B1385D7E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A881CB62-DABB-43C9-94E1-8D1D873D86AE}">
+											<ClipList>
+												<MusicClip Name="LandsolTheme_Medieval" ID="{98B9ACB0-3878-4D0F-995D-D331A54ACB4F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="104176.333333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="LandsolTheme_Medieval" ID="{5E519D17-A6C1-4CCD-A1C4-1D21BEAB7D38}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{6C5AB7ED-414C-45D2-A866-34BBD3D42380}"/>
+								<MusicCue Name="Exit Cue" ID="{14A12459-0F89-49CE-84D6-387EE391531A}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="99932.0175438598"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{DD32442C-1D6C-4F01-9935-A8F25F836667}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="99776.8640350882"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="LandsolIndustrial" ID="{021D35E0-D637-46F8-A9BF-96D243C3E782}" ShortID="407358198">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="185148.041666667"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="LandsolTheme_Industrial" ID="{22A361A3-2576-45EC-B9B0-4854E9C6F6A9}" ShortID="835236579">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LandsolTheme_Industrial" ID="{D07C0022-5C7A-4FAC-831D-1BE18ECA0997}" ShortID="792376642">
+											<Language>SFX</Language>
+											<AudioFile>LandsolTheme_Industrial.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="103432473"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DD87CD3F-A16C-48D1-979F-731A66461E42}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0C1EF697-3428-471F-B580-92D4B7653971}">
+											<ClipList>
+												<MusicClip Name="LandsolTheme_Industrial" ID="{FCE29464-ECC1-4B86-8CE8-38CD8876136A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="185148.041666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="LandsolTheme_Industrial" ID="{D07C0022-5C7A-4FAC-831D-1BE18ECA0997}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{0BD99892-3ABE-440C-97A1-4CF47DD42753}"/>
+								<MusicCue Name="Exit Cue" ID="{CDB2C8D8-796E-4E6B-A423-947F798C68BB}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="179888.827972709"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{0C2FCAE5-8810-4481-84A4-6FF136320D77}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="179534.803443795"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="LandsolAtomic" ID="{10170CCC-9BE9-44E7-B10E-62DD8F4148A4}" ShortID="1019990158">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="193084.375"/>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="52"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="LandsolTheme_Atomic" ID="{A8C3FB87-E2C4-4DBE-BC83-809E5B2CB223}" ShortID="627396439">
+									<PropertyList>
+										<Property Name="IsStreamingEnabled" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LandsolTheme_Atomic" ID="{FF5DA94D-FCB9-4E20-AD86-8A23D2E46158}" ShortID="764061851">
+											<Language>SFX</Language>
+											<AudioFile>LandsolTheme_Atomic.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="942316464"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D6578517-3EE4-447B-849A-4A5F6C6209D5}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{755A7E14-F9AC-4E1C-900D-A0D18B9B832A}">
+											<ClipList>
+												<MusicClip Name="LandsolTheme_Atomic" ID="{816B5358-1642-45C7-A4E5-C461301A032E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="193084.375"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="LandsolTheme_Atomic" ID="{FF5DA94D-FCB9-4E20-AD86-8A23D2E46158}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{396CEE65-E236-4C82-8690-9414153655AA}"/>
+								<MusicCue Name="Exit Cue" ID="{C99F8D96-D50B-4B4C-9EB3-BBBF329C3237}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="188986.478864342"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="ExitCustom" ID="{B3D78929-596F-4992-AD57-A32D9A79BF1C}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="2"/>
+										<Property Name="TimeMs" Type="Real64" Value="188815.298133308"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{82560444-D306-4E2F-81DF-ADF001E12FB4}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{FEEC0A3C-2EB6-49FE-AEBB-D42CCF74FC84}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Game_Location" ID="{33A22C91-DFF7-4DBA-BD7F-BBED4BEA6F2F}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Ancient_Era" ID="{4A53AB9C-C14D-4B9B-B28D-0381AA434AB8}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolAncient" ID="{BF9C7208-2EF3-47DB-8754-E7F9D5044672}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Industrial_era" ID="{FBA8F21F-52F2-44BC-8454-D2C404726714}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolIndustrial" ID="{021D35E0-D637-46F8-A9BF-96D243C3E782}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Medieval_Era" ID="{48C6CCAD-9C19-4096-A4B8-2F3F7BA6F505}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolMedieval" ID="{3B1F4CA0-EC07-4203-995B-6DFC8A3AABF5}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Modern_Era" ID="{0BD32746-DF04-4BDE-A447-D4A440FD51F3}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="LandsolAtomic" ID="{10170CCC-9BE9-44E7-B10E-62DD8F4148A4}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="id658623902_DO_NOT_TOUCH" ID="{26984207-93E3-44FE-982A-510A9615FD4A}" ShortID="658623902">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music Bus" ID="{1456573A-D3DD-4FB4-ABB8-5C0C78679B71}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSwitchContainer Name="id554830605" ID="{EB516F78-AB70-4167-9471-637D43192CED}" ShortID="554830605">
+							<Comment>id554830605</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6BA83591-7B22-415C-9360-6E131C6E8D34}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{EFF33BB4-D358-4F76-82A5-FF25F0642790}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" ShortID="276876398">
+							<Comment>id276876398</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{52D4474C-6454-4661-B932-C906AF70C5D1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{BB1A978E-CA03-4BAC-A650-DE416574D38A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id409025991" ID="{513C560C-5E28-4E40-9CB4-D388D0A6C444}" ShortID="409025991">
+							<Comment>id409025991</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1D946F92-D740-4BC5-B3F3-25120F77784E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{9B319984-F2ED-427B-A568-50171E297122}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" ShortID="552184141">
+							<Comment>id552184141</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3AA77E83-7611-4304-A16C-12BDC560267F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{53E63384-1DFA-4E2A-BA4F-943DD9F145DA}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" ShortID="308673578">
+							<Comment>id308673578</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1476467B-BCE8-4312-A703-DF396237B91D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E8A3875D-7540-4441-B4D4-D6B7B3A4C058}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+						<MusicSwitchContainer Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" ShortID="118127726">
+							<Comment>id118127726</Comment>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EAF9B93F-9C9C-4162-9CF7-C9E54D649AAB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{7840D69C-C9F0-4C93-905C-7D3BD46162E2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+						</MusicSwitchContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{D8ED232E-269A-482B-A5E4-5032A2E64141}">
+							<PropertyList>
+								<Property Name="PanY" Type="Real64" Value="75"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{7917D89B-095D-4532-A5CC-944CFC3321F8}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{060DCCC3-4852-4502-9FA2-026421516DC8}">
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{6365C170-E5A6-46C0-9FE9-3040E423846A}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0C0FB9FF-108E-4270-A3D6-62D13B0E10F3}">
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id118127726" ID="{D45786EA-1D85-4F08-AE93-E70A5B1BAF18}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{2FB05303-7A30-4F04-B171-0DD31BB6B7F7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{35DCFC1E-3FF0-4A5E-91C7-24C1BA2446A2}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="3"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{665E84A9-8CF4-4D26-B55C-A1B5BF8AEFD4}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="5"/>
+										<Property Name="ExitSourceCustomCueMatchName" Type="string" Value="ExitCustom"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{CE992F25-905B-4CBC-9FF1-ED297CDF0ABD}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{97680FD0-E322-4D94-B52A-DB3F9F6C7F4A}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{9A8ABEC6-16BB-40B5-B057-5A431EACD1B3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id552184141" ID="{E44453EE-DDD6-462A-A8CC-558B6327246F}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{1EF10B74-F010-4014-8C91-ACC8FF1E8DCF}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{13BF85D5-5007-4211-831D-AE4FD215BDC9}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id276876398" ID="{12502761-32C7-4DD1-A722-6AAF0B793791}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{7FE94F59-AD7C-4F33-AEF5-DF6D982731D7}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="id308673578" ID="{89961607-AA9D-43BD-A81B-3A542E4D15D9}" WorkUnitID="{37A78621-A2B7-4330-A73A-77E467A1130E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{61B5EC61-6E7A-4D10-8A99-0282C582357A}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

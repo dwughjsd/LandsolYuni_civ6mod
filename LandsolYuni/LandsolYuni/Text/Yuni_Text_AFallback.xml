@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!--English text is saved here to workaround the messed-up language fallback mechanism in latest versions.-->
+	<EnglishText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_TITLE">
+			<Text>Yuni Shingyouji</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_SUBTITLE">
+			<Text>Honorary Doctor, Founder of the Friendship Club</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY">
+			<Text>With help of their Princess Knight, Landsol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. In Yuni's view, all kinds of knowledge are equally of great value, and science can be developed without ignoring culture.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY">
+			<Text>Yuni's Campus district and Theater Square district can provide [ICON_Science] Science and [ICON_Culture] Culture at the same time. Another way for them to gather [ICON_Science] Science is to put [ICON_GreatWork_Writing] Writing Great Work in their Library. Their Library building itself also provides an unique approach for them to gain [ICON_GreatWriter] Great Writer Points. They can enhance their ability to recruit Great People greatly with Guildhouse building. Besides, Yuni leading Landsol can build an elite military force with their Philosophy of Cognition and Development unique ability if they have to war.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_1">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_5">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_6">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_7">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_8">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_1">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_3">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_4">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_5">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_6">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_7">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_YUNICOPTER_CHAPTER_HISTORY_PARA_1">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_1">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_2">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHOUSE_CHAPTER_HISTORY_PARA_1">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_LOCATION">
+			<Text>Continent of Astraea</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_SIZE">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_POPULATION">
+			<Text>Unknown, tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_CAPITAL">
+			<Text>Landsol</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_DYSTAL_NAME">
+			<Text>Dystal River</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VARIO_NAME">
+			<Text>Vario Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_ORAL_NAME">
+			<Text>Oral Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GENUA_NAME">
+			<Text>Genua Desert</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_FLORA_NAME">
+			<Text>Lake Flora</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MALJEAN_NAME">
+			<Text>Maljean Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_LORETTA_NAME">
+			<Text>Loretta Sea</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_THALIA_NAME">
+			<Text>Thalia Volcano</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_THEMIS_NAME">
+			<Text>Themis Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_MATHILDE_NAME">
+			<Text>Mathilde Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_LEDEUS_NAME">
+			<Text>Ledeus Mountains</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_VENA_NAME">
+			<Text>Lake Vena</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_1">
+			<Text>Kouta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_2">
+			<Text>Shun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_3">
+			<Text>Reiji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_4">
+			<Text>Mitsuru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_5">
+			<Text>Yoshihiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_6">
+			<Text>Masato</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_7">
+			<Text>Hajime</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_8">
+			<Text>Osamu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_9">
+			<Text>Ren</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_10">
+			<Text>Takeru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_1">
+			<Text>Takuma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_2">
+			<Text>Daichi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_3">
+			<Text>Eiji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_4">
+			<Text>Eita</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_5">
+			<Text>Daisuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_6">
+			<Text>Sousuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_7">
+			<Text>Tooru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_8">
+			<Text>Kaoru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_9">
+			<Text>Tetsuya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_10">
+			<Text>Ryuu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_1">
+			<Text>Kyaru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_2">
+			<Text>Yui</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_3">
+			<Text>Rino</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_4">
+			<Text>Nozomi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_5">
+			<Text>Misogi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_6">
+			<Text>Aoi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_7">
+			<Text>Akari</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_8">
+			<Text>Suzume</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_9">
+			<Text>Maho</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_10">
+			<Text>Rin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_1">
+			<Text>Akino</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_2">
+			<Text>Ruka</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_3">
+			<Text>Io</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_4">
+			<Text>Ninon</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_5">
+			<Text>Chieru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6">
+			<Text>Ames</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7">
+			<Text>Karin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_8">
+			<Text>Christina</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_9">
+			<Text>Shefi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_10">
+			<Text>Inori</Text>
+		</Row>
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_LANDSOL">
+			<Text>Landsol</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUNO">
+			<Text>Juno</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALLAS">
+			<Text>Pallas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEBE">
+			<Text>Hebe</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VESTA">
+			<Text>Vesta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CERES">
+			<Text>Ceres</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_METIS">
+			<Text>Metis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRIS">
+			<Text>Iris</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRIGGA">
+			<Text>Frigga</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOROTHEA">
+			<Text>Dorothea</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EUGENIA">
+			<Text>Eugenia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIDES">
+			<Text>Fides</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHAETHON">
+			<Text>Phaethon</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KASTALIA">
+			<Text>Kastalia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PETERO">
+			<Text>Petero</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUTERA">
+			<Text>Futera</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FASKIA">
+			<Text>Faskia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEXTIA">
+			<Text>Dextia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONONIA">
+			<Text>Bononia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTRELLA">
+			<Text>Estrella</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRYSTAL_MOUNTAIN">
+			<Text>Crystal Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SCARED_RUIN">
+			<Text>The Scared Ruin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SHRINE">
+			<Text>The Shrine</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LATUS">
+			<Text>Latus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARGUM">
+			<Text>Targum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MACHINA">
+			<Text>Machina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAPAS">
+			<Text>Tapas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILSION">
+			<Text>Ilsion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PECTOS">
+			<Text>Pectos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTA">
+			<Text>Esta</Text>
+		</Row>
+
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_QUOTE">
+			<Text>There are still truths to discover even in this world full of lies!</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Oh, great. In fact, I was looking for a suitable way to request so.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>What do you mean? Is this an old-fashioned joke?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>It is important for us to care for each other. Suppose you're leaving us exploring dangerously without any support, what would happen?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I'm surprised that our abrupt informal request is considered carefully. You are so kind.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I'm not a threatening demon. You could decide whatever you want.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>So much for playing. Now it's time to learn.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>A lesson for you, bastard!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Thank you for the gift. Well, I feel so sorry as it looks like that we are demanding one.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>No, you dishonest liar.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Don't be so shy, just receive the gift from our delegation. We don't know your preference, so it would be great if it pleases you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Shut up, tyrant. It is your people's voice that we want to hear.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Your reactionary actions somewhat reminded me of old days. Perhaps you are an antithesis of the forming consensus of modern values. (Denounces you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I'm Yuni. Though I seem to be a little bit delayed in growth, it's possible that I'm older than you. Just call me senior with respect and friendliness, junior.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>We have a city nearby. Would you like to visit? We could show you documents and discoveries that intellectuals desire.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Yes, that is great.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>We are gathering facts, customs and folklores nearby your country. To be straight, I mean, could you tell me of your capital?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Hey, junior. What's up?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Preferring emotion to utility, that's what we call "romance". You are recognized as an honorable scholar of arts by me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I'm often in conflict with dogmatic academics. I really hope we are not going to be in such a situation.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>Would you like to form an alliance, my companion?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>It has always been an idea of us Yuni-chan's that we shall coexist peacefully and friendly. We agree.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>We are still not giving up.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I have had a clear understanding of your strength, so let's end this war and make it a little blemish on historical records.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I'm flattered by your arrival. We are willing to open border and provide support for your army.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>I cannot agree. Are you an old fogey too stubborn to find an alternative route?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>We shall not limit our research in our border, we need to study from a wider perspective. Will you allow us to cross through your territory?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>By the way, junior. Would you like to perform some critical actions to defuse the border clash between us? For example, moving your army away.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>How do you think: have I contributed something to this world? Please allow me to remember your name as a souvenir I can take to my afterlife.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>It's very kind of you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
+			<Text>You have the right to choose.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME">
+			<Text>Scholars of Arts' Romance</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION">
+			<Text>Friendly to those civilizations that are leading in [ICON_Science] Science and [ICON_Culture] Culture. Dislikes civilizations that are leading in [ICON_Science] Science but lacking in [ICON_Culture] Culture.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SHINGYOUJI_YUNI_REASON_ANY">
+			<Text>(You are leading both in Science and Culture)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE">
+			<Text>Yuni is pleased with your Science and Culture</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SHINGYOUJI_YUNI_REASON_ANY">
+			<Text>(Your cultural development can't match science one)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE">
+			<Text>Yuni is disappointed you have little culture</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME">
+			<Text>Royal Palace Order Cannon</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION">
+			<Text>+10 vs. land and naval units</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION">
+			<Text>+10 [ICON_Bombard] Bombard Strength vs. land and naval units.</Text>
+		</Row>
+	</EnglishText>
+</GameData>

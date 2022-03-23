@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="4" Flags="601859981">
+	<Platform GUID="{A982C542-EECB-4019-9995-C96580B53034}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="2517101269" StreamHash="157587662" Timestamp="132918197220597196"/>
+			<Bank Name="Landsol_Music_Bank" Hash="3346417427" StreamHash="1110464778" Timestamp="132814488007761811"/>
+			<Bank Name="Landsol_Speech" Hash="2178774203" StreamHash="157587662" Timestamp="132717846095572370"/>
+			<Bank Name="Landsol_Unit_Bank_2D" Hash="3255836602" StreamHash="3588012676" Timestamp="132716734949745882"/>
+			<Bank Name="SoundBank_Landsol" Hash="1866755762" StreamHash="1281291881" Timestamp="132649460909002327"/>
+			<Bank Name="Virtual_Bank" Hash="3948128613" StreamHash="2363461373" Timestamp="132716630185128688"/>
+		</Language>
+	</Platform>
+	<Platform GUID="{0AB3F1FB-A797-4246-9083-9007FB2D0EAF}">
+		<Language ID="0">
+			<Bank Name="Init" Hash="4193952258" StreamHash="157587662" Timestamp="132918196693151939"/>
+			<Bank Name="Landsol_Music_Bank" Hash="3346417427" StreamHash="1110464778" Timestamp="132918196797147742"/>
+			<Bank Name="Landsol_Speech" Hash="2178774203" StreamHash="157587662" Timestamp="132918196693111945"/>
+		</Language>
+	</Platform>
+</IncrementalBankBuild>

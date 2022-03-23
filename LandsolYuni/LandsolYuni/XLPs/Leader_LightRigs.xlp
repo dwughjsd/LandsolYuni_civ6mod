@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="LeaderLighting"/>
+	<m_PackageName text="leaders/light_rigs"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Yuni_LightRig"/>
+			<m_ObjectName text="Yuni_LightRig"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

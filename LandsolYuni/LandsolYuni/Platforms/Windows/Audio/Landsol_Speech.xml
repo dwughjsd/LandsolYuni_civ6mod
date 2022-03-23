@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\Documents\WwiseProjects\Yuni\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\WwiseProjects\Yuni\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="3586259261" Language="SFX">
+			<ShortName>Landsol_Speech</ShortName>
+			<Path>Landsol_Speech.bnk</Path>
+			<IncludedEvents>
+				<Event Id="70903884" Name="LANS_YS_DECLARE_WAR_A"/>
+				<Event Id="1031720448" Name="LANS_YS_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3184518366" Name="LANS_YS_DEFEAT_A"/>
+				<Event Id="208432967" Name="LANS_YS_FIRST_MEET_A"/>
+				<Event Id="2252826907" Name="LANS_YS_KUDOS_A"/>
+				<Event Id="2823041034" Name="LANS_YS_MISC_PEP_TALK_A"/>
+				<Event Id="1043770957" Name="LANS_YS_WARNING_A"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="459928469" Language="SFX">
+					<ShortName>LANS_YS_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="182167208" Language="SFX">
+					<ShortName>LANS_YS_KUDOS_A.wav</ShortName>
+					<Path>SFX\LANS_YS_KUDOS_A_B93921CF.wem</Path>
+				</File>
+				<File Id="410862100" Language="SFX">
+					<ShortName>LANS_YS_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\LANS_YS_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="459928469" Language="SFX">
+					<ShortName>LANS_YS_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="519011196" Language="SFX">
+					<ShortName>LANS_YS_WARNING_A.wav</ShortName>
+					<Path>SFX\LANS_YS_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="822232670" Language="SFX">
+					<ShortName>LANS_YS_DEFEAT_A.wav</ShortName>
+					<Path>SFX\LANS_YS_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="1045222349" Language="SFX">
+					<ShortName>LANS_YS_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\LANS_YS_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

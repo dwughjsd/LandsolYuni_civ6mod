@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	437507297	Stop_Leader_Music_LANDSOL			\Default Work Unit\Music\Stop_Leader_Music_LANDSOL	
+	1461133493	Play_Music_LANDSOL			\Default Work Unit\Music\Play_Music_LANDSOL	
+	1475684394	Resume_Music_LANDSOL			\Default Work Unit\Music\Resume_Music_LANDSOL	
+	1588851575	Pause_Music_LANDSOL			\Default Work Unit\Music\Pause_Music_LANDSOL	
+	2312760943	Stop_Music_LANDSOL			\Default Work Unit\Music\Stop_Music_LANDSOL	
+	2606546019	Play_Leader_Music_LANDSOL			\Default Work Unit\Music\Play_Leader_Music_LANDSOL	
+	3505429677	Start_Music_LANDSOL			\Default Work Unit\Music\Start_Music_LANDSOL	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	101507949	LandsolAncient_Landsol	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolAncient_Landsol_5E5FEB08.wem	101507949.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Ancient\LandsolAncient3\LandsolAncient_Landsol	
+	103432473	LandsolTheme_Industrial	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolTheme_Industrial_5E5FEB08.wem	103432473.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Industrial\LandsolIndustrial\LandsolTheme_Industrial	
+	206622139	LandsolAncient_SmileyContrast	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolAncient_SmileyContrast_5E5FEB08.wem	206622139.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Ancient\LandsolAncient5\LandsolAncient_SmileyContrast	
+	674508563	Landsol_AncientTheme	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\Landsol_AncientTheme_5E5FEB08.wem	674508563.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Ancient\LandsolAncient\Landsol_AncientTheme	
+	863210107	LandsolAncient_LovingHeart	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolAncient_LovingHeart_5E5FEB08.wem	863210107.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Ancient\LandsolAncient4\LandsolAncient_LovingHeart	
+	932841017	LandsolAncient_FriendshipSensation	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolAncient_FriendshipSensation_5E5FEB08.wem	932841017.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Ancient\LandsolAncient2\LandsolAncient_FriendshipSensation	
+	942316464	LandsolTheme_Atomic	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolTheme_Atomic_5E5FEB08.wem	942316464.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Atomic\LandsolAtomic\LandsolTheme_Atomic	
+	1006496830	LandsolTheme_Medieval	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LandsolTheme_Medieval_5E5FEB08.wem	1006496830.wem	\Interactive Music Hierarchy\PortugalTypeMusic\CivilizationMusic_Landsol\LandsolCiv_Industrial\LandsolMedieval\LandsolTheme_Medieval	
+

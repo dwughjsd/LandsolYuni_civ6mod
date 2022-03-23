@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_TITLE" Language="zh_Hant_HK">
+			<Text>真行寺由仁</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_SUBTITLE" Language="zh_Hant_HK">
+			<Text>The Most Talented Student of St. Theresa's Girl Academy, Honorary Doctor, Founder of the Friendship Club</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
+			<Text>With help of their Princess Knight, Landsol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. In Yuni's view, all kinds of knowledge are equally of great value, and science can be developed without ignoring culture.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
+			<Text>Yuni's Campus district and Theater Square district can provide [ICON_Science] Science and [ICON_Culture] Culture at the same time. Another way for them to gather [ICON_Science] Science is to put [ICON_GreatWork_Writing] Writing Great Work in their Library. Their Library building itself also provides an unique approach for them to gain [ICON_GreatWriter] Great Writer Points. They can enhance their ability to recruit Great People greatly with Guildhouse building. Besides, Yuni leading Landsol can build an elite military force with their Philosophy of Cognition and Development unique ability if they have to war.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_8" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_6" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_7" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_YUNICOPTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text></Text>
+		</Row>	
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>Civiopedia article has not been translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_LOCATION" Language="zh_Hant_HK">
+			<Text>Continent of Astraea</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_SIZE" Language="zh_Hant_HK">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_POPULATION" Language="zh_Hant_HK">
+			<Text>Unknown, tens of thousands to millions or so</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_CAPITAL" Language="zh_Hant_HK">
+			<Text>蘭德索爾</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_RIVER_DYSTAL_NAME" Language="zh_Hant_HK">
+			<Text>迪茲塔爾河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VARIO_NAME" Language="zh_Hant_HK">
+			<Text>Vario火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_ORAL_NAME" Language="zh_Hant_HK">
+			<Text>Oral山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GENUA_NAME" Language="zh_Hant_HK">
+			<Text>蓋奴亞沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_FLORA_NAME" Language="zh_Hant_HK">
+			<Text>佛洛拉湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MALJEAN_NAME" Language="zh_Hant_HK">
+			<Text>Maljean海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_LORETTA_NAME" Language="zh_Hant_HK">
+			<Text>洛麗泰海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_THALIA_NAME" Language="zh_Hant_HK">
+			<Text>塔利亞火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_THEMIS_NAME" Language="zh_Hant_HK">
+			<Text>泰美斯山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_MATHILDE_NAME" Language="zh_Hant_HK">
+			<Text>馬提爾德山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_LEDEUS_NAME" Language="zh_Hant_HK">
+			<Text>雷蒂烏斯山脈</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_VENA_NAME" Language="zh_Hant_HK">
+			<Text>Vena湖</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_1" Language="zh_Hant_HK">
+			<Text>Kouta</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_2" Language="zh_Hant_HK">
+			<Text>Shun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_3" Language="zh_Hant_HK">
+			<Text>Reiji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_4" Language="zh_Hant_HK">
+			<Text>Mitsuru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_5" Language="zh_Hant_HK">
+			<Text>Yoshihiko</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_6" Language="zh_Hant_HK">
+			<Text>Masato</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_7" Language="zh_Hant_HK">
+			<Text>Hajime</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_8" Language="zh_Hant_HK">
+			<Text>Osamu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_9" Language="zh_Hant_HK">
+			<Text>Ren</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_10" Language="zh_Hant_HK">
+			<Text>Takeru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_1" Language="zh_Hant_HK">
+			<Text>Takuma</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_2" Language="zh_Hant_HK">
+			<Text>Daichi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_3" Language="zh_Hant_HK">
+			<Text>Eiji</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_4" Language="zh_Hant_HK">
+			<Text>Eita</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_5" Language="zh_Hant_HK">
+			<Text>Daisuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_6" Language="zh_Hant_HK">
+			<Text>Sousuke</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_7" Language="zh_Hant_HK">
+			<Text>Tooru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_8" Language="zh_Hant_HK">
+			<Text>Kaoru</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_9" Language="zh_Hant_HK">
+			<Text>Tetsuya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_10" Language="zh_Hant_HK">
+			<Text>Ryuu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_1" Language="zh_Hant_HK">
+			<Text>凱留</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_2" Language="zh_Hant_HK">
+			<Text>優衣</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_3" Language="zh_Hant_HK">
+			<Text>璃乃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_4" Language="zh_Hant_HK">
+			<Text>望</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_5" Language="zh_Hant_HK">
+			<Text>禊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_6" Language="zh_Hant_HK">
+			<Text>碧</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_7" Language="zh_Hant_HK">
+			<Text>茜里</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_8" Language="zh_Hant_HK">
+			<Text>鈴莓</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_9" Language="zh_Hant_HK">
+			<Text>真步</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_10" Language="zh_Hant_HK">
+			<Text>鈴</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_1" Language="zh_Hant_HK">
+			<Text>秋乃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_2" Language="zh_Hant_HK">
+			<Text>流夏</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_3" Language="zh_Hant_HK">
+			<Text>伊緒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_4" Language="zh_Hant_HK">
+			<Text>妮諾</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_5" Language="zh_Hant_HK">
+			<Text>琪愛兒</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6" Language="zh_Hant_HK">
+			<Text>愛梅斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7" Language="zh_Hant_HK">
+			<Text>花凜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_8" Language="zh_Hant_HK">
+			<Text>克莉絲提娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_9" Language="zh_Hant_HK">
+			<Text>Shefi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_10" Language="zh_Hant_HK">
+			<Text>祈梨</Text>
+		</Row>
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_LANDSOL" Language="zh_Hant_HK">
+			<Text>蘭德索爾</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUNO" Language="zh_Hant_HK">
+			<Text>朱諾</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALLAS" Language="zh_Hant_HK">
+			<Text>帕拉斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEBE" Language="zh_Hant_HK">
+			<Text>赫柏</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VESTA" Language="zh_Hant_HK">
+			<Text>維斯塔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CERES" Language="zh_Hant_HK">
+			<Text>刻瑞斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_METIS" Language="zh_Hant_HK">
+			<Text>墨提斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRIS" Language="zh_Hant_HK">
+			<Text>伊麗絲</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRIGGA" Language="zh_Hant_HK">
+			<Text>弗麗嘉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOROTHEA" Language="zh_Hant_HK">
+			<Text>朵羅西亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EUGENIA" Language="zh_Hant_HK">
+			<Text>尤金尼亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIDES" Language="zh_Hant_HK">
+			<Text>菲得斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHAETHON" Language="zh_Hant_HK">
+			<Text>法艾頓</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KASTALIA" Language="zh_Hant_HK">
+			<Text>卡斯塔利亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PETERO" Language="zh_Hant_HK">
+			<Text>佩特羅</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUTERA" Language="zh_Hant_HK">
+			<Text>弗泰拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FASKIA" Language="zh_Hant_HK">
+			<Text>法斯奇亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEXTIA" Language="zh_Hant_HK">
+			<Text>迪克斯提亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONONIA" Language="zh_Hant_HK">
+			<Text>波諾尼亞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTRELLA" Language="zh_Hant_HK">
+			<Text>Estrella</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRYSTAL_MOUNTAIN" Language="zh_Hant_HK">
+			<Text>Crystal Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SCARED_RUIN" Language="zh_Hant_HK">
+			<Text>The Scared Ruin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SHRINE" Language="zh_Hant_HK">
+			<Text>The Shrine</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LATUS" Language="zh_Hant_HK">
+			<Text>Latus</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARGUM" Language="zh_Hant_HK">
+			<Text>Targum</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MACHINA" Language="zh_Hant_HK">
+			<Text>Machina</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAPAS" Language="zh_Hant_HK">
+			<Text>Tapas</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILSION" Language="zh_Hant_HK">
+			<Text>Ilsion</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PECTOS" Language="zh_Hant_HK">
+			<Text>Pectos</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTA" Language="zh_Hant_HK">
+			<Text>Esta</Text>
+		</Row>
+		
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_QUOTE" Language="zh_Hant_HK">
+			<Text>There are still truths to discover even in this world full of lies!</Text>
+		</Row>
+    
+    <!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Oh, great. In fact, I was looking for a suitable way to request so.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>What do you mean? Is this an old-fashioned joke?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>It is important for us to care for each other. Suppose you're leaving us exploring dangerously without any support, what would happen?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I'm surprised that our abrupt informal request is considered carefully. You are so kind.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I'm not a threatening demon. You could decide whatever you want.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>So much for playing. Now it's time to learn.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>A lesson for you, bastard!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Thank you for the gift. Well, I feel so sorry as it looks like that we are demanding one.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>No, you dishonest liar.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Don't be so shy, just receive the gift from our delegation. We don't know your preference, so it would be great if it pleases you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Shut up, tyrant. It is your people's voice that we want to hear.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Your reactionary actions somewhat reminded me of old days. Perhaps you are an antithesis of the forming consensus of modern values. (Denounces you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I'm Yuni. Though I seem to be a little bit delayed in growth, it's possible that I'm older than you. Just call me senior with respect and friendliness, junior.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>We have a city nearby. Would you like to visit? We could show you documents and discoveries that intellectuals desire.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Yes, that is great.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>We are gathering facts, customs and folklores nearby your country. To be straight, I mean, could you tell me of your capital?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Hey, junior. What's up?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Preferring emotion to utility, that's what we call "romance". You are recognized as an honorable scholar of arts by me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I'm often in conflict with dogmatic academics. I really hope we are not going to be in such a situation.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>Would you like to form an alliance, my companion?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>It has always been an idea of us Yuni-chan's that we shall coexist peacefully and friendly. We agree.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>We are still not giving up.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I have had a clear understanding of your strength, so let's end this war and make it a little blemish on historical records.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I'm flattered by your arrival. We are willing to open border and provide support for your army.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>I cannot agree. Are you an old fogey too stubborn to find an alternative route?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>We shall not limit our research in our border, we need to study from a wider perspective. Will you allow us to cross through your territory?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>By the way, junior. Would you like to perform some critical actions to defuse the border clash between us? For example, moving your army away.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>How do you think: have I contributed something to this world? Please allow me to remember your name as a souvenir I can take to my afterlife.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>It's very kind of you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hant_HK">
+			<Text>You have the right to choose.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hant_HK">
+			<Text>Scholars of Arts' Romance</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>Friendly to those civilizations that are leading in [ICON_Science] Science and [ICON_Culture] Culture. Dislikes civilizations that are leading in [ICON_Science] Science but lacking in [ICON_Culture] Culture.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="zh_Hant_HK">
+			<Text>(You are leading both in Science and Culture)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Language="zh_Hant_HK">
+			<Text>Yuni is pleased with your Science and Culture</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="zh_Hant_HK">
+			<Text>(Your cultural development can't match science one)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hant_HK">
+			<Text>Yuni is disappointed you have little culture</Text>
+		</Row>
+		
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="zh_Hant_HK">
+			<Text>Royal Palace Order Cannon</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>與陸地和海軍單位戰鬥時+10 [ICON_Bombard] 砲擊力</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>與陸地和海軍單位戰鬥時+10 [ICON_Bombard] 砲擊力。</Text>
+		</Row>
+		
+	</LocalizedText>
+</GameData>
