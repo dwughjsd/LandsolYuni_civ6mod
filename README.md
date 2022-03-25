@@ -6,7 +6,7 @@ All art assets and music files are extracted from the mobile game Princess Conne
 
 Codes that I wrote can be seen as if they're in public domain, so that you can copy, edit, redistribute them or do whatever you want.
 
-A built version of this mod will be uploaded to Releases Soon™.
+See Releases if you just simply want to play prebuilt mod.
 
 # About Wwise project
 
