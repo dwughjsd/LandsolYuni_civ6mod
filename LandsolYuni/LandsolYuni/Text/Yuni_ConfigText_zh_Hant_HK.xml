@@ -18,7 +18,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_NAME" Language="zh_Hant_HK">
-			<Text>{LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_NAME}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>Grant an extra leader trait {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME} to Yuni: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
@@ -31,10 +31,10 @@
 			<Text>Each Library gets a [ICON_GreatWork_Writing] Writing great work slot, +1 [ICON_GreatWriter] Great Writer Point for each Campus district with Library building. +2 [ICON_SCIENCE] Science from each [ICON_GreatWork_WRITING] Great Work of Writing. Gain the Yunicopter unique unit with Electricity.</Text>
 		</Row>
       
-		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_NAME" Language="zh_Hant_HK">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hant_HK">
 			<Text>Princess Knight of Landsol</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_DESCRIPTION" Language="zh_Hant_HK">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="zh_Hant_HK">
 			<Text>Grant an extra leader trait for each Landsol leader.</Text>
 		</Row>
 

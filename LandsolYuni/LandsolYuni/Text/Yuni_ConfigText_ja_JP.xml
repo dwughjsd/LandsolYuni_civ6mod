@@ -18,7 +18,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_NAME" Language="ja_JP">
-			<Text>{LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_NAME}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="ja_JP">
 			<Text>ユニは追加の指導者の特性「{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}」を得る: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
@@ -31,10 +31,10 @@
 			<Text>図書館には [ICON_GreatWork_Writing] 傑作(書物)スロットが1つある。図書館が存在するキャンパス区域毎に [ICON_GreatWriter] 大著述家ポイント+1。[ICON_GreatWork_WRITING] 傑作 (書物) 1つにつき [ICON_SCIENCE] 科学力+2。「電気」技術を研究すると、固有ユニット「ユニコプター」が手に入る。</Text>
 		</Row>
       
-		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_NAME" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="ja_JP">
 			<Text>ランドソルのプリンセスナイト</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_DESCRIPTION" Language="ja_JP">
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="ja_JP">
 			<Text>ランドソルの指導者は追加の指導者の特性を得る。</Text>
 		</Row>
 
