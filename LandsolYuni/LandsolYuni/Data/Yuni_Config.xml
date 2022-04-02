@@ -9,7 +9,7 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LANDSOL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_SHINGYOUJI_YUNI_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_SHINGYOUJI_YUNI</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_NAME</CivilizationAbilityName>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LANDSOL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME</LeaderAbilityName>
@@ -26,7 +26,7 @@
 			<CivilizationIcon>ICON_CIVILIZATION_LANDSOL</CivilizationIcon>
 			<LeaderName>LOC_LEADER_SHINGYOUJI_YUNI_NAME</LeaderName>
 			<LeaderIcon>ICON_LEADER_SHINGYOUJI_YUNI</LeaderIcon>
-			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_NAME</CivilizationAbilityName>
+			<CivilizationAbilityName>LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION</CivilizationAbilityDescription>
 			<CivilizationAbilityIcon>ICON_CIVILIZATION_LANDSOL</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME</LeaderAbilityName>
