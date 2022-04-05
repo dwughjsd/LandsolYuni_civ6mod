@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3841724826" DateHigh="30885672"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\Interface_Liyue.wwu" DateLow="2701310645" DateHigh="30951591"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\Interface_Liyue.wwu" DateLow="456881328" DateHigh="30951666"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\LeaderSpeech_Yuni.wwu" DateLow="3438997369" DateHigh="30900522"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Attenuations\Default Work Unit.wwu" DateLow="4011024579" DateHigh="30879207"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Control Surface Sessions\Default Work Unit.wwu" DateLow="4011594582" DateHigh="30879207"/>
@@ -25,7 +25,7 @@
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\States\Default Work Unit.wwu" DateLow="61413863" DateHigh="30900503"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Switches\Default Work Unit.wwu" DateLow="2132866342" DateHigh="30886663"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Triggers\Default Work Unit.wwu" DateLow="4209564738" DateHigh="30886085"/>
-	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Yuni.Admin.wsettings" DateLow="1699419972" DateHigh="30951595"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Yuni.Admin.wsettings" DateLow="891083932" DateHigh="30951666"/>
 	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Yuni.wproj" DateLow="2163574051" DateHigh="30947428"/>
 	<ValidationCacheItem File="D:\Documents\WwiseProjects\Yuni\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3841724826" DateHigh="30885672"/>
 	<ValidationCacheItem File="D:\Documents\WwiseProjects\Yuni\Actor-Mixer Hierarchy\LeaderSpeech_Yuni.wwu" DateLow="3438997369" DateHigh="30900522"/>
