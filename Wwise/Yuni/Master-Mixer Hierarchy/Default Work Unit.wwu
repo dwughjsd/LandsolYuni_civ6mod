@@ -19,6 +19,8 @@
 						<Bus Name="Master SFX Bus" ID="{54B73BD2-0217-4525-827D-EDEB210F7879}">
 							<ChildrenList>
 								<Bus Name="Non_Interface SFX Bus" ID="{99D04EA0-6500-4724-8ACD-6FF602869C23}"/>
+								<Bus Name="Interface" ID="{D4DED6CE-0301-4886-8F68-1D9E48DB524C}"/>
+								<AuxBus Name="Reverb_UI" ID="{08E8E429-8201-4ABA-BEE4-DBB5949D49C1}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

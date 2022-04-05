@@ -352,7 +352,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="SFX" ID="{8D383326-0A1F-4D3F-8049-56D131A3984D}" ShortID="135543348"/>
+				<Folder Name="SFX" ID="{8D383326-0A1F-4D3F-8049-56D131A3984D}" ShortID="135543348">
+					<ChildrenList>
+						<Event Name="Play_Statue_of_The_Seven_Heal" ID="{CB15D37C-BF6F-42A3-9937-DE5A154264EC}">
+							<ChildrenList>
+								<Action Name="Play" ID="{BE004A53-2197-4CD6-BAF0-6F926AD01F51}" ShortID="378815092" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{262340FF-68CB-435A-AC8E-12FF2F253EEE}" Global="false">
+											<ObjectRef Name="Sot7HealCotainer" ID="{C0D31B31-21BA-4DA5-ABA4-BF5F303BEC4E}" WorkUnitID="{0A64999A-A201-4806-8E0E-458B613C72B2}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Speech" ID="{2B43D8C9-A444-4171-8A55-99BF73C4DA84}" ShortID="594840569">
 					<ChildrenList>
 						<Event Name="LANS_YS_MISC_PEP_TALK_A" ID="{271DAF22-BD85-4D0F-A1DC-674344DEACF1}">

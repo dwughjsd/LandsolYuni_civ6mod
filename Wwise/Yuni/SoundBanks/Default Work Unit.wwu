@@ -23,13 +23,35 @@
 				<SoundBank Name="Landsol_Speech" ID="{5C5CA03B-7850-4D9D-B8BA-751E30C3F3B1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="id424381547" ID="{E0C18500-9AAB-481C-84FF-BB380CDE99B5}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_FIRST_MEET_A" ID="{0A8BDB06-C641-4625-96CB-2085DB1A2523}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DECLARE_WAR_FROM_AI_A" ID="{07D61417-A33A-403B-9130-7F9729823F85}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LANS_YS_MISC_PEP_TALK_A" ID="{271DAF22-BD85-4D0F-A1DC-674344DEACF1}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_FIRST_MEET_A" ID="{B5A8232C-A6A2-45A9-A5FE-EF2C228BD67F}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_KUDOS_A" ID="{7C38385A-95E1-45B9-BCA5-802AC5A4EE8C}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_WARNING_A" ID="{E7CBEC66-369B-4060-B98C-CDB7AA2ED241}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="id88602518" ID="{F76D226B-E8A1-4BB3-BE3A-90CCD40A5614}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DECLARE_WAR_FROM_AI_A" ID="{7EB23F75-5327-4CE8-83C0-74B1E005AB24}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="YuniSpeech" ID="{28ADE477-CA3F-46CA-98DA-C06999864D78}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DEFEAT_A" ID="{6288E781-BBD9-4C85-B2A5-185724D6FDE2}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="id854467727" ID="{DC6A8588-A87C-4BBB-82CB-4FC9D666EAB9}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DEFEAT_A" ID="{09AC918A-4F2E-4B62-883E-725A9D3846DF}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_KUDOS_A" ID="{5E4A25D6-65DD-4132-A280-094FA229FF08}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LANS_YS_MISC_PEP_TALK_A" ID="{6CAFFEDA-A3E1-44F1-9F98-130C2B8ADFD2}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_WARNING_A" ID="{96A8CBE7-23AD-4712-A3C9-D0DB8C0230EE}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DECLARE_WAR_A" ID="{B3889BF1-7924-45E2-93D2-887C3B2689CC}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LANS_YS_DECLARE_WAR_A" ID="{4D9FDAF5-7196-4ED3-8DB1-DF7DF99ECF00}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Liyue_UI_Bank" ID="{C1D81FF6-F514-4D4B-BE83-111DA8BF013C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sot7HealCotainer" ID="{C0D31B31-21BA-4DA5-ABA4-BF5F303BEC4E}" WorkUnitID="{0A64999A-A201-4806-8E0E-458B613C72B2}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Statue_of_The_Seven_Heal" ID="{CB15D37C-BF6F-42A3-9937-DE5A154264EC}" WorkUnitID="{7714AC88-E6F9-45FF-96C4-AA07F75D3FE9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList>
+						<ObjectRef Name="id194605723" ID="{7E51D520-7DA9-4E01-99A1-42B8324AEE47}" WorkUnitID="{0A64999A-A201-4806-8E0E-458B613C72B2}"/>
+					</ObjectExclusionList>
 					<GameSyncExclusionList/>
 				</SoundBank>
 			</ChildrenList>
