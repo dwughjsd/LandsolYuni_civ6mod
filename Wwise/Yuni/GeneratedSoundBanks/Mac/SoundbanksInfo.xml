@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
 		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\GeneratedSoundBanks\Mac\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>

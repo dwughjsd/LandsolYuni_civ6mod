@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3841724826" DateHigh="30885672"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\Interface_Liyue.wwu" DateLow="2701310645" DateHigh="30951591"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Actor-Mixer Hierarchy\LeaderSpeech_Yuni.wwu" DateLow="3438997369" DateHigh="30900522"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Attenuations\Default Work Unit.wwu" DateLow="4011024579" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Control Surface Sessions\Default Work Unit.wwu" DateLow="4011594582" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Conversion Settings\Default Work Unit.wwu" DateLow="1199780670" DateHigh="30951588"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Conversion Settings\Factory Conversion Settings.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Dynamic Dialogue\Default Work Unit.wwu" DateLow="4011374562" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Effects\Default Work Unit.wwu" DateLow="4010624584" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Effects\Factory Effects.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Events\Default Work Unit.wwu" DateLow="1261506635" DateHigh="30951589"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Game Parameters\Default Work Unit.wwu" DateLow="185892797" DateHigh="30884993"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3841904992" DateHigh="30885672"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Interactive Music Hierarchy\LandsolBackgroundMusic.wwu" DateLow="2163809182" DateHigh="30947428"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1200050756" DateHigh="30951588"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Mixing Sessions\Default Work Unit.wwu" DateLow="4011444555" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Modulators\Default Work Unit.wwu" DateLow="4011514565" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Presets\Default Work Unit.wwu" DateLow="4010764582" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Queries\Default Work Unit.wwu" DateLow="4010514579" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Queries\Factory Queries.wwu" DateLow="4081423616" DateHigh="30538204"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\SoundBanks\Default Work Unit.wwu" DateLow="1261546659" DateHigh="30951589"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Soundcaster Sessions\Default Work Unit.wwu" DateLow="4010874576" DateHigh="30879207"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\States\Default Work Unit.wwu" DateLow="61413863" DateHigh="30900503"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Switches\Default Work Unit.wwu" DateLow="2132866342" DateHigh="30886663"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Triggers\Default Work Unit.wwu" DateLow="4209564738" DateHigh="30886085"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Yuni.Admin.wsettings" DateLow="1699419972" DateHigh="30951595"/>
+	<ValidationCacheItem File="D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\Yuni.wproj" DateLow="2163574051" DateHigh="30947428"/>
 	<ValidationCacheItem File="D:\Documents\WwiseProjects\Yuni\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3841724826" DateHigh="30885672"/>
 	<ValidationCacheItem File="D:\Documents\WwiseProjects\Yuni\Actor-Mixer Hierarchy\LeaderSpeech_Yuni.wwu" DateLow="3438997369" DateHigh="30900522"/>
 	<ValidationCacheItem File="D:\Documents\WwiseProjects\Yuni\Actor-Mixer Hierarchy\UnitSFX2D_Yuni.wwu" DateLow="3120289237" DateHigh="30900522"/>
