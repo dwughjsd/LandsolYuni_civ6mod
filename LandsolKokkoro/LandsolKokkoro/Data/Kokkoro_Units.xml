@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_LANDCIVILIAN"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" Cost="200" BaseMoves="4" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Description="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="25" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" PrereqCivic="CIVIC_MERCANTILISM" MustPurchase="TRUE" CanRetreatWhenCaptured="True" ParkCharges="1" TraitType="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES"/>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LANDSOL_MIKO_OF_AMES" ReplacesUnitType="UNIT_NATURALIST"/>
+	</UnitReplaces>
+</GameData>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_MIKO_OF_AMES" Texture="Moment_NationalPark.dds"/>
+	</MomentIllustrations>
+	<!--Wontfix: The relations tooltip for this agenda won't work with only "unknown reason" can be shown, and there is no way to fix. Fuck firaxis for making it unmoddable-->
+	<Agendas>
+		<Update>
+			<Where AgendaType="AGENDA_GUIDE_OF_NATURE"/>
+			<Set>
+				<Description>LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2</Description>
+			</Set>
+		</Update>
+	</Agendas>
+	<Modifiers>
+		<Update>
+			<Where ModifierId="AGENDA_GUIDE_OF_NATURE"/>
+			<Set>
+				<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_KAITIAKITANGA</ModifierType>
+			</Set>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="AGENDA_GUIDE_OF_NATURE"/>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>TopPercentage</Name>
+			<Value>60</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>BottomPercentage</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>TopRankingDiploMod</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>BottomRankingDiploMod</Name>
+			<Value>-8</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

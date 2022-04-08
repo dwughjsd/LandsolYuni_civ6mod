@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- Leader Quotes——序章-->
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="zh_Hans_CN">
+			<Text>小火开始慢慢蒸，二十分钟大火烘。不揭锅盖闷一闷，粒粒白米香喷喷。</Text>
+		</Row>
+	
+ 	   <!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊——主屏幕语音-->
+			<Text>我会与自然一同，助您一臂之力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊絆、つないで。こころ、結んで。后篇第二章-->
+			<Text>很感谢您对我们的关心，但我并不了解您，因此恕难从命。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊——主屏幕语音-->
+			<Text>与您这样优秀的领袖合作是在下之幸，请接受我们的友谊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受——主屏幕语音-->
+			<Text>就让身为引导者的我全力支持您吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝——序章-->
+			<Text>若是在下给您带来了不快，在下深表歉意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--被宣战——絆、つないで。こころ、結んで。（いつもの、笑顔の食卓）-->
+			<Text>你还有战争之意？！那么在下将在此阻止你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--主动宣战——絆、つないで。こころ、結んで。（いつもの、笑顔の食卓）-->
+			<Text>请你离开我的人民！精灵将赐予在下祛凶除恶之力，此刻在下已退无可退！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣——生日彩蛋-->
+			<Text>与您和平共处已是难能可贵，能够收到您的如此心意，在下万分感谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣——絆、つないで。こころ、結んで。后篇第二章-->
+			<Text>请容许在下拒绝。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节——可可萝（礼服）公会之家台词-->
+			<Text>我的代表团送去了山村中的水果、传统料理和其他特产，请您品尝。不知是否合您的胃口呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--被谴责——个人剧情第5章-->
+			<Text>若是为了大家的生活，在下不会吝惜为此做出的牺牲，无论受到何等非议都心甘情愿。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家——主线剧情第二部-->
+			<Text>你的手段是如此不成熟，恐怕统治的重任不能交予你！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面——序章-->
+			<Text>在下是爱梅斯大人派遣的引导者，名叫可可萝。在下会守护人民，不舍昼夜，由始及终，全心全意。这是在下的使命。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置——个人剧情第一章-->
+			<Text>我们附近有一座城市。它错综复杂，一不小心就会在里面迷路。让在下作为向导为您带路吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置——个人剧情第四章-->
+			<Text>真诚地感谢您。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置——个人剧情第二章+礼服可可萝公会之家台词-->
+			<Text>虽说文献中有记述，但在下未曾亲眼见过您的首都。我们来说说各自的首都流传的旧事吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过——主屏幕语音-->
+			<Text>有什么需要在下做的事情吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感——个人剧情第三章+第八章-->
+			<Text>您真是温柔。作为生活在大自然中的种族，鸟类、昆虫和各种动植物都令我喜爱。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家——个人剧情第三章-->
+			<Text>到处都是人造物，拥挤不堪——实在是令人疲劳啊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求结盟——主屏幕语音-->
+			<Text>精灵们在为我们送上祝福，愿我们能够成为同盟。</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队——loosely resembles 絆、つないで。こころ、結んで。（コッコロの覚悟）-->
+			<Text>若是您的军队在我的边境受到了伤害，那便是在下作为引导者的失职。请您离开这里。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--战败——战斗语音-->
+			<Text>疾风也已止息。真是万分遗憾……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--同意交易——个人剧情第8章-->
+			<Text>能与您这样的领袖达成交易真是再好不过。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>在下很抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="zh_Hans_CN">
+			<Text>大自然的小小向导</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_Faith] 信仰值。建造国家公园时不会清除地貌，并会在上面植树造林。喜欢植树造林或建造国家公园的文明。讨厌清除地貌的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_Faith] 信仰值。{LOC_AGENDA_KAITIAKITANGA_DESCRIPTION}</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_OF_NATURE" Language="zh_Hans_CN">
+			<Text>可可萝正在观察您如何对待自然世界</Text>
+		</Row>
+		<!--The string just doesn't work. Blame Firaxis for too much hardcoding.-->
+		<Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GUIDE_OF_NATURE" Language="zh_Hans_CN">
+			<Text>可可萝喜欢尊重自然环境的文明</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_SUBTITLE" Language="zh_Hans_CN">
+			<Text>美食殿堂公会成员，爱梅斯的信徒</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。身为守护自然的纯白巫女，公主形态的可可萝从迷人的自然界中获得强大力量，引领她的人民获得胜利。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>高魅力的地块对于公主可可萝至关重要。在高魅力的单元格附近建立城市，如此便能够获得“极光圣界”领袖特性提供的大量产出和单位回复力。靠近自然美景，[ICON_Faith] 信仰值的产出也相当可观。利用公会之家建筑，他们可以大大加强利用伟人强化自身的能力。由于可以获得额外的 [ICON_Faith] 信仰值购买使徒或爱梅斯巫女，对公主可可萝而言，最容易获得的是宗教胜利和文化胜利。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
