@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰。若与山脉、森林或自然奇观相邻：市中心获得 +1 [ICON_Faith] 信仰，圣地获得 +2 [ICON_Faith] 信仰和 +1 [ICON_GreatProphet] 大预言家点数。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰。若与山脉、森林或自然奇观相邻，市中心获得 +1 [ICON_Faith] 信仰，圣地获得 +2 [ICON_Faith] 信仰和 +1 [ICON_GreatProphet] 大预言家点数。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">
@@ -26,7 +26,7 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="zh_Hans_CN">
-			<Text>可可萝，小小的引导者，爱梅斯大人向您降下了新的神谕。壮丽的自然世界是您的力量之源，您将在它的帮助下稳稳守护您的人民和盟友。若是您能够坚定您的信仰，神明定会回应您的呼唤。风之精灵为您送上了祝福，出发吧，您必将无往不利。</Text>
+			<Text>爱梅斯大人向您降下了新的神谕，可可萝，小小的引导者。壮丽的自然世界是您的力量之源，您将在它的帮助下稳稳守护您的人民和盟友。若是您能坚定您的信仰，神明定会回应您的呼唤。伴着风之精灵的祝福出发吧，您必将无往不利。</Text>
 		</Row>
 	</LocalizedText>
 

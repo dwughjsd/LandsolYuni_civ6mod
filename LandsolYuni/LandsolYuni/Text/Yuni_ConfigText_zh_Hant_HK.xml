@@ -18,7 +18,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>Grant an extra leader trait {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME} to Yuni: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME} to Yuni: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
 		</Row>
 		
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME" Language="zh_Hant_HK">
@@ -32,7 +32,7 @@
 			<Text>Princess Knight of Landsol</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>Grant an extra leader trait for each Landsol leader.</Text>
+			<Text>Grants an extra leader trait for each Landsol leader.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME" Language="zh_Hant_HK">

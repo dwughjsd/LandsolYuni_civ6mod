@@ -1,4 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<!--摆烂啦，英语谁爱写谁写-->
+	<LocalizedText>
+
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="en_US">
+			<Text>Maintain a gentle simmer at first, and raise the heat later. Let rice rest covered and try not to peek.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>I, together with nature, will be your strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>I really appreciate your kindness, but pardon me for declining you as we know little about you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>It is fortunate for me to be able to cooperate with great leaders likes you, so please accept our friendship.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Let me, a guide, support you with my full strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>I sincerely apologize if I frustrated you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>You are still intending war? So I will stop you here!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Please leave my people! Spirits will grant me power to dispel evils, and I will not step back!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>It is precious enough that you are keeping peace with us, and I am grateful for receiving such additional gifts from you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Please allow me to decline.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>My delegations have sent fruits, traditional cuisines and other local products in mountain villages for you to taste. I humbly wonder if you like them.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>If it is for my people's living, I am willing to sacrifice all without sparing despite your calumniation.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Your way of rule is so immature that I am afraid you are not capable of being a leader! (Denounces you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>I am Kokkoro, a guide sent by Ames. I will protect my people, from day to night, from cradle to grave, wholeheartedly without reservation, for it is my divine mission.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>We have a city nearby. It is so complicated that it is easy to get lost there. Let me guide you to visit it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Thank you from the bottom of my heart.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Though I saw it is recorded in documentations, I have never seen your capital with my own eyes. Let us talk about tales of past events in our capitals respectively.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>May I do something for you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>You are so kind and gentle. As a nature dweller, I love birds, insects and all kinds of creatures.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Artifacts and crowds are everywhere - so exhausting.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Spirits are wishing us to form an alliance.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>It would be a dereliction of duty for me as a guide if your troops are hurt at my borders. Please move them away.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>High wind has stopped. So regretful...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>It cannot be better to make deals with leaders like you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>I am sorry.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="en_US">
+			<Text>Little Guide of Nature</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="en_US">
+			<Text>Tries to build up [ICON_Faith] Faith. Builds National Parks, doesn't clear features, plants Woods. Likes civilizations that plant Woods or found National Parks. Dislikes civilizations that clear features.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2" Language="en_US">
+			<Text>Tries to build up [ICON_Faith] Faith. {LOC_AGENDA_KAITIAKITANGA_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_OF_NATURE" Language="en_US">
+			<Text>Kokkoro is watching your treatment of the natural world</Text>
+		</Row>
+		<!--The string just doesn't work. Blame Firaxis for too much hardcoding.-->
+		<Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GUIDE_OF_NATURE" Language="en_US">
+			<Text>Kokkoro likes civs who respect the environment</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_SUBTITLE" Language="en_US">
+			<Text>Member of Gourmet Edifice, Miko of Ames</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>With help of their Princess Knight, Landsol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. As a pure white miko protecting nature, Kokkoro in her Princess Form receives great power from charming environment, and guide her people to victory.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Appeal is everything for Princess Kokkoro's city planning. They build cities near tiles with high Appeal to receive additional yields and unit healing provided by Aurora Sanctuary unique ability. They can earn considerable [ICON_Faith] when their cities are adjacent to natural beauty. They can enhance their ability to recruit Great People greatly with Guildhouse building. For Princess Kokkoro, the easist victory paths are Religious or Culture Victories, since they have extra [ICON_Faith] Faith to buy Apostles and Mikos of Ames.</Text>
+		</Row>
+	</LocalizedText>
+
 </GameData>

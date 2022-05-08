@@ -1,10 +1,12 @@
 INSERT INTO LocalizedText (Language, Tag, Text) VALUES
-/*('en_US', 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION', 'Placeholder'),
-('en_US', 'LOC_TRAIT_CIVILIZATION_LANDSOL_KOKKORO_PRINCESS_DESCRIPTION', 'Placeholder'),*/
-('zh_Hans_CN', 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION', '建设于冻土、雪地、冻土丘陵、雪地丘陵的城市+1魅力，在解锁“保护地球”市政后再额外+1魅力。图书馆、古罗马剧场、市场、神社、工坊、灯塔为本城市魅力为“迷人”的未改良单元格+1相应产出，魅力为“惊艳”的单元格加成翻倍。单位若位于魅力为“迷人”的单元格，每回合可多恢复5点生命值，位于魅力为“惊艳”的单元格时加成翻倍。'),
+('en_US', 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION', 'Cities on Tundra or Snow tiles receive +1 Appeal in all their tiles. Additional +1 Appeal after advancing to the Conservation Civic. Cities with a Library, Amphitheater, Market, Shrine, Workshop or Lighthouse receive +1 corresponding yield for all unimproved Charming tiles, +2 for all unimproved Breathtaking tiles. Units heal +5 HP faster in Charming tiles, +10 faster in Breathtaking tiles.'),
+('en_US', 'LOC_TRAIT_CIVILIZATION_LANDSOL_KOKKORO_PRINCESS_DESCRIPTION', 'Grants an extra leader trait "{LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME}" for Kokkoro (Princess): {LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION}'),
+
+('zh_Hans_CN', 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION', '建设于冻土、雪地、冻土丘陵、雪地丘陵的城市+1魅力，解锁“保护地球”市政后额外+1魅力。建有图书馆、古罗马剧场、市场、神社、工坊或灯塔的城市所有迷人的未改良单元格+1相应产出，惊艳的未改良单元格则+2。单位位于迷人单元格每回合可多恢复5点生命值，位于惊艳单元格则多恢复10点。'),
 ('zh_Hans_CN', 'LOC_TRAIT_CIVILIZATION_LANDSOL_KOKKORO_PRINCESS_DESCRIPTION', '为可可萝（公主）增加一个额外的领袖特性“{LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME}”：{LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION}');
 	
+UPDATE LocalizedText SET Text = '+100% [ICON_Production] Production towards the Preserve district. The effects of the Grove and Sanctuary buildings are extended to all unimproved tiles in the city they are in. Cities on Tundra or Snow tiles receive +1 Appeal in all their tiles. Additional +1 Appeal after advancing to the Conservation Civic. Units heal +5 HP faster in Charming tiles, +10 faster in Breathtaking tiles.' WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = 'LOC_CIVILIZATION_VIETNAM_NAME') AND Tag = 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION' AND Language = 'en_US';
+UPDATE LocalizedText SET Text = '建造保护区时 +100% [ICON_Production] 生产力。保护区建筑的效果延伸到建成城市的所有未改良单元格。建设于冻土、雪地、冻土丘陵、雪地丘陵的城市+1魅力，在解锁“保护地球”市政后再额外+1魅力。单位位于迷人单元格每回合可多恢复5点生命值，位于惊艳单元格则多恢复10点。' WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = 'LOC_CIVILIZATION_VIETNAM_NAME') AND Tag = 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION' AND Language = 'zh_Hans_CN';
 
-UPDATE LocalizedText SET Text = '只用一半时间即可建成保护区。保护区建筑的效果延伸到本城市的所有未改良单元格。建设于冻土、雪地、冻土丘陵、雪地丘陵的城市+1魅力，在解锁“保护地球”市政后再额外+1魅力。单位若位于魅力为“迷人”的单元格，每回合可多恢复5点生命值，位于魅力为“惊艳”的单元格时则该项加成翻倍。' WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = 'LOC_CIVILIZATION_VIETNAM_NAME') AND Tag = 'LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION' AND Language = 'zh_Hans_CN';
-
+UPDATE LocalizedText SET Text = 'Grants an extra leader trait "{LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME}" for Kokkoro (Princess): LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION}' WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = 'LOC_CIVILIZATION_VIETNAM_NAME') AND Tag = 'LOC_TRAIT_CIVILIZATION_LANDSOL_KOKKORO_PRINCESS_DESCRIPTION' AND Language = 'en_US';
 UPDATE LocalizedText SET Text = '为可可萝（公主）增加一个额外的领袖特性“{LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME}”：{LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION}' WHERE EXISTS (SELECT * FROM LocalizedText WHERE Tag = 'LOC_CIVILIZATION_VIETNAM_NAME') AND Tag = 'LOC_TRAIT_CIVILIZATION_LANDSOL_KOKKORO_PRINCESS_DESCRIPTION' AND Language = 'zh_Hans_CN';

@@ -368,7 +368,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
-			<Text>Thank you for the gift. Well, I feel so sorry as it looks like that we are demanding one.</Text>
+			<Text>Thank you for them. Well, I feel so sorry as it looks like that we are demanding gifts.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
@@ -376,7 +376,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY">
-			<Text>Don't be so shy, just receive the gift from our delegation. We don't know your preference, so it would be great if it pleases you.</Text>
+			<Text>Don't be so shy, just receive gifts from our delegation. We don't know your preference, so it would be great if it pleases you.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
