@@ -3,7 +3,7 @@
 	<LocalizedText>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="en_US">
-			<Text>Maintain a gentle simmer at first, and raise the heat later. Let rice rest covered and try not to peek.</Text>
+			<Text>First you simmer, then boil up hot; keep that rice snug in the pot.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">

@@ -2,15 +2,14 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Landsol Kokkoro (WIP)</Name>
+    <Name>LOC_LANDSOL_KOKKORO_MOD_TITLE</Name>
     <Guid>24bdaf6e-d1b7-4457-b3ec-a6be1b7fe1e2</Guid>
     <ProjectGuid>d11d2879-e830-4ca8-a7d2-9d60fb4d7fe7</ProjectGuid>
     <ModVersion>1</ModVersion>
-    <Teaser>Still a WIP project - DON'T REDISTRIBUTE!</Teaser>
-    <Description>Still a WIP project - DON'T REDISTRIBUTE!</Description>
+    <Teaser>LOC_LANDSOL_KOKKORO_MOD_TEASER</Teaser>
+    <Description>LOC_LANDSOL_KOKKORO_MOD_DESCRIPTION</Description>
     <Authors>Dwughjsd(UzukiShimamura)</Authors>
-    <SpecialThanks>
-    </SpecialThanks>
+    <SpecialThanks>Boa of the Boaians</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
