@@ -55,7 +55,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
-			<Text>I am Kokkoro, a guide sent by Ames. I will protect my people, from day to night, from cradle to grave, wholeheartedly without reservation, for it is my divine mission.</Text>
+			<Text>I am Kokkoro, a guide sent by Ameth. I will protect my people, from day to night, from cradle to grave, wholeheartedly without reservation, for it is my divine mission.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -124,14 +124,24 @@
 
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_SUBTITLE" Language="en_US">
-			<Text>Member of Gourmet Edifice, Miko of Ames</Text>
+			<Text>Member of Gourmet Edifice, Miko of Ameth</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="en_US">
-			<Text>With help of their Princess Knight, Landsol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. As a pure white miko protecting nature, Kokkoro in her Princess Form receives great power from charming environment, and guide her people to victory.</Text>
+			<Text>With help of their Princess Knight, Landosol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. As a pure white miko protecting nature, Kokkoro in her Princess Form receives great power from charming environment, and guide her people to victory.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Appeal is everything for Princess Kokkoro's city planning. They build cities near tiles with high Appeal to receive additional yields and unit healing provided by Aurora Sanctuary unique ability. They can earn considerable [ICON_Faith] when their cities are adjacent to natural beauty. They can enhance their ability to recruit Great People greatly with Guildhouse building. For Princess Kokkoro, the easist victory paths are Religious or Culture Victories, since they have extra [ICON_Faith] Faith to buy Apostles and Mikos of Ames.</Text>
+			<Text>Appeal is everything for Princess Kokkoro's city planning. They build cities near tiles with high Appeal to receive additional yields and unit healing provided by Aurora Sanctuary unique ability. They can earn considerable [ICON_Faith] when their cities are adjacent to natural beauty. They can enhance their ability to recruit Great People greatly with Guildhouse building. For Princess Kokkoro, the easist victory paths are Religious or Culture Victories, since they have extra [ICON_Faith] Faith to buy Apostles and Mikos of Ameth.</Text>
 		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		
+
 	</LocalizedText>
 
 </GameData>

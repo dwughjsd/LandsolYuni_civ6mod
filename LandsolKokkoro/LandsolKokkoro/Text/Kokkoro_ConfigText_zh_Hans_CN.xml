@@ -22,7 +22,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。 只能使用 [ICON_Faith] 信仰值购买。</Text>
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。能让 [ICON_Citizen] 公民皈依其所属的宗教，可对其他宗教的单位发动神学战争。只能使用 [ICON_Faith] 信仰值购买。</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="zh_Hans_CN">

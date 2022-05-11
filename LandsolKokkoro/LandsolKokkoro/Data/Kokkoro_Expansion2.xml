@@ -48,4 +48,7 @@
 			<Value>-8</Value>
 		</Row>
 	</ModifierArguments>
+	<Units_XP2>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
 </GameData>
