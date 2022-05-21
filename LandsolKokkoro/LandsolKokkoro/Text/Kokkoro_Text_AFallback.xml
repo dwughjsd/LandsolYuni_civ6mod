@@ -3,7 +3,7 @@
 	<LocalizedText>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="en_US">
-			<Text>First you simmer, then boil up hot; keep that rice snug in the pot.</Text>
+			<Text>First you simmer,[NEWLINE]then boil up hot;[NEWLINE]keep that rice[NEWLINE]snug in the pot.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -55,7 +55,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
-			<Text>I am Kokkoro, a guide sent by Ameth. I will protect my people, from day to night, from cradle to grave, wholeheartedly without reservation, for it is my divine mission.</Text>
+			<Text>I am Kokkoro, a guide sent by Ameth. I will protect my people, from morning till night, from the cradle to the grave, for it is my sworn duty and calling.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -134,6 +134,36 @@
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_10" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_11" Language="en_US">
 			<Text></Text>
 		</Row>
 

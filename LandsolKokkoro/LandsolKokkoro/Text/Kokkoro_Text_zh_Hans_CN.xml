@@ -4,7 +4,7 @@
 
 		<!-- Leader Quotes——序章-->
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="zh_Hans_CN">
-			<Text>小火开始慢慢蒸，二十分钟大火烘。不揭锅盖闷一闷，粒粒白米香喷喷。</Text>
+			<Text>小火开始慢慢蒸，[NEWLINE]二十分钟大火烘。[NEWLINE]不揭锅盖闷一闷，[NEWLINE]粒粒白米香喷喷。</Text>
 		</Row>
 	
  	   <!-- Leader Dialog -->
@@ -160,7 +160,37 @@
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>作为佑树（《公主连结》作品中的主角）在恢复意识时见到的第一个人同时也是最可靠的向导，可可萝在他（或者是扮演他的玩家）眼中无疑有着特别的地位。她陪伴着这位公主骑士经历了本作品主线剧情的全过程，在每天开始冒险时为他盖下这一天的“努力印章”，在夜深人静时也默默守护着他。可以说，她确实实践着她的承诺：“不舍昼夜，由始及终。”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>阿斯特莱亚世界的可可萝是一位精灵，从小在山村之中由族群中的长老养育长大。从小，她就展示出与年龄不符的成熟。有一天，当她如往常一般向她的女神爱梅斯祈祷时，她收到了一条来自神明的启示。爱梅斯指示她前往兰德索尔与某人相会，代女神本尊行向导事务。带着这份命令，她离开了作为她故乡的村庄，前去寻找她的主人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在前往兰德索尔的路途中，可可萝发现一人从天而降落在山丘上。她立即前去查看对方的情况，并在山顶发现了失去意识和记忆的佑树。她相信此人便是爱梅斯所指派的主人，事实也确实是如此。于是，她的探索之旅增加了第一位同伴。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>可可萝向她的主人宣誓将守护他。就在此时，他们遇见了一位饥饿的少女——“饿肚子的佩可莉姆”（“佩可莉姆”在日语中谐音“饿肚子”），以及正在追逐附近的其他人的怪物。他们决定合作来脱离困境，在这个过程中救下了优衣和凯露，后者将会在未来与他们组成新的公会，美食殿堂。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在公会中，可可萝是引导其他成员的温柔角色。她无微不至地照顾因为失忆而失去自理能力的佑树，也每天关心着另外两人的生活起居。一开始，她与佑树常常被认作是情侣或者兄妹，但渐渐地大家都认为她像妈妈一样。她教导佑树生活的基本概念，并努力打工来供养主人。在她的帮助下，佑树重新学会了如何工作，因而她的负担也减轻了许多。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>美食殿堂此后在兰德索尔展开了活动，以寻遍美食和一起吃饭为目标开展冒险。尽管佩可莉姆隐藏着沉重的秘密，而凯露其实是不得不暗杀她的杀手，但在一起经历过无数冒险之后，最终大家相互接纳，成为了亲密的冒险伙伴，并在这个过程中与其他盟友一起，最终击败了试图暗杀佩可莉姆的元凶。尽管他们已经做到了如此成就，但世界的谜团并没有解开，新的冒险很快随之而来。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>背负着谜团的并不只有佩可莉姆，可可萝本人也是这样。在游戏世界之外（他们世界的“现实”），她叫枣可萝，是个五年级的小学生。由于缺少朋友，佑树是她为数不多的互动对象之一。她的父亲在实验室工作，同时也是阿斯特莱亚这个游戏世界的最高管理者“七冠”之一。年事已高的父亲将管理者的权限交给了年轻的可萝，让她代劳在游戏世界中探索。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>然而，由于意外，所有进入阿斯特莱亚世界的玩家都在他们的现实世界中陷入昏迷。游戏世界之外的开发者和研究人员倾尽全力寻找让所有陷入游戏世界的人们找回记忆回到现实的手段，而游戏世界中的可可萝则被视作完成这个目标的关键。可可萝因此得以暂时走出游戏世界，并被期望能够将真相告诉她认识的其他玩家。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>尽管前路仍然困难重重，但作为一位优秀而坚强的引导者，可可萝依然在与同伴一起努力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>在现实世界中，作为《公主连结 Re:Dive》的主要角色之一，可可萝获得了许多玩家的喜爱。实际上，“像妈妈一样”正是玩家社区对她最初的评价，而这种评价最终进入了制作团队的视野，并改变了剧情中的可可萝形象。由于她的广受欢迎，在原作游戏中，可可萝拥有多款不同装扮的角色卡，甚至可以组成一整队（5张角色卡）只包含可可萝的冒险团队。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text>可可萝还在《碧蓝幻想》、《失落的龙约》、《影之诗》等作品中客串出场。当你在阅读这段百科的时候，你已经配置好了让她在《席德梅尔的文明VI》中出场的模组。你能扮演可可萝，带领人民建立起一个经受住时间考验的文明吗？</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
