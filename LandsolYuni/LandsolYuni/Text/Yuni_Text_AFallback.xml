@@ -9,10 +9,10 @@
 			<Text>Honorary Doctor, Founder of the Friendship Club</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY">
-			<Text>With help of their Princess Knight, Landsol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. In Yuni's view, all kinds of knowledge are equally of great value, and science can be developed without ignoring culture.</Text>
+			<Text>With help of their Princess Knight, Landosol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. In Yuni's view, all kinds of knowledge are equally of great value, and science can be developed without ignoring culture.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY">
-			<Text>Yuni's Campus district and Theater Square district can provide [ICON_Science] Science and [ICON_Culture] Culture at the same time. Another way for them to gather [ICON_Science] Science is to put [ICON_GreatWork_Writing] Writing Great Work in their Library. Their Library building itself also provides an unique approach for them to gain [ICON_GreatWriter] Great Writer Points. They can enhance their ability to recruit Great People greatly with Guildhouse building. Besides, Yuni leading Landsol can build an elite military force with their Philosophy of Cognition and Development unique ability if they have to war.</Text>
+			<Text>Yuni's Campus district and Theater Square district can provide [ICON_Science] Science and [ICON_Culture] Culture at the same time. Another way for them to gather [ICON_Science] Science is to put [ICON_GreatWork_Writing] Writing Great Work in their Library. Their Library building itself also provides an unique approach for them to gain [ICON_GreatWriter] Great Writer Points. They can enhance their ability to recruit Great People greatly with Guildhouse building. Besides, Yuni leading Landosol can build an elite military force with their Philosophy of Cognition and Development unique ability if they have to war.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_1">
 			<Text>Civiopedia article has not been translated yet.</Text>
@@ -36,6 +36,9 @@
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_8">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_9">
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_1">
@@ -81,7 +84,7 @@
 			<Text>Unknown, tens of thousands to millions or so</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_LANDSOL_CAPITAL">
-			<Text>Landsol</Text>
+			<Text>Landosol</Text>
 		</Row>
 		<Row Tag="LOC_NAMED_RIVER_DYSTAL_NAME">
 			<Text>Dystal River</Text>
@@ -180,7 +183,7 @@
 			<Text>Ryuu</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_1">
-			<Text>Kyaru</Text>
+			<Text>Karyl</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_2">
 			<Text>Yui</Text>
@@ -241,7 +244,7 @@
 		</Row>
 		<!-- Civilization City Names-->
 		<Row Tag="LOC_CITY_NAME_LANDSOL">
-			<Text>Landsol</Text>
+			<Text>Landosol</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_JUNO">
 			<Text>Juno</Text>

@@ -3,15 +3,15 @@
 	<!--English text is saved here to workaround the messed-up language fallback mechanism in latest versions.-->
 	<EnglishText>
 		<Row Tag="LOC_CIVILIZATION_LANDSOL_NAME">
-			<Text>Landsol</Text>
+			<Text>Landosol</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LANDSOL_DESCRIPTION">
-			<Text>Landsol Empire</Text>
+			<Text>Landosol Empire</Text>
 		</Row>
 
 		<Row Tag="LOC_CIVILIZATION_LANDSOL_ADJECTIVE">
-			<Text>Landsol</Text>
+			<Text>Landosol</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_NAME">
@@ -30,10 +30,10 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME">
-			<Text>Princess Knight of Landsol</Text>
+			<Text>Princess Knight of Landosol</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION">
-			<Text>Grants an extra leader trait for each Landsol leader.</Text>
+			<Text>Grants an extra leader trait for each Landosol leader.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME">
@@ -52,7 +52,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION">
-			<Text>Landsol unique building. Districts in this city provide +1 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district).</Text>
+			<Text>Landosol unique building. Districts in this city provide +1 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district).</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME">
@@ -60,7 +60,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION">
-			<Text>Landsol unique Modern era support unit when Yuni is their leader that replaces the Drone. Cheaper to produce, unlocked by Electricity, and adds +1 [ICON_Range] Range and +5 [ICON_Bombard] Bombard Strength to Siege class units within 1 hex.</Text>
+			<Text>Landosol unique Modern era support unit when Yuni is their leader that replaces the Drone. Cheaper to produce, unlocked by Electricity, and adds +1 [ICON_Range] Range and +5 [ICON_Bombard] Bombard Strength to Siege class units within 1 hex.</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME">
@@ -68,7 +68,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION">
-			<Text>Landsol unique Renaissance era siege unit that replaces the Bombard. Cannot move and attack on the same turn unless they've earned the Expert Crew promotion. Stronger than Bombard, and +10 [ICON_Strength] Combat Strength vs. land and naval units.</Text>
+			<Text>Landosol unique Renaissance era siege unit that replaces the Bombard. Cannot move and attack on the same turn unless they've earned the Expert Crew promotion. Stronger than Bombard, and +10 [ICON_Strength] Combat Strength vs. land and naval units.</Text>
 		</Row>
 
 	</EnglishText>
