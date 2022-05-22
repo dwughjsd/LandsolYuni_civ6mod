@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Leaders>
+		<Update>
+			<Where LeaderType="LEADER_HIKAWA_KYOUKA"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+	</Leaders>
+	<Traits>
+		<Update>
+			<Where Description="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2"/>
+		</Update>
+	</Traits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_DIGNIFIED_AND_DELICATE" AgendaTwo="AGENDA_FLAT_EARTHER"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<AiListTypes>
+		<Row ListType="HikawaKyoukaResolutions"/>
+		<Row ListType="HikawaKyoukaDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HikawaKyoukaResolutions" AgendaType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" System="Resolutions"/>
+		<Row ListType="HikawaKyoukaDiscussions" AgendaType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HikawaKyoukaResolutions" Item="WC_RES_MERCENARY_COMPANIES" Favored="true"/>
+		<Row ListType="HikawaKyoukaResolutions" Item="WC_RES_BORDER_CONTROL" Favored="true"/>
+		<Row ListType="HikawaKyoukaDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+	</AiFavoredItems>
+</GameData>

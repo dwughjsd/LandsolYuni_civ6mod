@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LeaderHikawaKyouka32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_HIKAWA_KYOUKA" Atlas="ICON_ATLAS_HIKAWA_KYOUKA" Index="0"/>
+	</IconDefinitions>
+
+</GameData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>小小优等生</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与学院或宇航中心相邻的港口、剧院广场和工业区的相邻加成也提供 [ICON_Science] 科技值，处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="zh_Hans_CN">
+			<Text>宇宙蓝闪光</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为所在城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>镜华</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="zh_Hans_CN">
+			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与你的盟友开始您的大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

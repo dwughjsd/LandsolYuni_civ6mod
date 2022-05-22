@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_NAME" Language="en_US">
+			<Text>Little Model Student</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
+			<Text>Adjacency bonuses of Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide[ICON_Science] Science as well. Additionally provide [ICON_Production] Production when in a Golden Age.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="en_US">
+			<Text>Cosmo Blue Flash</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
+			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
+			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
+			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
+			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+		</Row>
+
+		<!--OK, seems that official English version of PCR:D calls her Kyoka, not "Kyouka" commonly used by community. Both of them are correct romanization of her name.-->
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="en_US">
+			<Text>Kyoka</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="en_US">
+			<Text>Kyoka, you have maturity needed for being a leader since your childhood. Your people are proud of you and see you as their model. You are diligent and wise, leading people to explore blue seas and skies with guide of starlight. Start grand adventures with your allies, and dig deep into the universe. But be cautious, for your suspicious enemies are gazing upon your land.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>
