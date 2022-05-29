@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
-			<Text>Adjacency bonuses of Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide[ICON_Science] Science as well. Additionally provide [ICON_Production] Production when in a Golden Age.</Text>
+			<Text>Adjacency bonuses of Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide [ICON_Science] Science as well. Additional [ICON_Production] Production when in a Golden Age.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="en_US">
