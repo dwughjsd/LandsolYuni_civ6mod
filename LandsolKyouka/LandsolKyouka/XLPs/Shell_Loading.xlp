@@ -16,13 +16,6 @@
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
-		<Element>MACOS</Element>
-		<Element>IOS</Element>
-		<Element>LINUX</Element>
-		<Element>XBONE</Element>
-		<Element>PS4</Element>
-		<Element>SWITCH</Element>
-		<Element>STADIA</Element>
 	</m_AllowedPlatforms>
 </AssetObjects..XLP>
 
