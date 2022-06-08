@@ -13,13 +13,13 @@
 			<Text>Cosmo Blue Flash</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
-			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.</Text>
+			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and if built adjacent to a Coast provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
-			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.</Text>
+			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and if built adjacent to a Coast provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in. +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
