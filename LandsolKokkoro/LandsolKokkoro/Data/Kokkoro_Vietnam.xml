@@ -7,6 +7,14 @@
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_LIGHTHOUSE_BREATHTAKING_FOOD_ATTACH"/>
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AMPHITHEATER_CHARMING_CULTURE_ATTACH"/>
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AMPHITHEATER_BREATHTAKING_CULTURE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BANK_CHARMING_GOLD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BANK_BREATHTAKING_GOLD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_UNIVERSITY_CHARMING_SCIENCE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_CHARMING_PRODUCTION_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION_ATTACH"/>
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BOOST_PRESERVE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE"/>
 	</TraitModifiers>
 
 	<BuildingModifiers>
@@ -88,6 +96,14 @@
 			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
 			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -124,6 +140,16 @@
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION" Name="Amount" Value="2"/>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PRESERVE</Value>
+		</Row>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -171,4 +197,15 @@
 	<AiFavoredItems>
 		<Row ListType="NatsumeKokoroPrincessDistricts" Item="DISTRICT_PRESERVE" Favored="true"/>
 	</AiFavoredItems>
+
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_PRESERVE"/>
+			<Set>
+				<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
+				<CostProgressionParam1>40</CostProgressionParam1>
+			</Set>
+		</Update>
+	</Districts>
+	
 </GameData>

@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. When adjacent to Mountains, Woods, or Natural Wonders, City Centers receive +1 [ICON_Faith] Faith, and Holy Sites receive +2 [ICON_Faith] Faith and +1 [ICON_GreatProphet] Great Prophet point. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Additional +1 [ICON_Faith] Faith from Mysticism. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="en_US">
