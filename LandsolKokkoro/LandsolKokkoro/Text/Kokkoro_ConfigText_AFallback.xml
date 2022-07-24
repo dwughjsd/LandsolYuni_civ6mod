@@ -6,7 +6,11 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Additional +1 [ICON_Faith] Faith from Mysticism. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Farms in this city provide +1 [ICON_Production] Production to adjacent Farms.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="en_US">

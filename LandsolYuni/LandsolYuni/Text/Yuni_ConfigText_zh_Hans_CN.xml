@@ -27,6 +27,10 @@
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>图书馆+1 [ICON_GreatWork_Writing] 著作槽位，建有图书馆的学院区+1 [ICON_GreatWriter] 大作家点数。文学著作提供 +2 [ICON_Science] 科技值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
 		</Row>
+
+		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供等于其 [Icon_Science] 科技值产出的 [ICON_Production] 生产力。</Text>
+		</Row>
       
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hans_CN">
 			<Text>兰德索尔公主骑士</Text>
@@ -39,7 +43,7 @@
 			<Text>认知发展哲学</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 [ICON_Science] 科技值和 [ICON_Culture] 文化值。战略资源矿产+1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。</Text>
+			<Text>每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 [ICON_Science] 科技值和 [ICON_Culture] 文化值。战略资源矿产+1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
 		</Row>
 		
 		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="zh_Hans_CN">
@@ -51,7 +55,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>兰德索尔特色建筑物。该城市区域为它们类型的 [ICON_GreatPerson] 伟人点数+1（比如，来自剧院广场区的 [ICON_GreatWriter] 大作家点数）。</Text>
+			<Text>兰德索尔特色建筑物。为该城市+10% [ICON_Production] 生产力，并为每位兰德索尔领袖提供独特加成（详见各位领袖）。</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME" Language="zh_Hans_CN">
@@ -67,7 +71,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。战斗力较射石炮更强，且与陆地和海洋单位作战时+10 [ICON_Strength] 战斗力。</Text>
+			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时+10 [ICON_Strength] 战斗力。</Text>
 		</Row>
 
 	</LocalizedText>

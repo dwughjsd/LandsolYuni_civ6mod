@@ -27,7 +27,11 @@
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="ja_JP">
 			<Text>図書館には [ICON_GreatWork_Writing] 傑作(書物)スロットが1つある。図書館が存在するキャンパス区域毎に [ICON_GreatWriter] 大著述家ポイント+1。[ICON_GreatWork_WRITING] 傑作 (書物) 1つにつき [ICON_SCIENCE] 科学力+2。「電気」技術を研究すると、固有ユニット「ユニコプター」が手に入る。</Text>
 		</Row>
-      
+
+		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ja_JP">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide [ICON_Production] Production equal to their intrinsic [ICON_Science] Science output.</Text>
+		</Row>
+		
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="ja_JP">
 			<Text>ランドソルのプリンセスナイト</Text>
 		</Row>
@@ -39,7 +43,7 @@
 			<Text>認識と発展性の哲学</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="ja_JP">
-			<Text>Every unit gets a free Promotion when produced or upgraded. Campus district and Theater Square district's adjacency bonuses both provide [ICON_SCIENCE] Science and [ICON_CULTURE] Culture. 戦略資源の鉱山の [ICON_Science] 科学力と [ICON_Culture] 文化力+1。</Text>
+			<Text>Every unit gets a free Promotion when produced or upgraded. Campus district and Theater Square district's adjacency bonuses both provide [ICON_SCIENCE] Science and [ICON_CULTURE] Culture. 戦略資源の鉱山の [ICON_Science] 科学力と [ICON_Culture] 文化力+1。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
 		</Row>
 		
 		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="ja_JP">
@@ -52,7 +56,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION" Language="ja_JP">
-			<Text>ランドソル固有の建造物。この都市内の区域では、該当するタイプの [ICON_GreatPerson] 偉人ポイント+1 (例: 劇場広場 (区域) に関しては [ICON_GreatWriter] 大著述家ポイントのみ) が得られる。</Text>
+			<Text>ランドソル固有の建造物。この都市の [ICON_Production] 生産力+10%、and provides unique bonuses for each Landsol leader (see each leader for details).</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME" Language="ja_JP">
@@ -68,7 +72,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="ja_JP">
-			<Text>射石砲に取ってかわるランドソル固有のルネサンス時代の砲撃ユニット。「熟練搭乗員」レベルアップを獲得しない限り、同じターンに移動と攻撃の両方をおこなうことはできない。射石砲より強力で、対陸上および海洋ユニット [ICON_Bombard] 砲撃戦闘力+10。</Text>
+			<Text>射石砲に取ってかわるランドソル固有のルネサンス時代の砲撃ユニット。「熟練搭乗員」レベルアップを獲得しない限り、同じターンに移動と攻撃の両方をおこなうことはできない。対陸上および海洋ユニット [ICON_Bombard] 砲撃戦闘力+10。</Text>
 		</Row>
 
 	</LocalizedText>

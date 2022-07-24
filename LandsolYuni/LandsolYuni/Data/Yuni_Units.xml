@@ -64,15 +64,15 @@
 			<BaseMoves>2</BaseMoves>
 			<Domain>DOMAIN_LAND</Domain>
 			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
-			<Cost>300</Cost>
+			<Cost>280</Cost>
 			<ZoneOfControl>false</ZoneOfControl>
 			<PurchaseYield>YIELD_GOLD</PurchaseYield>
 			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
 			<Maintenance>4</Maintenance>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON</TraitType>
 			<PromotionClass>PROMOTION_CLASS_SIEGE</PromotionClass>
-			<Combat>50</Combat>
-			<Bombard>60</Bombard>
+			<Combat>45</Combat>
+			<Bombard>55</Bombard>
 			<Range>2</Range>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
 			<MandatoryObsoleteTech>TECH_GUIDANCE_SYSTEMS</MandatoryObsoleteTech>

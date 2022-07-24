@@ -15,10 +15,10 @@
 		<m_Values/>
 	</m_CookParams>
 	<m_Version>
-		<major>3</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>176</build>
-		<revision>146</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_DSG text=""/>
 	<m_ClassName text="LeaderEnvironment"/>

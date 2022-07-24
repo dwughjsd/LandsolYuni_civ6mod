@@ -6,7 +6,11 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值，“神秘主义”额外提供+1 [ICON_Faith] 信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：本城市的农田为相邻的农田+1 [ICON_Production] 生产力。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">

@@ -6,20 +6,27 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与学院或宇航中心相邻的港口、剧院广场和工业区的相邻加成也提供 [ICON_Science] 科技值，处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
+			<Text>建有学院或宇航中心的城市建造商业中心、港口、剧院广场和工业区时 +50% [ICON_Production] 生产力。与学院或宇航中心相邻时，这些区域的相邻加成也提供 [ICON_Science] 科技值（不与相同效果叠加，如“自由探索”黄金时代），处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：+2 [ICON_Amenities] 宜居度，+2 [ICON_Culture] 文化值，+1 [ICON_GreatEngineer] 大工程师、 [ICON_GreatMerchant] 大商人、 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。</Text>
+		</Row>
+		
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="zh_Hans_CN">
 			<Text>宇宙蓝闪光</Text>
 		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为所在城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>

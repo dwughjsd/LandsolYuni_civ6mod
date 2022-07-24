@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..ArtDefSet>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>253</build>
-		<revision>293</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_TemplateName text="LeaderFallback"/>
 	<m_RootCollections>

@@ -103,10 +103,10 @@
 		</m_Values>
 	</m_CookParams>
 	<m_Version>
-		<major>4</major>
+		<major>1</major>
 		<minor>0</minor>
-		<build>415</build>
-		<revision>990</revision>
+		<build>0</build>
+		<revision>0</revision>
 	</m_Version>
 	<m_ParticleEffects/>
 	<m_Geometries/>

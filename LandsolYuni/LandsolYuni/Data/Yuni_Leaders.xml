@@ -58,14 +58,13 @@
 			<ModifierId>TRAIT_THEATER_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CAMPUS_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-
 		</Row>
+		
 		<Row>
 			<ModifierId>TRAIT_THEATER_SCIENCE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
@@ -381,7 +380,7 @@
 	</AiFavoredItems>
 
 
-<!--A nasty workaround for Babylon. Doesn't work if Babylon is modified. Doesn't work when...-->
+	<!--A nasty workaround for Babylon. Doesn't work if Babylon is modified. Doesn't work when...-->
 
 	<Modifiers>
 		<Update>
@@ -527,5 +526,74 @@
 		<Row RequirementId="REQUIRES_PLAYER_IS_YUNI" Name="LeaderType" Value="LEADER_SHINGYOUJI_YUNI"/>
 		<Row RequirementId="REQUIRES_PLAYER_IS_NOT_YUNI" Name="LeaderType" Value="LEADER_SHINGYOUJI_YUNI"/>
 	</RequirementArguments>
-<!--I really hate workarounds.-->
+	<!--I really hate workarounds.-->
+
+	<!--Guildhouse Bonuses-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_LIBRARY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<!--End-->
 </GameData>

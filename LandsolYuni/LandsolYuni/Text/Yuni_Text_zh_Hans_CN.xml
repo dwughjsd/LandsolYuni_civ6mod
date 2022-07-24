@@ -15,7 +15,7 @@
 			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。在优妮看来，学识皆有价值，不分高下贵贱，科学发展不必拖累文化积累。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>优妮的学院和剧院广场能够同时提供 [ICON_Science] 科技值 和 [ICON_Culture] 文化值。他们获取 [ICON_Science] 科技值的另一种方法是在图书馆中放置 [ICON_GreatWork_Writing] 著作。他们的图书馆建筑本身也提供获得 [ICON_GreatWriter] 大作家点数的独特方法。利用公会之家建筑，他们可以大大加强利用伟人强化自身的能力。除此之外，如果必须进行战争，领导兰德索尔的优妮也能使用其领袖能力“认知发展哲学”建立精锐部队。</Text>
+			<Text>优妮的学院和剧院广场能够同时提供 [ICON_Science] 科技值 和 [ICON_Culture] 文化值。他们获取 [ICON_Science] 科技值的另一种方法是在图书馆中放置 [ICON_GreatWork_Writing] 著作。他们的图书馆建筑本身也提供获得 [ICON_GreatWriter] 大作家点数的独特方法。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。除此之外，如果必须进行战争，领导兰德索尔的优妮也能使用其领袖能力“认知发展哲学”建立精锐部队。</Text>
 		</Row>
 		
 		<!-- 领袖百科-->
