@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Filename="LeaderYuni32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+		<Row Filename="LeaderYuni256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_SHINGYOUJI_YUNI"/>
+
+		<Row Filename="Landsol256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol44" IconsPerColumn="1" IconsPerRow="1" IconSize="44" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol36" IconsPerColumn="1" IconsPerRow="1" IconSize="36" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_LANDSOL"/>
+		<Row Filename="Landsol22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_LANDSOL"/>
+
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="22"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units22.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="32"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units32.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="38"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units38.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="50"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units50.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="80"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units80.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="256" IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units256.dds"/>
+
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="38" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_UnitPortraits38"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="50" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_UnitPortraits50"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="70" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_UnitPortraits70"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="95" IconsPerRow="4" IconsPerColumn="4"  Filename="XP1_UnitPortraits95"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="200" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_UnitPortraits200"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" IconSize="256" IconsPerRow="4" IconsPerColumn="4" Filename="XP1_UnitPortraits256"/>
+
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="256" IconsPerRow="16" IconsPerColumn="8" Filename="Units256.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="80" IconsPerRow="16" IconsPerColumn="8" Filename="Units80.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="50" IconsPerRow="16" IconsPerColumn="8" Filename="Units50.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="38" IconsPerRow="16" IconsPerColumn="8" Filename="Units38.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="32" IconsPerRow="16" IconsPerColumn="8" Filename="Units32.dds"/>
+		<Row Name="ICON_ATLAS_YUNI_UNITS" IconSize="22" IconsPerRow="16" IconsPerColumn="8" Filename="Units22.dds"/>
+
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits256_1"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="200" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits200_1"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="95" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits95_1"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits70_1"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits50_1"/>
+		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits38_1"/>
+
+
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_LANDSOL" Atlas="ICON_ATLAS_LANDSOL" Index="0"/>
+		<Row Name="ICON_LEADER_SHINGYOUJI_YUNI" Atlas="ICON_ATLAS_SHINGYOUJI_YUNI" Index="0"/>
+		<Row Name="ICON_BUILDING_GUILDHOUSE" Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<Row Name="ICON_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Atlas="ICON_ATLAS_YUNI_UNITS" Index="56"/>
+		<Row Name="ICON_UNIT_LANDSOL_YUNICOPTER" Atlas="ICON_ATLAS_YUNI_UNITS_2" Index="8"/>
+		<Row Name="ICON_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_PORTRAIT" Atlas="ICON_ATLAS_YUNI_UNIT_PORTRAITS" Index="54"/>
+		<Row Name="ICON_UNIT_LANDSOL_YUNICOPTER_PORTRAIT" Atlas="ICON_ATLAS_YUNI_UNIT_PORTRAITS_2" Index="8"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Filename="LeaderHikawaKyouka32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+		<Row Filename="LeaderHikawaKyouka256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_HIKAWA_KYOUKA"/>
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_HIKAWA_KYOUKA" Atlas="ICON_ATLAS_HIKAWA_KYOUKA" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Filename="LeaderKokkoroPrincess32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess45" IconsPerColumn="1" IconsPerRow="1" IconSize="45" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess48" IconsPerColumn="1" IconsPerRow="1" IconSize="48" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess55" IconsPerColumn="1" IconsPerRow="1" IconSize="55" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess64" IconsPerColumn="1" IconsPerRow="1" IconSize="64" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+		<Row Filename="LeaderKokkoroPrincess256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_NATSUME_KOKORO_PRINCESS"/>
+
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="256" IconsPerRow="16" IconsPerColumn="8" Filename="Units256.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="80" IconsPerRow="16" IconsPerColumn="8" Filename="Units80.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="50" IconsPerRow="16" IconsPerColumn="8" Filename="Units50.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="38" IconsPerRow="16" IconsPerColumn="8" Filename="Units38.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="32" IconsPerRow="16" IconsPerColumn="8" Filename="Units32.dds"/>
+		<Row Name="ICON_ATLAS_UNITS_KOKKORO" IconSize="22" IconsPerRow="16" IconsPerColumn="8" Filename="Units22.dds"/>
+
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="256" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits256_1"/>
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="200" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits200_1"/>
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="95" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits95_1"/>
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits70_1"/>
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits50_1"/>
+		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits38_1"/>
+
+
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_NATSUME_KOKORO_PRINCESS" Atlas="ICON_ATLAS_NATSUME_KOKORO_PRINCESS" Index="0"/>
+		<Row Name="ICON_UNIT_LANDSOL_MIKO_OF_AMES" Atlas="ICON_ATLAS_UNITS_KOKKORO" Index="18"/>
+		<Row Name="ICON_UNIT_LANDSOL_MIKO_OF_AMES_PORTRAIT"                   Atlas="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   Index="16"/>
+	</IconDefinitions>
+</GameData>

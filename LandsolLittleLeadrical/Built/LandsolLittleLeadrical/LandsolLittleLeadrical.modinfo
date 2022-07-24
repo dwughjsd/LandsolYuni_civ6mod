@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f370d486-00c2-4228-bd7e-2d8a71a32af4" version="1">
+  <Properties>
+    <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
+    <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
+    <CustomProperties></CustomProperties>
+    <Created>1653992888</Created>
+    <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
+    <Authors>UzukiShimamura</Authors>
+    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians</SpecialThanks>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+    <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE">
+      <en_US>Little Lead-rical of Landsol Civilization Pack</en_US>
+      <zh_Hans_CN>兰德索尔的儿童文明包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER">
+      <en_US>New Civilization and Leader - Yuni, Kokkoro (Princess) and Kyoka of Landsol</en_US>
+      <zh_Hans_CN>新文明和领袖——兰德索尔的优妮、可可萝（公主）和镜华</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION">
+      <en_US>Contains a new civilization and 3 leaders.</en_US>
+      <zh_Hans_CN>包含1个新文明及3位领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="LandsolYuni">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LandsolYuni_Expansion1">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LandsolYuni_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="LandsolYuni_Expansion1_Expansion2">
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    </Criteria>
+    <Criteria id="Vietnam">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable>
+      <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/Yuni_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
+      <File>Text/Yuni_ConfigText_ja_JP.xml</File>
+      <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
+      <File>Text/Yuni_ConfigText_AFallback.xml</File>
+      <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
+    </UpdateText>
+    <UpdateIcons id="ConfigIcons">
+      <File>Data/Yuni_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="ConfigArt">
+      <File>LandsolYuni.dep</File>
+    </UpdateArt>
+    <UpdateColors id="ConfigColors">
+      <File>Data/Yuni_Colors.xml</File>
+    </UpdateColors>
+    <ImportFiles id="NewAction">
+      <File>UI/FrontEnd/LoadScreen.lua</File>
+    </ImportFiles>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Data/Yuni_Leaders.xml</File>
+      <File>Data/Yuni_Civilizations.xml</File>
+      <File>Data/Yuni_Buildings.xml</File>
+      <File>Data/Yuni_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
+      <File>Text/Yuni_Text_zh_Hans_CN.xml</File>
+      <File>Text/Yuni_ConfigText_ja_JP.xml</File>
+      <File>Text/Yuni_Text_ja_JP.xml</File>
+      <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
+      <File>Text/Yuni_Text_zh_Hant_HK.xml</File>
+      <File>Text/Yuni_ConfigText_AFallback.xml</File>
+      <File>Text/Yuni_Text_AFallback.xml</File>
+      <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Data/Yuni_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>LandsolYuni</Criteria>
+      <File>LandsolYuni.dep</File>
+    </UpdateArt>
+    <UpdateDatabase id="Gameplay_Vietnam">
+      <Criteria>Vietnam</Criteria>
+      <Criteria>LandsolKokkoro</Criteria>
+      <File>Data/Kokkoro_Vietnam.xml</File>
+    </UpdateDatabase>
+    <UpdateColors id="Colors">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Data/Yuni_Colors.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="Gameplay_XP1">
+      <Criteria>LandsolYuni_Expansion1</Criteria>
+      <File>Data/Yuni_Expansion1.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="Gameplay_XP2">
+      <Criteria>LandsolYuni_Expansion2</Criteria>
+      <File>Data/Yuni_Expansion2.xml</File>
+    </UpdateDatabase>
+    <UpdateLogitechARX id="ARX">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
+    </UpdateLogitechARX>
+    <UpdateDatabase id="Gameplay_XP1_XP2">
+      <Criteria>LandsolYuni_Expansion1_Expansion2</Criteria>
+      <File>Data/Yuni_Expansion1_Expansion2.xml</File>
+    </UpdateDatabase>
+    <UpdateAudio id="Audio">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Platforms/Windows/Audio/YuniBanks.ini</File>
+    </UpdateAudio>
+    <ImportFiles id="UI">
+      <File>UI/DiplomacyActionView.lua</File>
+      <File>UI/FrontEnd/LoadScreen.lua</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Civilizations.artdef</File>
+    <File>ArtDefs/Cultures.artdef</File>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>ArtDefs/Overlay.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
+    <File>Data/Kokkoro_Vietnam.xml</File>
+    <File>Data/Yuni_Buildings.xml</File>
+    <File>Data/Yuni_Civilizations.xml</File>
+    <File>Data/Yuni_Colors.xml</File>
+    <File>Data/Yuni_Config.xml</File>
+    <File>Data/Yuni_Expansion1.xml</File>
+    <File>Data/Yuni_Expansion1_Expansion2.xml</File>
+    <File>Data/Yuni_Expansion2.xml</File>
+    <File>Data/Yuni_Icons.xml</File>
+    <File>Data/Yuni_Leaders.xml</File>
+    <File>Data/Yuni_Units.xml</File>
+    <File>LandsolYuni.dep</File>
+    <File>Platforms/Windows/Audio/1006496830.wem</File>
+    <File>Platforms/Windows/Audio/101507949.wem</File>
+    <File>Platforms/Windows/Audio/103432473.wem</File>
+    <File>Platforms/Windows/Audio/206622139.wem</File>
+    <File>Platforms/Windows/Audio/674508563.wem</File>
+    <File>Platforms/Windows/Audio/863210107.wem</File>
+    <File>Platforms/Windows/Audio/932841017.wem</File>
+    <File>Platforms/Windows/Audio/942316464.wem</File>
+    <File>Platforms/Windows/Audio/Landsol_Music_Bank.bnk</File>
+    <File>Platforms/Windows/Audio/Landsol_Music_Bank.txt</File>
+    <File>Platforms/Windows/Audio/Landsol_Music_Bank.xml</File>
+    <File>Platforms/Windows/Audio/Landsol_Speech.bnk</File>
+    <File>Platforms/Windows/Audio/Landsol_Speech.txt</File>
+    <File>Platforms/Windows/Audio/Landsol_Speech.xml</File>
+    <File>Platforms/Windows/Audio/YuniBanks.ini</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_yuni.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Landsol</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Pressure_Landsol</File>
+    <File>Platforms/Windows/BLPs/strategicview/strategicview_uilenses.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/UILensAssets.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
+    <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
+    <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
+    <File>Text/Yuni_ConfigText_AFallback.xml</File>
+    <File>Text/Yuni_ConfigText_ja_JP.xml</File>
+    <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
+    <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
+    <File>Text/Yuni_Text_AFallback.xml</File>
+    <File>Text/Yuni_Text_ja_JP.xml</File>
+    <File>Text/Yuni_Text_zh_Hans_CN.xml</File>
+    <File>Text/Yuni_Text_zh_Hant_HK.xml</File>
+    <File>UI/DiplomacyActionView.lua</File>
+    <File>UI/FrontEnd/LoadScreen.lua</File>
+  </Files>
+</Mod>

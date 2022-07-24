@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Leaders>
+		<Update>
+			<Where LeaderType="LEADER_SHINGYOUJI_YUNI"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HIKAWA_KYOUKA"/>
+			<Set>
+				<Sex>Female</Sex>
+			</Set>
+		</Update>
+	</Leaders>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_GUILDHOUSE" Texture="Moment_Infrastructure_Landsol"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_YUNICOPTER" Texture="Moment_UniqueUnit_Landsol_Yunicopter"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Texture="Moment_LiberateCity.dds"/>
+	</MomentIllustrations>
+	<TypeTags>
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_TARGETTING_ASSIST"/>
+	</TypeTags>
+	<Units_XP2>
+		<Row UnitType="UNIT_LANDSOL_YUNICOPTER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
+
+	<Types>
+		<Row Type="NAMED_RIVER_DYSTAL" Kind="KIND_NAMED_RIVER"/>
+		<Row Type="NAMED_VOLCANO_VARIO" Kind="KIND_NAMED_VOLCANO"/>
+		<Row Type="NAMED_VOLCANO_THALIA" Kind="KIND_NAMED_VOLCANO"/>	
+		<Row Type="NAMED_MOUNTAIN_ORAL" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_THEMIS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_MATHILDE" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_MOUNTAIN_LEDEUS" Kind="KIND_NAMED_MOUNTAIN"/>
+		<Row Type="NAMED_DESERT_GENUA" Kind="KIND_NAMED_DESERT"/>
+		<Row Type="NAMED_LAKE_LAKE_FLORA" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_LAKE_LAKE_VENA" Kind="KIND_NAMED_LAKE"/>
+		<Row Type="NAMED_SEA_MALJEAN" Kind="KIND_NAMED_SEA"/>
+		<Row Type="NAMED_SEA_LORETTA" Kind="KIND_NAMED_SEA"/>
+	</Types>
+
+	<NamedRivers>
+		<Row NamedRiverType="NAMED_RIVER_DYSTAL" Name="LOC_NAMED_RIVER_DYSTAL_NAME"/>
+	</NamedRivers>
+	<NamedVolcanoes>
+		<Row NamedVolcanoType="NAMED_VOLCANO_VARIO" Name="LOC_NAMED_VOLCANO_VARIO_NAME"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_THALIA" Name="LOC_NAMED_VOLCANO_THALIA_NAME"/>
+	</NamedVolcanoes>
+	<NamedMountains>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ORAL" Name="LOC_NAMED_MOUNTAIN_ORAL_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_THEMIS" Name="LOC_NAMED_MOUNTAIN_THEMIS_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_MATHILDEL" Name="LOC_NAMED_MOUNTAIN_MATHILDE_NAME"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_LEDEUS" Name="LOC_NAMED_MOUNTAIN_LEDEUS_NAME"/>
+	</NamedMountains>
+	<NamedDeserts>
+		<Row NamedDesertType="NAMED_DESERT_GENUA" Name="LOC_NAMED_DESERT_GENUA_NAME"/>
+	</NamedDeserts>
+	<NamedLakes>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_FLORA" Name="LOC_NAMED_LAKE_LAKE_FLORA_NAME"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_VENA" Name="LOC_NAMED_LAKE_LAKE_VENA_NAME"/>	
+	</NamedLakes>
+	<NamedSeas>
+		<Row NamedSeaType="NAMED_SEA_MALJEAN" Name="LOC_NAMED_SEA_MALJEAN_NAME"/>
+		<Row NamedSeaType="NAMED_SEA_LORETTA" Name="LOC_NAMED_SEA_LORETTA_NAME"/>	
+	</NamedSeas>
+	
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_DYSTAL" CivilizationType="CIVILIZATION_LANDSOL"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_VARIO" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_THALIA" CivilizationType="CIVILIZATION_LANDSOL"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ORAL" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_THEMIS" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_MATHILDEL" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_LEDEUS" CivilizationType="CIVILIZATION_LANDSOL"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+		<Row NamedDesertType="NAMED_DESERT_GENUA" CivilizationType="CIVILIZATION_LANDSOL"/>
+	</NamedDesertCivilizations>
+	<NamedLakeCivilizations>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_FLORA" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedLakeType="NAMED_LAKE_LAKE_VENA" CivilizationType="CIVILIZATION_LANDSOL"/>	
+	</NamedLakeCivilizations>
+	<NamedSeaCivilizations>
+		<Row NamedSeaType="NAMED_SEA_MALJEAN" CivilizationType="CIVILIZATION_LANDSOL"/>
+		<Row NamedSeaType="NAMED_SEA_LORETTA" CivilizationType="CIVILIZATION_LANDSOL"/>
+	</NamedSeaCivilizations>
+	
+	<AiFavoredItems>
+		<Row ListType="ShingyoujiYuniWonders" Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/>
+		<Row ListType="ShingyoujiYuniTechs" Item="TECH_ADVANCED_AI" Favored="true"/>
+	</AiFavoredItems>
+
+	<Traits>
+		<Update>
+			<Where Description="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2"/>
+		</Update>
+	</Traits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_DIGNIFIED_AND_DELICATE" AgendaTwo="AGENDA_FLAT_EARTHER"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+	</ModifierArguments>
+
+	<AiListTypes>
+		<Row ListType="HikawaKyoukaResolutions"/>
+		<Row ListType="HikawaKyoukaDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="HikawaKyoukaResolutions" AgendaType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" System="Resolutions"/>
+		<Row ListType="HikawaKyoukaDiscussions" AgendaType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" System="Discussions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="HikawaKyoukaResolutions" Item="WC_RES_MERCENARY_COMPANIES" Favored="true"/>
+		<Row ListType="HikawaKyoukaResolutions" Item="WC_RES_BORDER_CONTROL" Favored="true"/>
+		<Row ListType="HikawaKyoukaDiscussions" Item="WC_EMERGENCY_MILITARY" Favored="true"/>
+	</AiFavoredItems>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_MIKO_OF_AMES" Texture="Moment_NationalPark.dds"/>
+	</MomentIllustrations>
+	<!--Wontfix: The relations tooltip for this agenda won't work with only "unknown reason" can be shown, and there is no way to fix. Fuck firaxis for making it unmoddable-->
+	<Agendas>
+		<Update>
+			<Where AgendaType="AGENDA_GUIDE_OF_NATURE"/>
+			<Set>
+				<Description>LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2</Description>
+			</Set>
+		</Update>
+	</Agendas>
+	<Modifiers>
+		<Update>
+			<Where ModifierId="AGENDA_GUIDE_OF_NATURE"/>
+			<Set>
+				<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_KAITIAKITANGA</ModifierType>
+			</Set>
+		</Update>
+	</Modifiers>
+	<ModifierArguments>
+		<Delete ModifierId="AGENDA_GUIDE_OF_NATURE"/>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>TopPercentage</Name>
+			<Value>60</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>BottomPercentage</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>TopRankingDiploMod</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
+			<Name>BottomRankingDiploMod</Name>
+			<Value>-8</Value>
+		</Row>
+	</ModifierArguments>
+	<Units_XP2>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+	</Units_XP2>
+
+</GameData>

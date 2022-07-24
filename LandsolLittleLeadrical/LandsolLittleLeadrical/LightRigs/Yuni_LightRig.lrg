@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..LightRigInstance>
+	<m_AnimationSet>
+		<m_Bindings/>
+	</m_AnimationSet>
+	<m_LightRefs>
+		<m_AnalyticLights/>
+		<m_EnvironmentLights>
+			<Element>
+				<m_LightName text="Yuni_Environment"/>
+			</Element>
+		</m_EnvironmentLights>
+	</m_LightRefs>
+	<m_CookParams>
+		<m_Values/>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>176</build>
+		<revision>146</revision>
+	</m_Version>
+	<m_DSG text=""/>
+	<m_ClassName text="LeaderEnvironment"/>
+	<m_DataFiles/>
+	<m_Name text="Yuni_LightRig"/>
+	<m_Description text=""/>
+	<m_Tags>
+		<Element text="LeaderEnvironment"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..LightRigInstance>
+

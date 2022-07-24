@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_NAME" Language="zh_Hans_CN">
+			<Text>兰德索尔</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兰德索尔帝国</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>兰德索尔的</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_NAME" Language="zh_Hans_CN">
+			<Text>优妮</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为优妮增加一个额外领袖特性“{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}”：{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME" Language="zh_Hans_CN">
+			<Text>博学者的教诲</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>图书馆+1 [ICON_GreatWork_Writing] 著作槽位，建有图书馆的学院区+1 [ICON_GreatWriter] 大作家点数。文学著作提供 +2 [ICON_Science] 科技值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
+		</Row>
+      
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hans_CN">
+			<Text>兰德索尔公主骑士</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为每个兰德索尔领袖增加一个额外领袖特性。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME" Language="zh_Hans_CN">
+			<Text>认知发展哲学</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 [ICON_Science] 科技值和 [ICON_Culture] 文化值。战略资源矿产+1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。</Text>
+		</Row>
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="zh_Hans_CN">
+			<Text>优妮，圣特蕾莎学园的第一才女，带着您的所学，走出象牙塔开始探索吧。有您的智慧和同伴相助，您将揭开世界的真相。了解万物之变化，带领人民走出迷茫，历史将会记住您的名字和丰功伟绩。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GUILDHOUSE_NAME" Language="zh_Hans_CN">
+			<Text>公会之家</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兰德索尔特色建筑物。该城市区域为它们类型的 [ICON_GreatPerson] 伟人点数+1（比如，来自剧院广场区的 [ICON_GreatWriter] 大作家点数）。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME" Language="zh_Hans_CN">
+			<Text>优妮旋翼机</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>优妮作为领袖时的兰德索尔特色现代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位+1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="zh_Hans_CN">
+			<Text>王宫骑士团炮</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时+10 [ICON_Strength] 战斗力。</Text>
+		</Row>
+
+	</LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>小小优等生</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与学院或宇航中心相邻的商业中心、港口、剧院广场和工业区为它们类型的 [ICON_GreatPerson] 伟人点数+1（剧院广场区是 [ICON_GreatWriter] 大作家点数），且相邻加成也提供 [ICON_Science] 科技值（不与相同效果叠加，如“自由探索”黄金时代），处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="zh_Hans_CN">
+			<Text>宇宙蓝闪光</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>镜华</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="zh_Hans_CN">
+			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与你的盟友开始您的大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">
+			<Text>纯白神启</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值，“神秘主义”额外提供+1 [ICON_Faith] 信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">
+			<Text>极光圣界</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">
+			<Text>可可萝（公主）</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Language="zh_Hans_CN">
+			<Text>爱梅斯巫女</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。能让 [ICON_Citizen] 公民皈依其所属的宗教，可对其他宗教的单位发动神学战争。只能使用 [ICON_Faith] 信仰值购买。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="zh_Hans_CN">
+			<Text>爱梅斯大人向您降下了新的神谕，可可萝，小小的引导者。壮丽的自然世界是您的力量之源，您将在它的帮助下稳稳守护您的人民和盟友。若是您能坚定您的信仰，神明定会回应您的呼唤。伴着风之精灵的祝福出发吧，您必将无往不利。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,138 @@
+[h1]此mod需要迭起兴衰或风云变幻资料片才能运行。[/h1]
+
+[h1]优妮、可可萝（公主）、镜华领导的兰德索尔：先睹为快[/h1]
+
+优妮、可可萝、镜华位列《公主连结 Re:Dive》最受欢迎的角色之中。本领袖包包含了三位体型娇小的领袖，在儿童节到来之际为《文明6》添加一抹童趣。
+
+兰德索尔的特色建筑是公会之家，可为城市提供额外的生产力和伟人点数。特色单位“王宫骑士团炮”解锁于文艺复兴时期，拥有更强的战斗力，不需要战略资源，并且在攻击单位时拥有较少的战斗力惩罚。
+
+优妮的特色能力是“博学者的教诲”。建设图书馆可以获得额外的大作家点数和文学著作槽位，且文学著作可以提供额外的科技值。她同样带来了“优妮旋翼机”单位，比其所替代的无人机要更早解锁且更为廉价。
+
+文明特性“兰德索尔公主骑士”是一种特别的能力，对于每位领导兰德索尔的领袖而言，它都提供截然不同的加成。对于优妮，此特性提供的是“认知发展哲学”，令学院、剧院广场的相邻加成同时提供科技值和文化值，且单位在生产或升级完成后能获得一次免费的晋升。
+
+可可萝的“公主”造型的独特能力是“纯白神启”。国家公园可以为城市提供信仰产出加成。若与山脉、森林或自然奇观相邻，市中心和圣地可以得到信仰和大预言家点数。公主可可萝还提供“爱梅斯巫女”单位，这一平民单位在重商主义市政即可解锁，可以在建设一个国家公园之前先进行宗教传播。
+
+“兰德索尔公主骑士”特性为她提供的是“极光圣界”。建设保护区的速度加快一倍，且保护区建筑可以为两格以内的单元格提供产出加成。若城市建立在冻土和雪地，则可以获得额外的魅力。在魅力较高的单元格，单位也可以获得额外回复。
+
+镜华的独特能力是“小小优等生”。与学院或宇航中心相邻的港口、剧院广场和工业区的相邻加成也提供科技值，且如果在黄金时代中，这些区域还提供等量的生产力。
+
+“兰德索尔公主骑士”特性为她提供的是“宇宙蓝闪光”，令水域可以为他们提供大量战术和战略优势。沿河的学院可以获得额外的大量相邻加成。若学院与海岸相邻，则可以为本城市的海岸和海洋单元格提供额外的科技值加成，以及为海洋单元格提供生产力。沿河或沿海的陆地远程单位获得额外射程。此外，宇航中心可以增强城市的科技值和生产力，并为城市提供额外电力。
+
+您能够成为小小的伟大领袖吗？您将会如何带领兰德索尔建立经得起时间考验的文明？
+
+[h1]模组特性：[/h1]
+
+[b]强力而不超模。[/b]每位领袖的能力均鼓励一种独特的游玩方式，并在设计时充分考虑了领袖的能力强度，使其拥有充分的竞争力但并不显著过强。
+
+[b]忠于原作。[/b]本作品在制作过程中进行了精细的考证，包括人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
+
+[b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
+
+[b]背景音乐和领袖语音（仅优妮）。[/b]是谁从Wwise Soundbank中寻找了播放音频的正确方式？是的，就是我！
+
+[h1]已知问题：[/h1]
+
+文学著作提供的额外科技值可能与其他模组冲突，致使其效果无法正常工作。
+
+音乐播放有时会存在问题，具体表现与官方的越南和葡萄牙文明相同。
+
+文明百科仅支持简体中文。
+
+爱梅斯巫女的宗教传播次数或创建国家公园次数的任意一个耗尽均会导致该单位被解散。
+
+可可萝和镜华的议程在关系面板中会显示为“未知原因”，但效果正常生效。
+
+若开启“栩栩如生的领袖”，有模型的领袖的动画播放可能会出现问题。
+
+本模组替换了加载界面和外交界面以隐藏不需要的“兰德索尔公主骑士”字样。若您安装有修改以上界面的模组，您将会看到本条特性，但没有更多效果。
+
+[h1]需要帮助：[/h1]
+
+（1）领袖动画和语音
+（2）重新编曲的音乐
+（3）更多语言的本地化
+（4）图标和时代得分美术
+
+[h1]特别感谢：[/h1]
+
+[b]Kevin Liu[/b]：帮助我完成了领袖语音试验的重要环节。他在一局游戏中建设了70座国家公园，成为可可萝特性的灵感来源。
+[b]hemmelfort[/b]：为模组作者提供了关于blender的操作说明，以及一系列其他教程。
+[b]Boa of the Boaians[/b]：帮助完成并调整了部分英文文本。
+[b]姥鲨[/b]：为本模组的领袖特性提供了建议和测试，并且花了很长时间叫我把这鬼东西上传到工坊……
+[b]浪子[/b]：和前一位一起，花了很长时间叫我上传……
+
+封面图像：RYUKI（pixiv插画ID：80628407）。本模组使用了来自手机游戏《公主连结 Re:Dive》的素材。模组作者并不拥有素材的所有权。
+
+我是个（还算）熟练的文明6mod作者，同时也是一个文明6mod群的管理员。需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入文明6模组制作讨论QQ群（711403691）联系我。
+
+
+[h1]↑ Please leave a positive rate if you like this mod. Much appreciation![/h1]
+
+[h1]This mod needs either Rise & Fall or Gathering Storm to work.[/h1]
+
+[h1]Yuni, Kokkoro (Princess) and Kyoka Lead Landosol: First Look[/h1]
+
+Yuni, Kokkoro and Kyoka are some of the most popular characters in the mobile game Princess Connect Re:Dive. This mod contains three little leaders, and brings some cuteness to Civilization VI to celebrate China's Children's Day (June 1).
+
+Guildhouse is the unique building of Landosol, which provides additional Production and Great People Points to the city it's in. The unique unit Royal Palace Cannon is unlocked at Renaissance Era, with stronger Combat Strength, no need of Strategical resource, and receives less penalty when attacking units.
+
+Yuni's unique ability is Knowledge of Erudites. Constructing Library can provide extra Great Writer Points and Writing great work slot, and Writing great works provide extra Science. She also unlocks Yunicopter, which is available earlier and cheaper than the Drone unit it replaces. 
+
+The unique ability of Landosol civilization Princess Knight is a special ability that provides entirely different abilities to each Landosol leader. For Yuni, this ability grants Philosophy of Cognition and Development, which allows Campuses, Theater Squares and Mines on strategic resources provide Science and Culture at the same time, and let units receive a free Promotion when they are produced or upgraded.
+
+The Princess Persona of Kokkoro has an unique ability named Pure White Revelation. Cities with a National Park receive bonus Faith. When adjacent to Mountains, Woods, or Natural Wonders, City Centers and Holy Sites receive Faith and Great Prophet points. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Mercantilism, and can spread religion before creating a National Park. 
+
+Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, and the effect range of Preserve buildings are extended by 1. If cities are built on Tundra or Snow, they will have bonus Appeal. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
+
+The unique ability of Kyoka is Little Model Student. Adjacency bonuses of Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide Science as well. They also provide additional Production when in a Golden Age.
+
+Princess Knight grants her Cosmo Blue Flash, allowing water to provide them with tactical and strategical advantages. Campuses are granted an extra Major adjacency with Rivers. When they are adjacent to Coast tiles, they also provide bonus Science to Coast and Ocean tiles and Production to Ocean tiles. Ranged units receive Range bonus when adjacent to a River or Coast. Additionally, Spaceports can enhance Science and Production output of the city they are in, and provide some free Power.
+
+Can you become a little great leader? How will you lead Landosol to build a civilization that stands the test of time?
+
+[b]For detailed ability description, see discusstions below.[/b]
+
+[h1]Mod Highlights:[/h1]
+
+[b]"Powered" without "Over"[/b]: Each Landosol leader has several abilities that promote an unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+
+[b]Lore-Loyalty[/b]: This mod is made with a fine research of the original Princess Connect franchise, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
+
+[b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
+
+[b]Background Music and Leader Speech (Yuni only)[/b]: Who found the correct way to play audios in Wwise Soundbanks? Yes, that was me!
+
+[h1]Known issues:[/h1]
+
+Extra Science from Writing great works will conflict with other mods that also provide the same bonus, thus causing Science output of Writing great works to be calculated erroneously.
+
+Music playback sometimes can be glitchy, with the same issues of official Vietnam and Portugal civilizations.
+
+Civilopedia article is in Simplified Chinese only.
+
+The Miko of Ameth unit will be disbanded once either Religion Spread Charges or National Park Charge is depleted.
+
+Kokkoro and Kyoka's Agendas will be shown as Unknown Reason in relationship panel, but their effects works correctly.
+
+Animations of leaders with a 3D model might have minor playback issue if Animated Leader is enabled.
+
+This mod replaces loading screen and diplomacy screen to hide unneeded Princess Knight entries (as it becomes an unique ability of each leader). If you enabled mods that replace them, you will see a redundant unique ability without extra effects.
+
+[h1]Help needed:[/h1]
+
+(1)Leader animations and speeches
+(2)Recomposed music
+(3)More localization (text)
+(4)Icons and historical moment assets
+
+[h1]Special Thanks:[/h1]
+
+[b]Kevin Liu[/b]: For his help in experiments about leader speeches, and for building 70 National Parks in one game, which inspired me to create Kokkoro.
+[b]hemmelfort[/b]: For providing tutorials of blender and CivVI modding.
+[b]Boa of the Boaians[/b]: For help in English text revision.
+[b]Lao Sha[/b]: For suggestions and tests for leader abilities, and for wasting a lot of time asking me to upload this to the Workshop... 
+[b]榊野木乃实[/b]: For asking me to upload this with previous guy...
+
+Cover image by RYUKI (pixiv illustration ID: 80628407). This mod uses assets from the mobile game Princess Connect Re:Dive. The author of this mod DOES NOT own these assets.
+
+I am a (somewhat) seasoned modder for CivVI and a moderator of a Chinese CivVI modding group chat. Need modding support, or found some issues? PM me on Steam or join QQ group 711403691 to contact me.

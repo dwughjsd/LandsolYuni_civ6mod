@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_LANDSOL_YUNICOPTER" Kind="KIND_UNIT" />
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Kind="KIND_UNIT" />
+		<Row Type="ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_LANDSOL_YUNICOPTER" Kind="KIND_ABILITY"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_LANDSOL_ROYALPALACE_ORDER_CANNON" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LANDSOL_YUNICOPTER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LANDSOL_YUNICOPTER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_SIEGE_SETUP"/>
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_LANDSOL_ROYALPALACE_ORDER_CANNON"/>
+		<Row Type="UNIT_LANDSOL_YUNICOPTER" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_LANDSOL_YUNICOPTER" Tag="CLASS_SUPPORT"/>
+		<Row Type="UNIT_LANDSOL_YUNICOPTER" Tag="CLASS_DRONE"/>
+		<Row Type="UNIT_LANDSOL_YUNICOPTER" Tag="CLASS_LANDSOL_YUNICOPTER"/>
+		<Row Type="ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON" Tag="CLASS_LANDSOL_ROYALPALACE_ORDER_CANNON"/>
+		<!--<Row Type="ABILITY_LANDSOL_YUNICOPTER" Tag="CLASS_LANDSOL_YUNICOPTER"/>-->
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON" Name="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Description="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_LANDSOL_YUNICOPTER" Name="LOC_ABILITY_LANDSOL_YUNICOPTER_NAME" Description="LOC_ABILITY_LANDSOL_YUNICOPTER_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LANDSOL_YUNICOPTER" ReplacesUnitType="UNIT_DRONE"/>
+		<Row CivUniqueUnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" ReplacesUnitType="UNIT_BOMBARD"/>
+	</UnitReplaces>
+	<Units>
+		<Row>
+			<UnitType>UNIT_LANDSOL_YUNICOPTER</UnitType>
+			<Name>LOC_UNIT_LANDSOL_YUNICOPTER_NAME</Name>
+			<Description>LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION</Description>
+			<BaseSightRange>5</BaseSightRange>
+			<BaseMoves>3</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_SUPPORT</FormationClass>
+			<Cost>320</Cost>
+			<ZoneOfControl>false</ZoneOfControl>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<Maintenance>3</Maintenance>
+			<TraitType>TRAIT_LEADER_UNIT_LANDSOL_YUNICOPTER</TraitType>
+			<PromotionClass>PROMOTION_CLASS_SUPPORT</PromotionClass>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+		</Row>
+		<Row>
+			<UnitType>UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON</UnitType>
+			<Name>LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME</Name>
+			<Description>LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION</Description>
+			<BaseSightRange>2</BaseSightRange>
+			<BaseMoves>2</BaseMoves>
+			<Domain>DOMAIN_LAND</Domain>
+			<FormationClass>FORMATION_CLASS_LAND_COMBAT</FormationClass>
+			<Cost>280</Cost>
+			<ZoneOfControl>false</ZoneOfControl>
+			<PurchaseYield>YIELD_GOLD</PurchaseYield>
+			<AdvisorType>ADVISOR_CONQUEST</AdvisorType>
+			<Maintenance>4</Maintenance>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON</TraitType>
+			<PromotionClass>PROMOTION_CLASS_SIEGE</PromotionClass>
+			<Combat>45</Combat>
+			<Bombard>55</Bombard>
+			<Range>2</Range>
+			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<MandatoryObsoleteTech>TECH_GUIDANCE_SYSTEMS</MandatoryObsoleteTech>
+		</Row>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" UpgradeUnit="UNIT_ARTILLERY"/>
+	</UnitUpgrades>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON</UnitAbilityType>
+			<ModifierId>ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ARROW_STORM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS" Context="Preview" Text="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<Types>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" AiType="UNITTYPE_CIVILIAN"/>
+	</UnitAiInfos>
+	<TypeTags>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS"/>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS_SPREAD"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" Cost="200" BaseMoves="4" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Description="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="110" SpreadCharges="3" TrackReligion="TRUE" PrereqCivic="CIVIC_MERCANTILISM" MustPurchase="TRUE" ParkCharges="1" ReligionEvictPercent="25" TraitType="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES"/>
+	</Units>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_LANDSOL_MIKO_OF_AMES" ReplacesUnitType="UNIT_NATURALIST"/>
+	</UnitReplaces>
+</GameData>

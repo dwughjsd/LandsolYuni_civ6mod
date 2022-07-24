@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_TITLE" Language="zh_Hans_CN">
+			<Text>真行寺由仁</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_SUBTITLE" Language="zh_Hans_CN">
+			<Text>名誉博士，好友社创始人</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。在优妮看来，学识皆有价值，不分高下贵贱，科学发展不必拖累文化积累。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>优妮的学院和剧院广场能够同时提供 [ICON_Science] 科技值 和 [ICON_Culture] 文化值。他们获取 [ICON_Science] 科技值的另一种方法是在图书馆中放置 [ICON_GreatWork_Writing] 著作。他们的图书馆建筑本身也提供获得 [ICON_GreatWriter] 大作家点数的独特方法。利用公会之家建筑，他们可以大大加强利用伟人强化自身的能力。除此之外，如果必须进行战争，领导兰德索尔的优妮也能使用其领袖能力“认知发展哲学”建立精锐部队。</Text>
+		</Row>
+		
+		<!-- 领袖百科-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在兰德索尔城的学术界，优妮是个常被提起的名字。人们往往受她的外表影响而认为她只是个孩子（虽然她并不讨厌被当作儿童，甚至喜欢和小孩子一起玩耍），但她的在学术方面表现出的水准足以证明以貌取人是大错特错。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>优妮从小便在与世隔绝的山中长大，由村镇中的学者老人抚养成人。由于深受老一辈学者的影响，她从小便显得难以融入同龄人。她说话的方式也带着学者的习惯，看起来就更显得异于他人了。为了探寻何为青春，她走出了家乡，进入了圣特蕾莎女子学院学习。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>入学第一年，优妮就已证明自己不需要普通学生的培养方案，转而进入旧校区的图书馆“象牙塔”研修。由于没有接受同年级同学的课程而甚少与他人见面，学校内出现了许多关于她的传闻。同学们称她为“幻影”，将她列为学校的不可思议现象之一，而她无论做什么（甚至是说梦话），都会被其他人看作是别有深意的高深研究。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>这段时间里，优妮逐渐发现了阿斯特莱亚世界存在的种种谜团，决定研究世界的虚构本质。实际上，她触及了这个世界不为人知的真相的一角。其实，她所知的世界本是一场虚拟现实游戏，而所有居民则是困在其中的玩家。在她试图揭开世界的秘密的同时，世界也在试图阻止她。她的研究笔记在世界的干涉之下差点被毁，但最终她还是找了回来。遗憾的是，她没能赢过掩盖事实的力量：绝大多数这个世界的居民都被施加了认知干扰，因而学界的多数人并不认可她的这项研究，她也只得将这个话题封存。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>虽然发现了世界的黑暗面，却无法对抗整个世界——优妮虽然心有不甘，但最终也只得放下了这件事，将一切留在心底。她重整心态，决定回到初心，试着像其他人那样享受青春。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>回归了日常生活以后，优妮终于找到了新朋友：在申请奖学金的流程中，她结识了千爱瑠和克洛伊。她们组成了一个专为获得奖学金而生的团体，随后注册成为公会：圣特蕾莎女子学院好朋友社。伙伴的相处很融洽，而优妮对此唯一的不满是公会的名字：尽管她一次又一次地提议改叫“优妮们”，却始终没有击败两人的反对。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>为了得到奖学金，好朋友社努力与新来的男性交换生（实际上就是佑树——作为这个故事的主角，这并不令人感到意外）融洽相处，在创业活动讲座中制造各种并不可靠的小物件，甚至实现了许多学生的梦想：炸塌了学校的教学楼。不过遗憾的是，无论做出怎样的努力，她们最后总是在各种阴差阳错之后与金钱失之交臂，反倒是作为与学校氛围格格不入的搞笑角色而为人所知。可想而知，自负于自己的聪慧的优妮以及她的伙伴们绝对不会就此放弃，而是继续等待着下一次奖学金出现的机会并在那时候开始又一场冒险。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>阿斯特莱亚游戏之外，优妮的本名叫真行寺由仁，比本作游戏的主角佑树年长一岁。她是一位老教授的孙女，不擅长与人交流，也没有什么朋友。由仁比游戏世界中的优妮更加不善言辞，终于鼓起勇气邀请主角去看电影也没能成功。或许，阿斯特莱亚世界中的优妮正是她期望自己能够成为的样子吧：智慧、自信而饱受景仰。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>现实世界中，作为好朋友社的公会长，由于拥有许多优秀的喜剧剧情，优妮在玩家社区中大受欢迎，一度在非官方的人气投票中登顶最受喜爱的角色。作为对如此人气的回应，好朋友社在很短的时间内便推出了三个活动剧情，进一步推高了她的知名度。虽然故事中她的感情生活不算成功，但作为一个虚构角色，大概被许许多多人所喜欢才是真正的成功吧。</Text>
+		</Row>
+		<!-- Civilization specific historical text. -->
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>兰德索尔是《公主连结 Re:Dive》游戏中的故事发生的主要场所，地处阿斯特莱亚大陆的中心地区。生活在这里总是能够看到超脱现实的美丽景象。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在Re:Dive剧情中，兰德索尔是2033年的虚拟现实游戏《阿斯特朗传奇》中玩家的主要活动地点。这款游戏通过专用设备“MiMi”进行游戏，在玩家社区中有“登上天空之塔的第一人能够实现自己的愿望”的传闻。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>游戏由被称为“七冠”的团队开发，并由他们制造的高级人工智能“密涅瓦”维护。然而，出于不明原因密涅瓦失去了控制，将玩家锁在了游戏世界，使他们无法回到现实之中，这次事件被称作“密涅瓦的禁锢”。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>千里真那，在这个世界中的身份叫做霸瞳皇帝的游戏开发者之一，夺走了出资援助研发的外国王室的公主尤丝蒂亚娜‧冯‧阿斯特莱亚（常常被叫做“佩可莉姆”）在游戏世界的公主身份，并给自己赋予了公主骑士的能力，好让自己得以登上天空之塔。公会“破晓之星”试图与其决斗，但战败了，霸瞳皇帝因此得以重建了整个游戏世界。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>绝大多数的玩家因此失去了原来的游戏世界以及现实的记忆，并以为霸瞳皇帝是真正的公主，不过（对这位假公主而言十分不巧），依然有人注意过阿斯特朗世界的种种疑点，甚至有少数人还留存着原来的记忆。为了避免王位被夺回，霸瞳皇帝决定追杀佩可莉姆，迫使她为了不被消灭而四处旅行（实际上可以说是逃亡）。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>在旅行途中，尤丝蒂亚娜认识了成立公会“美食殿堂”的伙伴：公主骑士佑树、兽人凯露（现实中的百地希留耶）和精灵可可萝（现实中的枣可萝）。在他们和他们认识的其他伙伴的合力下，霸瞳皇帝终于被击败，但据她所言，世界仍面临着更加巨大的威胁。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>本模组的领袖角色来自Cygames制作的游戏《公主连结 Re:Dive》的角色，并使用了本作的部分美术素材。该游戏的日文版本于2018年2月15日开始运营，随后也提供繁体中文、韩文和简体中文的本地化版本。故事剧情由日本轻小说作家日日日撰写，主题曲由制作过《樱花大战》的音乐人田中公平制作，剧情动画由WIT STUDIO以及CygamesPictures制作。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_YUNICOPTER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在墨丘利财团举办的创业精神讲座上，优妮第一次展示了优妮旋翼机的原型机，这是她吸收了机械工程的最新进展之后，实现了飞行功能而制造出的小道具。原型机能够追踪物体，并进行摄影。有趣的是，尽管名叫“旋翼机”，但它并不使用螺旋桨。根据她的说法，这只是因为“优妮翼机”“优妮飞机”听起来不够好听，因而宁愿选用一个和实物不符但好听一点的名字。原始版本的优妮旋翼机相当不稳定，常常失去控制并坠毁，但人们已经可以看到它的巨大价值。经过数次改造以提升稳定性之后，它被成功运用于军事观测。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>王宫骑士团虽然很长时间都没有经历战争，实力大幅衰落，但仍然保留着一些巨大的攻城器械。这些火炮还接受一定程度的维护以守卫兰德索尔，尤其是王宫附近。预算不足对骑士团产生了很大影响，生性好战的副团长克里斯蒂娜甚至一度打算用这些长期没有得到使用的炮兵在城内制造事端。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在王都的终局会战发生之后，他们被重新武装起来以维持和平，让任何试图闯入宫殿的入侵者都不愿意亲身体会禁卫骑士团的火力。不过，很长一段时间内他们都为数不多，卫队人手不足成为了城内安全状况不稳的主要原因。</Text>
+		</Row>	
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在公会管理协会的帮助下，新成立的公会可以获得属于自己的活动据点。冒险公会的成立比较宽松，只要成员达到年龄要求并有确定的公会理念即可。佩可莉姆的公会“美食殿堂”的理念就是“大家一同快乐地吃饭”这么简单而已。有了这样的据点，公会成员便能很方便地为新的委托或者冒险做准备。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_LANDSOL_LOCATION" Language="zh_Hans_CN">
+			<Text>阿斯特莱亚大陆</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_SIZE" Language="zh_Hans_CN">
+			<Text>无法判断</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_POPULATION" Language="zh_Hans_CN">
+			<Text>未知，大约数十到数百万</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_CAPITAL" Language="zh_Hans_CN">
+			<Text>兰德索尔城</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_RIVER_DYSTAL_NAME" Language="zh_Hans_CN">
+			<Text>迪兹塔尔河</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VARIO_NAME" Language="zh_Hans_CN">
+			<Text>维里奥火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_ORAL_NAME" Language="zh_Hans_CN">
+			<Text>奥拉尔山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GENUA_NAME" Language="zh_Hans_CN">
+			<Text>热那亚沙漠</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_FLORA_NAME" Language="zh_Hans_CN">
+			<Text>弗洛拉湖</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MALJEAN_NAME" Language="zh_Hans_CN">
+			<Text>马耳冈海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_LORETTA_NAME" Language="zh_Hans_CN">
+			<Text>洛蕾塔海</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_THALIA_NAME" Language="zh_Hans_CN">
+			<Text>塔利亚火山</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_THEMIS_NAME" Language="zh_Hans_CN">
+			<Text>忒密斯山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_MATHILDE_NAME" Language="zh_Hans_CN">
+			<Text>梅西尔德山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_LEDEUS_NAME" Language="zh_Hans_CN">
+			<Text>雷蒂乌斯山脉</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_VENA_NAME" Language="zh_Hans_CN">
+			<Text>维那湖</Text>
+		</Row>
+
+		<!-- Civlization citizen names are translated from Japanese version of Princess Connect Re:Dive. Localized names are still needed. -->
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_1" Language="zh_Hans_CN">
+			<Text>康太</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_2" Language="zh_Hans_CN">
+			<Text>俊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_3" Language="zh_Hans_CN">
+			<Text>礼司</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_4" Language="zh_Hans_CN">
+			<Text>满</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_5" Language="zh_Hans_CN">
+			<Text>良彦</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_6" Language="zh_Hans_CN">
+			<Text>正人</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_7" Language="zh_Hans_CN">
+			<Text>一</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_8" Language="zh_Hans_CN">
+			<Text>修</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_9" Language="zh_Hans_CN">
+			<Text>连</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_10" Language="zh_Hans_CN">
+			<Text>猛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_1" Language="zh_Hans_CN">
+			<Text>拓真</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_2" Language="zh_Hans_CN">
+			<Text>大地</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_3" Language="zh_Hans_CN">
+			<Text>英二</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_4" Language="zh_Hans_CN">
+			<Text>荣太</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_5" Language="zh_Hans_CN">
+			<Text>大辅</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_6" Language="zh_Hans_CN">
+			<Text>宗助</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_7" Language="zh_Hans_CN">
+			<Text>彻</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_8" Language="zh_Hans_CN">
+			<Text>薰</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_9" Language="zh_Hans_CN">
+			<Text>哲也</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_10" Language="zh_Hans_CN">
+			<Text>龙</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_1" Language="zh_Hans_CN">
+			<Text>凯露</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_2" Language="zh_Hans_CN">
+			<Text>优衣</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_3" Language="zh_Hans_CN">
+			<Text>璃乃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_4" Language="zh_Hans_CN">
+			<Text>望</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_5" Language="zh_Hans_CN">
+			<Text>未奏希</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_6" Language="zh_Hans_CN">
+			<Text>碧</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_7" Language="zh_Hans_CN">
+			<Text>茜里</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_8" Language="zh_Hans_CN">
+			<Text>铃莓</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_9" Language="zh_Hans_CN">
+			<Text>真步</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_10" Language="zh_Hans_CN">
+			<Text>铃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_1" Language="zh_Hans_CN">
+			<Text>秋乃</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_2" Language="zh_Hans_CN">
+			<Text>流夏</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_3" Language="zh_Hans_CN">
+			<Text>伊绪</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_4" Language="zh_Hans_CN">
+			<Text>妮侬</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_5" Language="zh_Hans_CN">
+			<Text>千爱瑠</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6" Language="zh_Hans_CN">
+			<Text>爱梅斯</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7" Language="zh_Hans_CN">
+			<Text>花凛</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_8" Language="zh_Hans_CN">
+			<Text>克里斯蒂娜</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_9" Language="zh_Hans_CN">
+			<Text>雪菲</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_10" Language="zh_Hans_CN">
+			<Text>祈梨</Text>
+		</Row>
+		<!-- Civilization City Names-->
+		<Row Tag="LOC_CITY_NAME_LANDSOL" Language="zh_Hans_CN">
+			<Text>兰德索尔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUNO" Language="zh_Hans_CN">
+			<Text>朱诺</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALLAS" Language="zh_Hans_CN">
+			<Text>帕拉斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEBE" Language="zh_Hans_CN">
+			<Text>赫柏</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VESTA" Language="zh_Hans_CN">
+			<Text>维斯塔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CERES" Language="zh_Hans_CN">
+			<Text>克瑞斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_METIS" Language="zh_Hans_CN">
+			<Text>墨提斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRIS" Language="zh_Hans_CN">
+			<Text>伊丽丝</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRIGGA" Language="zh_Hans_CN">
+			<Text>弗丽嘉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOROTHEA" Language="zh_Hans_CN">
+			<Text>朵罗西亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EUGENIA" Language="zh_Hans_CN">
+			<Text>尤金妮亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIDES" Language="zh_Hans_CN">
+			<Text>菲德斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHAETHON" Language="zh_Hans_CN">
+			<Text>法埃顿</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KASTALIA" Language="zh_Hans_CN">
+			<Text>卡斯塔利亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PETERO" Language="zh_Hans_CN">
+			<Text>佩特罗</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUTERA" Language="zh_Hans_CN">
+			<Text>弗泰拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FASKIA" Language="zh_Hans_CN">
+			<Text>法斯奇亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEXTIA" Language="zh_Hans_CN">
+			<Text>迪克斯提娅</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONONIA" Language="zh_Hans_CN">
+			<Text>博洛尼亚</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTRELLA" Language="zh_Hans_CN">
+			<Text>艾斯特雷拉</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRYSTAL_MOUNTAIN" Language="zh_Hans_CN">
+			<Text>水晶之山</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SCARED_RUIN" Language="zh_Hans_CN">
+			<Text>圣迹</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SHRINE" Language="zh_Hans_CN">
+			<Text>神殿</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LATUS" Language="zh_Hans_CN">
+			<Text>拉图斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARGUM" Language="zh_Hans_CN">
+			<Text>塔古姆</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MACHINA" Language="zh_Hans_CN">
+			<Text>马希纳</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAPAS" Language="zh_Hans_CN">
+			<Text>塔帕斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILSION" Language="zh_Hans_CN">
+			<Text>伊尔西翁</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PECTOS" Language="zh_Hans_CN">
+			<Text>佩克托斯</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTA" Language="zh_Hans_CN">
+			<Text>埃斯塔</Text>
+		</Row>
+		
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_QUOTE" Language="zh_Hans_CN">
+			<Text>即使是这充满谎言的世界也还是有着学问啊！</Text>
+		</Row>
+    
+    <!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊-->
+			<Text>哦哦，很好。实际上我正打算找一个自然点的提法说这件事呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊-->
+			<Text>你在说什么呢，这是什么古典的笑话吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊-->
+			<Text>都说人们之间应该相互照应，要是您坐视我们孤立无援地进行危险的探索，会发生什么呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受-->
+			<Text>不正式的唐突请求居然被细致地考虑了，您真是个好人啊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝-->
+			<Text>我并不是强迫你的魔鬼，你按自己的想法决定吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--被宣战-->
+			<Text>游戏到此为止。现在是学习的时候了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--主动宣战-->
+			<Text>长点儿教训吧，你这蠢货！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣-->
+			<Text>感谢您的礼物。哎呀呀，真不好意思，就好像我们在索取礼物一样。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣-->
+			<Text>不行，你这满口谎言的家伙。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节-->
+			<Text>请别客气，接受我们使团的礼物吧。我还没有掌握你们的喜好，要是能让你们高兴就再好不过了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>闭嘴，暴君。我们要听见的是你的人民的声音。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家-->
+			<Text>你那倒行逆施的作风令我产生了某种对往昔的怀念，说不定你正是日趋一致的现代价值观的对立面。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--初次见面-->
+			<Text>我是优妮。我可能显得有些发育缓慢，但也许比你还年长。怀着敬意和友爱地叫我前辈吧，年轻人。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置-->
+			<Text>我们附近有一座城市。想来拜访吗？我们能为您展示令知识分子垂涎欲滴的文献和发现。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>嗯，那太好了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置-->
+			<Text>我在努力收集您的国家附近地区的情况、风土人情和民间传说。直白地换句话说，您能给我介绍你们的首都吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过-->
+			<Text>呀，年轻人。今天怎么了？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感-->
+			<Text>比起功利更重视情感，我们称这样的选择为浪漫。认可您为名誉文学学者吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家-->
+			<Text>我和那些学术界的死脑筋经常起冲突，真希望我们不会发展成那种情况。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--请求结盟-->
+			<Text>您想结为盟友吗，同志？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>大家友爱地和平共处一直是优妮和伙伴们的理念。我们同意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>我们还没打算放弃。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>我不允许。这么不知变通，你这家伙也是认死理的老古董吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过-->
+			<Text>我们的研究不应该停留在自己的边境附近，很有必要从更宏观的角度进行。您能让我们穿过您的领土吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队-->
+			<Text>说起来，年轻人。你是否愿意做出一些缓和我们之间的边境摩擦的关键行动呢？举例说的话，就是移开军队之类的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--战败-->
+			<Text>怎么样，我有为这世界带来过什么吗？作为前往来世的伴手礼，让我记下你的名字吧……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>您真是善良可亲。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>选择权在你的手上。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="zh_Hans_CN">
+			<Text>文科学者的浪漫</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢 [ICON_Science] 科学和 [ICON_Culture] 均领先的文明，敌视 [ICON_Science] 科学领先但 [ICON_Culture] 落后的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的文化和科研都领先）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Language="zh_Hans_CN">
+			<Text>优妮对您的科学和文化大为赞赏</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的文化发展无法与科学相当）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="zh_Hans_CN">
+			<Text>优妮对您缺乏文化非常失望</Text>
+		</Row>
+		
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="zh_Hans_CN">
+			<Text>王宫骑士团炮</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10 与陆地和海洋单位战斗</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与陆地和海洋单位战斗时+10 [ICON_Bombard] 炮击攻击力。</Text>
+		</Row>
+		
+	</LocalizedText>
+
+	<LocalizedText>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_TITLE" Language="zh_Hans_CN">
+			<Text>冰川镜华</Text>
+		</Row>
+
+		<!-- Leader Quotes - 万圣镜华个人剧情第1集-->
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_QUOTE" Language="zh_Hans_CN">
+			<Text>不对，不是“好像”一个大姐姐，我就是大姐姐！</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊 - 个人剧情第2集-->
+			<Text>看你没有朋友的样子，我也不忍心放着你不管。没办法，就带你一起玩吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊 - 改编自个人剧情第1集-->
+			<Text>无事献殷勤，一定有问题。我看你就是个危险的可疑分子。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊 - 改编自个人剧情第5集-->
+			<Text>虽然你一开始看起来很可疑、很奇怪，但总之现在确实算得上可靠。所以……请声明我们之间的友谊吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受 - 改编自万圣镜华个人剧情第2集-->
+			<Text>确实，要别人做朋友看起来是有点孩子气……但这是因为……这个……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝 - 改编自个人剧情第6集-->
+			<Text>不做朋友倒也无所谓……就是有点失落……只有一点点。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--被宣战 - 改编自个人剧情第5集-->
+			<Text>敌人到、到这边来了！？这、这样应该打得过！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--主动宣战 - 个人剧情第12集-->
+			<Text>我一定能击败你……我可是，能吃得下青椒了，学会了杠上翻转，甚至都长高了啊！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣 - 个人剧情第6集-->
+			<Text>你的心意让我非常高兴，谢谢你的款待。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣 - 个人剧情第1集-->
+			<Text>如果你无论如何都想跟我套近乎，那就先证明你不是可疑的人。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节 - 改编自万圣镜华个人剧情第3集-->
+			<Text>我的代表团给您送去了精心制作的纸杯蛋糕和其他点心作为礼物，这是我们引以为豪的特产，非常美味！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--被谴责 - 改编自万圣镜华个人剧情第2集-->
+			<Text>难得我对你稍有些好想法，但你果然还是个道德败坏的可疑分子。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家 - 个人剧情第4集-->
+			<Text>身为领袖却做出如此行径，实在是该好好反省反省。（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面 - 个人剧情第1集-->
+			<Text>偷偷跟在我后面，太可疑了。我叫镜华。有个词叫可疑分子……你就是那个可疑分子吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置 - 个人剧情第3集-->
+			<Text>来拜访我们附近的城市吧。不过，我们民风保守，说不定会有人把你赶出去……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置 - 个人剧情第4集-->
+			<Text>好，请快一点！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置 - 个人剧情第1集-->
+			<Text>一般不可以告诉你这样的可疑分子我的首都的位置，但你要是给我通往你的首都的地图，我对你也许会稍微有所改观。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - 个人剧情第1集-->
+			<Text>呃……你要做什么？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感 - 个人剧情第1集-->
+			<Text>我之前说你可疑，真对不起。你好像是个好人呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家 - 个人剧情第1集-->
+			<Text>你还真是纠缠不休啊？真没想到会有你这样的家伙……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - Civ6 generic-->
+			<Text>您想结为盟友吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队 - 改编自个人剧情第1集-->
+			<Text>请不要靠近我的领土边界，否则我要叫军队来赶人了哦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--战败 - 战斗语音-->
+			<Text>奇、奇怪啊，不应该是这样的……看来必须再学习学习了……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--同意交易 - 万圣镜华个人剧情第4集-->
+			<Text>如果你一定要这样，那我就不能拒绝了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易 - 改编自个人剧情第6集-->
+			<Text>别看我像小孩子就提些不着边际的条件！</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_DIGNIFIED_AND_DELICATE_NAME" Language="zh_Hans_CN">
+			<Text>守礼而纤细</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_DIGNIFIED_AND_DELICATE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专注于提升城市的 [ICON_Science] 科技值和 [ICON_Production] 生产力并赢取科技胜利。喜欢没有威胁的文明。讨厌拥有强大军队或相邻的文明。</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUBTITLE" Language="zh_Hans_CN">
+			<Text>小小甜心公会成员</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。镜华从水域单元格和邻接学院的区域中获得大量 [ICON_Science] 科技值和 [ICON_Production] 生产力，使其在太空竞赛中堪称模范。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>镜华的城市规划独具特色。他们需要在水域单元格或河流边建立学院并部署远程单位，以便充分利用领袖能力保护自己并赢取游戏。尽早建设宇航中心区域，他们便可以进一步强化城市的产出。利用公会之家建筑，他们可以大大加强利用伟人强化自身的能力。在可观的 [ICON_Science] 科技值和 [ICON_Production] 生产力加成以及额外的 [ICON_GreatScientist] 大科学家的帮助下，镜华最适合的无疑是科技胜利。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与河流或海岸相邻时 +1 [ICON_Range] 射程。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>与美食殿堂的几位苦大仇深的主角相比，镜华的故事就显得要单纯很多了。毕竟，即便她看起来再怎么有超出她年龄的成熟，在阿斯特莱亚世界的主线剧情中，她也仅仅是个8岁的女孩。但毕竟这是《公主连结 Re:Dive》，无论如何她也会和故事的主角——公主骑士佑树——相遇并留下一些回忆。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>童年时期的镜华在精灵之森度过。在兰德索尔的郊外，她发现了迷路的美美和被自己的恶作剧所害的未奏希。三位小女孩模仿着大人们的冒险公会，结成了“小小甜心”。三人的第一个目标是找到兰德索尔附近的商队……这个小目标对她们而言确实有些困难。不过她们最后还是完成了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在那之后，镜华首次与佑树相遇。一开始，她对这位失忆的公主骑士并没有任何信任。在她看来，这只是又一个图谋不轨的可疑分子。虽然她完全没有保护自己的能力，但所幸她遇上的并不是坏人。佑树给了她记录了回家路线的地图，并和她合作击败了路途中的怪物。在那之后，他们之间又有过多次接触，并一点点建立亲密关系：佑树鼓励镜华完成体育练习，帮助她适应不喜欢的食物；而镜华则试图让他学会不要迟到，在万圣节和他一同在兰德索尔的街区漫步。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>颇为可惜，但对镜华而言并不意外的是，她在第一部主线剧情中主要只有与小小甜心的其他成员一起被卷入麻烦之中，并被其他故事的主角所救的经历。不过，小小甜心三人组依然有着自己的冒险。她们一起学习、相互吵闹、陷入危险再逃出生天。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>作为小小甜心中显得最早熟的一员，镜华时常希望别人能把她视作大人。不过，当她遇上比她年长十岁的优妮的时候，情况就变得比较滑稽了。已经是大人的优妮不仅和这群不到十岁的孩子打成一片，甚至在过家家的时候把镜华当作妈妈——可以想见，当优妮的伙伴克萝伊看到这番景象的时候，心情一定十分复杂。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>在游戏世界之外，镜华是就读椿丘第一小学的小学生，与佑树保持着和阿斯特莱亚世界中相似的亲密关系。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>现实世界里，镜华同样是本作品中的受欢迎角色。许多玩家开始了解这个角色主要是由于她的配音演员，小仓唯（实际上，在中国许多玩家直接使用配音演员的名字来称呼镜华）。随后，在角色故事（特别是和优妮的互动一类的模因）流传开来广为人知以后，喜欢这个角色的玩家也越来越多。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>同其他主角一起，镜华也在《影之诗》等作品中客串出场，但不如美食殿堂那般广泛。无论如何，她以自己的特色，吸引了一群喜欢她的粉丝。</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+
+		<!-- Leader Quotes——序章-->
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="zh_Hans_CN">
+			<Text>小火开始慢慢蒸，[NEWLINE]二十分钟大火烘。[NEWLINE]不揭锅盖闷一闷，[NEWLINE]粒粒白米香喷喷。</Text>
+		</Row>
+
+		<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊——主屏幕语音-->
+			<Text>我会与自然一同，助您一臂之力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊絆、つないで。こころ、結んで。后篇第二章-->
+			<Text>很感谢您对我们的关心，但我并不了解您，因此恕难从命。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊——主屏幕语音-->
+			<Text>与您这样优秀的领袖合作是在下之幸，请接受我们的友谊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受——主屏幕语音-->
+			<Text>就让身为引导者的我全力支持您吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝——序章-->
+			<Text>若是在下给您带来了不快，在下深表歉意。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--被宣战——絆、つないで。こころ、結んで。（いつもの、笑顔の食卓）-->
+			<Text>你还有战争之意？！那么在下将在此阻止你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--主动宣战——絆、つないで。こころ、結んで。（いつもの、笑顔の食卓）-->
+			<Text>请你离开我的人民！精灵将赐予在下祛凶除恶之力，此刻在下已退无可退！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣——生日彩蛋-->
+			<Text>与您和平共处已是难能可贵，能够收到您的如此心意，在下万分感谢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣——絆、つないで。こころ、結んで。后篇第二章-->
+			<Text>请容许在下拒绝。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节——可可萝（礼服）公会之家台词-->
+			<Text>我的代表团送去了山村中的水果、传统料理和其他特产，请您品尝。不知是否合您的胃口呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--被谴责——个人剧情第5章-->
+			<Text>若是为了大家的生活，在下不会吝惜为此做出的牺牲，无论受到何等非议都心甘情愿。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家——主线剧情第二部-->
+			<Text>你的手段是如此不成熟，恐怕统治的重任不能交予你！（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面——序章-->
+			<Text>在下是爱梅斯大人派遣的引导者，名叫可可萝。在下会守护人民，不舍昼夜，由始及终，全心全意。这是在下的使命。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置——个人剧情第一章-->
+			<Text>我们附近有一座城市。它错综复杂，一不小心就会在里面迷路。让在下作为向导为您带路吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置——个人剧情第四章-->
+			<Text>真诚地感谢您。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置——个人剧情第二章+礼服可可萝公会之家台词-->
+			<Text>虽说文献中有记述，但在下未曾亲眼见过您的首都。我们来说说各自的首都流传的旧事吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过——主屏幕语音-->
+			<Text>有什么需要在下做的事情吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感——个人剧情第三章+第八章-->
+			<Text>您真是温柔。作为生活在大自然中的种族，鸟类、昆虫和各种动植物都令我喜爱。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家——个人剧情第三章-->
+			<Text>到处都是人造物，拥挤不堪——实在是令人疲劳啊。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--请求结盟——主屏幕语音-->
+			<Text>精灵们在为我们送上祝福，愿我们能够成为同盟。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队——loosely resembles 絆、つないで。こころ、結んで。（コッコロの覚悟）-->
+			<Text>若是您的军队在我的边境受到了伤害，那便是在下作为引导者的失职。请您带走他们。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--战败——战斗语音-->
+			<Text>疾风也已止息。真是万分遗憾……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--同意交易——个人剧情第8章-->
+			<Text>能与您这样的领袖达成交易真是再好不过。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>在下很抱歉。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="zh_Hans_CN">
+			<Text>大自然的小小向导</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_Faith] 信仰值。建造国家公园时不会清除地貌，并会在上面植树造林。喜欢植树造林或建造国家公园的文明。讨厌清除地貌的文明。</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>设法获得 [ICON_Faith] 信仰值。{LOC_AGENDA_KAITIAKITANGA_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_OF_NATURE" Language="zh_Hans_CN">
+			<Text>可可萝正在观察您如何对待自然世界</Text>
+		</Row>
+		<!--The string just doesn't work. Blame Firaxis for too much hardcoding.-->
+		<Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GUIDE_OF_NATURE" Language="zh_Hans_CN">
+			<Text>可可萝喜欢尊重自然环境的文明</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_SUBTITLE" Language="zh_Hans_CN">
+			<Text>美食殿堂公会成员，爱梅斯的巫女</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。身为守护自然的纯白巫女，公主形态的可可萝从迷人的自然界中获得强大力量，引领她的人民获得胜利。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>魅力对于公主可可萝的城市规划至关重要。他们在高魅力的单元格附近建立城市来获得“极光圣界”特性提供的额外产出和单位回复。相邻自然美景，[ICON_Faith] 信仰值的产出也相当可观。利用公会之家建筑，他们可以大大加强利用伟人强化自身的能力。由于可以获得额外的 [ICON_Faith] 信仰值购买使徒或爱梅斯巫女，对公主可可萝而言，最容易获得的是宗教胜利和文化胜利。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>作为佑树（《公主连结》作品中的主角）在恢复意识时见到的第一个人同时也是最可靠的向导，可可萝在他（或者是扮演他的玩家）眼中无疑有着特别的地位。她陪伴着这位公主骑士经历了本作品主线剧情的全过程，在每天开始冒险时为他盖下这一天的“努力印章”，在夜深人静时也默默守护着他。可以说，她确实实践着她的承诺：“不舍昼夜，由始及终。”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>阿斯特莱亚世界的可可萝是一位精灵，从小在山村之中由族群中的长老养育长大。从小，她就展示出与年龄不符的成熟。有一天，当她如往常一般向她的女神爱梅斯祈祷时，她收到了一条来自神明的启示。爱梅斯指示她前往兰德索尔与某人相会，代女神本尊行向导事务。带着这份命令，她离开了作为她故乡的村庄，前去寻找她的主人。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在前往兰德索尔的路途中，可可萝发现一人从天而降落在山丘上。她立即前去查看对方的情况，并在山顶发现了失去意识和记忆的佑树。她相信此人便是爱梅斯所指派的主人，事实也确实是如此。于是，她的探索之旅增加了第一位同伴。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>可可萝向她的主人宣誓将守护他。就在此时，他们遇见了一位饥饿的少女——“饿肚子的佩可莉姆”（“佩可莉姆”在日语中谐音“饿肚子”），以及正在追逐附近的其他人的怪物。他们决定合作来脱离困境，在这个过程中救下了优衣和凯露，后者将会在未来与他们组成新的公会，美食殿堂。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在公会中，可可萝是引导其他成员的温柔角色。她无微不至地照顾因为失忆而失去自理能力的佑树，也每天关心着另外两人的生活起居。一开始，她与佑树常常被认作是情侣或者兄妹，但渐渐地大家都认为她像妈妈一样。她教导佑树生活的基本概念，并努力打工来供养主人。在她的帮助下，佑树重新学会了如何工作，因而她的负担也减轻了许多。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>美食殿堂此后在兰德索尔展开了活动，以寻遍美食和一起吃饭为目标开展冒险。尽管佩可莉姆隐藏着沉重的秘密，而凯露其实是不得不暗杀她的杀手，但在一起经历过无数冒险之后，最终大家相互接纳，成为了亲密的冒险伙伴，并在这个过程中与其他盟友一起，最终击败了试图暗杀佩可莉姆的元凶。尽管他们已经做到了如此成就，但世界的谜团并没有解开，新的冒险很快随之而来。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>背负着谜团的并不只有佩可莉姆，可可萝本人也是这样。在游戏世界之外（他们世界的“现实”），她叫枣可萝，是个五年级的小学生。由于缺少朋友，佑树是她为数不多的互动对象之一。她的父亲在实验室工作，同时也是阿斯特莱亚这个游戏世界的最高管理者“七冠”之一。年事已高的父亲将管理者的权限交给了年轻的可萝，让她代劳在游戏世界中探索。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>然而，由于意外，所有进入阿斯特莱亚世界的玩家都在他们的现实世界中陷入昏迷。游戏世界之外的开发者和研究人员倾尽全力寻找让所有陷入游戏世界的人们找回记忆回到现实的手段，而游戏世界中的可可萝则被视作完成这个目标的关键。可可萝因此得以暂时走出游戏世界，并被期望能够将真相告诉她认识的其他玩家。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>尽管前路仍然困难重重，但作为一位优秀而坚强的引导者，可可萝依然在与同伴一起努力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text>在现实世界中，作为《公主连结 Re:Dive》的主要角色之一，可可萝获得了许多玩家的喜爱。实际上，“像妈妈一样”正是玩家社区对她最初的评价，而这种评价最终进入了制作团队的视野，并改变了剧情中的可可萝形象。由于她的广受欢迎，在原作游戏中，可可萝拥有多款不同装扮的角色卡，甚至可以组成一整队（5张角色卡）只包含可可萝的冒险团队。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text>可可萝还在《碧蓝幻想》、《失落的龙约》、《影之诗》等作品中客串出场。当你在阅读这段百科的时候，你已经配置好了让她在《席德梅尔的文明VI》中出场的模组。你能扮演可可萝，带领人民建立起一个经受住时间考验的文明吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>爱梅斯是居住于梦境世界中的妖精，是前作中的“向导小妖精”菲欧将“向导小妖精”原型的数据与自身融合的产物，“爱梅斯”这一名字也是来源于后者。尽管她清楚地了解大家所处的世界是游戏世界的事实，但因为游戏世界会对玩家的思维与记忆进行“修正”，她只能通过梦境和其他人对话，让大家在潜意识中留下对于现实世界的印象。由于无法直接干涉大家所处的世界，她以“神明”的身份与自己的巫女通信来传达信息，以帮助佑树解开世界之谜。</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

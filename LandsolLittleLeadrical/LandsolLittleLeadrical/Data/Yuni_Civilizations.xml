@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_LANDSOL" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_GUILDHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Kind="KIND_TRAIT"/>
+	</Types>
+	
+	<Civilizations>
+		<Row>
+			<CivilizationType>CIVILIZATION_LANDSOL</CivilizationType>
+			<Name>LOC_CIVILIZATION_LANDSOL_NAME</Name>
+			<Description>LOC_CIVILIZATION_LANDSOL_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_LANDSOL_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+		</Row>
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_SHINGYOUJI_YUNI" CapitalName="LOC_CITY_NAME_LANDSOL" />
+	</CivilizationLeaders>
+
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_LANDSOL_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_LANDSOL_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_LANDSOL_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_LANDSOL_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" TraitType="TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" TraitType="TRAIT_CIVILIZATION_BUILDING_GUILDHOUSE" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" TraitType="TRAIT_CIVILIZATION_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" />
+	</CivilizationTraits>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL" Description="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Name="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GUILDHOUSE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON"/>
+	</Traits>
+
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_1" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_2" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_3" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_4" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_5" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_6" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_7" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_8" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_9" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MALE_10" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CitizenName="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+
+
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_LANDSOL" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_JUNO" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_PALLAS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_HEBE" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_VESTA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_CERES" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_METIS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_IRIS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_FRIGGA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_BONONIA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_DOROTHEA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_EUGENIA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_FIDES" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_PHAETHON" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_KASTALIA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_ESTRELLA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_LATUS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_TARGUM" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_MACHINA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_TAPAS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_ILSION" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_PETERO" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_FUTERA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_FASKIA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_DEXTIA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_PECTOS" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_ESTA" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_CRYSTAL_MOUNTAIN" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_THE_SCARED_RUIN" />
+		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_THE_SHRINE" />
+	</CityNames>
+	
+</GameData>

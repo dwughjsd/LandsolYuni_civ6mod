@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_SHRINE_CHARMING_FAITH_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_SHRINE_BREATHTAKING_FAITH_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_LIGHTHOUSE_CHARMING_FOOD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_LIGHTHOUSE_BREATHTAKING_FOOD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AMPHITHEATER_CHARMING_CULTURE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AMPHITHEATER_BREATHTAKING_CULTURE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BANK_CHARMING_GOLD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BANK_BREATHTAKING_GOLD_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_UNIVERSITY_CHARMING_SCIENCE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_CHARMING_PRODUCTION_ATTACH"/>
+		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION_ATTACH"/>
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BOOST_PRESERVE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE"/>
+	</TraitModifiers>
+
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_CHARMING_FAITH"/>
+		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_CHARMING_FOOD"/>
+		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH"/>
+		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD"/>
+		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE"/>
+
+		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD"/>
+		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE"/>
+		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD"/>
+		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE"/>
+		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION"/>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_GROVE_CHARMING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_GROVE_CHARMING_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_GROVE_BREATHTAKING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_GROVE_BREATHTAKING_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_GROVE_BREATHTAKING_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_SANCTUARY_CHARMING_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_SANCTUARY_CHARMING_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_SANCTUARY_BREATHTAKING_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO</SubjectRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PRESERVE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_GROVE_CHARMING_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="KOKKORO_GROVE_CHARMING_FOOD" Name="Amount" Value="1"/>
+		
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE" Name="Amount" Value="2"/>
+
+		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE" Name="Amount" Value="1"/>
+
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE" Name="Amount" Value="1"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
+		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION" Name="Amount" Value="2"/>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PRESERVE</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_CHARMING_APPEAL"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_HAS_NO_IMPROVEMENT"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_IS_AT_2HEX_KOKKORO"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_KOKKORO"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_HAS_NO_IMPROVEMENT"/>
+		<Row RequirementSetId="PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_IS_AT_2HEX_KOKKORO"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_IS_AT_2HEX_KOKKORO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		<Row RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_IS_AT_2HEX_KOKKORO</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_IS_AT_2HEX_KOKKORO</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>2</Value>
+		</Row>
+		<Row RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS" Name="LeaderType" Value="LEADER_NATSUME_KOKORO_PRINCESS"/>
+	</RequirementArguments>
+
+	<AiListTypes>
+		<Row ListType="NatsumeKokoroPrincessDistricts"/>
+	</AiListTypes>
+
+	<AiLists>
+		<Row ListType="NatsumeKokoroPrincessDistricts" LeaderType="TRAIT_LEADER_PURE_WHITE_REVELATION" System="Districts"/>
+	</AiLists>
+
+	<AiFavoredItems>
+		<Row ListType="NatsumeKokoroPrincessDistricts" Item="DISTRICT_PRESERVE" Favored="true"/>
+	</AiFavoredItems>
+
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_PRESERVE"/>
+			<Set>
+				<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
+				<CostProgressionParam1>40</CostProgressionParam1>
+			</Set>
+		</Update>
+	</Districts>
+	
+</GameData>

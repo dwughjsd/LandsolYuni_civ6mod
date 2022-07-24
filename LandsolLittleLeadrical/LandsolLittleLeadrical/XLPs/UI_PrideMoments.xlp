@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/PrideMoments"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Landsol_Yunicopter"/>
+			<m_ObjectName text="Moment_UniqueUnit_Landsol_Yunicopter"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Infrastructure_Landsol"/>
+			<m_ObjectName text="Moment_Infrastructure_Landsol"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
