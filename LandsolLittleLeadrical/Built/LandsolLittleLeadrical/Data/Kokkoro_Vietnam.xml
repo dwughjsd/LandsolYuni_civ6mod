@@ -16,21 +16,18 @@
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BOOST_PRESERVE_PRODUCTION"/>
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE"/>
 	</TraitModifiers>
-
 	<BuildingModifiers>
 		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_CHARMING_FAITH"/>
 		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_CHARMING_FOOD"/>
 		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH"/>
 		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD"/>
 		<Row BuildingType="BUILDING_GROVE" ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE"/>
-
 		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD"/>
 		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE"/>
 		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD"/>
 		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE"/>
 		<Row BuildingType="BUILDING_SANCTUARY" ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_PRODUCTION"/>
 	</BuildingModifiers>
-
 	<Modifiers>
 		<Row>
 			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
@@ -116,24 +113,20 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
-
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FOOD" Name="Amount" Value="1"/>
-		
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FAITH" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD" Name="YieldType" Value="YIELD_FOOD"/>
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_FOOD" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
 		<Row ModifierId="KOKKORO_GROVE_BREATHTAKING_CULTURE" Name="Amount" Value="2"/>
-
 		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_GOLD" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_CHARMING_SCIENCE" Name="Amount" Value="1"/>
-
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_GOLD" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_SANCTUARY_BREATHTAKING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
@@ -152,12 +145,10 @@
 		</Row>
 	</ModifierArguments>
 	<RequirementSets>
-		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_BREATHTAKING_UNIMPROVED_KOKKORO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_CHARMING_APPEAL"/>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_PLOT_HAS_NO_IMPROVEMENT"/>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementId="REQUIRES_IS_AT_2HEX_KOKKORO"/>
@@ -170,7 +161,6 @@
 			<RequirementId>REQUIRES_IS_AT_2HEX_KOKKORO</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
 		</Row>
-		<Row RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -183,17 +173,14 @@
 			<Name>MaxDistance</Name>
 			<Value>2</Value>
 		</Row>
-		<Row RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS" Name="LeaderType" Value="LEADER_NATSUME_KOKORO_PRINCESS"/>
 	</RequirementArguments>
 
 	<AiListTypes>
 		<Row ListType="NatsumeKokoroPrincessDistricts"/>
 	</AiListTypes>
-
 	<AiLists>
 		<Row ListType="NatsumeKokoroPrincessDistricts" LeaderType="TRAIT_LEADER_PURE_WHITE_REVELATION" System="Districts"/>
 	</AiLists>
-
 	<AiFavoredItems>
 		<Row ListType="NatsumeKokoroPrincessDistricts" Item="DISTRICT_PRESERVE" Favored="true"/>
 	</AiFavoredItems>
@@ -207,5 +194,4 @@
 			</Set>
 		</Update>
 	</Districts>
-	
 </GameData>

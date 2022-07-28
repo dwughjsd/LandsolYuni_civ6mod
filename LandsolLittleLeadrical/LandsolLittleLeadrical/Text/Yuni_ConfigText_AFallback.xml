@@ -29,6 +29,10 @@
 			<Text>Each Library gets a [ICON_GreatWork_Writing] Writing great work slot, +1 [ICON_GreatWriter] Great Writer Point for each Campus district with a Library building. +2 [ICON_SCIENCE] Science from each [ICON_GreatWork_WRITING] Great Work of Writing. Gain the Yunicopter unique unit with Electricity.</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide [ICON_Production] Production equal to their intrinsic [ICON_Science] Science output.</Text>
+		</Row>
+
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME">
 			<Text>Princess Knight of Landosol</Text>
 		</Row>
@@ -39,8 +43,9 @@
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME">
 			<Text>Philosophy of Cognition and Development</Text>
 		</Row>
+
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION">
-			<Text>Every unit gets a free Promotion when produced or upgraded. Campus district and Theater Square district's adjacency bonuses both provide [ICON_SCIENCE] Science and [ICON_CULTURE] Culture. Mines over strategic resources provide +1 [ICON_Science] Science and [ICON_Culture] Culture.</Text>
+			<Text>Every unit gets a free Promotion when produced or upgraded. Campus district and Theater Square district's adjacency bonuses both provide [ICON_SCIENCE] Science and [ICON_CULTURE] Culture. Mines over strategic resources provide +1 [ICON_Science] Science and [ICON_Culture] Culture.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI">
@@ -52,7 +57,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION">
-			<Text>Landosol unique building. Districts in this city provide +1 [ICON_GreatPerson] Great Person points of their type (for example, [ICON_GreatWriter] Great Writer points from the Theater Square district).</Text>
+			<Text>Landosol unique building. +10% [ICON_Production] Production in this city, and provides unique bonuses for each Landsol leader (see each leader for details).</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME">
@@ -79,7 +84,11 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
-			<Text>Commercial Hubs, Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide +1 [ICON_GreatPerson] Great Person points of their type (Theater Square provide [ICON_GreatWriter] Great Writer points), and their adjacency bonuses provide [ICON_Science] Science as well (do not stack with the same effects, for example, Free Inquiry Golden Age). Additional [ICON_Production] Production when in a Golden Age.</Text>
+			<Text>+50% [ICON_Production] Production toward Commercial Hubs, Harbors, Theater Squares and Industrial Zones in cities with a Campus or Spaceport, and adjacency bonuses of these districts provide [ICON_Science] Science as well when they are adjacent to a Campus or Spaceport (do not stack with the same effects, for example, Free Inquiry Golden Age). Additional [ICON_Production] Production when in a Golden Age.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: +2 [ICON_Amenities] Amenities, +2 [ICON_Culture] Culture, +1 [ICON_GreatEngineer] Great Engineer, [ICON_GreatMerchant] Great Merchant, [ICON_GreatWriter] Great Writer, [ICON_GreatArtist] Great Artist and [ICON_GreatMusician] Great Musician point.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="en_US">
@@ -89,13 +98,13 @@
 			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and if built adjacent to a Coast provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
@@ -116,7 +125,11 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Additional +1 [ICON_Faith] Faith from Mysticism. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Farms in this city provide +1 [ICON_Production] Production to adjacent Farms.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="en_US">

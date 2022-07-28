@@ -58,8 +58,6 @@
     </UpdateDatabase>
     <UpdateText id="ConfigText">
       <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
-      <File>Text/Yuni_ConfigText_ja_JP.xml</File>
-      <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
       <File>Text/Yuni_ConfigText_AFallback.xml</File>
       <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     </UpdateText>
@@ -88,10 +86,6 @@
       <Criteria>LandsolYuni</Criteria>
       <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
       <File>Text/Yuni_Text_zh_Hans_CN.xml</File>
-      <File>Text/Yuni_ConfigText_ja_JP.xml</File>
-      <File>Text/Yuni_Text_ja_JP.xml</File>
-      <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
-      <File>Text/Yuni_Text_zh_Hant_HK.xml</File>
       <File>Text/Yuni_ConfigText_AFallback.xml</File>
       <File>Text/Yuni_Text_AFallback.xml</File>
       <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
@@ -188,13 +182,9 @@
     <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
     <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     <File>Text/Yuni_ConfigText_AFallback.xml</File>
-    <File>Text/Yuni_ConfigText_ja_JP.xml</File>
     <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>
-    <File>Text/Yuni_ConfigText_zh_Hant_HK.xml</File>
     <File>Text/Yuni_Text_AFallback.xml</File>
-    <File>Text/Yuni_Text_ja_JP.xml</File>
     <File>Text/Yuni_Text_zh_Hans_CN.xml</File>
-    <File>Text/Yuni_Text_zh_Hant_HK.xml</File>
     <File>UI/DiplomacyActionView.lua</File>
     <File>UI/FrontEnd/LoadScreen.lua</File>
   </Files>

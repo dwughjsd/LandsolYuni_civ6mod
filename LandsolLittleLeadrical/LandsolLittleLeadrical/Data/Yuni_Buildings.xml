@@ -14,143 +14,45 @@
 	<BuildingModifiers>
 		<Row>
 			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATGENERALPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATADMIRALPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATENGINEERPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATMERCHANTPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATPROPHETPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATSCIENTISTPOINTS</ModifierId>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
-			<ModifierId>GUILDHOUSE_GREATWRITERPOINTS</ModifierId>
+			<ModifierId>GUILDHOUSE_PRODUCTION_BONUS</ModifierId>
 		</Row>
 	</BuildingModifiers>
-	
+
 	<Modifiers>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATGENERALPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATADMIRALPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATENGINEERPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATMERCHANTPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATPROPHETPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATSCIENTISTPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATWRITERPOINTS</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
-		</Row>
+		<Row ModifierId="GUILDHOUSE_PRODUCTION_BONUS"      ModifierType="MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER"/>
 	</Modifiers>
-
 	<ModifierArguments>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATGENERALPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATGENERALPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATADMIRALPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATADMIRALPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATENGINEERPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATENGINEERPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATMERCHANTPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATMERCHANTPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATPROPHETPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATPROPHETPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATSCIENTISTPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATSCIENTISTPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATWRITERPOINTS</ModifierId>
-			<Name>GreatPersonClassType</Name>
-			<Value>GREAT_PERSON_CLASS_WRITER</Value>
-		</Row>
-		<Row>
-			<ModifierId>GUILDHOUSE_GREATWRITERPOINTS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-
+		<Row ModifierId="GUILDHOUSE_PRODUCTION_BONUS"     Name="Amount" Value="10"/>
+		<Row ModifierId="GUILDHOUSE_PRODUCTION_BONUS"     Name="YieldType" Value="YIELD_PRODUCTION"/>
 	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GUILDHOUSE</Value>
+		</Row>
+	</RequirementArguments>
+
 </GameData>
