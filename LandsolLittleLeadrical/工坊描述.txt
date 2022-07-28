@@ -6,7 +6,7 @@
 
 优妮、可可萝、镜华位列《公主连结 Re:Dive》最受欢迎的角色之中。本领袖包包含了三位体型娇小的领袖，在儿童节到来之际为《文明6》添加一抹童趣。
 
-兰德索尔的特色建筑是公会之家，可为城市提供额外的生产力和伟人点数。特色单位“王宫骑士团炮”解锁于文艺复兴时期，拥有更强的战斗力，不需要战略资源，并且在攻击单位时拥有较少的战斗力惩罚。
+兰德索尔的特色建筑是公会之家，可为城市提供额外的生产力，并为每个领袖提供独特的加成。特色单位“王宫骑士团炮”解锁于文艺复兴时期，拥有更强的战斗力，且不需要战略资源。
 
 优妮的特色能力是“博学者的教诲”。建设图书馆可以获得额外的大作家点数和文学著作槽位，且文学著作可以提供额外的科技值。她同样带来了“优妮旋翼机”单位，比其所替代的无人机要更早解锁且更为廉价。
 
@@ -14,9 +14,9 @@
 
 可可萝的“公主”造型的独特能力是“纯白神启”。国家公园可以为城市提供信仰产出加成。若与山脉、森林或自然奇观相邻，单元格产出额外信仰。公主可可萝还提供“爱梅斯巫女”单位，这一平民单位在重商主义市政即可解锁，可以在建设一个国家公园之前先进行宗教传播。
 
-“兰德索尔公主骑士”特性为她提供的是“极光圣界”。建设保护区的速度加快，且保护区建筑可以为两格以内的单元格提供产出加成。若城市建立在冻土和雪地，则可以获得额外的魅力。在魅力较高的单元格，单位也可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
+“兰德索尔公主骑士”特性为她提供的是“极光圣界”。建设保护区的速度加快，且保护区建筑可以为两格以内的单元格提供产出加成。可可萝的城市可以在在冻土和雪地上获得额外的食物和生产力。在魅力较高的单元格，单位也可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
 
-镜华的独特能力是“小小优等生”。与学院或宇航中心相邻的商业中心、港口、剧院广场和工业区的相邻加成也提供科技值，且如果在黄金时代中，这些区域还提供等量的生产力。邻接学院建设的区域还会获得更多伟人点数。
+镜华的独特能力是“小小优等生”。与学院或宇航中心相邻的商业中心、港口、剧院广场和工业区的相邻加成也提供科技值，且如果在黄金时代中，这些区域还提供等量的生产力。如果城市有学院，建设这些这些区域也会加速。
 
 “兰德索尔公主骑士”特性为她提供的是“宇宙蓝闪光”，令水域可以为他们提供大量战术和战略优势。沿河的学院可以获得额外的大量相邻加成。若学院与海岸相邻，则可以为本城市的海岸和海洋单元格提供额外的科技值加成，以及为海洋单元格提供生产力。沿河或沿海的陆地远程单位获得额外射程。此外，宇航中心可以增强城市的科技值和生产力，并为城市提供额外电力。
 
@@ -64,6 +64,7 @@
 [b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]：帮助完成并调整了部分英文文本。
 [b][url=steamcommunity.com/profiles/76561198181931490]月海之沙[/url][/b]：为本模组的领袖特性提供了建议和测试，并且花了很长时间叫我把这鬼东西上传到工坊……
 [b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]：和前一位一起，花了很长时间叫我上传……
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]：提供平衡调整。
 
 封面图像：RYUKI（pixiv插画ID：80628407）。本模组使用了来自手机游戏《公主连结 Re:Dive》的素材。模组作者并不拥有素材的所有权。
 
@@ -78,7 +79,7 @@
 
 Yuni, Kokkoro and Kyoka are some of the most popular characters in the mobile game Princess Connect Re:Dive. This mod contains three little leaders, and brings some cuteness to Civilization VI to celebrate China's Children's Day (June 1).
 
-Guildhouse is the unique building of Landosol, which provides Production and unique bonuses for each Landsol leader. The unique unit Royal Palace Cannon is unlocked at Renaissance Era, with stronger Combat Strength, no need of Strategical resource, and receives less penalty when attacking units.
+Guildhouse is the unique building of Landosol, which provides Production and unique bonuses for each Landsol leader. The unique unit Royal Palace Cannon is unlocked at Renaissance Era, with stronger Combat Strength and don't need any Strategical resource.
 
 Yuni's unique ability is Knowledge of Erudites. Constructing Library can provide extra Great Writer Points and Writing great work slot, and Writing great works provide extra Science. She also unlocks Yunicopter, which is available earlier and cheaper than the Drone unit it replaces. 
 
@@ -86,9 +87,9 @@ The unique ability of Landosol civilization Princess Knight is a special ability
 
 The Princess Persona of Kokkoro has an unique ability named Pure White Revelation. Cities with a National Park receive bonus Faith. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Mercantilism, and can spread religion before creating a National Park. 
 
-Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, and the effect range of Preserve buildings are extended by 1. If cities are built on Tundra or Snow, they will have bonus Appeal. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
+Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, and the effect range of Preserve buildings are extended by 1. Kokkoro's cities earn extra Food and Production on Tundra or Snow. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
 
-The unique ability of Kyoka is Little Model Student. Adjacency bonuses of Commercial Hubs, Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide Science as well. They also provide additional Production when in a Golden Age. Constructing districts adjacent to your Campuses also provide additional Great People points.
+The unique ability of Kyoka is Little Model Student. Adjacency bonuses of Commercial Hubs, Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide Science as well. They also provide additional Production when in a Golden Age.  Constructing these districts is quicker if the city has a Campus.
 
 Princess Knight grants her Cosmo Blue Flash, allowing water to provide them with tactical and strategic advantages. Campuses are granted an extra Major adjacency with Rivers. When they are adjacent to Coast tiles, they also provide bonus Science to Coast and Ocean tiles and Production to Ocean tiles. Ranged units receive Range bonus when adjacent to a River or Coast. Additionally, Spaceports can enhance Science and Production output of the city they are in, and provide some free Power.
 
@@ -136,6 +137,7 @@ This mod replaces loading screen and diplomacy screen to hide unneeded Princess 
 [b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]: For help in English text revision.
 [b][url=steamcommunity.com/profiles/76561198181931490]月海之沙[/url][/b]: For suggestions and tests for leader abilities, and for wasting a lot of time asking me to upload this to the Workshop...
 [b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]: For asking me to upload this with previous guy...
+[b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]: For balance adjustments.
 
 Cover image by RYUKI (pixiv illustration ID: 80628407). This mod uses assets from the mobile game Princess Connect Re:Dive. The author of this mod DOES NOT own these assets.
 

@@ -27,7 +27,7 @@
     <ModProperties>
       <CustomProperties xmlns="" />
     </ModProperties>
-    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians</SpecialThanks>
+    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino</SpecialThanks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
