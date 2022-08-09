@@ -1826,8 +1826,7 @@
 			<ModifierId>GUILDHOUSE_FARM_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_AT_1HEX_FARM_GUILDHOUSE</SubjectRequirementSetId>
-			<!--Actually for Gourmet Edifices, but the rest of them are not implemented for now.-->
-			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -1837,9 +1836,11 @@
 	<RequirementSets>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
+		<Row RequirementSetId="PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_PLOT_HAS_FARM"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_CITY_HAS_GUILDHOUSE_YUNI"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_IS_AT_1HEX"/>
