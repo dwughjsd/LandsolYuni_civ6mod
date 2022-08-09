@@ -4,7 +4,7 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1653992888</Created>
+    <Created>1659098826</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>UzukiShimamura</Authors>
     <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino</SpecialThanks>
@@ -28,6 +28,7 @@
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
     <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
     <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" />
+    <Mod id="521b8777-0977-4859-a5ee-3e411a732e5c" title="LOC_HARMONY_IN_DIVERSITY_TITLE" />
   </References>
   <ActionCriteria>
     <Criteria id="LandsolYuni">
@@ -51,6 +52,10 @@
       <LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable>
       <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
     </Criteria>
+    <Criteria id="HarmonyInDiversity">
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable>
+      <ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
+    </Criteria>
   </ActionCriteria>
   <FrontEndActions>
     <UpdateDatabase id="Config">
@@ -70,7 +75,7 @@
     <UpdateColors id="ConfigColors">
       <File>Data/Yuni_Colors.xml</File>
     </UpdateColors>
-    <ImportFiles id="NewAction">
+    <ImportFiles id="ConfigUI">
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
   </FrontEndActions>
@@ -131,6 +136,13 @@
       <File>UI/DiplomacyActionView.lua</File>
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
+    <UpdateDatabase id="Gameplay_HD">
+      <Properties>
+        <LoadOrder>16021</LoadOrder>
+      </Properties>
+      <Criteria>HarmonyInDiversity</Criteria>
+      <File>Data/Kokkoro_Vietnam_HD.sql</File>
+    </UpdateDatabase>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -142,6 +154,7 @@
     <File>ArtDefs/Units.artdef</File>
     <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
     <File>Data/Kokkoro_Vietnam.xml</File>
+    <File>Data/Kokkoro_Vietnam_HD.sql</File>
     <File>Data/Yuni_Buildings.xml</File>
     <File>Data/Yuni_Civilizations.xml</File>
     <File>Data/Yuni_Colors.xml</File>
