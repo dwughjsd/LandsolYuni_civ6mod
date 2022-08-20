@@ -196,5 +196,12 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>爱梅斯是居住于梦境世界中的妖精，是前作中的“向导小妖精”菲欧将“向导小妖精”原型的数据与自身融合的产物，“爱梅斯”这一名字也是来源于后者。尽管她清楚地了解大家所处的世界是游戏世界的事实，但因为游戏世界会对玩家的思维与记忆进行“修正”，她只能通过梦境和其他人对话，让大家在潜意识中留下对于现实世界的印象。由于无法直接干涉大家所处的世界，她以“神明”的身份与自己的巫女通信来传达信息，以帮助佑树解开世界之谜。</Text>
 		</Row>
+
+		<Row Tag="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于高魅力单元格时，该单位每回合即使在移动或战斗后也能恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Food] 食物来自相邻冻土单元格。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

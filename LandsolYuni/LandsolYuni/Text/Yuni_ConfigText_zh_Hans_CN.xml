@@ -29,7 +29,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
-			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供等于其 [Icon_Science] 科技值产出的 [ICON_Production] 生产力。</Text>
+			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供等于其固定 [Icon_Science] 科技值产出的 [ICON_Production] 生产力。</Text>
 		</Row>
       
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hans_CN">

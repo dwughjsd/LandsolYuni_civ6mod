@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+			<Text>拥有国家公园的城市获得等同于所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值和 [ICON_CULTURE] 文化值。国家公园产出的 [ICON_Tourism] 旅游业绩+200%。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。解锁“王权神授”市政后获得特色单位“爱梅丝巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
@@ -26,7 +26,11 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。能让 [ICON_Citizen] 公民皈依其所属的宗教，可对其他宗教的单位发动神学战争。只能使用 [ICON_Faith] 信仰值购买。</Text>
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。解锁“保护地球”市政后可以植树造林（人造林）。只能使用 [ICON_Faith] 信仰值购买。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。无需市政要求即可植树造林（人造林）。只能使用 [ICON_Faith] 信仰值购买。</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="zh_Hans_CN">

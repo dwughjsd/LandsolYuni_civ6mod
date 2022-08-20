@@ -170,7 +170,13 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text></Text>
 		</Row>
-		
+
+		<Row Tag="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Language="en_US">
+			<Text>This unit heals every turn even after moving or combat in high appeal tiles.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD" Language="en_US">
+			<Text>+{1_num} [ICON_Food] Food from the adjacent Tundra {1_Num : plural 1?tile; other?tiles;}.</Text>
+		</Row>
 
 	</LocalizedText>
 

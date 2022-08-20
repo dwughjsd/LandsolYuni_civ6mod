@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 15% of your [ICON_FAITH] Faith generation in cities with a National Park. +200% [ICON_Tourism] Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Divine Right.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
@@ -26,7 +26,10 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="en_US">
-			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. May convert [ICON_Citizen] Citizens to their Religion and initiate theological combat with units of other Religions. Must be purchased with [ICON_Faith] Faith.</Text>
+			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. Can plant Woods (second-growth) with Conservation. Must be purchased with [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2" Language="en_US">
+			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. Can plant Woods (second-growth) without prerequisite civics. Must be purchased with [ICON_Faith] Faith.</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="en_US">

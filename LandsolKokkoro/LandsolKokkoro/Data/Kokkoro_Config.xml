@@ -84,7 +84,7 @@
 			<LeaderType>LEADER_NATSUME_KOKORO_PRINCESS</LeaderType>
 			<Type>UNIT_LANDSOL_MIKO_OF_AMES</Type>
 			<Name>LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME</Name>
-			<Description>LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION</Description>
+			<Description>LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2</Description>
 			<Icon>ICON_UNIT_LANDSOL_MIKO_OF_AMES</Icon>
 			<SortIndex>8</SortIndex>
 		</Row>

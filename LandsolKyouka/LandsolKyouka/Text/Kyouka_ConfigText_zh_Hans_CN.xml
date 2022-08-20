@@ -6,7 +6,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有学院或宇航中心的城市建造商业中心、港口、剧院广场和工业区时 +50% [ICON_Production] 生产力。与学院或宇航中心相邻时，这些区域的相邻加成也提供 [ICON_Science] 科技值（不与相同效果叠加，如“自由探索”黄金时代），处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
+			<Text>拥有学院区域的城市 [ICON_SCIENCE] 科技值+10%、[ICON_PRODUCTION] 生产力+5%。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="zh_Hans_CN">
@@ -17,16 +17,16 @@
 			<Text>宇宙蓝闪光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
-			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。</Text>
+			<Text>学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。与水域相邻的单元格 +1 [ICON_Production] 生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“机器人技术”和“纳米技术”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“智能材料”和“外星任务”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
@@ -37,7 +37,7 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="zh_Hans_CN">
-			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与你的盟友开始您的大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
+			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与您的盟友开始大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
 		</Row>
 	</LocalizedText>
 

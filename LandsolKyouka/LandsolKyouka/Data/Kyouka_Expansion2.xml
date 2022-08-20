@@ -17,36 +17,22 @@
 	<ExclusiveAgendas>
 		<Row AgendaOne="AGENDA_DIGNIFIED_AND_DELICATE" AgendaTwo="AGENDA_FLAT_EARTHER"/>
 	</ExclusiveAgendas>
-	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER"/>
-	</TraitModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
-		</Row>
-	</Modifiers>
 	<ModifierArguments>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>3</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<Name>SourceType</Name>
-			<Value>FREE_POWER_SOURCE_MISC</Value>
-		</Row>
+
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1" Name="TechType"/>
+			<Set>
+				<Value>TECH_SMART_MATERIALS</Value>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2" Name="TechType"/>
+			<Set>
+				<Value>TECH_OFFWORLD_MISSION</Value>
+			</Set>
+		</Update>
+
 	</ModifierArguments>
 	
 	<AiListTypes>

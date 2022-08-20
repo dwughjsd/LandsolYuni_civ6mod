@@ -6,7 +6,29 @@
 		<Row Type="TRAIT_LEADER_AURORA_SANCTUARY" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_AGENDA_GUIDE_OF_NATURE" Kind="KIND_TRAIT"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH" Kind="KIND_MODIFIER"/>
+		<Row Type="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Kind="KIND_ABILITY"/>
 	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Tag="CLASS_ALL_COMBAT_UNITS"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Name="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Description="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</UnitAbilityType>
+			<ModifierId>KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<DynamicModifiers>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_YIELD_MODIFIER_FROM_FAITH</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
 	<Leaders>
 		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" Name="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
@@ -94,32 +116,43 @@
 	</LeaderTraits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS"/>
+
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING"/>
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_UNIT_HEAL_CHARMING"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION"/>
 		<Row TraitType="TRAIT_AGENDA_GUIDE_OF_NATURE" ModifierId="AGENDA_GUIDE_OF_NATURE"/>
-		
-		<!--workaround-->
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER"/>
 	</TraitModifiers>
 	
 	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM_FROM_NATIONAL_PARKS</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>KOKKORO_PLOT_ADJACENCY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+			<SubjectRequirementSetId>KOKKORO_PLOT_CHARMING_APPEAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_CHARMING</ModifierId>
@@ -127,79 +160,18 @@
 			<SubjectRequirementSetId>KOKKORO_PLOT_CHARMING_APPEAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
 			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_ENVIRONMENT</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
 		</Row>
-		<!--workaround-->
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<!--!workaround-->
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH</ModifierId>
 			<Name>Amount</Name>
@@ -211,14 +183,29 @@
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
 			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
+			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_CHARMING</ModifierId>
@@ -285,140 +272,12 @@
 			<Name>ScoreAllowancePerEra</Name>
 			<Value>10</Value>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<!--workaround-->
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-		<!--workaround-->
 	</ModifierArguments>
 	<RequirementSets>
 		<Row RequirementSetId="KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="KOKKORO_PLOT_ADJACENCY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_CHARMING_APPEAL" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<!--Workaround-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_NATURAL_WONDER"/>
@@ -430,40 +289,6 @@
 		<Row RequirementSetId="KOKKORO_PLOT_CHARMING_APPEAL" RequirementId="PLAYER_IS_LANDSOL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_KOKKORO"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementId="PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementId="PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_TUNDRA"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_SNOW"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-
-		<!--Workaround-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_TUNDRA"/>
-		<!--Since the modifiers are attached to city centers, we can use "distance to owner=0" to represent "city center only".-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_SNOW"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<!--Workaround-->
 	</RequirementSetRequirements>
 
 	<Requirements>
@@ -478,30 +303,6 @@
 		<Row>
 			<RequirementId>KOKKORO_PLOT_ADJACENT_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS_MET</RequirementId>
 			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
 		</Row>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
@@ -523,41 +324,6 @@
 			<RequirementId>KOKKORO_PLOT_ADJACENT_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS_MET</RequirementId>
 			<Name>RequirementSetId</Name>
 			<Value>KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_TUNDRA</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_SNOW</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<Name>MinDistance</Name>
-			<Value>0</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<Name>MaxDistance</Name>
-			<Value>0</Value>
 		</Row>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
@@ -753,8 +519,7 @@
 			<ModifierId>GUILDHOUSE_FARM_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_IS_AT_1HEX_FARM_GUILDHOUSE</SubjectRequirementSetId>
-			<!--Actually for Gourmet Edifices, but the rest of them are not implemented for now.-->
-			<OwnerRequirementSetId>PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS</OwnerRequirementSetId>
+			<OwnerRequirementSetId>PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS</OwnerRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -764,9 +529,11 @@
 	<RequirementSets>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="PLAYER_IS_KOKKORO_PRINCESS_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
+		<Row RequirementSetId="PLAYER_IS_GOURMET_EDIFICE_REQUIREMENTS" RequirementId="REQUIRES_LEADER_IS_KOKKORO_PRINCESS"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_PLOT_HAS_FARM"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_CITY_HAS_GUILDHOUSE_YUNI"/>
 		<Row RequirementSetId="PLOT_IS_AT_1HEX_FARM_GUILDHOUSE" RequirementId="REQUIRES_IS_AT_1HEX"/>
