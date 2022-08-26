@@ -603,12 +603,21 @@
 		<Row Type="TRAIT_LEADER_COSMOBLUE_FLASH" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" Kind="KIND_TRAIT"/>
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_KYOUKA" Kind="KIND_ABILITY"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" Kind="KIND_MODIFIER"/>
 	</Types>
+
+	<DynamicModifiers>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_GRANT_PLAYER_SPECIFIC_TECHNOLOGY</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
 
 	<TypeTags>
 		<Row Type="ABILITY_RECEIVE_RANGE_BONUS_KYOUKA" Tag="CLASS_RANGED"/>
 	</TypeTags>
-
+	
 	<Leaders>
 		<Row LeaderType="LEADER_HIKAWA_KYOUKA" Name="LOC_LEADER_HIKAWA_KYOUKA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
@@ -671,7 +680,7 @@
 		<Row ListType="HikawaKyoukaProductionPreference" Item="YIELD_PRODUCTION" Value="20"/>
 		<InsertOrIgnore ListType="HikawaKyoukaCivics" Item="CIVIC_EXODUS_IMPERATIVE" Favored="true"/>
 	</AiFavoredItems>
-
+	
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_RECEIVE_RANGE_BONUS_KYOUKA" Name="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_NAME" Description="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_DESCRIPTION" Inactive="true"/>
 	</UnitAbilities>
@@ -681,62 +690,54 @@
 			<ModifierId>RECEIVE_RANGE_BONUS_KYOUKA</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
-
+	
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_GA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_THEATER"/>
-
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_GA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_HARBOR"/>
-
-
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_GA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_INDUSTRIAL_ZONE"/>
-
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_GA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_COMMERCIAL_HUB"/>
-
+		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST"/>
+		<Row TraitType="TRAIT_LEADER_LITTLE_MODEL_STUDENT" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION_COAST"/>
 
 		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_RIVER_UNIT_RANGE"/>
 		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_RIVER_ADJACENCY"/>
-		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY"/>
+		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION"/>
 		<Row TraitType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" ModifierId="MODIFIER_AGENDA_DIGNIFIED_AND_DELICATE"/>
 	</TraitModifiers>
-
-	<!--Used for Cosmoblue Flash leader trait-->
+	
+	<!--Cosmo Blue Flash: XP1-->
 	<DistrictModifiers>
 		<Row>
-			<DistrictType>DISTRICT_CAMPUS</DistrictType>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_OCEAN_YIELD</ModifierId>
+			<DistrictType>DISTRICT_SPACEPORT</DistrictType>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
 		</Row>
 		<Row>
-			<DistrictType>DISTRICT_CAMPUS</DistrictType>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_COAST_YIELD</ModifierId>
+			<DistrictType>DISTRICT_SPACEPORT</DistrictType>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2</ModifierId>
 		</Row>
 	</DistrictModifiers>
-
+	
 	<Modifiers>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_SCIENCE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_THEATER_REQUIREMENTS"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_SCIENCE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HARBOR_REQUIREMENTS"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_SCIENCE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_INDUSTRIAL_ZONE_REQUIREMENTS"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_SCIENCE" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_COMMERCIAL_HUB_REQUIREMENTS"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_GA_PRODUCTION" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_THEATER_REQUIREMENTS" OwnerRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_GA_PRODUCTION" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HARBOR_REQUIREMENTS" OwnerRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_GA_PRODUCTION" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_INDUSTRIAL_ZONE_REQUIREMENTS" OwnerRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_GA_PRODUCTION" ModifierType="MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS" SubjectRequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_COMMERCIAL_HUB_REQUIREMENTS" OwnerRequirementSetId="PLAYER_HAS_GOLDEN_AGE"/>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CAMPUS_MACEDON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CAMPUS_MACEDON</SubjectRequirementSetId>
+		</Row>
 
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_OCEAN_YIELD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="HIKAWA_KYOUKA_PLOT_HAS_OCEAN_REQUIREMENTS" OwnerRequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COAST_YIELD" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="PLOT_HAS_COAST_REQUIREMENTS" OwnerRequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST"/>
-
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_THEATER" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION" SubjectRequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" />
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_HARBOR" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION" SubjectRequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" />
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_INDUSTRIAL_ZONE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION" SubjectRequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" />
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_COMMERCIAL_HUB" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION" SubjectRequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" />
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>KYOUKA_CAMPUS_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION_COAST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>KYOUKA_CAMPUS_COAST</SubjectRequirementSetId>
+		</Row>
 
 		<Row>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_RIVER_UNIT_RANGE</ModifierId>
@@ -747,7 +748,7 @@
 		<Row>
 			<ModifierId>RECEIVE_RANGE_BONUS_KYOUKA</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
-			<SubjectRequirementSetId>PLOT_IS_ADJACENT_TO_RIVER_OR_COAST_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>ADJACENT_TO_WATER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 
 		<Row>
@@ -755,16 +756,28 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_RIVER_ADJACENCY</ModifierType>
 			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="LANDSOL_REQUIREMENTS"/>
+		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="ADJACENT_TO_WATER_REQUIREMENTS"/>
 
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_SCIENCE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
 		</Row>
 
 		<Row>
@@ -772,41 +785,50 @@
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_PARANOID</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
-		</Row>
+		</Row>		
 	</Modifiers>
-
+	
 	<ModifierArguments>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_SCIENCE" Name="YieldTypeToMirror" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_SCIENCE" Name="YieldTypeToGrant" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_SCIENCE" Name="YieldTypeToMirror" Value="YIELD_GOLD"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_SCIENCE" Name="YieldTypeToGrant" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_SCIENCE" Name="YieldTypeToMirror" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_SCIENCE" Name="YieldTypeToGrant" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_SCIENCE" Name="YieldTypeToMirror" Value="YIELD_GOLD"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_SCIENCE" Name="YieldTypeToGrant" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_GA_PRODUCTION" Name="YieldTypeToMirror" Value="YIELD_CULTURE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_THEATER_GA_PRODUCTION" Name="YieldTypeToGrant" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_GA_PRODUCTION" Name="YieldTypeToMirror" Value="YIELD_GOLD"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_HARBOR_GA_PRODUCTION" Name="YieldTypeToGrant" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_GA_PRODUCTION" Name="YieldTypeToMirror" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_INDUSTRIAL_ZONE_GA_PRODUCTION" Name="YieldTypeToGrant" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_GA_PRODUCTION" Name="YieldTypeToMirror" Value="YIELD_GOLD"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COMMERCIAL_HUB_GA_PRODUCTION" Name="YieldTypeToGrant" Value="YIELD_PRODUCTION"/>
-
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_OCEAN_YIELD" Name="YieldType" Value="YIELD_SCIENCE,YIELD_PRODUCTION"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_OCEAN_YIELD" Name="Amount" Value="3,2"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COAST_YIELD" Name="YieldType" Value="YIELD_SCIENCE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_COAST_YIELD" Name="Amount" Value="1"/>
-
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_THEATER" Name="DistrictType" Value="DISTRICT_THEATER"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_THEATER" Name="Amount" Value="50"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_HARBOR" Name="DistrictType" Value="DISTRICT_HARBOR"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_HARBOR" Name="Amount" Value="50"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_INDUSTRIAL_ZONE" Name="DistrictType" Value="DISTRICT_INDUSTRIAL_ZONE"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_INDUSTRIAL_ZONE" Name="Amount" Value="50"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_COMMERCIAL_HUB" Name="DistrictType" Value="DISTRICT_COMMERCIAL_HUB"/>
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_FASTER_COMMERCIAL_HUB" Name="Amount" Value="50"/>
-
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION_COAST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_PRODUCTION_COAST</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_RIVER_UNIT_RANGE</ModifierId>
 			<Name>AbilityType</Name>
@@ -838,27 +860,62 @@
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
-
-
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>15</Value>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
 			<Name>Amount</Name>
-			<Value>15</Value>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_CAMPUS_COAST_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_KYOUKA_SCIENCE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ROBOTICS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_NANOTECHNOLOGY</Value>
 		</Row>
 
 		<Row>
@@ -867,23 +924,20 @@
 			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY</Value>
 		</Row>
 	</ModifierArguments>
-
+	
 	<RequirementSets>
 		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<InsertOrIgnore RequirementSetId="LANDSOL_PLAYER_HAS_GOLDEN_AGE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_PLOT_HAS_OCEAN_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_COMMERCIAL_HUB_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_THEATER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HARBOR_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HOLY_SITE_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_INDUSTRIAL_ZONE_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="PLOT_IS_ADJACENT_TO_RIVER_OR_COAST_KYOUKA" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-	</RequirementSets>
+		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 
+	</RequirementSets>
+	
 	<RequirementSetRequirements>
 		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_SPACEPORT"/>
 		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
@@ -891,26 +945,17 @@
 		<InsertOrIgnore RequirementSetId="LANDSOL_PLAYER_HAS_GOLDEN_AGE" RequirementId="REQUIRES_PLAYER_HAS_GOLDEN_AGE"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CAMPUS"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_SPACEPORT_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_COMMERCIAL_HUB_REQUIREMENTS" RequirementId="REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_COMMERCIAL_HUB_REQUIREMENTS" RequirementId="REQUIRES_DISTRICT_IS_COMMERCIAL_HUB"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_THEATER_REQUIREMENTS" RequirementId="REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_THEATER_REQUIREMENTS" RequirementId="REQUIRES_DISTRICT_IS_THEATER"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HARBOR_REQUIREMENTS" RequirementId="REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HARBOR_REQUIREMENTS" RequirementId="REQUIRES_DISTRICT_IS_HARBOR"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HOLY_SITE_REQUIREMENTS" RequirementId="REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_HOLY_SITE_REQUIREMENTS" RequirementId="REQUIRES_DISTRICT_IS_HOLY_SITE"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_INDUSTRIAL_ZONE_REQUIREMENTS" RequirementId="REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_LITTLE_MODEL_STUDENT_INDUSTRIAL_ZONE_REQUIREMENTS" RequirementId="REQUIRES_DISTRICT_IS_INDUSTRIAL_ZONE"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_PLOT_HAS_OCEAN_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_OCEAN_HIKAWA_KYOUKA"/>
 		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementId="REQUIRES_PLOT_IS_ADJACENT_TO_COAST"/>
 		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="PLOT_IS_ADJACENT_TO_RIVER_OR_COAST_KYOUKA" RequirementId="REQUIRES_PLOT_ADJACENT_TO_RIVER"/>
-		<Row RequirementSetId="PLOT_IS_ADJACENT_TO_RIVER_OR_COAST_KYOUKA" RequirementId="REQUIRES_PLOT_IS_ADJACENT_TO_COAST"/>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_SPACEPORT"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
+		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
+		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_5_COAST_KYOUKA"/>
+		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
 	</RequirementSetRequirements>
-
+	
 	<Requirements>
 		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_SPACEPORT" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
 		<Row>
@@ -926,8 +971,12 @@
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
 		</Row>
 		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_TERRAIN_TYPE</RequirementType>
+		</Row>
 	</Requirements>
-
+	
 	<RequirementArguments>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_CITY_HAS_SPACEPORT</RequirementId>
@@ -950,8 +999,23 @@
 			<Value>TERRAIN_OCEAN</Value>
 		</Row>
 		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA" Name="LeaderType" Value="LEADER_HIKAWA_KYOUKA"/>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
+			<Name>Hills</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</RequirementArguments>
-
+	
 	<!--Guildhouse-->
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_GUILDHOUSE_AMENITIES"/>
@@ -965,7 +1029,7 @@
 		<Row BuildingType="BUILDING_GUILDHOUSE" ModifierId="TRAIT_GUILDHOUSE_ARTIST"/>
 		<Row BuildingType="BUILDING_GUILDHOUSE" ModifierId="TRAIT_GUILDHOUSE_MUSICIAN"/>
 	</BuildingModifiers>
-
+	
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_AMENITIES</ModifierId>
@@ -1079,7 +1143,29 @@
 		<Row Type="TRAIT_LEADER_AURORA_SANCTUARY" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_AGENDA_GUIDE_OF_NATURE" Kind="KIND_TRAIT"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH" Kind="KIND_MODIFIER"/>
+		<Row Type="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Kind="KIND_ABILITY"/>
 	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Tag="CLASS_ALL_COMBAT_UNITS"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION" Name="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Description="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</UnitAbilityType>
+			<ModifierId>KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<DynamicModifiers>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_YIELD_MODIFIER_FROM_FAITH</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
 	<Leaders>
 		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" Name="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
@@ -1135,7 +1221,7 @@
 		<Row ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_MAHABODHI_TEMPLE" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_ORACLE" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_MONT_ST_MICHEL" Favored="true"/>
-		<Row ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_HAGIA_SOPHIA" Favored="true"/>
+		<Row ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_HAGIA_SOPHIA" Favored="true"/>	
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_MYSTICISM" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_THEOLOGY" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_GUILDS" Favored="true"/>
@@ -1151,14 +1237,14 @@
 		<InsertOrIgnore ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_MEENAKSHI_TEMPLE" Favored="true"/>
 		<InsertOrIgnore ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_BIOSPHERE" Favored="true"/>
 	</AiFavoredItems>
-
+	
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" Name="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Description="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION"/>
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" Name="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Description="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION"/>
 		<Row TraitType="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES" />
 		<Row TraitType="TRAIT_AGENDA_GUIDE_OF_NATURE" />
 	</Traits>
-
+	
 	<LeaderTraits>
 		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION"/>
 		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" TraitType="TRAIT_LEADER_AURORA_SANCTUARY"/>
@@ -1167,32 +1253,43 @@
 	</LeaderTraits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH"/>
-		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS"/>
+
+		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING"/>
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_UNIT_HEAL_CHARMING"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION"/>
 		<Row TraitType="TRAIT_AGENDA_GUIDE_OF_NATURE" ModifierId="AGENDA_GUIDE_OF_NATURE"/>
-
-		<!--workaround-->
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER"/>
 	</TraitModifiers>
-
+	
 	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM_FROM_NATIONAL_PARKS</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>KOKKORO_PLOT_ADJACENCY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
 			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_MODIFIER_FROM_FAITH</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_NATIONAL_PARK_REQUREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+			<SubjectRequirementSetId>KOKKORO_PLOT_CHARMING_APPEAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_CHARMING</ModifierId>
@@ -1200,79 +1297,18 @@
 			<SubjectRequirementSetId>KOKKORO_PLOT_CHARMING_APPEAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
 			<ModifierId>AGENDA_GUIDE_OF_NATURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_ENVIRONMENT</ModifierType>
 			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
 			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
 		</Row>
-		<!--workaround-->
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<!--!workaround-->
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARKS_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_PLOT_NATURE_ADJACENCY_FAITH</ModifierId>
 			<Name>Amount</Name>
@@ -1284,14 +1320,29 @@
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
 			<Name>YieldType</Name>
-			<Value>YIELD_FAITH</Value>
+			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_KOKKORO_NATIONAL_PARK_FAITH_MODIFIER</ModifierId>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_SCIENCE_NATIONAL_PARKS</ModifierId>
 			<Name>Amount</Name>
-			<Value>10</Value>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_FAITH_INTO_CULTURE_NATIONAL_PARKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_AFTER_ACTION_CHARMING</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_KOKKORO_UNIT_HEAL_CHARMING</ModifierId>
@@ -1358,140 +1409,12 @@
 			<Name>ScoreAllowancePerEra</Name>
 			<Value>10</Value>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<!--workaround-->
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_PRODUCTION_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_SNOW_SNOWHILL_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_KOKKORO_TUNDRA_SNOW_INC_HILLS_FOOD_CITY_CENTER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>-1</Value>
-		</Row>
-		<!--workaround-->
 	</ModifierArguments>
 	<RequirementSets>
 		<Row RequirementSetId="KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="KOKKORO_PLOT_ADJACENCY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_CHARMING_APPEAL" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<!--Workaround-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_NATURAL_WONDER"/>
@@ -1503,40 +1426,6 @@
 		<Row RequirementSetId="KOKKORO_PLOT_CHARMING_APPEAL" RequirementId="PLAYER_IS_LANDSOL"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementId="REQUIRES_PLOT_BREATHTAKING_APPEAL_KOKKORO"/>
 		<Row RequirementSetId="KOKKORO_PLOT_BREATHTAKING_APPEAL" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS" RequirementId="PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS" RequirementId="PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS" RequirementId="PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_TUNDRA"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_SNOW"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-
-		<!--Workaround-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_TUNDRA"/>
-		<!--Since the modifiers are attached to city centers, we can use "distance to owner=0" to represent "city center only".-->
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_SNOW"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_LANDSOL_CITY_CENTER_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_SNOW_SNOWHILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="REQUIRES_IS_AT_0HEX_KOKKORO"/>
-		<Row RequirementSetId="KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_CITY_CENTER_LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<!--Workaround-->
 	</RequirementSetRequirements>
 
 	<Requirements>
@@ -1551,30 +1440,6 @@
 		<Row>
 			<RequirementId>KOKKORO_PLOT_ADJACENT_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS_MET</RequirementId>
 			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
 		</Row>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
@@ -1597,41 +1462,6 @@
 			<Name>RequirementSetId</Name>
 			<Value>KOKKORO_ADJACENT_TO_MOUNTAIN_FOREST_NATURAL_WONDER_REQUIREMENTS</Value>
 		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TERRAIN_REQUIREMENT</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_TUNDRA</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_TERRAIN_REQUIREMENT</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_SNOW</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_TUNDRA_SNOW_HILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_TUNDRA_TUNDRAHILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS_FULFILLED</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>KOKKORO_PLOT_IS_SNOW_SNOWHILLS_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<Name>MinDistance</Name>
-			<Value>0</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_IS_AT_0HEX_KOKKORO</RequirementId>
-			<Name>MaxDistance</Name>
-			<Value>0</Value>
-		</Row>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
 			<Name>TerrainType</Name>
@@ -1653,7 +1483,7 @@
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_CHARMING_PRODUCTION_ATTACH"/>
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION_ATTACH"/>
 	</TraitModifiers>
-
+	
 	<Modifiers>
 		<Row ModifierId="KOKKORO_SHRINE_CHARMING_FAITH_ATTACH" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"/>
 		<Row ModifierId="KOKKORO_SHRINE_BREATHTAKING_FAITH_ATTACH" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER"/>
@@ -1693,7 +1523,7 @@
 		<Row ModifierId="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE_ATTACH" Name="ModifierId" Value="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE"/>
 		<Row ModifierId="KOKKORO_FACTORY_CHARMING_PRODUCTION_ATTACH" Name="ModifierId" Value="KOKKORO_FACTORY_CHARMING_PRODUCTION"/>
 		<Row ModifierId="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION_ATTACH" Name="ModifierId" Value="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION"/>
-
+		
 		<Row ModifierId="KOKKORO_SHRINE_CHARMING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="KOKKORO_SHRINE_CHARMING_FAITH" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_SHRINE_BREATHTAKING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
@@ -1708,12 +1538,12 @@
 		<Row ModifierId="KOKKORO_AMPHITHEATER_CHARMING_CULTURE" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_AMPHITHEATER_BREATHTAKING_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
 		<Row ModifierId="KOKKORO_AMPHITHEATER_BREATHTAKING_CULTURE" Name="Amount" Value="1"/>
-
+	
 		<Row ModifierId="KOKKORO_BANK_CHARMING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="KOKKORO_BANK_CHARMING_GOLD" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_BANK_BREATHTAKING_GOLD" Name="YieldType" Value="YIELD_GOLD"/>
 		<Row ModifierId="KOKKORO_BANK_BREATHTAKING_GOLD" Name="Amount" Value="1"/>
-
+		
 		<Row ModifierId="KOKKORO_UNIVERSITY_CHARMING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
 		<Row ModifierId="KOKKORO_UNIVERSITY_CHARMING_SCIENCE" Name="Amount" Value="1"/>
 		<Row ModifierId="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
@@ -1793,7 +1623,7 @@
 		<Row RequirementSetId="KOKKORO_FACTORY_BREATHTAKING_UNIMPROVED_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_NO_IMPROVEMENT"/>
 		<Row RequirementSetId="KOKKORO_FACTORY_BREATHTAKING_UNIMPROVED_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
 	</RequirementSetRequirements>
-
+	
 	<!--Insert or Ignore. For XP1 compatibility.-->
 	<Requirements>
 		<InsertOrIgnore>
@@ -1813,7 +1643,7 @@
 			<Value>CIVIC_CONSERVATION</Value>
 		</InsertOrIgnore>
 	</RequirementArguments>
-
+	
 	<!--Guildhouse-->
 	<ImprovementModifiers>
 		<Row>

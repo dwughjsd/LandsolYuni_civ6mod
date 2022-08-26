@@ -110,15 +110,14 @@
 	</Types>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" AiType="UNITTYPE_CIVILIAN"/>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" AiType="UNITAI_EXPLORE"/>
 	</UnitAiInfos>
 	<TypeTags>
 		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_LANDCIVILIAN"/>
-		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS"/>
-		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS_ALL"/>
-		<Row Type="UNIT_LANDSOL_MIKO_OF_AMES" Tag="CLASS_RELIGIOUS_SPREAD"/>
+		
 	</TypeTags>
 	<Units>
-		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" Cost="200" BaseMoves="4" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Description="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" ReligiousStrength="110" SpreadCharges="3" TrackReligion="TRUE" PrereqCivic="CIVIC_MERCANTILISM" MustPurchase="TRUE" ParkCharges="1" ReligionEvictPercent="25" TraitType="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES"/>
+		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" Cost="200" BaseMoves="4" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Description="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" CanCapture="False" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="15" PurchaseYield="YIELD_FAITH" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS" CanRetreatWhenCaptured="True" PrereqCivic="CIVIC_DIVINE_RIGHT" MustPurchase="TRUE" ParkCharges="1" TraitType="TRAIT_UNIT_LANDSOL_MIKO_OF_AMES" BuildCharges="3" />
 	</Units>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_LANDSOL_MIKO_OF_AMES" ReplacesUnitType="UNIT_NATURALIST"/>

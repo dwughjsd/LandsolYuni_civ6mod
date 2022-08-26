@@ -84,7 +84,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
-			<Text>+50% [ICON_Production] Production toward Commercial Hubs, Harbors, Theater Squares and Industrial Zones in cities with a Campus or Spaceport, and adjacency bonuses of these districts provide [ICON_Science] Science as well when they are adjacent to a Campus or Spaceport (do not stack with the same effects, for example, Free Inquiry Golden Age). Additional [ICON_Production] Production when in a Golden Age.</Text>
+			<Text>+10% [ICON_SCIENCE] Science and 5% [ICON_PRODUCTION] Production in cities with a Campus district. If there are 5 Coast tiles within 3 tiles of a city and owned by you these yields are doubled.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="en_US">
@@ -95,16 +95,16 @@
 			<Text>Cosmo Blue Flash</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="en_US">
-			<Text>Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and if built adjacent to a Coast provide +1 [ICON_Science] Science to all Coast tiles, +3 [ICON_Science] Science and +2 [ICON_Production] Production to all Ocean tiles in the city they are in.</Text>
+			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water. +1 [ICON_Production] Production to all tiles adjacent to water.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production to Cities with a Spaceport.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Robotics and Nanotechnology technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} +15% [ICON_SCIENCE] Science, [ICON_PRODUCTION] Production and +3 [ICON_Power] Power to Cities with a Spaceport.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Smart Materials and Offworld Mission technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
 			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
@@ -116,16 +116,17 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="en_US">
-			<Text>Kyoka, you have maturity needed for being a leader since your childhood. Your people are proud of you and see you as their model. You are diligent and wise, leading people to explore blue seas and skies with guide of starlight. Start grand adventures with your allies, and dig deep into the universe. But be cautious, for your suspicious enemies are gazing upon your land.</Text>
+			<Text>Kyoka, you have maturity needed for being a leader since your childhood. Your people are proud of you and see you as their model. You are diligent and wise, leading people to explore blue seas and skies with guide of starlight. Start grand adventures with your allies, and dig deep into the universe. But be cautious, as suspicious enemies are gazing upon your land.</Text>
 		</Row>
 	</LocalizedText>
+	
 	<LocalizedText>
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="en_US">
 			<Text>Pure White Revelation</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Cities with a National Park receive +10% [ICON_Faith] Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Mercantilism.</Text>
+			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 15% of your [ICON_FAITH] Faith generation in cities with a National Park. +200% [ICON_Tourism] Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Divine Right.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
@@ -145,7 +146,10 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="en_US">
-			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. May convert [ICON_Citizen] Citizens to their Religion and initiate theological combat with units of other Religions. Must be purchased with [ICON_Faith] Faith.</Text>
+			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. Can plant Woods (second-growth) with Conservation. Must be purchased with [ICON_Faith] Faith.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2" Language="en_US">
+			<Text>Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract [ICON_Tourism] tourists. Can plant Woods (second-growth) without prerequisite civics. Must be purchased with [ICON_Faith] Faith.</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="en_US">

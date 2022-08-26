@@ -10,6 +10,7 @@
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_GUILDHOUSE" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
 	</Building_YieldChanges>
+
 	<BuildingModifiers>
 		<Row>
 			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
@@ -31,18 +32,21 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
+
 	<RequirementSetRequirements>
 		<Row>
 			<RequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
+
 	<Requirements>
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
 		</Row>
 	</Requirements>
+
 	<RequirementArguments>
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
@@ -50,4 +54,5 @@
 			<Value>BUILDING_GUILDHOUSE</Value>
 		</Row>
 	</RequirementArguments>
+
 </GameData>

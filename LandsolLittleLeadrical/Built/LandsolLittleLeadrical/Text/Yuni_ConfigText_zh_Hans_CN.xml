@@ -29,7 +29,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
-			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供等于其 [Icon_Science] 科技值产出的 [ICON_Production] 生产力。</Text>
+			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供等于其固定 [Icon_Science] 科技值产出的 [ICON_Production] 生产力。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hans_CN">
@@ -73,35 +73,35 @@
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时+10 [ICON_Strength] 战斗力。</Text>
 		</Row>
-
 	</LocalizedText>
+
 	<LocalizedText>
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
 			<Text>小小优等生</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有学院或宇航中心的城市建造商业中心、港口、剧院广场和工业区时 +50% [ICON_Production] 生产力。与学院或宇航中心相邻时，这些区域的相邻加成也提供 [ICON_Science] 科技值（不与相同效果叠加，如“自由探索”黄金时代），处于黄金时代时还额外提供 [ICON_Production] 生产力。</Text>
+			<Text>拥有学院区域的城市 [ICON_SCIENCE] 科技值+10%、[ICON_PRODUCTION] 生产力+5%。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="zh_Hans_CN">
 			<Text>[NEWLINE][NEWLINE]公会之家加成：+2 [ICON_Amenities] 宜居度，+2 [ICON_Culture] 文化值，+1 [ICON_GreatEngineer] 大工程师、 [ICON_GreatMerchant] 大商人、 [ICON_GreatWriter] 大文学家、 [ICON_GreatArtist] 大艺术家和 [ICON_GreatMusician] 大音乐家点数。</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="zh_Hans_CN">
 			<Text>宇宙蓝闪光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
-			<Text>陆地远程单位在与海岸或河流相邻的单元格 +1 [ICON_Range] 射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1 [ICON_Science] 科技值，海洋单元格+3 [ICON_Science] 科技值和+2 [ICON_Production] 生产力。</Text>
+			<Text>学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。与水域相邻的单元格 +1 [ICON_Production] 生产力。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“机器人技术”和“纳米技术”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}有宇航中心的城市+15% [ICON_Science] 科技值和 [ICON_Production] 生产力，+3 [ICON_Power] 电力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“智能材料”和“外星任务”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="zh_Hans_CN">
 			<Text>为镜华增加一个额外的领袖特性“{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}”：{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
@@ -112,7 +112,7 @@
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="zh_Hans_CN">
-			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与你的盟友开始您的大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
+			<Text>镜华，您自幼就拥有作为一名领袖必要的成熟，您的人民都以您为荣并视您为楷模。您勤勉又智慧，在星光的指引下带领人民探索蔚蓝的海洋和天空。与您的盟友开始大冒险，前往宇宙深处吧，不过务必谨慎行事——因为可疑的敌人觊觎着您的领土。</Text>
 		</Row>
 	</LocalizedText>
 
@@ -122,7 +122,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建有国家公园的城市获得额外 +10% [ICON_Faith] 信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。</Text>
+			<Text>拥有国家公园的城市获得等同于所产生 [ICON_FAITH] 信仰值15%的 [ICON_SCIENCE] 科技值和 [ICON_CULTURE] 文化值。国家公园产出的 [ICON_Tourism] 旅游业绩+200%。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。解锁“王权神授”市政后获得特色单位“爱梅丝巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
@@ -142,7 +142,11 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。能让 [ICON_Citizen] 公民皈依其所属的宗教，可对其他宗教的单位发动神学战争。只能使用 [ICON_Faith] 信仰值购买。</Text>
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。解锁“保护地球”市政后可以植树造林（人造林）。只能使用 [ICON_Faith] 信仰值购买。</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引 [ICON_Tourism] 游客。无需市政要求即可植树造林（人造林）。只能使用 [ICON_Faith] 信仰值购买。</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="zh_Hans_CN">

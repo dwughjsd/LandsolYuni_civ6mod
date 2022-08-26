@@ -105,36 +105,20 @@
 	<ExclusiveAgendas>
 		<Row AgendaOne="AGENDA_DIGNIFIED_AND_DELICATE" AgendaTwo="AGENDA_FLAT_EARTHER"/>
 	</ExclusiveAgendas>
-	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER"/>
-	</TraitModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
-			<SubjectRequirementSetId>KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
-		</Row>
-	</Modifiers>
 	<ModifierArguments>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>3</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_POWER_MODIFIER</ModifierId>
-			<Name>SourceType</Name>
-			<Value>FREE_POWER_SOURCE_MISC</Value>
-		</Row>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1" Name="TechType"/>
+			<Set>
+				<Value>TECH_SMART_MATERIALS</Value>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2" Name="TechType"/>
+			<Set>
+				<Value>TECH_OFFWORLD_MISSION</Value>
+			</Set>
+		</Update>
 	</ModifierArguments>
 
 	<AiListTypes>
@@ -201,5 +185,113 @@
 	<Units_XP2>
 		<Row UnitType="UNIT_LANDSOL_MIKO_OF_AMES" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
+
+		<!--Workaround: Permit planting woods with Divine Right (where Miko of Ames is unlocked) but disable all player units from doing so without Conservation.-->
+	<Types>
+		<Row Type="MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_KOKKORO" Kind="KIND_MODIFIER"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_ADJUST_FEATURE_UNLOCK" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_KOKKORO</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+			<EffectType>EFFECT_CHANGE_UNIT_OPERATION_AVAILABILITY</EffectType>
+		</Row>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FEATURE_UNLOCK</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_FEATURE_PREREQ</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
+
+	
+	<!--Proving ground-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PLANT_WOODS_DIVINE_RIGHT"/>
+		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PREVENT_PLANT_WOODS_WITHOUT_CONSERVATION"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_PLANT_WOODS_DIVINE_RIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FEATURE_UNLOCK</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_PREVENT_PLANT_WOODS_WITHOUT_CONSERVATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_DISABLE_OPERATION_KOKKORO</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_NOT_MIKO_OF_AMES_AND_NO_CONSERVATION</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_PLANT_WOODS_DIVINE_RIGHT</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_PLANT_WOODS_DIVINE_RIGHT</ModifierId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_DIVINE_RIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_KOKKORO_PREVENT_PLANT_WOODS_WITHOUT_CONSERVATION</ModifierId>
+			<Name>OperationType</Name>
+			<Value>UNITOPERATION_PLANT_FOREST</Value>
+		</Row>
+	</ModifierArguments>
+
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_LANDSOL_MIKO_OF_AMES"/>
+			<Set>
+				<Description>LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2</Description>
+			</Set>
+		</Update>
+	</Units>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UNIT_IS_NOT_MIKO_OF_AMES_AND_NO_CONSERVATION</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>UNIT_IS_NOT_MIKO_OF_AMES_AND_NO_CONSERVATION</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_CONSERVATION_KOKKORO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_NOT_MIKO_OF_AMES_AND_NO_CONSERVATION</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_MIKO</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_CONSERVATION_KOKKORO</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_MIKO</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_CONSERVATION_KOKKORO</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CONSERVATION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_NOT_MIKO</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_LANDSOL_MIKO_OF_AMES</Value>
+		</Row>
+	</RequirementArguments>
 
 </GameData>

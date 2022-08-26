@@ -555,8 +555,8 @@
 		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_QUOTE" Language="zh_Hans_CN">
 			<Text>不对，不是“好像”一个大姐姐，我就是大姐姐！</Text>
 		</Row>
-
-		<!-- Leader Dialog -->
+	
+ 	   <!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--同意声明友谊 - 个人剧情第2集-->
 			<Text>看你没有朋友的样子，我也不忍心放着你不管。没办法，就带你一起玩吧。</Text>
@@ -656,7 +656,7 @@
 			<!--请求结盟 - Civ6 generic-->
 			<Text>您想结为盟友吗？</Text>
 		</Row>
-
+		
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--要求移开边境军队 - 改编自个人剧情第1集-->
 			<Text>请不要靠近我的领土边界，否则我要叫军队来赶人了哦。</Text>
@@ -684,16 +684,16 @@
 		<Row Tag="LOC_AGENDA_DIGNIFIED_AND_DELICATE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>专注于提升城市的 [ICON_Science] 科技值和 [ICON_Production] 生产力并赢取科技胜利。喜欢没有威胁的文明。讨厌拥有强大军队或相邻的文明。</Text>
 		</Row>
-
+		
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUBTITLE" Language="zh_Hans_CN">
 			<Text>小小甜心公会成员</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。镜华从水域单元格和邻接学院的区域中获得大量 [ICON_Science] 科技值和 [ICON_Production] 生产力，使其在太空竞赛中堪称模范。</Text>
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。镜华从水域和学院区域获得大量 [ICON_Science] 科技值和 [ICON_Production] 生产力，使其在太空竞赛中堪称模范。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>镜华的城市规划独具特色。他们需要在水域单元格或河流边建立学院并部署远程单位，以便充分利用领袖能力保护自己并赢取游戏。尽早建设宇航中心区域，他们便可以进一步强化城市的产出。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。在可观的 [ICON_Science] 科技值和 [ICON_Production] 生产力加成以及额外的 [ICON_GreatScientist] 大科学家的帮助下，镜华最适合的无疑是科技胜利。</Text>
+			<Text>镜华的城市规划独具特色。他们需要在海岸或河流边建立学院并部署远程单位，以便充分利用领袖能力保护自己并赢取游戏。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。在 [ICON_Science] 科技值、 [ICON_Production] 生产力加成以及建设一座宇航中心提供的免费科技的帮助下，镜华最适合的无疑是科技胜利。</Text>
 		</Row>
 
 		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_NAME" Language="zh_Hans_CN">
@@ -727,7 +727,12 @@
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
 			<Text>同其他主角一起，镜华也在《影之诗》等作品中客串出场，但不如美食殿堂那般广泛。无论如何，她以自己的特色，吸引了一群喜欢她的粉丝。</Text>
 		</Row>
+
+		<Row Tag="LOC_DISTRICT_KYOUKA_SCIENCE" Language="zh_Hans_CN">
+			<Text>从相邻的海岸单元格获得+{1_num} [ICON_Science] 科技值。</Text>
+		</Row>
 	</LocalizedText>
+
 	<LocalizedText>
 
 		<!-- Leader Quotes——序章-->
@@ -884,7 +889,7 @@
 			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。身为守护自然的纯白巫女，公主形态的可可萝从迷人的自然界中获得强大力量，引领她的人民获得胜利。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
-			<Text>魅力对于公主可可萝的城市规划至关重要。他们在高魅力的单元格附近建立城市来获得“极光圣界”特性提供的额外产出和单位回复。相邻自然美景，[ICON_Faith] 信仰值的产出也相当可观。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。由于可以获得额外的 [ICON_Faith] 信仰值购买使徒或爱梅斯巫女，对公主可可萝而言，最容易获得的是宗教胜利和文化胜利。</Text>
+			<Text>魅力对公主可可萝至关重要。他们在高魅力的单元格附近建立城市来获得“极光圣界”特性提供的额外来自保护区的产出以及单位回复。靠近自然美景，他们的 [ICON_Faith] 信仰值产出相当可观。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。由于拥有额外的 [ICON_Faith] 信仰值购买使徒或爱梅斯巫女，对公主可可萝而言，最容易获得的是宗教胜利和文化胜利。</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
@@ -923,6 +928,13 @@
 
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>爱梅斯是居住于梦境世界中的妖精，是前作中的“向导小妖精”菲欧将“向导小妖精”原型的数据与自身融合的产物，“爱梅斯”这一名字也是来源于后者。尽管她清楚地了解大家所处的世界是游戏世界的事实，但因为游戏世界会对玩家的思维与记忆进行“修正”，她只能通过梦境和其他人对话，让大家在潜意识中留下对于现实世界的印象。由于无法直接干涉大家所处的世界，她以“神明”的身份与自己的巫女通信来传达信息，以帮助佑树解开世界之谜。</Text>
+		</Row>
+		
+		<Row Tag="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于高魅力单元格时，该单位每回合即使在移动或战斗后也能恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Food] 食物来自相邻冻土单元格。</Text>
 		</Row>
 	</LocalizedText>
 
