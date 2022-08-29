@@ -63,12 +63,12 @@
 [b][url=space.bilibili.com/28399130]hemmelfort[/url][/b]：为模组作者提供了关于blender的操作说明，以及一系列其他教程。
 [b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]：帮助完成并调整了部分英文文本。
 [b][url=steamcommunity.com/profiles/76561198181931490]月海之沙[/url][/b]：为本模组的领袖特性提供了建议和测试，并且花了很长时间叫我把这鬼东西上传到工坊……
-[b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]：和前一位一起，花了很长时间叫我上传……
+[b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]：和前一位一起，花了很长时间叫我上传……还做了和而不同的兼容。
 [b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]：提供平衡调整。
 
 封面图像：RYUKI（pixiv插画ID：80628407）。本模组使用了来自手机游戏《公主连结 Re:Dive》的素材。模组作者并不拥有素材的所有权。
 
-我是个（还算）熟练的文明6mod作者，同时也是一个文明6mod群的管理员。需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入文明6模组制作讨论QQ群（711403691）联系我。
+我是个（还算）熟练的文明6mod作者，同时也是一个文明6mod群的管理员。需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入“圣特蕾莎文明模组学园”（519747236）联系我。
 
 
 [h1]↑ Please leave a positive rate if you like this mod. Much appreciation![/h1]
@@ -136,9 +136,9 @@ This mod replaces loading screen and diplomacy screen to hide unneeded Princess 
 [b][url=space.bilibili.com/28399130]hemmelfort[/url][/b]: For providing tutorials of blender and CivVI modding.
 [b][url=steamcommunity.com/id/BoaoftheBoaians]Boa of the Boaians[/url][/b]: For help in English text revision.
 [b][url=steamcommunity.com/profiles/76561198181931490]月海之沙[/url][/b]: For suggestions and tests for leader abilities, and for wasting a lot of time asking me to upload this to the Workshop...
-[b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]: For asking me to upload this with previous guy...
+[b][url=steamcommunity.com/profiles/76561198286338454]榊野木乃实[/url][/b]: For asking me to upload this with previous guy... and also for Harmony in Diversity compatibility.
 [b][url=steamcommunity.com/profiles/76561198327796822/]www139154[/url][/b]: For balance adjustments.
 
 Cover image by RYUKI (pixiv illustration ID: 80628407). This mod uses assets from the mobile game Princess Connect Re:Dive. The author of this mod DOES NOT own these assets.
 
-I am a (somewhat) seasoned modder for CivVI and a moderator of a Chinese CivVI modding group chat. Need modding support, or found some issues? PM me on Steam or join QQ group 711403691 to contact me.
+I am a (somewhat) seasoned modder for CivVI and a moderator of a Chinese CivVI modding group chat. Need modding support, or found some issues? PM me on Steam or join QQ group 519747236 to contact me.
