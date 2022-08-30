@@ -12,13 +12,13 @@
 
 文明特性“兰德索尔公主骑士”是一种特别的能力，对于每位领导兰德索尔的领袖而言，它都提供截然不同的加成。对于优妮，此特性提供的是“认知发展哲学”，令学院、剧院广场和战略资源上的矿山同时提供科技值和文化值，且单位在生产或升级完成后能获得一次免费的晋升。
 
-可可萝的“公主”造型的独特能力是“纯白神启”。国家公园可以为城市提供信仰产出加成。若与山脉、森林或自然奇观相邻，单元格产出额外信仰。公主可可萝还提供“爱梅斯巫女”单位，这一平民单位在重商主义市政即可解锁，可以在建设一个国家公园之前先进行宗教传播。
+可可萝的“公主”造型的独特能力是“纯白神启”。国家公园可以为城市提供产出加成。若与山脉、森林或自然奇观相邻，单元格产出额外信仰。公主可可萝还提供“爱梅斯巫女”单位，这一平民单位在王权神授市政即可解锁，可以建设国家公园或者植树造林。
 
-“兰德索尔公主骑士”特性为她提供的是“极光圣界”。建设保护区的速度加快，且保护区建筑可以为两格以内的单元格提供产出加成。可可萝的城市可以在在冻土和雪地上获得额外的食物和生产力。在魅力较高的单元格，单位也可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
+“兰德索尔公主骑士”特性为她提供的是“极光圣界”。建设保护区的速度加快，可以从中获得额外的文化、生产力甚至食物，保护区建筑的效果范围也增大了一个单元格。此外，在魅力较高的单元格，单位可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
 
-镜华的独特能力是“小小优等生”。与学院或宇航中心相邻的商业中心、港口、剧院广场和工业区的相邻加成也提供科技值，且如果在黄金时代中，这些区域还提供等量的生产力。如果城市有学院，建设这些这些区域也会加速。
+镜华的独特能力是“小小优等生”。拥有学院区域的城市获得额外科技值和生产力。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为她所拥有，则这些产出加倍。
 
-“兰德索尔公主骑士”特性为她提供的是“宇宙蓝闪光”，令水域可以为他们提供大量战术和战略优势。沿河的学院可以获得额外的大量相邻加成。若学院与海岸相邻，则可以为本城市的海岸和海洋单元格提供额外的科技值加成，以及为海洋单元格提供生产力。沿河或沿海的陆地远程单位获得额外射程。此外，宇航中心可以增强城市的科技值和生产力，并为城市提供额外电力。
+“兰德索尔公主骑士”特性为她提供的是“宇宙蓝闪光”，令水域可以为他们提供大量战术和战略优势。学院可以从河流获得额外的大量相邻加成，从海岸获得标准的相邻加成。沿河或沿海的陆地远程单位获得额外射程，单元格则可以拥有额外的生产力。一旦他们建成了一座宇航中心，便可以立即解锁2项对科技胜利至关重要的免费科技。
 
 您能够成为小小的伟大领袖吗？您将会如何带领兰德索尔建立经得起时间考验的文明？
 
@@ -85,13 +85,13 @@ Yuni's unique ability is Knowledge of Erudites. Constructing Library can provide
 
 The unique ability of Landosol civilization Princess Knight is a special ability that provides entirely different abilities to each Landosol leader. For Yuni, this ability grants Philosophy of Cognition and Development, which allows Campuses, Theater Squares and Mines on strategic resources provide Science and Culture at the same time, and let units receive a free Promotion when they are produced or upgraded.
 
-The Princess Persona of Kokkoro has an unique ability named Pure White Revelation. Cities with a National Park receive bonus Faith. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Mercantilism, and can spread religion before creating a National Park. 
+The Princess Persona of Kokkoro has an unique ability named Pure White Revelation. Cities with a National Park receive bonus yields. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Divine Right, and can creating a National Park or plant Woods. 
 
-Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, and the effect range of Preserve buildings are extended by 1. Kokkoro's cities earn extra Food and Production on Tundra or Snow. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
+Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, receive bonus Culture, Production or even Food from them, and the effect range of Preserve buildings are extended by 1. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
 
-The unique ability of Kyoka is Little Model Student. Adjacency bonuses of Commercial Hubs, Harbors, Theater Squares and Industrial Zones that are adjacent to a Campus or Spaceport provide Science as well. They also provide additional Production when in a Golden Age.  Constructing these districts is quicker if the city has a Campus.
+The unique ability of Kyoka is Little Model Student. Cities with a Campus district will have increased output of Science and Production. If there are 5 Coast tiles within 3 tiles of a city and owned by her, these yields are doubled.
 
-Princess Knight grants her Cosmo Blue Flash, allowing water to provide them with tactical and strategic advantages. Campuses are granted an extra Major adjacency with Rivers. When they are adjacent to Coast tiles, they also provide bonus Science to Coast and Ocean tiles and Production to Ocean tiles. Ranged units receive Range bonus when adjacent to a River or Coast. Additionally, Spaceports can enhance Science and Production output of the city they are in, and provide some free Power.
+Princess Knight grants her Cosmo Blue Flash, allowing water to provide them with tactical and strategic advantages. Campuses are granted an extra Major adjacency with Rivers and a Standard adjacency from Coasts. When adjacent to a River or Coast, Ranged units receive Range bonus, and tiles can have additional Production. Additionally, Once they have constructed a Spaceport, they can instantly unlock 2 free technologies vital for a Science Victory.
 
 Can you become a little great leader? How will you lead Landosol to build a civilization that stands the test of time?
 
