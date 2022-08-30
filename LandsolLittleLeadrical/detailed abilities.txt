@@ -28,29 +28,33 @@ Kokkoro:
 
 Pure White Revelation
 
-Cities with a National Park receive +10% Faith. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 Faith. Gain the Miko of Ameth unique unit with Mercantilism.
+Receive Science and Culture equal to 15% of your Faith generation in cities with a National Park. +200%  Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 Faith. Gain the Miko of Ameth unique unit with Divine Right.
 
 Aurora Sanctuary
 
-[NO VIETNAM DLC] Amphitheaters, Lighthouses, Shrines, Universities, Banks and Factories grants +1 corresponding yield for all unimproved Charming tiles, +2 for all unimproved Breathtaking tiles to the city they are in. Terrain yields of Tundra and Snow (including Hills) tiles are adjusted to +2 Food and +2 Production. Units heal +10 HP faster in Charming or Breathtaking tiles.
+[NO VIETNAM DLC] Amphitheaters, Lighthouses, Shrines, Universities, Banks and Factories grants +1 corresponding yield for all unimproved Charming tiles, +2 for all unimproved Breathtaking tiles to the city they are in. Terrain yields of Tundra and Snow (including Hills) tiles are adjusted to +2 Food and +2 Production. Units heal +10 HP faster and can heal after actions in Charming or Breathtaking tiles.
 
-[VIETNAM DLC] +100% Production towards the Preserve district. Preserve buildings have their effect range extended by 1 and can be purchased with Faith. Terrain yields of Tundra and Snow (including Hills) tiles are adjusted to +2 Food and +2 Production. Units heal +10 HP faster in Charming or Breathtaking tiles.
+[VIETNAM DLC] Preserve districts are granted +1 Food from adjacent Tundra tiles, Culture and Production equal to their Housing bonus, and 100% faster to build. Preserve buildings have their effect range extended by 1 and can be purchased with Faith. Units heal +10 HP faster and can heal after actions in Charming or Breathtaking tiles.
 
 Guildhouse bonus: Farms in this city provide +1 Production to adjacent Farms.
 
 Miko of Ameth
 
-Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract tourists. May convert  Citizens to their Religion and initiate theological combat with units of other Religions. Must be purchased with Faith.
+[RISE & FALL] Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract tourists. Can plant Woods (second-growth) with Conservation. Must be purchased with Faith.
+
+[GATHERING STORM] Kokkoro's unique civilian unit that replaces the Naturalist. Cheaper to purchase than the Naturalist it replaces. Can create a single National Park to attract tourists. Can plant Woods (second-growth) without prerequisite civics. Must be purchased with Faith.
 
 Kyoka:
 
 Little Model Student
 
-+50% Production toward Commercial Hubs, Harbors, Theater Squares and Industrial Zones in cities with a Campus or Spaceport, and adjacency bonuses of these districts provide Science as well when they are adjacent to a Campus or Spaceport (do not stack with the same effects, for example, Free Inquiry Golden Age). Additional Production when in a Golden Age.
++10% Science and 5% Production in cities with a Campus district. If there are 5 Coast tiles within 3 tiles of a city and owned by you these yields are doubled.
 
 Cosmo Blue Flash
 
-Ranged units receive +1 Range in land tiles adjacent to a River or Coast. Campuses are granted a Major adjacency with Rivers, and if built adjacent to a Coast provide +1 Science to all Coast tiles, +3 Science and +2 Production to all Ocean tiles in the city they are in. +15% Science, Production and [GATHERING STORM] +3 Power to Cities with a Spaceport.
+[RISE & FALL] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Robotics and Nanotechnology technologies are unlocked.
+
+[GATHERING STORM] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Smart Materials and Offworld Mission technologies are unlocked.
 
 Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, Great Writer, Great Artist and Great Musician point.
 
@@ -84,28 +88,30 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 纯白神启
 
-建有国家公园的城市获得额外 +10%信仰值。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1信仰值，“神秘主义”额外提供+1信仰值。解锁“重商主义”市政后获得特色单位“爱梅丝巫女”。
+拥有国家公园的城市获得等同于所产生信仰值15%的科技值和文化值。国家公园产出的旅游业绩+200%。与山脉、森林或自然奇观相邻的迷人或惊艳单元格+1信仰值。解锁“王权神授”市政后获得特色单位“爱梅丝巫女”。
 
 极光圣界
 
-【无越南包】古罗马剧场、灯塔、神社、大学、银行和工厂为所在城市所有迷人的未改良单元格+1相应产出，惊艳的未改良单元格则+2。冻土和雪地（含丘陵）的地形产出调整为+2食物和+2生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。
+【无越南包】古罗马剧场、灯塔、神社、大学、银行和工厂为所在城市所有迷人的未改良单元格+1相应产出，惊艳的未改良单元格则+2。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。
 
-【越南包】建造保护区时+100%生产力。保护区建筑的效果范围增大1且可以使用信仰值购买。冻土和雪地（含丘陵）的地形产出调整为+2食物和+2生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。
+【越南包】保护区从相邻冻土单元格获得+1食物，获得与其住房加成相等的文化值与生产力，且建造加速100%。保护区建筑的效果范围增大1且可以使用信仰值购买。单位位于迷人或惊艳单元格每回合可多恢复10点生命值，且可于行动后恢复。
 
 公会之家加成：本城市的农田为相邻的农田+1生产力。
 
 爱梅斯巫女
 
-可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引游客。能让公民皈依其所属的宗教，可对其他宗教的单位发动神学战争。只能使用信仰值购买。
+【迭起兴衰】可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引游客。解锁“保护地球”市政后可以植树造林（人造林）。只能使用信仰值购买。
+
+【风云变幻】可可萝作为领袖时的兰德索尔特色平民单位，替代自然学家，价格更低。可以创建一座国家公园来吸引游客。无需市政要求即可植树造林（人造林）。只能使用信仰值购买。
 
 镜华：
 
 小小优等生
 
-建有学院或宇航中心的城市建造商业中心、港口、剧院广场和工业区时 +50%生产力。与学院或宇航中心相邻时，这些区域的相邻加成也提供科技值（不与相同效果叠加，如“自由探索”黄金时代），处于黄金时代时还额外提供生产力。
+拥有学院区域的城市科技值+10%、生产力+5%。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。
 
 宇宙蓝闪光
 
-陆地远程单位在与海岸或河流相邻的单元格 +1射程。学院沿河时获得大量相邻加成、与海岸相邻时为城市所有海岸单元格 +1科技值，海洋单元格+3科技值和+2生产力。有宇航中心的城市+15%科技值和生产力，【风云变幻】+3电力。
+学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。
 
 公会之家加成：+2宜居度，+2文化值，+1大工程师、大商人、大文学家、大艺术家和大音乐家点数。
