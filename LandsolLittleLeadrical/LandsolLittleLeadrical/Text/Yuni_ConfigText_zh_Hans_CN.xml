@@ -153,4 +153,160 @@
 			<Text>爱梅斯大人向您降下了新的神谕，可可萝，小小的引导者。壮丽的自然世界是您的力量之源，您将在它的帮助下稳稳守护您的人民和盟友。若是您能坚定您的信仰，神明定会回应您的呼唤。伴着风之精灵的祝福出发吧，您必将无往不利。</Text>
 		</Row>
 	</LocalizedText>
+
+	<!--Korean localization provided by MIMMIMME.-->
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_NAME" Language="ko_KR">
+			<Text>랜드솔</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_DESCRIPTION" Language="ko_KR">
+			<Text>랜드솔 제국</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_LANDSOL_ADJECTIVE" Language="ko_KR">
+			<Text>랜드솔</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_NAME" Language="ko_KR">
+			<Text>유니</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="ko_KR">
+			<Text>유니에게 "{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}" 특성을 추가합니다：{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME" Language="ko_KR">
+			<Text>상아탑의 현자</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="ko_KR">
+			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 1개를 얻고, 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +2 [ICON_SCIENCE] 과학. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
+			<Text>[NEWLINE][NEWLINE]길드하우스 보너스: 도서관과 대학교가 [ICON_Science] 과학 산출량만큼 [ICON_Production] 생산량도 제공합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="ko_KR">
+			<Text>랜드솔의 프린세스 나이트</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="ko_KR">
+			<Text>각 랜드솔 지도자마다 추가 특성을 제공합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME" Language="ko_KR">
+			<Text>인식과 발전성의 철학</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="ko_KR">
+			<Text>모든 유닛은 생산되거나 업그레이드될때 무료 진급을 얻습니다. 캠퍼스와 극장가 특수는 [ICON_CULTURE] 문화와 [ICON_SCIENCE] 과학을 모두 산출합니다. 전략자원 위에 건설된 광산에서 +1 [ICON_Science]과학과 [ICON_Culture] 문화.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="ko_KR">
+			<Text>성 테레사 여학원에서 가장 재능있는 학생인 유니여, 상아탑을 떠나 그대의 지식으로 모험을 떠나십시오. 그대의 지혜와 동료가 있다면 이 세계의 진실조차 밝힐수 있을겁니다. 만물의 변화를 깨닫고 백성들의 무지를 걷어내, 역사가 당신의 이름과 위업을 기억하도록 하십시오.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GUILDHOUSE_NAME" Language="ko_KR">
+			<Text>길드하우스</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION" Language="ko_KR">
+			<Text>랜드솔 특유의 건물입니다. 이 도시의 [ICON_Production] 생산력에 +10% 하고, 각 지도자마다 특유의 보너스를 얻습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME" Language="ko_KR">
+			<Text>유니콥터</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="ko_KR">
+			<Text>드론을 대체하는 랜드솔의 고유 유닛입니다.생산비용이 낮고 전기 기술에 해금됩니다. 근처 1범위에 있는 공성유닛의 [ICON_Range] 사거리를 1 늘리고 [ICON_Bombard] 폭격 공격력을 +5 합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="ko_KR">
+			<Text>왕궁마력포</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="ko_KR">
+			<Text>사석포를 대체하는 랜드솔의 고유 유닛입니다. 전문 승무원 승급이 없다면 이동한 턴 공격할 수 없습니다.지상유닛과 해상유닛을 상대로 +10 [ICON_Strength] 전투력.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_NAME" Language="ko_KR">
+			<Text>꼬마 우등생</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="ko_KR">
+			<Text>캠퍼스 특수지구가 있는 도시에서 [ICON_SCIENCE] 과학 + 10%, [ICON_PRODUCTION] 생산력 +5%. 도시로부터 3타일 이내에 도시 소유의 해안 타일이 5개 이상 있다면, 이 보너스가는 2배가 됩니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="ko_KR">
+			<Text>[NEWLINE][NEWLINE]길드하우스 보너스:  [ICON_Amenities] 쾌적도+2, [ICON_Culture] 문화+2, 위대한 [ICON_GreatEngineer] 기술자 [ICON_GreatMerchant] 상인, [ICON_GreatWriter] 작가, [ICON_GreatArtist] 예술가, [ICON_GreatMusician] 음악가 점수+1.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME" Language="ko_KR">
+			<Text>코스모 블루 플래시</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="ko_KR">
+			<Text>캠퍼스는 강에서 상당량의 인접 보너스를 받고, 해안에서 적당한 인접 보너스를 받습니다. 물에 인접한 육지 타일에 있는 원거리 유닛의 [ICON_Range] 사거리 +1. 물에 인접해있는 모든 타일에 [ICON_Production] 생산력 +1.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="ko_KR">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 첫 우주공항이 건설되면 로봇공학과 나노공학을 즉시 연구합니다. {LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="ko_KR">
+			<Text>쿄우카에게 {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} 특성을 추가합니다:{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="ko_KR">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 첫 우주공항이 건설되면 오프월드 미션과 스마트 소재를 즉시 연구합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="ko_KR">
+			<Text>쿄우카에게 {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} 특성을 추가합니다: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="ko_KR">
+			<Text>쿄우카</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA" Language="ko_KR">
+			<Text>쿄우카, 당신은 어린 시절부터 지도자가 되기에 걸맞은 성숙함을 지니고 있었습니다. 당신의 백성들은 당신을 모범으로 여기고 우러러봅니다. 당신은 현명하고 사교적이며, 푸른 바다와 하늘을 넘어 별빛으로 민중을 인도할수 있을것 입니다. 동료들과 함께 모험을 떠나고, 우주의 비밀을 파헤치십시오. 물론 지상의 적들을 조심해야겠지만요.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="ko_KR">
+			<Text>순백의 계시</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="ko_KR">
+			<Text>국립공원이 있는 도시에서 [ICON_FAITH]신앙 생산량의 15%만큼 [ICON_SCIENCE] 과학과 [ICON_CULTURE] 문화를 얻습니다. 모든 국립공원에 [ICON_Tourism] 관광 +200%를 제공합니다. 산, 숲, 자연경관에 인접해있는 멋지거나 놀라운 매력도의 타일에서 [ICON_Faith] 신앙 +1. 신권 연구 후 아메스의 무녀 유닛을 얻습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="ko_KR">
+			<Text>[NEWLINE][NEWLINE]길드하우스 보너스: 이 도시의 농장들은 인접한 농장에게 [ICON_Production] 생산력 +1.</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="ko_KR">
+			<Text>오로라 생츄어리</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="ko_KR">
+			<Text>콧코로(프린세스 폼)</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_NAME" Language="ko_KR">
+			<Text>아메스의 무녀</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION" Language="ko_KR">
+			<Text>박물학자를 대체하는 특유의 유닛입니다. 구매 비용이 더 낮으며, [ICON_Tourism] 관광객을 끌어들이는 국립공원을 조성할 수 있습니다. 보존 연구 후 숲(이차림)을 심을수 있습니다.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_LANDSOL_MIKO_OF_AMES_DESCRIPTION_XP2" Language="ko_KR">
+			<Text>박물학자를 대체하는 특유의 유닛입니다. 구매 비용이 더 낮으며, [ICON_Tourism] 관광객을 끌어들이는 국립공원을 조성할 수 있습니다. 조건 없이 숲을 심을수 있습니다.</Text>
+		</Row>
+		
+		<Row Tag="LOC_LOADING_INFO_LEADER_NATSUME_KOKORO_PRINCESS" Language="ko_KR">
+			<Text>아메스께서 새로운 예언을 내리셨습니다, 코코로. 자연을 관리하고 시민을 보호해 아메스님의 뜻을 널리 퍼트리십시오. 바람의 축복을 잘 활용한다면 모든 일에서 성공할수 있을것입니다.</Text>
+		</Row>
+	</LocalizedText>
+
 </GameData>
