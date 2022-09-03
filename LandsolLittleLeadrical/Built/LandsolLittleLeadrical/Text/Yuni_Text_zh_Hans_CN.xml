@@ -361,7 +361,7 @@
 			<Text>即使是这充满谎言的世界也还是有着学问啊！</Text>
 		</Row>
     
-    <!-- Leader Dialog -->
+	    <!-- Leader Dialog -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
 			<!--同意声明友谊-->
 			<Text>哦哦，很好。实际上我正打算找一个自然点的提法说这件事呢。</Text>
@@ -734,7 +734,6 @@
 	</LocalizedText>
 
 	<LocalizedText>
-
 		<!-- Leader Quotes——序章-->
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="zh_Hans_CN">
 			<Text>小火开始慢慢蒸，[NEWLINE]二十分钟大火烘。[NEWLINE]不揭锅盖闷一闷，[NEWLINE]粒粒白米香喷喷。</Text>
@@ -935,6 +934,841 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Food] 食物来自相邻冻土单元格。</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_TITLE" Language="ko_KR">
+			<Text>신교지 유니</Text>
+		</Row>
+
+		<!-- Not translated yet
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_SUBTITLE" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_4" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_5" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_6" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_7" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_8" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_HISTORY_PARA_9" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_4" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_5" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_6" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_LANDSOL_CHAPTER_HISTORY_PARA_7" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_YUNICOPTER_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text></Text>
+		</Row>	
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_GUILDHOUSE_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		-->
+		<Row Tag="LOC_CIVINFO_LANDSOL_LOCATION" Language="ko_KR">
+			<Text>아스트레아 대륙</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_SIZE" Language="ko_KR">
+			<Text>측정불가</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_POPULATION" Language="ko_KR">
+			<Text>측정불가</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_LANDSOL_CAPITAL" Language="ko_KR">
+			<Text>랜드솔</Text>
+		</Row>
+
+		<Row Tag="LOC_NAMED_RIVER_DYSTAL_NAME" Language="ko_KR">
+			<Text>다이스탈 강</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_VARIO_NAME" Language="ko_KR">
+			<Text>베리오 화산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_ORAL_NAME" Language="ko_KR">
+			<Text>오랄 고산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_DESERT_GENUA_NAME" Language="ko_KR">
+			<Text>기뉴아 사막</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_FLORA_NAME" Language="ko_KR">
+			<Text>플로라 호수</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_MALJEAN_NAME" Language="ko_KR">
+			<Text>마르젠 해안</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_SEA_LORETTA_NAME" Language="ko_KR">
+			<Text>로레타 해</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_VOLCANO_THALIA_NAME" Language="ko_KR">
+			<Text>탈리아 화산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_THEMIS_NAME" Language="ko_KR">
+			<Text>테미스 산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_MATHILDE_NAME" Language="ko_KR">
+			<Text>마틸데 산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_MOUNTAIN_LEDEUS_NAME" Language="ko_KR">
+			<Text>레데우스 산</Text>
+		</Row>
+		<Row Tag="LOC_NAMED_LAKE_LAKE_VENA_NAME" Language="ko_KR">
+			<Text>베나 호수</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_1" Language="ko_KR">
+			<Text>코우타</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_2" Language="ko_KR">
+			<Text>슌</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_3" Language="ko_KR">
+			<Text>레이지</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_4" Language="ko_KR">
+			<Text>미츠루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_5" Language="ko_KR">
+			<Text>요시히코</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_6" Language="ko_KR">
+			<Text>하지메</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_7" Language="ko_KR">
+			<Text>렌</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_8" Language="ko_KR">
+			<Text>타쿠마</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_9" Language="ko_KR">
+			<Text>다이치</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MALE_10" Language="ko_KR">
+			<Text>에이지</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_1" Language="ko_KR">
+			<Text>에이타</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_2" Language="ko_KR">
+			<Text>다이스케</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_3" Language="ko_KR">
+			<Text>소스케</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_4" Language="ko_KR">
+			<Text>토오루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_5" Language="ko_KR">
+			<Text>이치고</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_6" Language="ko_KR">
+			<Text>카오루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_7" Language="ko_KR">
+			<Text>테츠야</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_8" Language="ko_KR">
+			<Text>류</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_9" Language="ko_KR">
+			<Text>이카리</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_MALE_10" Language="ko_KR">
+			<Text>신지</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_1" Language="ko_KR">
+			<Text>캬루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_2" Language="ko_KR">
+			<Text>유이</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_3" Language="ko_KR">
+			<Text>리노</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_4" Language="ko_KR">
+			<Text>노조미</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_5" Language="ko_KR">
+			<Text>미소기</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_6" Language="ko_KR">
+			<Text>아오이</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_7" Language="ko_KR">
+			<Text>아카리</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_8" Language="ko_KR">
+			<Text>스즈메</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_9" Language="ko_KR">
+			<Text>마호</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_FEMALE_10" Language="ko_KR">
+			<Text>린</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_1" Language="ko_KR">
+			<Text>아키노</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_2" Language="ko_KR">
+			<Text>루카</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_3" Language="ko_KR">
+			<Text>이오</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_4" Language="ko_KR">
+			<Text>니논</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_5" Language="ko_KR">
+			<Text>치에루</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6" Language="ko_KR">
+			<Text>아메스</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7" Language="ko_KR">
+			<Text>카린</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_8" Language="ko_KR">
+			<Text>크리스티나</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_9" Language="ko_KR">
+			<Text>셰피</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_10" Language="ko_KR">
+			<Text>이노리</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LANDSOL" Language="ko_KR">
+			<Text>랜드솔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_JUNO" Language="ko_KR">
+			<Text>주노</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PALLAS" Language="ko_KR">
+			<Text>팔라스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_HEBE" Language="ko_KR">
+			<Text>헤베</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_VESTA" Language="ko_KR">
+			<Text>베스타</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CERES" Language="ko_KR">
+			<Text>세레스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_METIS" Language="ko_KR">
+			<Text>메티스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_IRIS" Language="ko_KR">
+			<Text>이리스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FRIGGA" Language="ko_KR">
+			<Text>프리가</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DOROTHEA" Language="ko_KR">
+			<Text>도로시아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_EUGENIA" Language="ko_KR">
+			<Text>에우겐티아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FIDES" Language="ko_KR">
+			<Text>피데스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PHAETHON" Language="ko_KR">
+			<Text>판테온</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_KASTALIA" Language="ko_KR">
+			<Text>카스탈리아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PETERO" Language="ko_KR">
+			<Text>페테로</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FUTERA" Language="ko_KR">
+			<Text>후테라</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_FASKIA" Language="ko_KR">
+			<Text>파스키아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_DEXTIA" Language="ko_KR">
+			<Text>덱스티아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_BONONIA" Language="ko_KR">
+			<Text>보노니아</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTRELLA" Language="ko_KR">
+			<Text>에스트렐라</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_CRYSTAL_MOUNTAIN" Language="ko_KR">
+			<Text>크리스탈 마운틴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SCARED_RUIN" Language="ko_KR">
+			<Text>상흔</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_THE_SHRINE" Language="ko_KR">
+			<Text>신전</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_LATUS" Language="ko_KR">
+			<Text>라투스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TARGUM" Language="ko_KR">
+			<Text>타르감</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_MACHINA" Language="ko_KR">
+			<Text>마키나</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_TAPAS" Language="ko_KR">
+			<Text>타파스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ILSION" Language="ko_KR">
+			<Text>황혼의 도시</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_PECTOS" Language="ko_KR">
+			<Text>펙토스</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_ESTA" Language="ko_KR">
+			<Text>에스타</Text>
+		</Row>
+		
+		<Row Tag="LOC_LEADER_SHINGYOUJI_YUNI_QUOTE" Language="ko_KR">
+			<Text>이런 세계에도 아직 배울 것들이 남아있네!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>아아, 안그래도 내쪽에서 제안할 생각이었네.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>무슨 헛소리인가? 철지난 만우절 농담인가?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>서로를 돕는건 중요한 일이지. 자네가 우리를 돕는게 어떻겠나?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>솔직히 받아줄지 몰랐는데 말이야. 상냥하기도 하지.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>내가 괴물처럼 보이는겐가? 뭐, 하고싶은대로 하게나.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>장난은 여기까지일세. 이제 수업시간이야.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>네녀석을 위한 수업이다, 멍청한 녀석!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>고맙구만. 아니, 일방적으로 받아서 미안할 지경이네.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>싫네, 이 거짓말쟁이.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>부끄러워하지 말게나, 그냥 친교의 의미가 담긴 선물일세. 자네의 취향은 모르네만 마음에 들어하면 좋겠구만.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>닥쳐라, 폭군. 백성들의 소리는 들리지 않나보지.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>자네의 반응은 꼭 옛날의 나를 생각나게 하는구만. 조금 세상 공부라도 하는게 어떤가?(공개 비난)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>나는 유니일세. 성장이 좀 더디긴 하지만, 자네보다 나이가 많을걸세. 부디 나를 어른으로 여기고 공경해주게나, 젊은이.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>이 근처엔 우리의 도시가 있지. 방문하는게 어떤가? 이런저런 지적 교류를 나눌수 있을걸세.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>아, 좋군.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>우리는 자료와 소문, 전설들을 모아다니고 있다네. 직설적으로 이야기하자면, 자네의 수도를 알려주지 않겠나?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>무슨일인가, 젊은이?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>이치보다 감정을 중요시하는걸 우리는 낭만이라고 부르지. 자네도 꽤나 문학적이군 그래.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>가끔 불가피하게 충돌하는 사태가 일어나곤 하네만, 정말로 자네와 그렇게 되고싶진 않네.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>함께 동맹을 맺겠나, 동지여?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>그래, 이렇게 유니쨩즈가 되어서 다들 행복하게 지내면 될거야.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>우린 포기하지 않아.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>자네의 힘은 충분히 이해했네. 이제 전쟁은 끝내고 역사서에나 기록되게 하지.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>와줘서 고맙군. 자네와 자네의 군대들은 얼마든지 지나다녀도 좋다네.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>하, 그 두뇌로 다른 길을 찾긴 너무 어려운건가?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>우리의 연구를 고작 국경따위에 가로막히게 해선 안되겠지. 더 넓은 시점이 더 광범위한 연구를 이루지 않겠나?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>그나저나, 젊은이. 치명적인 돌발사태가 발생하기 전에 서로간의 국경 분쟁을 멈출수 있나? 예를 들어, 군대를 다른데 치워준다거나.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>어떻게 생각하나. 나는 이 세상에 무언가 기여했을지. 내세에 그대의 이름을 추억할수 있기를.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>고맙네.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+			<Text>현명한 선택이야.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_NAME" Language="ko_KR">
+			<Text>낭만학자</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_ROMANCE_OF_ARTS_DESCRIPTION" Language="ko_KR">
+			<Text>과학과 문화에서 앞서는 문명을 좋아하고, 그렇지 않은 문명을 싫어합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="ko_KR">
+			<Text>(과학과 문화에서 앞서고 있습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_HIGH_CULTURE" Language="ko_KR">
+			<Text>유니는 당신의 과학력과 문화력을 칭찬합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_SHINGYOUJI_YUNI_REASON_ANY" Language="ko_KR">
+			<Text>(과학과 문화에서 뒤쳐지고 있습니다.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_ROMANCE_OF_ARTS_HIGH_SCIENCE_LOW_CULTURE" Language="ko_KR">
+			<Text>유니는 당신의 과학력과 문화력에 실망합니다.</Text>
+		</Row>
+		
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="ko_KR">
+			<Text>왕궁마력포</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_BONUS_VS_UNITS_MODIFIER_DESCRIPTION" Language="ko_KR">
+			<Text>+10 대 유닛 전투력</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="ko_KR">
+			<Text>지상/해양 유닛 상대로 +10 [ICON_Bombard] 포격 공격력.</Text>
+		</Row>
+		
+	</LocalizedText>
+
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_TITLE" Language="ko_KR">
+			<Text>히카와 쿄우카</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_QUOTE" Language="ko_KR">
+			<Text>어른스러운게 아니예요. 어른인거예요!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>친구가 없으면 외로울테니까요, 제가 친구가 되어드릴게요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>수상한 변태예요... </Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>수상한 사람같았지만.. 그래도 조금은 괜찮아보이니까, 친구가 되어요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>사실 친구가 되자고 하는건 좀 어린애같지만... 그래도 이건 괜찮아요... 아마...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>그러니까,꼭 친구가 될 필요는 없지만, 실망이네요... 조금 ...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>저-적이 이쪽에서 오고있어요?! 하, 할수 있을거예요!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>분명 쓰러트릴수 있을거예요... 이제 피망도 잘먹고 물구나무도 설수 있는 어른이니까!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>선물주셔서 감사합니다!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>이야기하고싶으면, 변태가 아니란걸 증명해보세요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>컵케이크랑 다른 간식들을 잔뜩 들려보냈어요. 엄청 맛있어요!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>조금은 괜찮을거라고 생각했는데, 엄청 나쁜 변태였네요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>지도자로서 부끄럽지도 않아요?(공개 비난)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>알았다, 당신은... 수상한 변태 씨네요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>우리 도시에 와보세요... 사람들이 외부인을 좋아하지 않으니 조심하세요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>좋아요!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>수상한 사람에게 수도를 알려주는건 안좋지만... 그래도 서로 수도 위치를 교환할래요? 어쩌면 당신은 좋은사람일지도...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>에... 무슨 용건인가요?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>변태라고 해서 미안해요. 좋은 사람같은데...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>엄청 나쁜사람이네요... 어떡하지...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>동맹 맺을래요?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>제 국경에서 물러나세요. 군대를 부를거예요!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>이... 이렇게 될리가 없는데... 더 공부해야겠어요...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>그게 도움이 된다면요.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
+			<Text>제가 어린애라고 해도 그런 헛소리에 넘어가진 않아요.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_DIGNIFIED_AND_DELICATE_NAME" Language="ko_KR">
+			<Text>꼬마 우등생</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_DIGNIFIED_AND_DELICATE_DESCRIPTION" Language="ko_KR">
+			<Text>과학 승리를 위해 과학과 생산력 산출을 늘리려고 합니다. 위협이 되지 않는 문명을 좋아하고, 군대가 강하거나 근처까지 확장한 문명을 싫어합니다.</Text>
+		</Row>
+
+		<!--Not translated yet
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUBTITLE" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_DETAILED_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_4" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_5" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_6" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_7" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_8" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		-->
+		
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_NAME" Language="ko_KR">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RECEIVE_RANGE_BONUS_KYOUKA_DESCRIPTION" Language="ko_KR">
+			<Text>인접한 강이나 해안에서 +1 [ICON_Range] 사정거리.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_KYOUKA_SCIENCE"  Language="ko_KR">
+			<Text>인접한 해안 타일에서 +{1_num} [ICON_Science] 과학.</Text>
+		</Row>
+	</LocalizedText>
+
+	<LocalizedText>
+
+		<!--Natsume Kokoro: 나츠메 코코로-->
+
+		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="ko_KR">
+			<Text>외양이 변해도 저는 그대로 저⋯</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>저는 자연과 함께 주인님의 힘이 되어 드리겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>감사합니다만, 아직 잘 모르는 분이시기에...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>귀하같이 대단한 지도자와 함께할수 있어 영광입니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>전력을 다해 서포트하겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>화나게 해버렸다면 죄송합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>아직도 전쟁을 할 생각입니까? 제가 막겠습니다!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>제발 사라져주십시오. 정령들이 당신의 사악함을 없애버릴겁니다!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>평화를 유지하는건 좋은 일입니다. 선물 감사히 받겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>죄송합니다만, 거부해야겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>제 대사단이 과일과 전통 향신료를 가지고 가는 중입니다. 좋아하시길 바랍니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>제 백성들을 위해서라면 당신과 맞서게 되더라도 멈추지 않겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>당신의 방식은 어린애같아서 지도자답지 않습니다!(공개 비난)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>저는 콧코로, 아메스님께서 보낸 전령입니다. 저는 제 백성들을 언제나 어디서나 지킬겁니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>근처에 저희 도시가 있습니다. 복잡해서 길을 잃기 쉬우니, 제가 인도해드리겠습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>마음 깊이 감사드립니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>기록으로는 봤지만 아직 그쪽의 수도를 보지 못했습니다. 서로의 수도에 대해 이야기하지 않겠습니까?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>뭔가 필요하십니까?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>당신은 정말 상냥하군요. 자연의 아름다움만 모아둔것 같습니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>아, 지긋지긋합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>정령들이 우리가 힘을 합치길 원합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>당신의 군대가 제 국경에서 다치면 제 의무에 어긋납니다. 치워주시겠습니까?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>바람이 멎었습니다... 어떻게 ...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>최고의 거래입니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
+			<Text>죄송합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="ko_KR">
+			<Text>꼬마 가이드</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="ko_KR">
+			<Text>신앙을 늘리길 좋아하며, 숲을 심고 자연을 해치지 않아 국립공원을 조성하고 싶어합니다. 숲을 심거나 국립공원을 조성하는 문명을 좋아합니다.자원을 수확하는 문명을 싫어합니다.</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION_XP2" Language="ko_KR">
+			<Text>신앙을 모으려고 합니다. {LOC_AGENDA_KAITIAKITANGA_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_OF_NATURE" Language="ko_KR">
+			<Text>코코로는 당신이 자연을 대하는 방식을 지켜보고 있습니다.</Text>
+		</Row>
+
+		<!--The string just doesn't work. Blame Firaxis for too much hardcoding.-->
+		<Row Tag="LOC_TOOLTIP_SAMPLE_DIPLOMACY_GUIDE_OF_NATURE" Language="ko_KR">
+			<Text>코코로는 자연을 아끼는 문명을 좋아합니다.</Text>
+		</Row>
+
+		<!-- Not translated yet.
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_SUBTITLE" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="ko_KR">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_4" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_5" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_6" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_7" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_8" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_9" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_10" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_11" Language="ko_KR">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_MIKO_OF_AMES_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text></Text>
+		</Row>
+		-->
+
+		<Row Tag="LOC_ABILITY_KOKKORO_HIGH_APPEAL_HEAL_AFTER_ACTION_DESCRIPTION" Language="ko_KR">
+			<Text>이 유닛은 행동하거나 이동한 턴에도 매력도가 높은 타일에서는 회복할수 있습니다.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_TUNDRA_FOOD" Language="ko_KR">
+			<Text>인접한 툰드라 타일에서 [ICON_Food] 식량 +{1_num}.</Text>
 		</Row>
 	</LocalizedText>
 
