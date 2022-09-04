@@ -34,7 +34,7 @@
 
 [b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
 
-[b]背景音乐和领袖语音（仅优妮）。[/b]是谁从Wwise Soundbank中寻找了播放音频的正确方式？是的，就是我！
+[b]背景音乐和领袖语音。[/b]是谁从Wwise Soundbank中寻找了播放音频的正确方式？是的，就是我！
 
 [h1]已知问题：[/h1]
 
@@ -110,7 +110,7 @@ Can you become a little great leader? How will you lead Landosol to build a civi
 
 [b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
 
-[b]Background Music and Leader Speech (Yuni only)[/b]: Who found the correct way to play audios in Wwise Soundbanks? Yes, that was me!
+[b]Background Music and Leader Speech[/b]: Who found the correct way to play audios in Wwise Soundbanks? Yes, that was me!
 
 [h1]Known issues:[/h1]
 
