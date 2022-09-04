@@ -11,35 +11,55 @@
 	<StreamedFiles>
 		<File Id="101507949" Language="SFX">
 			<ShortName>LandsolAncient_Landsol.wav</ShortName>
-			<Path>SFX\LandsolAncient_Landsol_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolAncient_Landsol_5E5FEB08.wem</Path>
 		</File>
 		<File Id="103432473" Language="SFX">
 			<ShortName>LandsolTheme_Industrial.wav</ShortName>
-			<Path>SFX\LandsolTheme_Industrial_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolTheme_Industrial_5E5FEB08.wem</Path>
+		</File>
+		<File Id="144621878" Language="SFX">
+			<ShortName>KokoroOmoi.wav</ShortName>
+			<Path>SFX\KokoroOmoi_5E5FEB08.wem</Path>
 		</File>
 		<File Id="206622139" Language="SFX">
 			<ShortName>LandsolAncient_SmileyContrast.wav</ShortName>
-			<Path>SFX\LandsolAncient_SmileyContrast_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolAncient_SmileyContrast_5E5FEB08.wem</Path>
+		</File>
+		<File Id="322596660" Language="SFX">
+			<ShortName>TrustedCompanions.wav</ShortName>
+			<Path>SFX\TrustedCompanions_5E5FEB08.wem</Path>
+		</File>
+		<File Id="348208044" Language="SFX">
+			<ShortName>StartOfTheJourney.wav</ShortName>
+			<Path>SFX\StartOfTheJourney_5E5FEB08.wem</Path>
+		</File>
+		<File Id="352423538" Language="SFX">
+			<ShortName>CosyDiningTable.wav</ShortName>
+			<Path>SFX\CosyDiningTable_5E5FEB08.wem</Path>
+		</File>
+		<File Id="545645354" Language="SFX">
+			<ShortName>LittleAdventure.wav</ShortName>
+			<Path>SFX\LittleAdventure_5E5FEB08.wem</Path>
 		</File>
 		<File Id="674508563" Language="SFX">
 			<ShortName>Landsol_AncientTheme.wav</ShortName>
-			<Path>SFX\Landsol_AncientTheme_BF37AFB7.wem</Path>
+			<Path>SFX\Landsol_AncientTheme_5E5FEB08.wem</Path>
 		</File>
 		<File Id="863210107" Language="SFX">
 			<ShortName>LandsolAncient_LovingHeart.wav</ShortName>
-			<Path>SFX\LandsolAncient_LovingHeart_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolAncient_LovingHeart_5E5FEB08.wem</Path>
 		</File>
 		<File Id="932841017" Language="SFX">
 			<ShortName>LandsolAncient_FriendshipSensation.wav</ShortName>
-			<Path>SFX\LandsolAncient_FriendshipSensation_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolAncient_FriendshipSensation_5E5FEB08.wem</Path>
 		</File>
 		<File Id="942316464" Language="SFX">
 			<ShortName>LandsolTheme_Atomic.wav</ShortName>
-			<Path>SFX\LandsolTheme_Atomic_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolTheme_Atomic_5E5FEB08.wem</Path>
 		</File>
 		<File Id="1006496830" Language="SFX">
 			<ShortName>LandsolTheme_Medieval.wav</ShortName>
-			<Path>SFX\LandsolTheme_Medieval_BF37AFB7.wem</Path>
+			<Path>SFX\LandsolTheme_Medieval_5E5FEB08.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -59,7 +79,12 @@
 			<ReferencedStreamedFiles>
 				<File Id="101507949"/>
 				<File Id="103432473"/>
+				<File Id="144621878"/>
 				<File Id="206622139"/>
+				<File Id="322596660"/>
+				<File Id="348208044"/>
+				<File Id="352423538"/>
+				<File Id="545645354"/>
 				<File Id="674508563"/>
 				<File Id="863210107"/>
 				<File Id="932841017"/>

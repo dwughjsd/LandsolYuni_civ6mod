@@ -478,6 +478,8 @@
 			<LibraryName text="Leader"/>
 			<PackageDependencies>
 				<Element text="/leaders/leader_yuni.blp"/>
+				<Element text="/leaders/leader_hikawakyouka.blp"/>
+				<Element text="/leaders/leader_kokkoroprincess.blp"/>
 			</PackageDependencies>
 		</Element>
 		<Element>

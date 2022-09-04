@@ -4,10 +4,10 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1659098826</Created>
+    <Created>1662280139</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>UzukiShimamura</Authors>
-    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino</SpecialThanks>
+    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino, MIMMIMME</SpecialThanks>
     <CompatibleVersions>2.0</CompatibleVersions>
   </Properties>
   <LocalizedText>
@@ -169,7 +169,12 @@
     <File>Platforms/Windows/Audio/1006496830.wem</File>
     <File>Platforms/Windows/Audio/101507949.wem</File>
     <File>Platforms/Windows/Audio/103432473.wem</File>
+    <File>Platforms/Windows/Audio/144621878.wem</File>
     <File>Platforms/Windows/Audio/206622139.wem</File>
+    <File>Platforms/Windows/Audio/322596660.wem</File>
+    <File>Platforms/Windows/Audio/348208044.wem</File>
+    <File>Platforms/Windows/Audio/352423538.wem</File>
+    <File>Platforms/Windows/Audio/545645354.wem</File>
     <File>Platforms/Windows/Audio/674508563.wem</File>
     <File>Platforms/Windows/Audio/863210107.wem</File>
     <File>Platforms/Windows/Audio/932841017.wem</File>
@@ -182,6 +187,8 @@
     <File>Platforms/Windows/Audio/Landsol_Speech.xml</File>
     <File>Platforms/Windows/Audio/YuniBanks.ini</File>
     <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_hikawakyouka.blp</File>
+    <File>Platforms/Windows/BLPs/leaders/leader_kokkoroprincess.blp</File>
     <File>Platforms/Windows/BLPs/leaders/leader_yuni.blp</File>
     <File>Platforms/Windows/BLPs/leaders/light_rigs.blp</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Loyalty_Overlay_Landsol</File>

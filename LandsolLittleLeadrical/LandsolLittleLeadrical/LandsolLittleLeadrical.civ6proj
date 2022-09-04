@@ -28,7 +28,7 @@
     <ModProperties>
       <CustomProperties xmlns="" />
     </ModProperties>
-    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino</SpecialThanks>
+    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino, MIMMIMME</SpecialThanks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -82,7 +82,22 @@
     <Content Include="Platforms\Windows\Audio\103432473.wem">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Platforms\Windows\Audio\144621878.wem">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Platforms\Windows\Audio\206622139.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\322596660.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\348208044.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\352423538.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\545645354.wem">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Platforms\Windows\Audio\674508563.wem">
