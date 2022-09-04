@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2538891721	Play_Statue_of_The_Seven_Heal			\Default Work Unit\SFX\Play_Statue_of_The_Seven_Heal	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	759063474	Sot7Heal	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\STATUE_OF_THE_SEVEN_HEAL_B93921CF.wem		\Actor-Mixer Hierarchy\Interface_Liyue\id194605723\Sot7HealCotainer\Sot7Heal		322552
-
