@@ -584,7 +584,7 @@
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--被宣战 - 改编自个人剧情第5集-->
-			<Text>敌人到、到这边来了！？这、这样应该打得过！</Text>
+			<Text>敌人到、到这边来了？！这、这样应该打得过！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -619,7 +619,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--初次见面 - 个人剧情第1集-->
-			<Text>偷偷跟在我后面，太可疑了。我叫镜华。有个词叫可疑分子……你就是那个可疑分子吧。</Text>
+			<Text>我叫镜华。仔细一想，偷偷跟在我后面，太可疑了。你果然……是可疑分子吧？！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -649,7 +649,7 @@
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--领袖敌视玩家 - 个人剧情第1集-->
-			<Text>你还真是纠缠不休啊？真没想到会有你这样的家伙……</Text>
+			<Text>你还真是纠缠不休啊？竟然会有这样的可疑分子……请不要靠近我。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -772,7 +772,7 @@
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
 			<!--主动宣战——絆、つないで。こころ、結んで。（いつもの、笑顔の食卓）-->
-			<Text>请你离开我的人民！精灵将赐予在下祛凶除恶之力，此刻在下已退无可退！</Text>
+			<Text>请你离开我的人民！精灵啊，赐予在下祛凶除恶之力！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
@@ -827,7 +827,7 @@
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
 			<!--领袖对玩家有好感——个人剧情第三章+第八章-->
-			<Text>您真是温柔。作为生活在大自然中的种族，鸟类、昆虫和各种动植物都令我喜爱。</Text>
+			<Text>作为生活在大自然中的种族，鸟类、昆虫和各种动植物都令我喜爱。您真是温柔。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
@@ -847,7 +847,7 @@
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
 			<!--战败——战斗语音-->
-			<Text>疾风也已止息。真是万分遗憾……</Text>
+			<Text>在下，向大家深表歉意。痛感自身力量不足……</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">

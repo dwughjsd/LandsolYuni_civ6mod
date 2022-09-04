@@ -39,7 +39,7 @@
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--被宣战 - 改编自个人剧情第5集-->
-			<Text>敌人到、到这边来了！？这、这样应该打得过！</Text>
+			<Text>敌人到、到这边来了？！这、这样应该打得过！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -74,7 +74,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--初次见面 - 个人剧情第1集-->
-			<Text>我叫镜华。仔细一想，偷偷跟在我后面，太可疑了。你果然……是可疑分子吧！？</Text>
+			<Text>我叫镜华。仔细一想，偷偷跟在我后面，太可疑了。你果然……是可疑分子吧？！</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">

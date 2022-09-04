@@ -555,7 +555,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
-			<Text>Sneaking around and following me... I am Kyoka, and seems that you are suspicious.</Text>
+			<Text>I am Kyoka. Now that I think about it, sneaking around and following me... That's very suspicious. Maybe you're actually a suspicious creep after all?!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
@@ -579,7 +579,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
-			<Text>You're very persistent... How can I run into a creep like this...</Text>
+			<Text>You're very persistent. How can I run into a creep like this... Stay away from me.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
@@ -688,7 +688,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
-			<Text>Please leave my people! Spirits will grant me power to dispel evils, and I will not step back!</Text>
+			<Text>Please leave my people! Spirits, grant me power to dispel evils!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -732,7 +732,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
-			<Text>You are so kind and gentle. As a nature dweller, I love birds, insects and all kinds of creatures.</Text>
+			<Text>As a nature dweller, I love birds, insects and all kinds of creatures. You are so kind and gentle.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -748,7 +748,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
-			<Text>High wind has stopped. So regretful...</Text>
+			<Text>Apologies to all my people. I felt so painfully that I'm deficient in strength...</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
