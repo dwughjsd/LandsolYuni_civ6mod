@@ -74,7 +74,7 @@
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--初次见面 - 个人剧情第1集-->
-			<Text>偷偷跟在我后面，太可疑了。我叫镜华。有个词叫可疑分子……你就是那个可疑分子吧。</Text>
+			<Text>我叫镜华。仔细一想，偷偷跟在我后面，太可疑了。你果然……是可疑分子吧！？</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -104,7 +104,7 @@
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--领袖敌视玩家 - 个人剧情第1集-->
-			<Text>你还真是纠缠不休啊？真没想到会有你这样的家伙……</Text>
+			<Text>你还真是纠缠不休啊？竟然会有这样的可疑分子……请不要靠近我。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">

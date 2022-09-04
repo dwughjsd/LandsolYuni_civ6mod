@@ -247,6 +247,272 @@
 														<ActiveSource Name="LANS_YS_WARNING_A" ID="{FB6331E3-0710-4634-A26C-BD187C9E8A60}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="LANS_NK_DECLARE_WAR_A" ID="{97331B49-77AC-44D9-800D-DA894A48FECE}" ShortID="1014871361" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_DECLARE_WAR_A" ID="{A8E6D7E8-7718-43ED-8071-863841942665}" ShortID="459780773">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_DECLARE_WAR_A" ID="{A8E6D7E8-7718-43ED-8071-863841942665}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_DECLARE_WAR_FROM_AI_A" ID="{0CECF4B1-07F1-4F05-BEF0-2D4A2144D236}" ShortID="731354629" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_DECLARE_WAR_FROM_AI_A" ID="{C508ADA7-262A-4660-9478-9BDB6CBD9BDB}" ShortID="500532901">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_DECLARE_WAR_FROM_AI_A" ID="{C508ADA7-262A-4660-9478-9BDB6CBD9BDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_DEFEAT_A" ID="{EF6ED625-0B5E-48B0-AF3E-918F04B1D0C0}" ShortID="864821801" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_DEFEAT_A" ID="{122BC13D-74DE-442D-933E-AA9753BD1F35}" ShortID="369096601">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_DEFEAT_A" ID="{122BC13D-74DE-442D-933E-AA9753BD1F35}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_FIRST_MEET_A" ID="{16866814-A227-4CB7-8210-D085E68819D2}" ShortID="356760609" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_FIRST_MEET_A" ID="{4553F36B-2252-4012-B238-974882F057B7}" ShortID="562614555">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_FIRST_MEET_A" ID="{4553F36B-2252-4012-B238-974882F057B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_KUDOS_A" ID="{5042DFDE-B1BC-4398-9E2F-1EA6B5B38702}" ShortID="823651022" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_KUDOS_A" ID="{9C4B7690-C23F-4D34-964A-13407488BCA1}" ShortID="634857987">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_KUDOS_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_KUDOS_A" ID="{9C4B7690-C23F-4D34-964A-13407488BCA1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_MISC_PEP_TALK_A" ID="{51CF80C2-3808-4C6B-8B20-258D4445D9F4}" ShortID="427194572" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_MISC_PEP_TALK_A" ID="{B62561D2-484A-4DE1-BA2E-33EA9F5F62D2}" ShortID="354771262">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_MISC_PEP_TALK_A" ID="{B62561D2-484A-4DE1-BA2E-33EA9F5F62D2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_NK_WARNING_A" ID="{7EDB6629-4140-47BD-A7F2-8F957A23A617}" ShortID="864040345" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_WARNING_A" ID="{9D7E0F1D-4EA5-4BCD-9C92-41804D933A68}" ShortID="676665772">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_WARNING_A" ID="{9D7E0F1D-4EA5-4BCD-9C92-41804D933A68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_DECLARE_WAR_A" ID="{FC98D8EF-188D-4D76-8A79-791945957942}" ShortID="232576978" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_DECLARE_WAR_A" ID="{5349B0C0-8D85-4AFD-B10D-15A6D3D692AF}" ShortID="857256685">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_DECLARE_WAR_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_DECLARE_WAR_A" ID="{5349B0C0-8D85-4AFD-B10D-15A6D3D692AF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_DECLARE_WAR_FROM_AI_A" ID="{43462347-90BE-4019-B639-96C5126E4815}" ShortID="39105414" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_DECLARE_WAR_FROM_AI_A" ID="{50D5F505-5058-4CF1-AEF0-90061E97A229}" ShortID="900792036">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_DECLARE_WAR_FROM_AI_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_DECLARE_WAR_FROM_AI_A" ID="{50D5F505-5058-4CF1-AEF0-90061E97A229}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_DEFEAT_A" ID="{C079C826-87D9-4DFD-B87F-6B5CF876FAB0}" ShortID="818396863" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_DEFEAT_A" ID="{D259F81E-D228-4E9B-AC7F-27ECD7375E0B}" ShortID="192280099">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_DEFEAT_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_DEFEAT_A" ID="{D259F81E-D228-4E9B-AC7F-27ECD7375E0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_FIRST_MEET_A" ID="{F6859A66-0F39-4B50-BFAD-EEEEBD09447D}" ShortID="493188467" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_FIRST_MEET_A" ID="{E0F0E969-1DA6-448C-B20B-142968C6061B}" ShortID="888104908">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_FIRST_MEET_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_FIRST_MEET_A" ID="{E0F0E969-1DA6-448C-B20B-142968C6061B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_KUDOS_A" ID="{EAA8FF6E-B2FB-41BF-80F1-5BD6F2B2D012}" ShortID="253517794" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_KUDOS_A" ID="{997B30B6-8271-4535-842C-4E0E6EA76A0F}" ShortID="433869821">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_KUDOS_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_KUDOS_A" ID="{997B30B6-8271-4535-842C-4E0E6EA76A0F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_MISC_PEP_TALK_A" ID="{997F2C87-E701-412D-A361-38CCE72B2D7E}" ShortID="702802377" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_MISC_PEP_TALK_A" ID="{F4B19B4B-3B9E-44A8-908E-B3C288C92EB8}" ShortID="943206283">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_MISC_PEP_TALK_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_MISC_PEP_TALK_A" ID="{F4B19B4B-3B9E-44A8-908E-B3C288C92EB8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="LANS_HK_WARNING_A" ID="{67D89673-6CCD-4221-BD48-4CD99379CC83}" ShortID="139104587" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_HK_WARNING_A" ID="{6B7306AF-D4A0-468E-BE10-DE43A7459BC2}" ShortID="879514169">
+															<Language>SFX</Language>
+															<AudioFile>LANS_HK_WARNING_A.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_HK_WARNING_A" ID="{6B7306AF-D4A0-468E-BE10-DE43A7459BC2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>

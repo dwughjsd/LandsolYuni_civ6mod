@@ -1,18 +1,46 @@
 Event	ID	Name			Wwise Object Path	Notes
 	70903884	LANS_YS_DECLARE_WAR_A			\Default Work Unit\Speech\LANS_YS_DECLARE_WAR_A	
+	173681060	LANS_HK_KUDOS_A			\Default Work Unit\Speech\LANS_HK_KUDOS_A	
 	208432967	LANS_YS_FIRST_MEET_A			\Default Work Unit\Speech\LANS_YS_FIRST_MEET_A	
+	368440406	LANS_NK_KUDOS_A			\Default Work Unit\Speech\LANS_NK_KUDOS_A	
+	680526345	LANS_NK_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\LANS_NK_DECLARE_WAR_FROM_AI_A	
+	712159963	LANS_HK_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\LANS_HK_DECLARE_WAR_FROM_AI_A	
+	971523837	LANS_HK_MISC_PEP_TALK_A			\Default Work Unit\Speech\LANS_HK_MISC_PEP_TALK_A	
 	1031720448	LANS_YS_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\LANS_YS_DECLARE_WAR_FROM_AI_A	
 	1043770957	LANS_YS_WARNING_A			\Default Work Unit\Speech\LANS_YS_WARNING_A	
+	1849821031	LANS_NK_MISC_PEP_TALK_A			\Default Work Unit\Speech\LANS_NK_MISC_PEP_TALK_A	
 	2252826907	LANS_YS_KUDOS_A			\Default Work Unit\Speech\LANS_YS_KUDOS_A	
+	2438826288	LANS_NK_FIRST_MEET_A			\Default Work Unit\Speech\LANS_NK_FIRST_MEET_A	
 	2823041034	LANS_YS_MISC_PEP_TALK_A			\Default Work Unit\Speech\LANS_YS_MISC_PEP_TALK_A	
+	2909950734	LANS_HK_WARNING_A			\Default Work Unit\Speech\LANS_HK_WARNING_A	
 	3184518366	LANS_YS_DEFEAT_A			\Default Work Unit\Speech\LANS_YS_DEFEAT_A	
+	3239699208	LANS_NK_WARNING_A			\Default Work Unit\Speech\LANS_NK_WARNING_A	
+	3383294711	LANS_HK_DEFEAT_A			\Default Work Unit\Speech\LANS_HK_DEFEAT_A	
+	3713111557	LANS_NK_DEFEAT_A			\Default Work Unit\Speech\LANS_NK_DEFEAT_A	
+	3747319286	LANS_HK_FIRST_MEET_A			\Default Work Unit\Speech\LANS_HK_FIRST_MEET_A	
+	4026518215	LANS_HK_DECLARE_WAR_A			\Default Work Unit\Speech\LANS_HK_DECLARE_WAR_A	
+	4106923873	LANS_NK_DECLARE_WAR_A			\Default Work Unit\Speech\LANS_NK_DECLARE_WAR_A	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	41488080	LANS_YS_DECLARE_WAR_FROM_AI_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DECLARE_WAR_FROM_AI_A		47296
-	182167208	LANS_YS_KUDOS_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_KUDOS_A		185824
-	410862100	LANS_YS_DECLARE_WAR_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DECLARE_WAR_A		83008
-	459928469	LANS_YS_MISC_PEP_TALK_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_MISC_PEP_TALK_A		74584
-	519011196	LANS_YS_WARNING_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_WARNING_A		180100
-	822232670	LANS_YS_DEFEAT_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DEFEAT_A		104572
-	1045222349	LANS_YS_FIRST_MEET_A	D:\Documents\WwiseProjects\Yuni\.cache\Windows\SFX\LANS_YS_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_FIRST_MEET_A		450208
+	41488080	LANS_YS_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DECLARE_WAR_FROM_AI_A		47296
+	182167208	LANS_YS_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_KUDOS_A		185824
+	192280099	LANS_HK_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_DEFEAT_A		155296
+	354771262	LANS_NK_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_MISC_PEP_TALK_A		227620
+	369096601	LANS_NK_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_DEFEAT_A		276976
+	410862100	LANS_YS_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DECLARE_WAR_A		83008
+	433869821	LANS_HK_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_KUDOS_A		160264
+	459780773	LANS_NK_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_DECLARE_WAR_A		97084
+	459928469	LANS_YS_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_MISC_PEP_TALK_A		74584
+	500532901	LANS_NK_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_DECLARE_WAR_FROM_AI_A		319456
+	519011196	LANS_YS_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_WARNING_A		180100
+	562614555	LANS_NK_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_FIRST_MEET_A		1006480
+	634857987	LANS_NK_KUDOS_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_KUDOS_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_KUDOS_A		667576
+	676665772	LANS_NK_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_NK_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_NK_WARNING_A		143380
+	822232670	LANS_YS_DEFEAT_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_DEFEAT_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_DEFEAT_A		104572
+	857256685	LANS_HK_DECLARE_WAR_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_DECLARE_WAR_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_DECLARE_WAR_A		150328
+	879514169	LANS_HK_WARNING_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_WARNING_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_WARNING_A		194932
+	888104908	LANS_HK_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_FIRST_MEET_A		286408
+	900792036	LANS_HK_DECLARE_WAR_FROM_AI_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_DECLARE_WAR_FROM_AI_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_DECLARE_WAR_FROM_AI_A		276868
+	943206283	LANS_HK_MISC_PEP_TALK_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_HK_MISC_PEP_TALK_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_HK_MISC_PEP_TALK_A		118612
+	1045222349	LANS_YS_FIRST_MEET_A	D:\Documents\GitHub\Uzuki_civ6_mods\Wwise\Yuni\.cache\Windows\SFX\LANS_YS_FIRST_MEET_A_B93921CF.wem		\Actor-Mixer Hierarchy\LeaderSpeech_Yuni\id88602518\id854467727\id424381547\YuniSpeech\LANS_YS_FIRST_MEET_A		450208
 

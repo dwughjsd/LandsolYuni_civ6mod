@@ -26,7 +26,7 @@
 	</Leaders>
 
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_HIKAWA_KYOUKA" Quote="LOC_LEADER_HIKAWA_KYOUKA_QUOTE"/>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA" Quote="LOC_LEADER_HIKAWA_KYOUKA_QUOTE" QuoteAudio="LANS_HK_MISC_PEP_TALK_A" />
 	</LeaderQuotes>
 
 	<CivilizationLeaders>

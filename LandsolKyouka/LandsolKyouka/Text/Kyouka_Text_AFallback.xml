@@ -61,7 +61,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
-			<Text>Sneaking around and following me... I am Kyoka, and seems that you are suspicious.</Text>
+			<Text>I am Kyoka. Now that I think about it, sneaking around and following me... That's very suspicious. Maybe you're actually a suspicious creep after all?!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
@@ -85,7 +85,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
-			<Text>You're very persistent... How can I run into a creep like this...</Text>
+			<Text>You're very persistent. How can I run into a creep like this... Stay away from me.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">

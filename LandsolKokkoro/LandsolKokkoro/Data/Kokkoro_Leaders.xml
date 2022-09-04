@@ -34,7 +34,7 @@
 	</Leaders>
 
 	<LeaderQuotes>
-		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" Quote="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE"/>
+		<Row LeaderType="LEADER_NATSUME_KOKORO_PRINCESS" Quote="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" QuoteAudio="LANS_NK_MISC_PEP_TALK_A" />
 	</LeaderQuotes>
 
 	<CivilizationLeaders>

@@ -17,9 +17,29 @@
 			<ShortName>LandsolTheme_Industrial.wav</ShortName>
 			<Path>SFX\LandsolTheme_Industrial_5E5FEB08.wem</Path>
 		</File>
+		<File Id="144621878" Language="SFX">
+			<ShortName>KokoroOmoi.wav</ShortName>
+			<Path>SFX\KokoroOmoi_5E5FEB08.wem</Path>
+		</File>
 		<File Id="206622139" Language="SFX">
 			<ShortName>LandsolAncient_SmileyContrast.wav</ShortName>
 			<Path>SFX\LandsolAncient_SmileyContrast_5E5FEB08.wem</Path>
+		</File>
+		<File Id="322596660" Language="SFX">
+			<ShortName>TrustedCompanions.wav</ShortName>
+			<Path>SFX\TrustedCompanions_5E5FEB08.wem</Path>
+		</File>
+		<File Id="348208044" Language="SFX">
+			<ShortName>StartOfTheJourney.wav</ShortName>
+			<Path>SFX\StartOfTheJourney_5E5FEB08.wem</Path>
+		</File>
+		<File Id="352423538" Language="SFX">
+			<ShortName>CosyDiningTable.wav</ShortName>
+			<Path>SFX\CosyDiningTable_5E5FEB08.wem</Path>
+		</File>
+		<File Id="545645354" Language="SFX">
+			<ShortName>LittleAdventure.wav</ShortName>
+			<Path>SFX\LittleAdventure_5E5FEB08.wem</Path>
 		</File>
 		<File Id="674508563" Language="SFX">
 			<ShortName>Landsol_AncientTheme.wav</ShortName>
@@ -59,7 +79,12 @@
 			<ReferencedStreamedFiles>
 				<File Id="101507949"/>
 				<File Id="103432473"/>
+				<File Id="144621878"/>
 				<File Id="206622139"/>
+				<File Id="322596660"/>
+				<File Id="348208044"/>
+				<File Id="352423538"/>
+				<File Id="545645354"/>
 				<File Id="674508563"/>
 				<File Id="863210107"/>
 				<File Id="932841017"/>
@@ -88,6 +113,20 @@
 			<ShortName>Landsol_Speech</ShortName>
 			<Path>Landsol_Speech.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4026518215" Name="LANS_HK_DECLARE_WAR_A"/>
+				<Event Id="712159963" Name="LANS_HK_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3383294711" Name="LANS_HK_DEFEAT_A"/>
+				<Event Id="3747319286" Name="LANS_HK_FIRST_MEET_A"/>
+				<Event Id="173681060" Name="LANS_HK_KUDOS_A"/>
+				<Event Id="971523837" Name="LANS_HK_MISC_PEP_TALK_A"/>
+				<Event Id="2909950734" Name="LANS_HK_WARNING_A"/>
+				<Event Id="4106923873" Name="LANS_NK_DECLARE_WAR_A"/>
+				<Event Id="680526345" Name="LANS_NK_DECLARE_WAR_FROM_AI_A"/>
+				<Event Id="3713111557" Name="LANS_NK_DEFEAT_A"/>
+				<Event Id="2438826288" Name="LANS_NK_FIRST_MEET_A"/>
+				<Event Id="368440406" Name="LANS_NK_KUDOS_A"/>
+				<Event Id="1849821031" Name="LANS_NK_MISC_PEP_TALK_A"/>
+				<Event Id="3239699208" Name="LANS_NK_WARNING_A"/>
 				<Event Id="70903884" Name="LANS_YS_DECLARE_WAR_A"/>
 				<Event Id="1031720448" Name="LANS_YS_DECLARE_WAR_FROM_AI_A"/>
 				<Event Id="3184518366" Name="LANS_YS_DEFEAT_A"/>
@@ -105,21 +144,77 @@
 					<ShortName>LANS_YS_KUDOS_A.wav</ShortName>
 					<Path>SFX\LANS_YS_KUDOS_A_B93921CF.wem</Path>
 				</File>
+				<File Id="192280099" Language="SFX">
+					<ShortName>LANS_HK_DEFEAT_A.wav</ShortName>
+					<Path>SFX\LANS_HK_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="354771262" Language="SFX">
+					<ShortName>LANS_NK_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LANS_NK_MISC_PEP_TALK_A_B93921CF.wem</Path>
+				</File>
+				<File Id="369096601" Language="SFX">
+					<ShortName>LANS_NK_DEFEAT_A.wav</ShortName>
+					<Path>SFX\LANS_NK_DEFEAT_A_B93921CF.wem</Path>
+				</File>
 				<File Id="410862100" Language="SFX">
 					<ShortName>LANS_YS_DECLARE_WAR_A.wav</ShortName>
 					<Path>SFX\LANS_YS_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="433869821" Language="SFX">
+					<ShortName>LANS_HK_KUDOS_A.wav</ShortName>
+					<Path>SFX\LANS_HK_KUDOS_A_B93921CF.wem</Path>
+				</File>
+				<File Id="459780773" Language="SFX">
+					<ShortName>LANS_NK_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\LANS_NK_DECLARE_WAR_A_B93921CF.wem</Path>
 				</File>
 				<File Id="459928469" Language="SFX">
 					<ShortName>LANS_YS_MISC_PEP_TALK_A.wav</ShortName>
 					<Path>SFX\LANS_YS_MISC_PEP_TALK_A_B93921CF.wem</Path>
 				</File>
+				<File Id="500532901" Language="SFX">
+					<ShortName>LANS_NK_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\LANS_NK_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
 				<File Id="519011196" Language="SFX">
 					<ShortName>LANS_YS_WARNING_A.wav</ShortName>
 					<Path>SFX\LANS_YS_WARNING_A_B93921CF.wem</Path>
 				</File>
+				<File Id="562614555" Language="SFX">
+					<ShortName>LANS_NK_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\LANS_NK_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="634857987" Language="SFX">
+					<ShortName>LANS_NK_KUDOS_A.wav</ShortName>
+					<Path>SFX\LANS_NK_KUDOS_A_B93921CF.wem</Path>
+				</File>
+				<File Id="676665772" Language="SFX">
+					<ShortName>LANS_NK_WARNING_A.wav</ShortName>
+					<Path>SFX\LANS_NK_WARNING_A_B93921CF.wem</Path>
+				</File>
 				<File Id="822232670" Language="SFX">
 					<ShortName>LANS_YS_DEFEAT_A.wav</ShortName>
 					<Path>SFX\LANS_YS_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="857256685" Language="SFX">
+					<ShortName>LANS_HK_DECLARE_WAR_A.wav</ShortName>
+					<Path>SFX\LANS_HK_DECLARE_WAR_A_B93921CF.wem</Path>
+				</File>
+				<File Id="879514169" Language="SFX">
+					<ShortName>LANS_HK_WARNING_A.wav</ShortName>
+					<Path>SFX\LANS_HK_WARNING_A_B93921CF.wem</Path>
+				</File>
+				<File Id="888104908" Language="SFX">
+					<ShortName>LANS_HK_FIRST_MEET_A.wav</ShortName>
+					<Path>SFX\LANS_HK_FIRST_MEET_A_B93921CF.wem</Path>
+				</File>
+				<File Id="900792036" Language="SFX">
+					<ShortName>LANS_HK_DECLARE_WAR_FROM_AI_A.wav</ShortName>
+					<Path>SFX\LANS_HK_DECLARE_WAR_FROM_AI_A_B93921CF.wem</Path>
+				</File>
+				<File Id="943206283" Language="SFX">
+					<ShortName>LANS_HK_MISC_PEP_TALK_A.wav</ShortName>
+					<Path>SFX\LANS_HK_MISC_PEP_TALK_A_B93921CF.wem</Path>
 				</File>
 				<File Id="1045222349" Language="SFX">
 					<ShortName>LANS_YS_FIRST_MEET_A.wav</ShortName>

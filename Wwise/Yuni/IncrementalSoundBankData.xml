@@ -3,8 +3,8 @@
 	<Platform GUID="{A982C542-EECB-4019-9995-C96580B53034}">
 		<Language ID="0">
 			<Bank Name="Init" Hash="2745864310" StreamHash="157587662" Timestamp="132936057069294105"/>
-			<Bank Name="Landsol_Music_Bank" Hash="3346417427" StreamHash="1110464778" Timestamp="132814488007761811"/>
-			<Bank Name="Landsol_Speech" Hash="2178774203" StreamHash="157587662" Timestamp="132717846095572370"/>
+			<Bank Name="Landsol_Music_Bank" Hash="170117647" StreamHash="579003150" Timestamp="133067375121869073"/>
+			<Bank Name="Landsol_Speech" Hash="4110835574" StreamHash="157587662" Timestamp="133067351014558646"/>
 			<Bank Name="Landsol_Unit_Bank_2D" Hash="3255836602" StreamHash="3588012676" Timestamp="132716734949745882"/>
 			<Bank Name="Liyue_UI_Bank" Hash="973480837" StreamHash="157587662" Timestamp="132936397994915886"/>
 			<Bank Name="SoundBank_Landsol" Hash="1866755762" StreamHash="1281291881" Timestamp="132649460909002327"/>
@@ -13,9 +13,9 @@
 	</Platform>
 	<Platform GUID="{0AB3F1FB-A797-4246-9083-9007FB2D0EAF}">
 		<Language ID="0">
-			<Bank Name="Init" Hash="396578305" StreamHash="157587662" Timestamp="132936397991091632"/>
-			<Bank Name="Landsol_Music_Bank" Hash="3346417427" StreamHash="1110464778" Timestamp="132918196797147742"/>
-			<Bank Name="Landsol_Speech" Hash="2178774203" StreamHash="157587662" Timestamp="132918196693111945"/>
+			<Bank Name="Init" Hash="396578305" StreamHash="157587662" Timestamp="133067347524047093"/>
+			<Bank Name="Landsol_Music_Bank" Hash="2261987035" StreamHash="579003150" Timestamp="133067349449411519"/>
+			<Bank Name="Landsol_Speech" Hash="4110835574" StreamHash="157587662" Timestamp="133067347523998173"/>
 			<Bank Name="Liyue_UI_Bank" Hash="973480837" StreamHash="157587662" Timestamp="132936397991051612"/>
 		</Language>
 	</Platform>

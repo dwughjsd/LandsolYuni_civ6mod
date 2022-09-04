@@ -260,13 +260,17 @@
 		</Element>
 		<Element>
 			<consumerName text="Audio"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="LeaderLighting"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
 				<Element text="ColorKey"/>
@@ -275,7 +279,9 @@
 		</Element>
 		<Element>
 			<consumerName text="Leaders"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
 				<Element text="LeaderLighting"/>
@@ -400,7 +406,9 @@
 		</Element>
 		<Element>
 			<libraryName text="Leader"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="/leaders/leader_hikawakyouka"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="LeaderFallback"/>
@@ -410,7 +418,9 @@
 		</Element>
 		<Element>
 			<libraryName text="LeaderLighting"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="leaders/light_rigs"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="Light"/>
