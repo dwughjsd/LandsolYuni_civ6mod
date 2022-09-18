@@ -1487,7 +1487,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
-			<Text>알았다, 당신은... 수상한 변태 씨네요.</Text>
+			<Text>저는 쿄우카예요. 잠깐, 왜 그렇게...수상하게 따라오는건가요. 변태인건가요?!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
@@ -1511,7 +1511,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
-			<Text>엄청 나쁜사람이네요... 어떡하지...</Text>
+			<Text>왜 자꾸 얼쩡거리는거예요? 수상한 변태씨.....앞으로 가까이 오지 마세요!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="ko_KR">
@@ -1622,7 +1622,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
-			<Text>제발 사라져주십시오. 정령들이 당신의 사악함을 없애버릴겁니다!</Text>
+			<Text>제발 사라져주십시오. 정령이여, 사악함을 물리칠 힘을 주시길!</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
@@ -1666,7 +1666,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
-			<Text>당신은 정말 상냥하군요. 자연의 아름다움만 모아둔것 같습니다.</Text>
+			<Text>마치 새나 나비, 우거진 숲같이 아름답네요. 당신은 정말 상냥하시군요.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
@@ -1682,7 +1682,7 @@
 		</Row>
 
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
-			<Text>바람이 멎었습니다... 어떻게 ...</Text>
+			<Text>죄송합니다, 여러분. 제 힘이 부족했습니다 .....</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
