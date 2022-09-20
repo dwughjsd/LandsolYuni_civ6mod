@@ -44,11 +44,9 @@
 
 文明百科仅支持简体中文。
 
-爱梅斯巫女的宗教传播次数或创建国家公园次数的任意一个耗尽均会导致该单位被解散。
+爱梅斯巫女的建造次数或创建国家公园次数的任意一个耗尽均会导致该单位被解散。
 
 可可萝和镜华的议程在关系面板中会显示为“未知原因”，但效果正常生效。
-
-若开启“栩栩如生的领袖”，有模型的领袖的动画播放可能会出现问题。
 
 本模组替换了加载界面和外交界面以隐藏不需要的“兰德索尔公主骑士”字样。若您安装有修改以上界面的模组，您将会看到本条特性，但没有更多效果。
 
@@ -84,7 +82,7 @@
 
 Yuni, Kokkoro and Kyoka are some of the most popular characters in the mobile game Princess Connect Re:Dive. This mod contains three little leaders, and brings some cuteness to Civilization VI to celebrate China's Children's Day (June 1).
 
-Guildhouse is the unique building of Landosol, which provides Production and unique bonuses for each Landsol leader. The unique unit Royal Palace Cannon is unlocked at Renaissance Era, with stronger Combat Strength and don't need any Strategical resource.
+Guildhouse is the unique building of Landosol, which provides Production and unique bonuses for each Landsol leader. The unique unit Royal Palace Cannon is unlocked at Renaissance Era, with stronger Combat Strength and don't need any Strategic resource.
 
 Yuni's unique ability is Knowledge of Erudites. Constructing Library can provide extra Great Writer Points and Writing great work slot, and Writing great works provide extra Science. She also unlocks Yunicopter, which is available earlier and cheaper than the Drone unit it replaces. 
 
@@ -120,11 +118,9 @@ Music playback sometimes can be glitchy, with the same issues of official Vietna
 
 Civilopedia article is in Simplified Chinese only.
 
-The Miko of Ameth unit will be disbanded once either Religion Spread Charges or National Park Charge is depleted.
+The Miko of Ameth unit will be disbanded once either Build Charges or National Park Charge is depleted.
 
 Kokkoro and Kyoka's Agendas will be shown as Unknown Reason in relationship panel, but their effects works correctly.
-
-Animations of leaders with a 3D model might have minor playback issue if Animated Leader is enabled.
 
 This mod replaces loading screen and diplomacy screen to hide unneeded Princess Knight entries (as it becomes an unique ability of each leader). If you enabled mods that replace them, you will see a redundant unique ability without extra effects.
 
