@@ -1635,12 +1635,30 @@
 			<RequirementType>REQUIREMENT_PLOT_HAS_ANY_IMPROVEMENT</RequirementType>
 			<Inverse>true</Inverse>
 		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_BANK</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</InsertOrIgnore>
 	</Requirements>
 	<RequirementArguments>
 		<InsertOrIgnore>
 			<RequirementId>REQUIRES_PLAYER_HAS_CONSERVATION</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_CONSERVATION</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</InsertOrIgnore>
+		<InsertOrIgnore>
+			<RequirementId>REQUIRES_CITY_HAS_BANK</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_BANK</Value>
 		</InsertOrIgnore>
 	</RequirementArguments>
 	
