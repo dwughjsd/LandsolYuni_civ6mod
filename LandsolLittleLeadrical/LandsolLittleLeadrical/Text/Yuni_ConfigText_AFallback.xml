@@ -126,7 +126,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 15% of your [ICON_FAITH] Faith generation in cities with a National Park. +200% [ICON_Tourism] Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Divine Right.</Text>
+			<Text>Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Founding a Pantheon unlocks the Mysticism civic and provides +2 [ICON_GreatProphet] Great Prophet points per turn. +200% [ICON_Tourism] Tourism to all National Parks. Gain the Miko of Ameth unique unit with Divine Right.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
