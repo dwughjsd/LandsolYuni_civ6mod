@@ -477,7 +477,7 @@
 			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
 			<!--理论上是同意开放边界，但从未被使用过-->
 			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
 		</Row>

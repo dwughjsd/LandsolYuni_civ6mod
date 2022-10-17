@@ -434,7 +434,7 @@
 			<Text>I have had a clear understanding of your strength, so let's end this war and make it a little blemish on historical records.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY">
 			<Text>I'm flattered by your arrival. We are willing to open border and provide support for your army.</Text>
 		</Row>
 
@@ -584,6 +584,30 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
 			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>You made an effort to achieve peace. Good work.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>This is all your fault, and I will not forgive you for now!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>Let us make peace and stop the war!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>W- Well! Now that you have been so sincere... I'll let you pass through.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>How can you set your feet on our territory? Our borders are not meant to be marched through! Stop now!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>I have to... Fine... Will you allow our units to cross through your territory?</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
@@ -741,6 +765,30 @@
 
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
 			<Text>Spirits are wishing us to form an alliance.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>So, peace shall come back temporarily.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Do your worst, villain! I shall not lose!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Are you exhausted by long-lasting battles? What about discussing about peace?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>We are well prepared for you to pass through at any time.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>How can things change if I accept? It makes no sense after all.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Will you allow our units to cross through your territory? I don't want to bother you, but I have to.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">

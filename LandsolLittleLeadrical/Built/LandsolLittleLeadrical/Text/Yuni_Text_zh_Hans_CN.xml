@@ -477,7 +477,7 @@
 			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
 			<!--理论上是同意开放边界，但从未被使用过-->
 			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
 		</Row>
@@ -1368,7 +1368,7 @@
 			<Text>자네의 힘은 충분히 이해했네. 이제 전쟁은 끝내고 역사서에나 기록되게 하지.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
 			<Text>와줘서 고맙군. 자네와 자네의 군대들은 얼마든지 지나다녀도 좋다네.</Text>
 		</Row>
 

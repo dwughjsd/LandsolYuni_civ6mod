@@ -477,7 +477,7 @@
 			<Text>我已摸清了你的实力，就让这场战争结束，成为历史年表上的小小污点吧。</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="zh_Hans_CN">
 			<!--理论上是同意开放边界，但从未被使用过-->
 			<Text>啊，您的到访让我感到诚惶诚恐，坐立不安。我们愿意开放边境并为您的军队提供帮助。</Text>
 		</Row>
@@ -655,6 +655,36 @@
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
 			<!--请求结盟 - Civ6 generic-->
 			<Text>您想结为盟友吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过 - 万圣镜华个人剧情第1集-->
+			<Text>能够努力达成和平，你做得很棒。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过 - 活动剧情5002007-->
+			<Text>这次完全是你的错，今天我绝饶不了你！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过 - 万圣镜华个人剧情第1集-->
+			<Text>我们握手言和吧，停止战争！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过 - 个人剧情第3集-->
+			<Text>好、好吧！既然都说到这个份上了……那么，就让你通过吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过 - 个人剧情第2集-->
+			<Text>你怎么能随便踏足我们的领土，这还叫什么边境呀！真是的！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过 - 万圣镜华个人剧情第2集-->
+			<Text>必须要这么做……嗯……允许我们的军队穿越您的领土吗？</Text>
 		</Row>
 		
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="zh_Hans_CN">
@@ -838,6 +868,36 @@
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
 			<!--请求结盟——主屏幕语音-->
 			<Text>精灵们在为我们送上祝福，愿我们能够成为同盟。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过 - 9018156-->
+			<Text>如此一来，也能暂时重回和平了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过 - 主线剧情第2章第4节-->
+			<Text>放马过来，你这个卑鄙小人！可可萝是不会输的！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过 - 主线剧情第3章第1节 + 4004108-->
+			<Text>长时间的作战是否让你感到疲惫了呢，要不要谈谈和平呢？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过 - 主线剧情第7章第3+8节-->
+			<Text>我们已做好完全准备，您随时可以出发。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过 - 絆、つないで。こころ、結んで。后篇第二章-->
+			<Text>允许了又能如何呢？最后也不会有任何意义。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过 - 主线剧情第1章第1节-->
+			<Text>允许我们的军队穿越您的领土吗？虽然不想麻烦您……但我必须这么做。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="zh_Hans_CN">
@@ -1368,7 +1428,7 @@
 			<Text>자네의 힘은 충분히 이해했네. 이제 전쟁은 끝내고 역사서에나 기록되게 하지.</Text>
 		</Row>
 
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ko_KR">
 			<Text>와줘서 고맙군. 자네와 자네의 군대들은 얼마든지 지나다녀도 좋다네.</Text>
 		</Row>
 

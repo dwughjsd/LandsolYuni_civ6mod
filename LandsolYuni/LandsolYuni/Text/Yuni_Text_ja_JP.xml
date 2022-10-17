@@ -471,7 +471,7 @@
 		<!--loosely resembled ユニ 第7話
 		ref:おまえの秘密に、ぼくは一瞬でも手をかけたんだぞ。その事実をいずれぼくは忘れてしまうかもしれないけれど、おまえの年表にはちっぽけな汚点として永劫残りつづける。-->
 		
-		<Row Tag="LOC_DIPLO_ACCECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ja_JP">
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SHINGYOUJI_YUNI_ANY" Language="ja_JP">
 			<Text>I'm flattered by your arrival. We are willing to open border and provide support for your army.</Text>
 		</Row>
 		<!--partially resembled ユニ 第3話
