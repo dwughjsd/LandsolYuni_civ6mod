@@ -28,13 +28,13 @@ Kokkoro:
 
 Pure White Revelation
 
-Receive Science and Culture equal to 15% of your Faith generation in cities with a National Park. +200%  Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 Faith. Gain the Miko of Ameth unique unit with Divine Right.
+Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 Faith. Founding a Pantheon unlocks the Mysticism civic and provides +2 Great Prophet points per turn. Woods tiles grant additioanl +1 Appeal to adjacent tiles. Gain the Miko of Ameth unique unit with Divine Right.
 
 Aurora Sanctuary
 
-[NO VIETNAM DLC] Amphitheaters, Lighthouses, Shrines, Universities, Banks and Factories grants +1 corresponding yield for all unimproved Charming tiles, +2 for all unimproved Breathtaking tiles to the city they are in. Terrain yields of Tundra and Snow (including Hills) tiles are adjusted to +2 Food and +2 Production. Units heal +10 HP faster and can heal after actions in Charming or Breathtaking tiles.
+[NO VIETNAM DLC] Amphitheaters, Lighthouses, Shrines, Universities, Banks and Factories grants +1 corresponding yield for all unimproved Charming tiles, +2 for all unimproved Breathtaking tiles to the city they are in. Terrain yields of Tundra and Snow (including Hills) tiles are adjusted to +2 Food and +2 Production. Units heal +10 HP faster in Charming or Breathtaking tiles.
 
-[VIETNAM DLC] Preserve districts are granted +1 Food from adjacent Tundra tiles, Culture and Production equal to their Housing bonus, and 100% faster to build. Preserve buildings have their effect range extended by 1 and can be purchased with Faith. Units heal +10 HP faster and can heal after actions in Charming or Breathtaking tiles.
+[VIETNAM DLC] Preserve districts are granted +1 Food from adjacent Tundra tiles, Culture and Production equal to their Housing bonus. Preserve buildings have their effect range extended by 1 and can be purchased with Faith. Units heal +10 HP faster in Charming or Breathtaking tiles.
 
 Guildhouse bonus: Farms in this city provide +1 Production to adjacent Farms.
 
@@ -52,9 +52,9 @@ Little Model Student
 
 Cosmo Blue Flash
 
-[RISE & FALL] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Robotics and Nanotechnology technologies are unlocked.
+[RISE & FALL] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Satellites and Nanotechnology technologies are unlocked.
 
-[GATHERING STORM] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Smart Materials and Offworld Mission technologies are unlocked.
+[GATHERING STORM] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When Launch Mars Colony is completed the Smart Materials and Offworld Mission technologies are unlocked.
 
 Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, Great Writer, Great Artist and Great Musician point.
 
@@ -76,7 +76,7 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 认知发展哲学
 
-每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 科技值和文化值。战略资源矿产+1科技值和文化值。
+每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供科技值和文化值。战略资源矿产+1科技值和文化值。
 
 公会之家加成：图书馆和大学提供等于其科技值产出的生产力。
 
@@ -88,13 +88,13 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 纯白神启
 
-拥有国家公园的城市获得等同于所产生信仰值15%的科技值和文化值。国家公园产出的旅游业绩+200%。与山脉、森林或自然奇观相邻的迷人或惊艳单元格+1信仰值。解锁“王权神授”市政后获得特色单位“爱梅丝巫女”。
+创立万神殿解锁“神秘主义”市政并提供每回合+2大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格+1信仰值。森林单元格为相邻的单元格提供额外+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。
 
 极光圣界
 
 【无越南包】古罗马剧场、灯塔、神社、大学、银行和工厂为所在城市所有迷人的未改良单元格+1相应产出，惊艳的未改良单元格则+2。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。
 
-【越南包】保护区从相邻冻土单元格获得+1食物，获得与其住房加成相等的文化值与生产力，且建造加速100%。保护区建筑的效果范围增大1且可以使用信仰值购买。单位位于迷人或惊艳单元格每回合可多恢复10点生命值，且可于行动后恢复。
+【越南包】保护区从相邻冻土单元格获得+1食物，获得与其住房加成相等的文化值与生产力。保护区建筑的效果范围增大1且可以使用信仰值购买。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。
 
 公会之家加成：本城市的农田为相邻的农田+1生产力。
 
@@ -112,8 +112,8 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 宇宙蓝闪光
 
-【迭起兴衰】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。建成宇航中心区域后，即可解锁“机器人技术”和“纳米技术”科技。
+【迭起兴衰】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。建成宇航中心区域后，即可解锁“卫星”和“纳米技术”科技。
 
-【风云变幻】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。建成宇航中心区域后，即可解锁“智能材料”和“外星任务”科技。
+【风云变幻】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。完成“启动火星殖民”项目后，即可解锁“智能材料”和“外星任务”科技。
 
 公会之家加成：+2宜居度，+2文化值，+1大工程师、大商人、大文学家、大艺术家和大音乐家点数。
