@@ -18,8 +18,12 @@
 			<Text>Yuni</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION">
+			<Text>Extra leader ability </Text>
+		</Row>	
+
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION">
-			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME} to Yuni: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME">
@@ -98,16 +102,16 @@
 			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water. +1 [ICON_Production] Production to all tiles adjacent to water.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Robotics and Nanotechnology technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Satellites and Nanotechnology technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
-			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Smart Materials and Offworld Mission technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When Launch Mars Colony is completed the Smart Materials and Offworld Mission technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
-			<Text>Grants an extra leader trait {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} for Kyoka: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
 		</Row>
 
 		<!--OK, seems that official English version of PCR:D calls her Kyoka, not "Kyouka" commonly used by community. Both of them are correct romanization of her name.-->
@@ -126,7 +130,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Receive [ICON_SCIENCE] Science and [ICON_CULTURE] Culture equal to 15% of your [ICON_FAITH] Faith generation in cities with a National Park. +200% [ICON_Tourism] Tourism to all National Parks. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Gain the Miko of Ameth unique unit with Divine Right.</Text>
+			<Text>Founding a Pantheon unlocks the Mysticism civic and provides +2 [ICON_GreatProphet] Great Prophet points per turn. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Woods tiles grant additioanl +1 Appeal to adjacent tiles. Gain the Miko of Ameth unique unit with Divine Right.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">

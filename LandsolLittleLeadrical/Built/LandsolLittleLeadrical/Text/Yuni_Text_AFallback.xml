@@ -228,7 +228,7 @@
 			<Text>Chieru</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_6">
-			<Text>Ames</Text>
+			<Text>Nebbia</Text>
 		</Row>
 		<Row Tag="LOC_CITIZEN_LANDSOL_MODERN_FEMALE_7">
 			<Text>Karin</Text>
@@ -586,6 +586,30 @@
 			<Text>Would you like to form an alliance?</Text>
 		</Row>
 
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>You made an effort to achieve peace. Good work.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>This is all your fault, and I will not forgive you for now!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>Let us make peace and stop the war!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>W- Well! Now that you have been so sincere... I'll let you pass through.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>How can you set your feet on our territory? Our borders are not meant to be marched through! Stop now!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
+			<Text>I have to... Fine... Will you allow our units to cross through your territory?</Text>
+		</Row>
+
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY" Language="en_US">
 			<Text>Stay away from my borders. I will call my army!</Text>
 		</Row>
@@ -743,6 +767,30 @@
 			<Text>Spirits are wishing us to form an alliance.</Text>
 		</Row>
 
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>So, peace shall come back temporarily.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Do your worst, villain! I shall not lose!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Are you exhausted by long-lasting battles? What about discussing about peace?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>We are well prepared for you to pass through at any time.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>How can things change if I accept? It makes no sense after all.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
+			<Text>Will you allow our units to cross through your territory? I don't want to bother you, but I have to.</Text>
+		</Row>
+
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
 			<Text>It would be a dereliction of duty for me as a guide if your troops are hurt at my borders. Please move them away.</Text>
 		</Row>
@@ -787,7 +835,7 @@
 			<Text>With help of their Princess Knight, Landosol leaders can get their unique "Union Brust" abilities, enabling bonuses including military advantages. As a pure white miko protecting nature, Kokkoro in her Princess Form receives great power from charming environment, and guide her people to victory.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="en_US">
-			<Text>Appeal is essential for Princess Kokkoro. They build cities near high appeal tiles to get extra yields from Preserve districts and unit healing that Aurora Sanctuary unique ability provides. They can earn considerable [ICON_Faith] Faith near natural beauty. With Guildhouse building, they can receive unique bonuses from the guild that their leader is in. For Princess Kokkoro, the easist victory paths are Religious or Culture Victories, since they have bonus [ICON_Faith] Faith to buy Apostles and Mikos of Ameth.</Text>
+			<Text>Appeal is essential for Princess Kokkoro. They build cities near high appeal tiles to get extra yields from buildings and unit healing that Aurora Sanctuary unique ability provides. They can earn considerable [ICON_Faith] Faith near natural beauty. With Guildhouse building, they can receive unique bonuses from the guild that their leader is in. For Princess Kokkoro, the easist victory paths are Religious or Culture Victories, since they have bonus [ICON_Faith] Faith to buy Apostles and Mikos of Ameth.</Text>
 		</Row>
 
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_HISTORY_PARA_1" Language="en_US">

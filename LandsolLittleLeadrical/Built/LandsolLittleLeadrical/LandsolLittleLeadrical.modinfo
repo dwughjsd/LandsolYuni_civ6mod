@@ -4,7 +4,7 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1662280139</Created>
+    <Created>1666358826</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>UzukiShimamura</Authors>
     <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino, MIMMIMME</SpecialThanks>
@@ -126,6 +126,8 @@
     <UpdateLogitechARX id="ARX">
       <Criteria>LandsolYuni</Criteria>
       <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
+      <File>Data/ARX/Civ_LEADER_NATSUME_KOKORO_PRINCESS.png</File>
+      <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
     </UpdateLogitechARX>
     <UpdateDatabase id="Gameplay_XP1_XP2">
       <Criteria>LandsolYuni_Expansion1_Expansion2</Criteria>
@@ -146,6 +148,10 @@
       <Criteria>HarmonyInDiversity</Criteria>
       <File>Data/Kokkoro_Vietnam_HD.sql</File>
     </UpdateDatabase>
+    <AddGameplayScripts id="Gameplay_Script">
+      <Criteria>LandsolYuni</Criteria>
+      <File>Scripts/Kokkoro_Script.lua</File>
+    </AddGameplayScripts>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -155,6 +161,8 @@
     <File>ArtDefs/Overlay.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Units.artdef</File>
+    <File>Data/ARX/Civ_LEADER_HIKAWA_KYOUKA.png</File>
+    <File>Data/ARX/Civ_LEADER_NATSUME_KOKORO_PRINCESS.png</File>
     <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
     <File>Data/Kokkoro_Vietnam.xml</File>
     <File>Data/Kokkoro_Vietnam_HD.sql</File>
@@ -203,6 +211,7 @@
     <File>Platforms/Windows/BLPs/UI/PrideMoments.blp</File>
     <File>Platforms/Windows/BLPs/UI/Shell_Loading.blp</File>
     <File>Platforms/Windows/BLPs/UI_LeaderScenes.blp</File>
+    <File>Scripts/Kokkoro_Script.lua</File>
     <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     <File>Text/Yuni_ConfigText_AFallback.xml</File>
     <File>Text/Yuni_ConfigText_zh_Hans_CN.xml</File>

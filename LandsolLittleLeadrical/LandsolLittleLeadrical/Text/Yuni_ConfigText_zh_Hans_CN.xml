@@ -126,7 +126,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。森林单元格为相邻的单元格提供额外+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。森林单元格为相邻的单元格提供额外 +1 魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
