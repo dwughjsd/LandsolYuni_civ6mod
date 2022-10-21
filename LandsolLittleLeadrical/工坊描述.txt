@@ -88,7 +88,7 @@ Yuni's unique ability is Knowledge of Erudites. Constructing Library can provide
 
 The unique ability of Landosol civilization Princess Knight is a special ability that provides entirely different abilities to each Landosol leader. For Yuni, this ability grants Philosophy of Cognition and Development, which allows Campuses, Theater Squares and Mines on strategic resources provide Science and Culture at the same time, and let units receive a free Promotion when they are produced or upgraded.
 
-The Princess Persona of Kokkoro has an unique ability named Pure White Revelation. Cities with a National Park receive bonus yields. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Divine Right, and can creating a National Park or plant Woods. 
+The Princess Persona of Kokkoro has a unique ability named Pure White Revelation. Cities with a National Park receive bonus yields. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Divine Right, and can creating a National Park or plant Woods. 
 
 Princess Knight grants her Aurora Sanctuary. Kokkoro can build Preserves faster, receive bonus Culture, Production or even Food from them, and the effect range of Preserve buildings are extended by 1. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
 
@@ -102,7 +102,7 @@ Can you become a little great leader? How will you lead Landosol to build a civi
 
 [h1]Mod Highlights:[/h1]
 
-[b]"Powered" without "Over"[/b]: Each Landosol leader has several abilities that promote an unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+[b]"Powered" without "Over"[/b]: Each Landosol leader has several abilities that promote a unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
 
 [b]Lore-Loyalty[/b]: This mod is made with a fine research of the original Princess Connect franchise, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
 
@@ -122,7 +122,7 @@ The Miko of Ameth unit will be disbanded once either Build Charges or National P
 
 Kokkoro and Kyoka's Agendas will be shown as Unknown Reason in relationship panel, but their effects works correctly.
 
-This mod replaces loading screen and diplomacy screen to hide unneeded Princess Knight entries (as it becomes an unique ability of each leader). If you enabled mods that replace them, you will see a redundant unique ability without extra effects.
+This mod replaces loading screen and diplomacy screen to hide unneeded Princess Knight entries (as it becomes a unique ability of each leader). If you enabled mods that replace them, you will see a redundant unique ability without extra effects.
 
 [h1]Help needed:[/h1]
 
