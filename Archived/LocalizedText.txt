@@ -1,0 +1,56 @@
+LandsolYuni:
+
+  <LocalizedText>
+    <Text id="LOC_LANDSOL_MOD_TITLE">
+      <en_US>Landsol Civilization Pack</en_US>
+      <zh_Hans_CN>兰德索尔文明包</zh_Hans_CN>
+      <zh_Hant_HK>蘭德索爾文明包</zh_Hant_HK>
+      <ja_JP>ランドソル文明パック</ja_JP>
+    </Text>
+      <Text id="LOC_LANDSOL_MOD_TEASER">
+      <en_US>New Civilization and Leader - Yuni of Landsol</en_US>
+      <zh_Hans_CN>新文明和领袖——兰德索尔的优妮</zh_Hans_CN>
+      <zh_Hant_HK>新文明和領袖——蘭德索爾的優妮</zh_Hant_HK>
+      <ja_JP>新たな文明と指導者: ランドソルのユニ</ja_JP>
+    </Text>
+      <Text id="LOC_LANDSOL_MOD_DESCRIPTION">
+      <en_US>Contains a new civilization and leader.</en_US>
+      <zh_Hans_CN>包含1个新文明及其领袖。</zh_Hans_CN>
+      <zh_Hant_HK>包含一個新文明及其領袖。</zh_Hant_HK>
+      <ja_JP>新たな文明と指導者を1つずつ含みます。</ja_JP>
+    </Text>
+  </LocalizedText>
+
+LandsolKokkoro:
+
+  <LocalizedText>
+    <Text id="LOC_LANDSOL_KOKKORO_MOD_TITLE">
+      <en_US>Kokkoro (Princess) of Landsol Leader Pack</en_US>
+      <zh_Hans_CN>兰德索尔的可可萝（公主）领袖包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_KOKKORO_MOD_TEASER">
+      <en_US>New Leader - Kokkoro (Princess) of Landsol</en_US>
+      <zh_Hans_CN>新领袖——兰德索尔的可可萝（公主）</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_KOKKORO_MOD_DESCRIPTION">
+      <en_US>Contains a new leader.</en_US>
+      <zh_Hans_CN>包含1个新领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+
+LandsolKyouka:
+
+  <LocalizedText>
+    <Text id="LOC_LANDSOL_KYOUKA_MOD_TITLE">
+      <en_US>Kyouka of Landsol Leader Pack</en_US>
+      <zh_Hans_CN>兰德索尔的镜华领袖包</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_KYOUKA_MOD_TEASER">
+      <en_US>New Leader - Kyouka of Landsol</en_US>
+      <zh_Hans_CN>新领袖——兰德索尔的镜华</zh_Hans_CN>
+    </Text>
+      <Text id="LOC_LANDSOL_KYOUKA_MOD_DESCRIPTION">
+      <en_US>Contains a new leader.</en_US>
+      <zh_Hans_CN>包含1个新领袖。</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
