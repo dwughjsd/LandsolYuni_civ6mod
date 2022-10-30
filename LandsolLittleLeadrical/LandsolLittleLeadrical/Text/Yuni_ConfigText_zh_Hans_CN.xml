@@ -176,8 +176,12 @@
 			<Text>유니</Text>
 		</Row>
 
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION" Language="ko_KR">
+			<Text>추가 리더 특성 </Text>
+		</Row>	
+
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION" Language="ko_KR">
-			<Text>유니에게 "{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}" 특성을 추가합니다：{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME" Language="ko_KR">
@@ -254,16 +258,16 @@
 			<Text>캠퍼스는 강에서 상당량의 인접 보너스를 받고, 해안에서 적당한 인접 보너스를 받습니다. 물에 인접한 육지 타일에 있는 원거리 유닛의 [ICON_Range] 사거리 +1. 물에 인접해있는 모든 타일에 [ICON_Production] 생산력 +1.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 첫 우주공항이 건설되면 로봇공학과 나노공학을 즉시 연구합니다. {LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 우주공항을 건설하면 인공위성 과 나노기술 을 즉시 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="ko_KR">
-			<Text>쿄우카에게 {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} 특성을 추가합니다:{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="ko_KR">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 첫 우주공항이 건설되면 오프월드 미션과 스마트 소재를 즉시 연구합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 화성 이주지 발족 프로젝트를 완료하면 즉시 스마트 소재 와 오프월드 미션 을 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="ko_KR">
-			<Text>쿄우카에게 {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME} 특성을 추가합니다: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="ko_KR">
@@ -281,7 +285,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="ko_KR">
-			<Text>국립공원이 있는 도시에서 [ICON_FAITH]신앙 생산량의 15%만큼 [ICON_SCIENCE] 과학과 [ICON_CULTURE] 문화를 얻습니다. 모든 국립공원에 [ICON_Tourism] 관광 +200%를 제공합니다. 산, 숲, 자연경관에 인접해있는 멋지거나 놀라운 매력도의 타일에서 [ICON_Faith] 신앙 +1. 신권 연구 후 아메스의 무녀 유닛을 얻습니다.</Text>
+			<Text>종교관을 만들면 즉시 신비주의가 해금되며, 턴당 +2 [ICON_GreatProphet] 위대한 예언자 위인 점수를 얻습니다. 산, 숲, 또는 자연경관에 인접한 멋지거나 놀라운 매력적인 타일에 +1 [ICON_Faith] 신앙. 숲 타일은 인접한 타일에 추가로 +1 매력도를 부여합니다. 신권을 연구하면 특유의 유닛 아메스의 무녀 를 얻을 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="ko_KR">
