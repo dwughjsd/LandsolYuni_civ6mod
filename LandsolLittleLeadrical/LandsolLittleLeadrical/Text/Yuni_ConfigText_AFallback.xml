@@ -19,11 +19,11 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION">
-			<Text>Extra leader ability </Text>
+			<Text>Extra leader ability</Text>
 		</Row>	
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_YUNI_DESCRIPTION">
-			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION} {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_NAME}: {LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION}</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_NAME">
@@ -99,19 +99,19 @@
 			<Text>Cosmo Blue Flash</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="en_US">
-			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water. +1 [ICON_Production] Production to all tiles adjacent to water.</Text>
+			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Satellites and Nanotechnology technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Nanotechnology technology is unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
-			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION} {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When Launch Mars Colony is completed the Smart Materials and Offworld Mission technologies are unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When Launch Mars Colony is completed the Offworld Mission technology is unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="en_US">
-			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION} {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
 		</Row>
 
 		<!--OK, seems that official English version of PCR:D calls her Kyoka, not "Kyouka" commonly used by community. Both of them are correct romanization of her name.-->

@@ -706,10 +706,12 @@
 	
 	<!--Cosmo Blue Flash: XP1-->
 	<DistrictModifiers>
+		<!--
 		<Row>
 			<DistrictType>DISTRICT_SPACEPORT</DistrictType>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
 		</Row>
+		-->
 		<Row>
 			<DistrictType>DISTRICT_SPACEPORT</DistrictType>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2</ModifierId>

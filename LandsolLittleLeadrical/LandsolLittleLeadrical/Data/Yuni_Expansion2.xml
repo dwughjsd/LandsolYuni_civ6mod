@@ -127,7 +127,9 @@
 	</DistrictModifiers>
 
 	<ProjectCompletionModifiers>
+		<!--
 		<Row ProjectType="PROJECT_LAUNCH_MARS_BASE" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1"/>
+		-->
 		<Row ProjectType="PROJECT_LAUNCH_MARS_BASE" ModifierId="TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY2"/>
 	</ProjectCompletionModifiers>
 
