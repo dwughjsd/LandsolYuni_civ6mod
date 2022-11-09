@@ -38,7 +38,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME">
-			<Text>Princess Knight of Landosol</Text>
+			<Text>Princess Knight</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION">
 			<Text>Grants an extra leader trait for each Landosol leader.</Text>

@@ -37,7 +37,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="zh_Hans_CN">
-			<Text>兰德索尔公主骑士</Text>
+			<Text>公主骑士</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>为每个兰德索尔领袖增加一个额外领袖特性。</Text>
@@ -196,7 +196,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_NAME" Language="ko_KR">
-			<Text>랜드솔의 프린세스 나이트</Text>
+			<Text>프린세스 나이트</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_PRINCESS_KNIGHT_OF_LANDSOL_HIDE_ON_LOAD_DESCRIPTION" Language="ko_KR">
 			<Text>각 랜드솔 지도자마다 추가 특성을 제공합니다.</Text>
