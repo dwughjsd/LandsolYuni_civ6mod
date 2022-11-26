@@ -29,7 +29,7 @@
 			<Text>博学者的教诲</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>图书馆+1 [ICON_GreatWork_Writing] 著作槽位，建有图书馆的学院区+1 [ICON_GreatWriter] 大作家点数。文学著作提供 +2 [ICON_Science] 科技值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
+			<Text>图书馆 +1 [ICON_GreatWork_Writing] 著作槽位。建有图书馆的学院区 +1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_Writing] 著作提供 +3 [ICON_Science] 科技值和 +3 [ICON_Culture] 文化值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
@@ -47,7 +47,7 @@
 			<Text>认知发展哲学</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 [ICON_Science] 科技值和 [ICON_Culture] 文化值。战略资源矿产+1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+			<Text>每个单位在生产或升级完成时获得一次晋升。学院和剧院广场的相邻加成均同时提供 [ICON_Science] 科技值和 [ICON_Culture] 文化值。改良后的战略资源 +1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="zh_Hans_CN">
@@ -67,7 +67,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>优妮作为领袖时的兰德索尔特色现代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位+1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>
+			<Text>优妮作为领袖时的兰德索尔特色现代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位 +1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_NAME" Language="zh_Hans_CN">
@@ -75,7 +75,7 @@
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时+10 [ICON_Strength] 战斗力。</Text>
+			<Text>兰德索尔特色文艺复兴时期攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时 +10 [ICON_Strength] 战斗力。</Text>
 		</Row>
 	</LocalizedText>
 
@@ -85,7 +85,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有学院区域的城市 [ICON_SCIENCE] 科技值+10%、[ICON_PRODUCTION] 生产力+5%。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
+			<Text>拥有学院区域的城市 [ICON_SCIENCE] 科技值 +10%、[ICON_PRODUCTION] 生产力 +5%。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LITTLE_LYRICAL_BONUS" Language="zh_Hans_CN">
@@ -188,7 +188,7 @@
 			<Text>상아탑의 현자</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="ko_KR">
-			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 1개를 얻고, 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +2 [ICON_SCIENCE] 과학. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
+			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 1개를 얻고. 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +3 [ICON_SCIENCE] 과학과 +3 [ICON_CULTURE] 문화. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
@@ -206,7 +206,7 @@
 			<Text>인식과 발전성의 철학</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="ko_KR">
-			<Text>모든 유닛은 생산되거나 업그레이드될때 무료 진급을 얻습니다. 캠퍼스와 극장가 특수는 [ICON_CULTURE] 문화와 [ICON_SCIENCE] 과학을 모두 산출합니다. 전략자원 위에 건설된 광산에서 +1 [ICON_Science]과학과 [ICON_Culture] 문화.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+			<Text>모든 유닛은 생산되거나 업그레이드될때 무료 진급을 얻습니다. 캠퍼스와 극장가 특수는 [ICON_CULTURE] 문화와 [ICON_SCIENCE] 과학을 모두 산출합니다. 개발된 전략 자원에서 +1 [ICON_Science] 과학과 +1 [ICON_Culture] 문화.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
 		</Row>
 
 		<Row Tag="LOC_LOADING_INFO_LEADER_SHINGYOUJI_YUNI" Language="ko_KR">

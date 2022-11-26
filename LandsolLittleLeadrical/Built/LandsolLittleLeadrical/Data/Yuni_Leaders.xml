@@ -42,9 +42,10 @@
 		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_LIBRARY_ONE_WRITING_SLOT"/>
 		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_LIBRARY_GREAT_WRITER_POINT"/>
 		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_GREAT_WORK_SCIENCE_WRITING"/>
+		<Row TraitType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" ModifierId="TRAIT_GREAT_WORK_CULTURE_WRITING"/>
 
-		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_MINE_SCIENCE"/>
-		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_MINE_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_STRATEGIC_CULTURE"/>
 		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_THEATER_SCIENCE"/>
 		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="UNIQUE_LEADER_UNIT_START_PROMOTED"/>
 		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_CAMPUS_CULTURE"/>
@@ -76,14 +77,14 @@
 			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_SCIENCE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
@@ -96,6 +97,10 @@
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_CULTURE_WRITING</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
 		</Row>
 
@@ -150,22 +155,22 @@
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_SCIENCE</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_SCIENCE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_SCIENCE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_SCIENCE</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_CULTURE</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_CULTURE</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_STRATEGIC_MINE_CULTURE</ModifierId>
+			<ModifierId>TRAIT_STRATEGIC_CULTURE</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -207,7 +212,22 @@
 		<Row>
 			<ModifierId>TRAIT_GREAT_WORK_SCIENCE_WRITING</ModifierId>
 			<Name>YieldChange</Name>
-			<Value>2</Value>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_CULTURE_WRITING</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_CULTURE_WRITING</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_WORK_CULTURE_WRITING</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>3</Value>
 		</Row>
 		<Row>
 			<ModifierId>UNIQUE_LEADER_UNIT_START_PROMOTED</ModifierId>
@@ -280,7 +300,7 @@
 		</Row>
 		<Row RequirementSetId="LANDSOL_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row>
-			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -320,29 +340,30 @@
 		</Row>
 		<Row RequirementSetId="LANDSOL_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
 		<Row>
-			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_REQUIREMENTS</RequirementSetId>
 			<RequirementId>PLAYER_IS_LANDSOL</RequirementId>
 		</Row>
 		<Row>
-			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_STRATEGIC</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
-		</Row>
-		<Row>
-			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</RequirementSetId>
-			<RequirementId>REQUIRES_PLOT_HAS_VISIBLE_RESOURCE</RequirementId>
+			<RequirementSetId>LANDSOL_PLOT_HAS_STRATEGIC_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_IMPROVED_STRATEGIC_YUNI</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 
 	<Requirements>
 		<Row RequirementId="PLAYER_IS_LANDSOL" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_IMPROVED_STRATEGIC_YUNI</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVED_RESOURCE_CLASS_TYPE_MATCHES</RequirementType>
+		</Row>
 	</Requirements>
 
 	<RequirementArguments>
 		<Row RequirementId="PLAYER_IS_LANDSOL" Name="CivilizationType" Value="CIVILIZATION_LANDSOL"/>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_IMPROVED_STRATEGIC_YUNI</RequirementId>
+			<Name>ResourceClassType</Name>
+			<Value>RESOURCECLASS_STRATEGIC</Value>
+		</Row>
 	</RequirementArguments>
 
 
@@ -438,7 +459,7 @@
 		<Row>
 			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_NOT_SUZERAIN_MODIFIER</ModifierId>
 			<Name>YieldChange</Name>
-			<Value>2</Value>
+			<Value>3</Value>
 		</Row>
 
 		<Row>
@@ -454,7 +475,7 @@
 		<Row>
 			<ModifierId>MINOR_CIV_BABYLON_WRITING_BONUS_YUNI_SUZERAIN_MODIFIER</ModifierId>
 			<Name>YieldChange</Name>
-			<Value>4</Value>
+			<Value>5</Value>
 		</Row>
 	</ModifierArguments>
 
@@ -766,7 +787,6 @@
 
 		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="LANDSOL_REQUIREMENTS"/>
 		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="ADJACENT_TO_WATER_REQUIREMENTS"/>
-
 		<Row>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
@@ -928,29 +948,16 @@
 	</ModifierArguments>
 	
 	<RequirementSets>
-		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<InsertOrIgnore RequirementSetId="LANDSOL_PLAYER_HAS_GOLDEN_AGE" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_PLOT_HAS_OCEAN_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
-
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
-		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementId="REQUIRES_CITY_HAS_SPACEPORT"/>
-		<InsertOrIgnore RequirementSetId="KYOUKA_CITY_HAS_SPACEPORT_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
-		<InsertOrIgnore RequirementSetId="LANDSOL_PLAYER_HAS_GOLDEN_AGE" RequirementId="PLAYER_IS_LANDSOL"/>
-		<InsertOrIgnore RequirementSetId="LANDSOL_PLAYER_HAS_GOLDEN_AGE" RequirementId="REQUIRES_PLAYER_HAS_GOLDEN_AGE"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_CAMPUS"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS" RequirementId="REQUIRES_PLOT_ADJACENT_TO_SPACEPORT_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_PLOT_HAS_OCEAN_REQUIREMENTS" RequirementId="REQUIRES_PLOT_HAS_OCEAN_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementId="REQUIRES_PLOT_IS_ADJACENT_TO_COAST"/>
-		<Row RequirementSetId="KYOUKA_PLOT_IS_ADJACENT_TO_COAST" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
+		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_SPACEPORT"/>
 		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
@@ -959,19 +966,6 @@
 	</RequirementSetRequirements>
 	
 	<Requirements>
-		<InsertOrIgnore RequirementId="REQUIRES_CITY_HAS_SPACEPORT" RequirementType="REQUIREMENT_CITY_HAS_DISTRICT"/>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_SPACEPORT_HIKAWA_KYOUKA</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA</RequirementId>
-			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_HIKAWA_KYOUKA</RequirementId>
-			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
-		</Row>
 		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
@@ -980,26 +974,6 @@
 	</Requirements>
 	
 	<RequirementArguments>
-		<InsertOrIgnore>
-			<RequirementId>REQUIRES_CITY_HAS_SPACEPORT</RequirementId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_SPACEPORT</Value>
-		</InsertOrIgnore>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_SPACEPORT_HIKAWA_KYOUKA</RequirementId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_SPACEPORT</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_CAMPUS_SPACEPORT_ADJACENCY_HIKAWA_KYOUKA</RequirementId>
-			<Name>RequirementSetId</Name>
-			<Value>HIKAWA_KYOUKA_CAMPUS_SPACEPORT_ADJACENCY_REQUIREMENTS</Value>
-		</Row>
-		<Row>
-			<RequirementId>REQUIRES_PLOT_HAS_OCEAN_HIKAWA_KYOUKA</RequirementId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_OCEAN</Value>
-		</Row>
 		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA" Name="LeaderType" Value="LEADER_HIKAWA_KYOUKA"/>
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_5_COAST_KYOUKA</RequirementId>
@@ -1046,28 +1020,28 @@
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_ENGINEER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_LITTLE_LYRICAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_MERCHANT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_LITTLE_LYRICAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_WRITER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_LITTLE_LYRICAL</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_ARTIST</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_LITTLE_LYRICAL</SubjectRequirementSetId>
 
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_GUILDHOUSE_MUSICIAN</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_IS_HIKAWA_KYOUKA</SubjectRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_LITTLE_LYRICAL</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
