@@ -6,7 +6,9 @@ All art assets and music files are extracted from the mobile game Princess Conne
 
 Codes that I wrote can be seen as if they're in public domain, so that you can copy, edit, redistribute them or do whatever you want.
 
-See Releases if you just simply want to play prebuilt mod.
+Simply copy `LandsolLittleLeadrical/Built/LandsolLittleLeadrical` folder to mods directory of Civ6 if you just simply want to play prebuilt mod.
+
+Separated projects for Yuni, Kokkoro (Princess) and Kyoka are DEPRECATED and will no longer receive updates. They are still good (and sometimes might be better) examples for mod projects though.
 
 # About Wwise project
 
