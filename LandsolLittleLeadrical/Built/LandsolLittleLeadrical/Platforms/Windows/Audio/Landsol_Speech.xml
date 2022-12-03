@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\Documents\WwiseProjects\Yuni\</ProjectRoot>
-		<SourceFilesRoot>D:\Documents\WwiseProjects\Yuni\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Yuni\</ProjectRoot>
+		<SourceFilesRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Yuni\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Documents\WwiseProjects\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Documents\GitHub\Uzuki_civ6_mods_wwise\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
-	<DialogueEvents/>
 	<SoundBanks>
 		<SoundBank Id="3586259261" Language="SFX">
 			<ShortName>Landsol_Speech</ShortName>
@@ -26,6 +25,7 @@
 				<Event Id="2438826288" Name="LANS_NK_FIRST_MEET_A"/>
 				<Event Id="368440406" Name="LANS_NK_KUDOS_A"/>
 				<Event Id="1849821031" Name="LANS_NK_MISC_PEP_TALK_A"/>
+				<Event Id="1849821028" Name="LANS_NK_MISC_PEP_TALK_B"/>
 				<Event Id="3239699208" Name="LANS_NK_WARNING_A"/>
 				<Event Id="70903884" Name="LANS_YS_DECLARE_WAR_A"/>
 				<Event Id="1031720448" Name="LANS_YS_DECLARE_WAR_FROM_AI_A"/>
@@ -47,6 +47,10 @@
 				<File Id="192280099" Language="SFX">
 					<ShortName>LANS_HK_DEFEAT_A.wav</ShortName>
 					<Path>SFX\LANS_HK_DEFEAT_A_B93921CF.wem</Path>
+				</File>
+				<File Id="300740775" Language="SFX">
+					<ShortName>LANS_NK_MISC_PEP_TALK_B.wav</ShortName>
+					<Path>SFX\LANS_NK_MISC_PEP_TALK_B_B93921CF.wem</Path>
 				</File>
 				<File Id="354771262" Language="SFX">
 					<ShortName>LANS_NK_MISC_PEP_TALK_A.wav</ShortName>

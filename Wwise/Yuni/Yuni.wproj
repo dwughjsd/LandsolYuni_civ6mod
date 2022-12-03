@@ -20,6 +20,13 @@
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+						<Value Platform="Mac">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -51,8 +58,18 @@
 						<Value Platform="Mac"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+						<Value Platform="Mac">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2015.1|Build=5624|VersionName=v2015.1.9|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>

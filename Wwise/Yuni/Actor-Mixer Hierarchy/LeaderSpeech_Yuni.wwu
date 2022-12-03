@@ -513,6 +513,25 @@
 														<ActiveSource Name="LANS_HK_WARNING_A" ID="{6B7306AF-D4A0-468E-BE10-DE43A7459BC2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="LANS_NK_MISC_PEP_TALK_B" ID="{885C4F0B-504A-4159-9B71-CF4C52046039}" ShortID="969344074" Type="SoundFX">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1517B564-DC3C-401F-A5D3-E764772893A6}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E91763E-B8C9-4FEC-A959-7E4171FD2AC9}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="LANS_NK_MISC_PEP_TALK_B" ID="{F4F0F6BC-5F72-48C4-A486-5611357C7B1E}" ShortID="300740775">
+															<Language>SFX</Language>
+															<AudioFile>LANS_NK_MISC_PEP_TALK_B.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="LANS_NK_MISC_PEP_TALK_B" ID="{F4F0F6BC-5F72-48C4-A486-5611357C7B1E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</ActorMixer>
 									</ChildrenList>

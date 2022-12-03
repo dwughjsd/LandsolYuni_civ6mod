@@ -682,9 +682,8 @@
 		</Row>
 	</LocalizedText>
 	<LocalizedText>
-
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="en_US">
-			<Text>First you simmer,[NEWLINE]then boil up hot;[NEWLINE]keep that rice[NEWLINE]snug in the pot.</Text>
+			<Text>No matter how our journey will end, I will never hesitate.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="en_US">
@@ -808,7 +807,7 @@
 		</Row>
 
 		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="en_US">
-			<Text>Little Guide of Nature</Text>
+			<Text>Pure White Guide</Text>
 		</Row>
 
 		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="en_US">

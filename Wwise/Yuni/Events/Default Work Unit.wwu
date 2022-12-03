@@ -600,6 +600,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="LANS_NK_MISC_PEP_TALK_B" ID="{10BC39C4-347C-4B77-B07F-7B055B6FA6F3}">
+							<ChildrenList>
+								<Action Name="Play" ID="{AE544559-B8ED-4BCF-9A66-8AE69D83EA3B}" ShortID="381372076" Type="Play" Scope="One" Global="false">
+									<ElementList>
+										<Element ID="{21BF6CC6-9A21-41A0-85C8-0DB44C175009}" Global="false">
+											<ObjectRef Name="LANS_NK_MISC_PEP_TALK_B" ID="{885C4F0B-504A-4159-9B71-CF4C52046039}" WorkUnitID="{048AE7AB-B3DB-4825-9B4C-5DDE80B87767}"/>
+										</Element>
+									</ElementList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
