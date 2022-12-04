@@ -950,7 +950,6 @@
 	<RequirementSets>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
@@ -958,8 +957,6 @@
 	<RequirementSetRequirements>
 		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
 		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_SPACEPORT"/>
-		<Row RequirementSetId="HIKAWA_KYOUKA_CITY_HAS_CAMPUS_OR_SPACEPORT" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_5_COAST_KYOUKA"/>
 		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
