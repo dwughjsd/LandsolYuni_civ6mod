@@ -1654,7 +1654,7 @@
 		<!--Natsume Kokoro: 나츠메 코코로-->
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_QUOTE" Language="ko_KR">
-			<Text>외양이 변해도 저는 그대로 저⋯</Text>
+			<Text>저희 여행이 어떤 결말을 맞이하더라도, 망설임은 없습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_NATSUME_KOKORO_PRINCESS_ANY" Language="ko_KR">
@@ -1754,7 +1754,7 @@
 		</Row>
 
 		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Language="ko_KR">
-			<Text>꼬마 가이드</Text>
+			<Text>순백의 무녀</Text>
 		</Row>
 
 		<Row Tag="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION" Language="ko_KR">
