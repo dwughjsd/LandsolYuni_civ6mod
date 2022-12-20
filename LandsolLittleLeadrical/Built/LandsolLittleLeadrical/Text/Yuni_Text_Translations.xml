@@ -12,7 +12,7 @@
 
 		<!-- Leader specific pedia text. -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。在优妮看来，学识皆有价值，不分高下贵贱，科学发展不必拖累文化积累。</Text>
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够解锁一个独特的“连结迸发”能力，这项能力提供强大的加成。在优妮看来，学识皆有价值，不分高下贵贱，科学发展不必拖累文化积累。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SHINGYOUJI_YUNI_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>优妮的学院和剧院广场能够同时提供 [ICON_Science] 科技值 和 [ICON_Culture] 文化值。他们获取 [ICON_Science] 科技值的另一种方法是在图书馆中放置 [ICON_GreatWork_Writing] 著作。他们的图书馆建筑本身也提供获得 [ICON_GreatWriter] 大作家点数的独特方法。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。除此之外，如果必须进行战争，领导兰德索尔的优妮也能使用其领袖能力“认知发展哲学”建立精锐部队。</Text>
@@ -720,7 +720,7 @@
 			<Text>小小甜心公会成员</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。镜华从水域和学院区域获得大量 [ICON_Science] 科技值和 [ICON_Production] 生产力，使其在太空竞赛中堪称模范。</Text>
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够解锁一个独特的“连结迸发”能力，这项能力提供强大的加成。镜华从水域和学院区域获得大量 [ICON_Science] 科技值和 [ICON_Production] 生产力，使其在太空竞赛中堪称模范。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>镜华的城市规划独具特色。他们需要在海岸或河流边建立学院并部署远程单位，以便充分利用领袖能力保护自己并赢取游戏。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。在额外的研究和生产能力的帮助下，镜华最适合的无疑是科技胜利。</Text>
@@ -945,7 +945,7 @@
 			<Text>美食殿堂公会成员，爱梅斯的巫女</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
-			<Text>在公主骑士的帮助下，兰德索尔的领袖能够获得独特的“连结迸发”能力，得到包括军事强化在内的加成。身为守护自然的纯白巫女，公主形态的可可萝从迷人的自然界中获得强大力量，引领她的人民获得胜利。</Text>
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够解锁一个独特的“连结迸发”能力，这项能力提供强大的加成。身为守护自然的纯白巫女，公主形态的可可萝从迷人的自然界中获得强大力量，引领她的人民获得胜利。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NATSUME_KOKORO_PRINCESS_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>魅力对公主可可萝至关重要。他们在高魅力的单元格附近建立城市来获得“极光圣界”特性提供的额外建筑产出以及单位回复。靠近自然美景，他们的 [ICON_Faith] 信仰值产出相当可观。利用公会之家建筑，他们可以获得来自领袖所属公会的独特加成。由于拥有额外的 [ICON_Faith] 信仰值购买使徒或爱梅斯巫女，对公主可可萝而言，最容易获得的是宗教胜利和文化胜利。</Text>
