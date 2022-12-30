@@ -3,12 +3,7 @@
 	<m_BehaviorData>
 		<m_behaviorDataSets>
 			<m_animationBindings>
-				<m_Bindings>
-					<Element>
-						<m_SlotName text="FIRST_MEET"/>
-						<m_AnimationName text="LEAD_CHIN_Qin_Neutral_Positive_B"/>
-					</Element>
-				</m_Bindings>
+				<m_Bindings/>
 			</m_animationBindings>
 			<m_timelineBindings>
 				<m_Bindings>
