@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..ArtDefSet>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_TemplateName text="Leaders"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Leaders"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ART_LEADER_AMES"/>
+							<m_XLPClass text="Leader"/>
+							<m_XLPPath text="leader_ameth.xlp"/>
+							<m_BLPPackage text="/leaders/leader_ameth"/>
+							<m_LibraryName text="Leader"/>
+							<m_ParamName text="Leader_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="PrinFes_LightRig"/>
+							<m_XLPClass text="LeaderLighting"/>
+							<m_XLPPath text="leader_lightrigs.xlp"/>
+							<m_BLPPackage text="leaders/light_rigs"/>
+							<m_LibraryName text="LeaderLighting"/>
+							<m_ParamName text="Leader_Lightrig_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Leader_Colorkey_1"/>
+							<m_XLPClass text="ColorKey"/>
+							<m_XLPPath text="colorkeys.xlp"/>
+							<m_BLPPackage text="ColorKeys"/>
+							<m_LibraryName text="ColorKey"/>
+							<m_ParamName text="Leader_ColorKey_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text=""/>
+							<m_XLPClass text="Leader"/>
+							<m_XLPPath text=""/>
+							<m_BLPPackage text=""/>
+							<m_LibraryName text="Leader"/>
+							<m_ParamName text="Leader_Background_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Leader_Background_Animation_State"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Audio"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LEADER_AMES"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ART_LEADER_HIMEMIYA_MAHO_EXPLORER"/>
+							<m_XLPClass text="Leader"/>
+							<m_XLPPath text="leader_mahoexplorer.xlp"/>
+							<m_BLPPackage text="/leaders/leader_mahoexplorer"/>
+							<m_LibraryName text="Leader"/>
+							<m_ParamName text="Leader_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="PrinFes_LightRig"/>
+							<m_XLPClass text="LeaderLighting"/>
+							<m_XLPPath text="leader_lightrigs.xlp"/>
+							<m_BLPPackage text="leaders/light_rigs"/>
+							<m_LibraryName text="LeaderLighting"/>
+							<m_ParamName text="Leader_Lightrig_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Leader_Colorkey_1"/>
+							<m_XLPClass text="ColorKey"/>
+							<m_XLPPath text="colorkeys.xlp"/>
+							<m_BLPPackage text="ColorKeys"/>
+							<m_LibraryName text="ColorKey"/>
+							<m_ParamName text="Leader_ColorKey_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text=""/>
+							<m_XLPClass text="Leader"/>
+							<m_XLPPath text=""/>
+							<m_BLPPackage text=""/>
+							<m_LibraryName text="Leader"/>
+							<m_ParamName text="Leader_Background_BLP_Entry"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Leader_Background_Animation_State"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text=""/>
+							<m_ParamName text="Audio"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="LEADER_HIMEMIYA_MAHO_EXPLORER"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+	</m_RootCollections>
+</AssetObjects..ArtDefSet>
+

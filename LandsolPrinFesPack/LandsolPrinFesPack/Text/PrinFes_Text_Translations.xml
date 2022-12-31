@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_TITLE" Language="zh_Hans_CN">
+			<Text>菲欧</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_SUBTITLE" Language="zh_Hans_CN">
+			<Text>以新姿态支援骑士的冒险的妖精</Text>
+		</Row>
+
+		<!-- Leader specific pedia text. -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够解锁一个独特的“连结迸发”能力，这项能力提供强大的加成。无论在安稳还是危难时，爱梅斯都指引着公主骑士，为他保存所有记忆，直到终局的终局。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>爱梅斯在梦境世界指导着她的信徒发现世界的真相。在游戏早期，他们便可以通过额外的起始 [ICON_Faith] 信仰值和免费的 [ICON_GreatProphet] 大预言家快速创立一个宗教，并呼唤可可萝作为忠诚的护卫。随着游戏进程前进，他们能够触发进入的新时代的 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞，加速获得科技和市政。建造公会之家并完成“入梦”项目收集 [ICON_GreatWork_Portrait] 记忆碎片，便可以在游戏中期有效提升城市的产出，以便取得各种类型的胜利。无需太过担心时代得分：如果不幸进入黑暗时代，爱梅斯将会以全力挽大厦于将倾！</Text>
+		</Row>
+
+		<!-- Leader Quotes -->
+		<Row Tag="LOC_LEADER_AMES_QUOTE" Language="zh_Hans_CN">
+			<Text>你刚刚经历的和做梦差不多，醒来之后全部都会忘记。</Text>
+		</Row>
+    
+    	<!-- Leader Dialog -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊 - 好感剧情1+2-->
+			<Text>拿你没办法呀。我会帮你的，你要感谢我哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊 - 好感剧情3-->
+			<Text>就算没有我你也会有很多好伙伴的，所以维持现状也挺好的吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊 - 好感剧情1+7-->
+			<Text>我们最初相见的时候，我丝毫没有想过能成为现在这样。请接受我的友谊吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受 - 好感剧情3-->
+			<Text>看好吧，今后我会全力支持你的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝 - 主屏幕语音-->
+			<Text>我啊，可没有晾着你做别的事的心思呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--被宣战 - 第一部幕间XII-->
+			<Text>哦？你要是能行的话就请你来试试看吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--主动宣战 - 第一部幕间XII-->
+			<Text>要是放着不管的话说不定一切都会毁灭的，所以我不能就这么放弃行动，对吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣 - 第一部幕间XI-->
+			<Text>为了表示敬意……我尽可能地好好接待了他们。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣 - 第一部幕间XI-->
+			<Text>你们还是不要来的好。为了不让你们擅自揣测，我也不会说任何细节的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节 - 首次查看个人剧情-->
+			<Text>我的代表团给你带了“梦”，是只有我为你创造的，非常美妙的“梦”。放心吧，请好好享受！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--被谴责-->
+			<Text>我们怎么争执也没有任何意义。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家 - 优妮个人剧情第8集-->
+			<Text>这是怎么回事，你是出了什么问题了吗？（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--初次见面 - 序章后篇-->
+			<Text>我是……嗯，就叫我爱梅斯吧。最近别人都是这么称呼我的。衷心祝愿你的人生、你的现实，始终幸福。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置 - 主屏幕语音-->
+			<Text>如今我终于能够带人到我想去的地方了……你会来拜访我附近的城市的吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置-->
+			<Text>好，辛苦了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置 - 好感剧情6-->
+			<Text>你走遍过你的首都，不妨给我一些旅行建议。那里有魔物以外的美食吗？晶的可丽饼就算了吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--领袖对玩家有好感 - 铃莓个人剧情第8章-->
+			<Text>今后也继续像这样帮助身边的人吧。总有一天你会得到回报的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--领袖敌视玩家 - 幕间VIII-->
+			<Text>你维系起来的联系会给予你帮助。那是你最强大的武器，请你切勿忘记。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - civ6 generic-->
+			<Text>您想结为盟友吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队 - 幕间12-->
+			<Text>我很珍惜你，亲爱的朋友。但是，快移开边境的军队，妨碍到我的话我就要动真格的了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--战败 - 战斗语音-->
+			<Text>不要啊，大家……！我还不想在这里就完了！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--同意交易-->
+			<Text>好，辛苦了。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易-->
+			<Text>多跟你说这些也没什么用。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - -->
+			<Text>我们又见面了呢。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过-->
+			<Text>希望大家能够尽早重新过上和平的生活。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过-->
+			<Text>在现实中，仅有愿望是无法改变任何事的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过-->
+			<Text>大家都是活生生的人啊……不能让这个扭曲又诡异的世界把他们害死。现在抓紧时间和谈吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过-->
+			<Text>既然如此，就由你来纠正这个世界的扭曲吧。我会支持你的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过-->
+			<Text>有所隔离反倒是一种幸福。我建议你停止行动。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_AMES_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过 - 光之裂缝与世界的危机-->
+			<Text>我知道这么做不好，但这次请你原谅我吧。请一起拯救这个世界，允许我们的军队通过去打倒敌人！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_MANY_ALLIANCES" Language="zh_Hans_CN">
+			<Text>爱梅斯欣赏你盟友的数量</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_FEW_ALLIANCES" Language="zh_Hans_CN">
+			<Text>爱梅斯失望于你的盟友不多</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_GUIDE_FAIRY_NAME" Language="zh_Hans_CN">
+			<Text>导航妖精</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_GUIDE_FAIRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>尊重建立同盟的文明。不喜欢盟友数量少的文明。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“这一次，一定要一起相伴到最后的最后”——当爱梅斯重新出现在公主骑士面前时，她许下了如此承诺。尽管无法做到时刻相伴，她的确尽她所能地在努力实现这个目标。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>在公主连结的故事中，爱梅斯实际上并不是一开始就是受可可萝崇拜的女神。最初，她名叫菲欧，是相伴于公主骑士和他的伙伴“破晓之星”公会的向导小妖精，由《阿斯特莱亚传奇》游戏的AI运作。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>他们努力登上据说能够实现愿望的索尔之塔的顶层……但最终却惨败于霸瞳皇帝之手。在那最后时刻，菲欧牺牲自己保护了公主骑士，随后便失去了意识。当她重新苏醒时，她却发现自己已经不再是自由飞舞的小妖精，而是变成了另一副模样。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>回过神来，爱梅斯意识到公主骑士和他的伙伴们最终没有胜利。世界已经走向了另一条道路，所有其它人的数据都被重新构建。只要一离开保护她的水晶，她的身体便开始消失。尽管如此，在水晶内，她仍然有机会继续查看公主骑士的状况：与所有的伙伴的联系都已经消失。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>在这时，爱梅斯听见了对她的呼唤。她明白这也许是她能做出的为数不多的对这个游戏世界做出改变的事情之一了，因此她决定尝试向对方做出回应。那向她发出祈祷的巫女正是可可萝。爱梅斯一眼就喜欢上了这个小小的白发信徒，但随即便发现自己只要与对方对话，便同样会受到游戏世界的抹除。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>爱梅斯理解了自身的处境之后，不得不抓紧时间指示可可萝寻找公主骑士，期盼她能够带领对方恢复战斗力，一同将世界带往圆满结局。此后，她便以自己还能做到的方式守护着公主骑士：为他寻回并保存记忆，在必要的时候于梦境中给他启示。尽管所有梦境在主角醒来后便会几乎全部消失，但仍然能够在记忆的主人的潜意识中留下些许印象。除此之外，她便只能默默看着公主骑士，回忆或是幻想着自己与他在阿斯特莱亚世界冒险的点点滴滴。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>在之后的冒险中，爱梅斯继续发挥了公主骑士的引导者的作用。在再次决战霸瞳皇帝时，她出手拯救了身负致命伤的公主骑士，并让模索路晶得以治疗她。但好景不长，在决战胜利之后，由于索尔之塔日渐受到入侵，她与公主骑士能够交流的机会越来越少。她明白，留给她的时间已经不多了。爱梅斯许愿继续与公主骑士一同战斗，但却无法实现这个愿望，连她的话语都渐渐无法再被听见。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>此后，爱梅斯能做的事情越来越少，最后沦为了反派的人质。所幸，公主骑士与伙伴们进入了索尔之塔，经历一番苦战后终于将其救出。终于，导航妖精回到了她所引导的人身边，以全新的姿态支持着他的冒险。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>随着爱梅斯不再被困在保护她的水晶之中，她终于可以按自己的想法前往自己想去的任何地方。但她有一个愿望一直没有改变：希望公主骑士与大家一起，将现状变得比过去更好，让未来变得比现在更好。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AMES_RIFARE_PIUMA_NAME" Language="zh_Hans_CN">
+			<Text>重塑之羽</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AMES_RIFARE_PIUMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若在战斗中阵亡，可在首都获得一个免费的新单位。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_NAME" Language="zh_Hans_CN">
+			<Text>入梦</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>入梦</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若本场游戏仍有用以创作 [ICON_GreatWork_Portrait] 记忆碎片艺术巨作的 [ICON_GreatArtist] 公会成员可用，项目完成后可获得一个。若 [ICON_GreatArtist] 公会成员已被获取完毕，获得300 [ICON_Faith] 信仰值。一场游戏中所有玩家共可获得24个 [ICON_GreatArtist] 公会成员。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_WORK_OBJECT_MEMORY_PIECE_NAME" Language="zh_Hans_CN">
+			<Text>记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORKOBJECT_MEMORY_PIECE" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Portrait] 记忆碎片</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_KOKKORO_AMES_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>可可萝是爱梅斯的头号信徒，也是她最喜欢的孩子。在爱梅斯发现自己必须承担起引导公主骑士拯救扭曲的阿斯特莱亚世界之始，可可萝便已准备好听从她的指令。在接下来的冒险中，可可萝一直坚守着对爱梅斯的忠诚，并最终在公主骑士将爱梅斯从索尔之塔救出之后与她相逢。正式见面之后，可可萝对爱梅斯的信仰没有丝毫减弱，而捏可可萝的脸成为了爱梅斯最喜欢的娱乐之一。</Text>
+		</Row>
+		<!--Memory Pieces-->
+		<Row Tag="LOC_GREATWORKOBJECT_MEMORY_PIECE_PLURAL" Language="zh_Hans_CN">
+			<Text>[ICON_GreatWork_Portrait] 记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_CLASS_GUILD_MEMBER_NAME" Language="zh_Hans_CN">
+			<Text>公会成员</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUILD_MEMBER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>在兰德索尔，大多数人都会参与某个公会的活动。在他们看来，公会活动是生活的一部分。其中，一部分公会成员（绝大多数是女孩子）的公会活动将会与公主骑士（玩家扮演角色）产生交集。在这些公会中，出名的有破晓之星、拉比林斯、慈乐之音、森林守护者等等。镜华和她的朋友们没有成长到足以参加公会活动的年龄，但她们也模仿着大人以“小小甜心”的名义一起玩耍。公主骑士本人参加的则是美食殿堂公会，同行者是佩可莉姆、可可萝、凯露和雪菲。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE_NAME" Language="zh_Hans_CN">
+			<Text>佩可莉姆</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PECORINE_NAME" Language="zh_Hans_CN">
+			<Text>佩可莉姆的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO_NAME" Language="zh_Hans_CN">
+			<Text>可可萝</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KOKKORO_NAME" Language="zh_Hans_CN">
+			<Text>可可萝的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU_NAME" Language="zh_Hans_CN">
+			<Text>凯露</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KYARU_NAME" Language="zh_Hans_CN">
+			<Text>凯露的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI_NAME" Language="zh_Hans_CN">
+			<Text>日和莉</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_HIYORI_NAME" Language="zh_Hans_CN">
+			<Text>日和莉的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI_NAME" Language="zh_Hans_CN">
+			<Text>怜</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_REI_NAME" Language="zh_Hans_CN">
+			<Text>怜的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI_NAME" Language="zh_Hans_CN">
+			<Text>优衣</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_YUI_NAME" Language="zh_Hans_CN">
+			<Text>优衣的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>镜华</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>镜华的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI_NAME" Language="zh_Hans_CN">
+			<Text>美美</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MIMI_NAME" Language="zh_Hans_CN">
+			<Text>美美的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI_NAME" Language="zh_Hans_CN">
+			<Text>未奏希</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MISOGI_NAME" Language="zh_Hans_CN">
+			<Text>未奏希的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA_NAME" Language="zh_Hans_CN">
+			<Text>千歌</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_CHIKA_NAME" Language="zh_Hans_CN">
+			<Text>千歌的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI_NAME" Language="zh_Hans_CN">
+			<Text>望</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_NOZOMI_NAME" Language="zh_Hans_CN">
+			<Text>望的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI_NAME" Language="zh_Hans_CN">
+			<Text>纺希</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_TSUMUGI_NAME" Language="zh_Hans_CN">
+			<Text>纺希的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA_NAME" Language="zh_Hans_CN">
+			<Text>菈比莉斯塔</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LABYRISTA_NAME" Language="zh_Hans_CN">
+			<Text>菈比莉斯塔的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO_NAME" Language="zh_Hans_CN">
+			<Text>璃乃</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_RINO_NAME" Language="zh_Hans_CN">
+			<Text>璃乃的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU_NAME" Language="zh_Hans_CN">
+			<Text>静流</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_SHIZURU_NAME" Language="zh_Hans_CN">
+			<Text>静流的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA_NAME" Language="zh_Hans_CN">
+			<Text>伊莉亚</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_IRIYA_NAME" Language="zh_Hans_CN">
+			<Text>伊莉亚的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU_NAME" Language="zh_Hans_CN">
+			<Text>忍</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_SHINOBU_NAME" Language="zh_Hans_CN">
+			<Text>忍的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO_NAME" Language="zh_Hans_CN">
+			<Text>宫子</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MIYAKO_NAME" Language="zh_Hans_CN">
+			<Text>宫子的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO_NAME" Language="zh_Hans_CN">
+			<Text>美里</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MISATO_NAME" Language="zh_Hans_CN">
+			<Text>美里的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE_NAME" Language="zh_Hans_CN">
+			<Text>初音</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_HATSUNE_NAME" Language="zh_Hans_CN">
+			<Text>初音的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI_NAME" Language="zh_Hans_CN">
+			<Text>碧</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_AOI_NAME" Language="zh_Hans_CN">
+			<Text>碧的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO_NAME" Language="zh_Hans_CN">
+			<Text>真步</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MAHO_NAME" Language="zh_Hans_CN">
+			<Text>真步的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO_NAME" Language="zh_Hans_CN">
+			<Text>真琴</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MAKOTO_NAME" Language="zh_Hans_CN">
+			<Text>真琴的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI_NAME" Language="zh_Hans_CN">
+			<Text>香织</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KAORI_NAME" Language="zh_Hans_CN">
+			<Text>香织的记忆碎片</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUILD_MEMBER_NAME" Language="zh_Hans_CN">
+			<Text>公会成员</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUILD_MEMBER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>激活时，每个 [ICON_GreatArtist] 公会成员都能产生一个 [ICON_GreatWork_Portrait] 记忆碎片艺术巨作。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_LANDSOL_KOKKORO_AMES_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_UNIT_LANDSOL_KOKKORO_AMES_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_ACCELERATION_NAME" Language="zh_Hans_CN">
+			<Text>迅捷行动</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_ACCELERATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可攀登悬崖。可可萝和2单元格以内的单位 {LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_ACCELERATION_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_ACCELERATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_ACCELERATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“加速”是常规版本的可可萝的第二技能。在原作游戏中，这一技能能够辅助队友，提升他们的行动速度和战斗力。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_WALL_OF_SPIRITS_NAME" Language="zh_Hans_CN">
+			<Text>圣灵之墙</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_WALL_OF_SPIRITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可可萝和2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_WALL_OF_SPIRITS_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_WALL_OF_SPIRITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>防御时 +7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_WALL_OF_SPIRITS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“圣灵之墙”是可可萝（新年）的第一技能。在原作游戏中，这一技能可使自身吸收伤害，并将敌方火力引向自己从而保护队友。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_BLAZINGLY_BRIGHT_NAME" Language="zh_Hans_CN">
+			<Text>夺目光芒</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_BLAZINGLY_BRIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果此单位占领城市、或在城市被占领时处于相邻单元格中，该城市会自动将该单位所属玩家的宗教采纳为主流宗教。可可萝和2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_BLAZINGLY_BRIGHT_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_BLAZINGLY_BRIGHT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀敌方文明或城邦的单位时，您的宗教将传播到附近的城市。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_BLAZINGLY_BRIGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“光明注目”是可可萝（公主）的第二技能。在原作游戏中，这一技能提升友方的攻击力，并加速连结迸发技能的积累。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_SPIRITS_INSPIRATION_NAME" Language="zh_Hans_CN">
+			<Text>精灵启示</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_SPIRITS_INSPIRATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPIRITS_INSPIRATION_DESCRIPTION}若可可萝获得战斗胜利，此效果翻倍。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPIRITS_INSPIRATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>战斗胜利后，获得等同于被击杀单位 [ICON_Strength] 战斗力50%的 [ICON_Culture] 文化值（标准速度下）。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_SPIRITS_INSPIRATION_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“精灵启示”是常规版本的可可萝的第技能。在原作游戏中，这一技能提升自身的攻击力。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_SPRING_GALE_NAME" Language="zh_Hans_CN">
+			<Text>春日疾风</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_SPRING_GALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与陆地单位战斗时+10 [ICON_Strength] 战斗力。可可萝和2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPRING_GALE_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPRING_GALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>忽略敌人控制区影响。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_SPRING_GALE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“春日疾风”是可可萝（礼服）的第一技能。在原作游戏中，这一技能直接打击敌人，且有几率造成极其强大的攻击效果。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_TRIPLE_SLASH_NAME" Language="zh_Hans_CN">
+			<Text>三段劈击</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_TRIPLE_SLASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果 [ICON_Movement] 移动力允许，每回合+1额外攻击。可可萝和2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_TRIPLE_SLASH_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_TRIPLE_SLASH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>攻击后可移动。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_TRIPLE_SLASH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“掠阵三段击”是常规版本的可可萝的第一技能。在原作游戏中，这一技能对敌人造成直接伤害。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_AMES_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">
+			<Text>极光圣域</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_AURORA_SANCTUARY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在所有情况下+10 [ICON_Strength] 战斗力。可可萝和2单元格以内的单位{LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_AURORA_SANCTUARY_AMES_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_AURORA_SANCTUARY_AMES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10生命值恢复，在每回合结束时自动恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_AURORA_SANCTUARY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>“极光圣域”是可可萝（公主）的连结迸发技能。在原作游戏中，这一技能回复友方的生命值、提升连结迸发技能积累速率以及伤害效果。该技能同时也会使敌方的防御能力减弱。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于非首都所在大陆时 +7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MAHO_FOREIGN_CONTINENT_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于非首都所在大陆时 +1 [ICON_Movement] 移动力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELF_DEFENSE_GROUP_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自卫团公会之家提供 +5 [ICON_Strength] 战斗力，位于或靠近领土作战时这项加成翻倍。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELF_DEFENSE_GROUP_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从自卫团公会之家获得+50%战斗经验值。</Text>
+		</Row>
+		<Row Tag="LOC_SELF_DEFENSE_GROUP_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>自卫团公会之家提供 +5 [ICON_Strength] 战斗力</Text>
+		</Row>
+		<Row Tag="LOC_SELF_DEFENSE_GROUP_LOCAL_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于或相邻我方领土作战时 +5 [ICON_Strength] 战斗力</Text>
+		</Row>
+		<Row Tag="LOC_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于非首都所在大陆时 +7 [ICON_Strength] 战斗力</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_PRINCESS_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>公主探险家</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_PRINCESS_EXPLORER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>设法探索地图，并扩张到所有大陆。喜欢与首都处在相同大陆的文明，讨厌没有自己的城市的大陆上的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_HOME_CONTINENT" Language="zh_Hans_CN">
+			<Text>真步很高兴与您起源自同一片大陆</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_NEW_CONTINENT" Language="zh_Hans_CN">
+			<Text>真步想要扩张到您的大陆</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIMEMIYA_MAHO_EXPLORER_QUOTE" Language="zh_Hans_CN">
+			<Text>切莫慌张。在童话中，使用智慧就能摆脱危机。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<Text>我想在本次旅行结束的时候，跟真步真步王国的大家好好讲讲这场冒险。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<Text>草木气息浓郁，动物形形色色，土壤湿润，还有陷阱等待着的大冒险……我真是为之激动不已。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--同意声明友谊 - 真步 第5话-->
+			<Text>虽然，人家很笨拙，老是搞砸。我希望可以帮上你的忙。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--拒绝声明友谊 - 第7章 第9话-->
+			<Text>对你，人家可没法信任哟。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊 - 第13章 第2话-->
+			<Text>希望我们今后可以相处得更和睦一些……所有人都能幸福地生活的世界虽然听上去像是童话，但人家想要建立这样的世界。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被接受 - 真步 第1话-->
+			<Text>呵呵。好像童话故事一样啊！人家，很憧憬这种发展。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--请求声明友谊被拒绝 - 真步 第2话-->
+			<Text>诶……你怎么能说出这么过分的话，人家很难过哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--被宣战 - 第2章 第2话-->
+			<Text>究竟是谁攻击我们呢。不记得我们有做过会让别人袭击我们的事。嗯？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--主动宣战 - 第2章 第3话-->
+			<Text>我也不能眼睁睁地看着我们的势力范围任人践踏。我们要全力抗争。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--接受使节派遣 - 探险家真步 第三章-->
+			<Text>人家作为真步真步王国的公主，希望和贵国友好交流呢！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--拒绝使节派遣 - 第2章 第1话-->
+			<Text>哎呀，有不速之客大驾光临呢……不行呀。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--请求派遣使节 - 探险家真步 第一章-->
+			<Text>若是我们的外交代表团能见到国王大人，礼节周全地致以问候，组织一场优雅的茶会，岂不是再好不过？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--被谴责 - 第2章 第2话-->
+			<Text>这样下去，真的会演变成战争的哦？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--谴责玩家 - 第2章 第2话-->
+			<Text>你究竟，打着什么主意？（谴责你）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--初次见面 - 个人剧情第1章-->
+			<Text>你，是谁？嗯嗯……虽然现代已经基本没几个人会这么说话了……但人家可是公主嘛。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--初次见面，提供最近城市位置 -5003006 Dear Vampire-->
+			<Text>今后，就让我们不断加深对彼此的了解吧！人家还想请你来真步真步王国附近的城市做客！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--初次见面，玩家提供最近城市位置 - 5003000 复活的传说-->
+			<Text>那我们就出发吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--初次见面，请求交换首都位置 - 探险家真步 第三章-->
+			<Text>这样吧，作为国际交流的一步，我想邀请您谈谈彼此的首都。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--请求结盟 - civ6 generic-->
+			<Text>您想结为盟友吗？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--要求移开边境军队 - 第2章 第2话-->
+			<Text>不经许可就靠近他国边界，有点不守礼仪了吧？你不会以为，自己就可以为所欲为了吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--战败 - 战斗语音-->
+			<Text>哎呀……输掉了呀……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--同意交易 - 第2章 第1话-->
+			<Text>不用向我道谢啦。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--拒绝交易 - 自卫团 第2话-->
+			<Text>真讨厌。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是玩家发起外交时使用的，但实际上从未被使用过 - 真步 第4话-->
+			<Text>见到你很开心。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意求和，但从未被使用过 - 第13章 第2话-->
+			<Text>就让我们把过去的事一笔勾销，联手行动吧……</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝求和，但从未被使用过 - 第4章 第1话-->
+			<Text>我必须坚持。如果不解决根本问题，同样的事情还会反复发生的。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是求和，但从未被使用过 - 第4章 第1话-->
+			<Text>已经发生的事情不可能当作“无事发生”。必须引导事态向和平的方向发展。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是同意开放边界，但从未被使用过 - 第2章 第1话-->
+			<Text>我们会尽可能帮忙的。无论有什么要求，请不用客气，尽管说。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是拒绝开放边界，但从未被使用过 - 自卫团 第1话-->
+			<Text>我是为你担心啊～不行，不能动不动就打架。</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="zh_Hans_CN">
+			<!--理论上是请求开放边界，但从未被使用过 - 真步（夏日） 第1话-->
+			<Text>作为公主，人家不能让敌人为所欲为。国王大人，允许我的军队通过边境吧！</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>在公主骑士的帮助下，兰德索尔的领袖能够解锁一个独特的“连结迸发”能力，这项能力提供强大的加成。探险家真步积极地探索世界，并将他们的城市扩张到每一片大陆。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>探险家真步使用强大的侦察单位尽早开始探索地图。一旦他们在新大陆上建立城市，便可以立即获得一个免费开拓者帮助他们在新世界真正站稳脚跟。在这些城市建造特色建筑“真步真步营地”可以增加它们的 [ICON_Culture] 文化值和 [ICON_Gold] 金币产出。他们高速发展的城市为各种胜利方式都有助益。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>自称真步真步王国公主的姬宫真步其实并不是什么公主。尽管她也并不是无法分清现实和幻想，却喜欢用这种更有趣的方式看待这个世界。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>真步在阿斯特莱亚世界加入的是自卫团公会，也是这个公会的领导者。在她们为一家小型博物馆进行警备工作的时候，真步被连同前来参观的公主骑士一起被绑架进了马车。在马车里，她结识了这位伙伴，并按照自己的童话方式将他称为王子先生。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>虽然遇到了麻烦，但真步却毫不慌张，反而期待起接下来会发生的事情。她相信一切最后会好好地走向可喜可贺的童话结局。不过，公主骑士还是建议她，比起坐在前进的马车中什么都不做，试着使用魔法来脱困也许是更好的选择。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>真步决定照办。在公主骑士的支持下，她使用了自己运用得并不熟练的魔法，试图将绑住他们的绳子切断。不过，就像她几乎每一次使用这种魔法时一样，魔法失控，将绑架他们的整辆马车都打飞了。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>就这样，真步和公主骑士摔下了悬崖。他们找不到回到兰德索尔的办法，只得在野外求生，慢慢回家。虽然真步的魔法时常因为失误而产生糟糕的后果，但索性这一次她没有造成大问题，而是成功帮助两人存活下来。到达冰晶山脉时，他们和自卫团的其他人取得了联系，终于得救。就像她想象中那样，伙伴们担心她的安全，于是早已将绑架他们的盗贼团歼灭一空，于是即使他们什么都没有做，这起绑架案也会被妥善解决（这样的事情在她身上发生过许多次，难怪她永远不慌不忙）。这便是她与公主骑士初识的过程。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>在那之后，真步和她的公会伙伴们也被卷入了对抗霸瞳皇帝的战斗之中。在一开始，她们被王宫骑士团公会所挑衅，发生过不少冲突，相互之间水火不容。但随着世界的危机不断加重，曾经是仇敌的两个公会意识到现在已经不是继续内斗的时候。在两个公会的成员们的共同努力下，她们不计前嫌，和一群其他公会携手以对抗共同的强敌。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>最终，在公主骑士的带领下，所有他的伙伴们集合一起，向着他们的敌人发动最后的决战……虽然霸瞳皇帝在决战中被战胜，但这却并不是故事的结束。更大的威胁仍在等待着，而真步也和所有其他的伙伴一起，为下一场决战做好准备。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>在游戏外的世界里，真步的家庭经营着一家绸缎庄，是富贵人家。和在阿斯特莱亚世界中一样，她总是沉浸在童话绘本一样的幻想世界中，但现实的烦恼却无法避免。她必须做出自己的选择，决定自己的未来将走向何方。她希望，无论身在何处，真步真步王国的王子先生都能与她同在。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>在玩家群体之中，真步这个角色受到了不少欢迎。最令人印象深刻的是她的魔法咒语：“咕噜灵波~”（原文的字面意思是“转呀转呀变~”），成为了专属于她的符号之一。她看似沉溺于幻想中的性格也深受人们喜爱，一些恶搞作品甚至刻意突出了她的童话幻想和作品其它元素的对比（例如让处于下风的真步举起冲锋枪杀敌）。</Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_TITLE" Language="zh_Hans_CN">
+			<Text>镜华（小小模范）</Text>
+		</Replace>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_QUOTE" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AQUA_FLOCK_NAME" Language="zh_Hans_CN">
+			<Text>夏日水弹群</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AQUA_FLOCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远程攻击的目标单位 -7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AQUA_FLOCK_DEBUFF_NAME" Language="zh_Hans_CN">
+			<Text>夏日水弹群</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AQUA_FLOCK_DEBUFF_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自镜华（夏日戏水）的远程攻击导致-7 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_TOOLTIP_AQUA_FLOCK_DEBUFF" Language="zh_Hans_CN">
+			<Text>夏日水弹群</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text></Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_1}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_2}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_3}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_4}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_5}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_6}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_7}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_CHAPTER_HISTORY_PARA_8}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_FIRST_MEET_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_GREETING_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_SUMMER_ANY" Language="zh_Hans_CN">
+			<Text>{LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIKAWA_KYOUKA_ANY}</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

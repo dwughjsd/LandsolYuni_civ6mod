@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_GUILD_MEMBER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_LANDSOL_KOKKORO_AMES" Kind="KIND_UNIT"/>
+	</Types>
+	<TypeTags>
+		<Row Type="UNIT_GUILD_MEMBER" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_GUILD_MEMBER" Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_LANDSOL_KOKKORO_AMES" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_LANDSOL_KOKKORO_AMES" Tag="CLASS_ALL_ERAS"/>
+		
+	</TypeTags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_GUILD_MEMBER" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_GUILD_MEMBER" AiType="UNITAI_LEADER"/>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" AiType="UNITTYPE_ANTI_CAVALRY"/>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" AiType="UNITTYPE_MELEE"/>
+	</UnitAiInfos>
+	<Units>
+		<Row UnitType="UNIT_LANDSOL_KOKKORO_AMES" Cost="150" UseMaxMeleeTrainedStrength="true" BaseMoves="3" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="20" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LANDSOL_KOKKORO_AMES" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_LANDSOL_KOKKORO_AMES_NAME" Description="LOC_UNIT_LANDSOL_KOKKORO_AMES_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="false" TraitType="TRAIT_UNIT_LANDSOL_KOKKORO_AMES"/>
+		<Row UnitType="UNIT_GUILD_MEMBER" Cost="1" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_GUILD_MEMBER_NAME" Description="LOC_UNIT_GUILD_MEMBER_DESCRIPTION" CanCapture="False" CanRetreatWhenCaptured="True" CanTrain="False"/>
+	</Units>
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_LANDSOL_KOKKORO_AMES_TO_CAPITAL" UnitType="UNIT_LANDSOL_KOKKORO_AMES" BuildingType="BUILDING_PALACE"/>
+	</UnitRetreats_XP1>
+</GameData>

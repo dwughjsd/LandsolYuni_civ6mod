@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_TITLE" Language="en_US">
+			<Text>Fio</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_SUBTITLE" Language="en_US">
+			<Text>A Fairy who Supports the Knight's Adventure in a New Figure</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>With help of the Princess Knight, Landosol leaders can unlock a unique "Union Brust" ability which provides powerful bonuses. Ameth guides the Princess Knight no matter how everything goes, and save all his memory till the end of the world.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Ameth guides her followers in the dream world to discover the truth about the world. They can found a Religion quickly with extra starting [ICON_Faith] Faith and the free [ICON_GreatProphet] Great Prophet in early game, and earn Kokkoro as a loyal guard. As the game progresses, they can trigger [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations of new Eras they enter to boost their technology research and civic study. Build Guildhouses and finish Enter Dream World project to collect [ICON_GreatWork_Portrait] Memory Piece Great Works so that they can effectively build up their city yields which support all victory paths in mid-game. There is no need to worry much about Era Score: if they are in a Dark Age, Ameth will do her best to help!</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_AMES_QUOTE" Language="en_US">
+			<Text>What you just saw is little more than a dream. No need to remember it, you'll forget soon enough anyway.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>So I felt the need to to help you and I will. You shall thank me, will you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>You will have many friends even if I reject to be one of them, so it is not bad to keep our relationship as is.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>I never thought that we can become so intimate like how we are now when we first meet, and I hereby request you to accept my friendship.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>See, I will try my best to support you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>I am not going to leave you alone.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>Well? Just try and see if you can defeat me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>The world might be doomed if I just sit by, and that is a good reason why I can't do so, right?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>To show my respect... I treated your delegation with the utmost regard.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>You'd better not come. I won't tell you any detail about it and please don't speculate.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>My diplomatic delegation brings you some dreams which are magnificent and made only for you. Relax and enjoy!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>It makes no sense for us to argue.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>How can things happen like this... What is wrong with you? (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_AMES_ANY" Language="en_US">
+			<Text>I am... Well, you can call me Ameth. That is what everyone calls me lately. Here's hoping your life, your reality, turns out to be a happy one.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_AMES_ANY" Language="en_US">
+			<Text>Now I can finally take someone to the place I want to go... Will you visit my city nearby?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_AMES_ANY" Language="en_US">
+			<Text>OK, thanks.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_AMES_ANY" Language="en_US">
+			<Text>You must have been to every corner of your capital and know some tips for traveling there. Does it have any delicacies made without monster meat? Also please don't count crêpes made by Akira.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_AMES_ANY" Language="en_US">
+			<Text>Continue doing what you can to help those near you. I'm sure one day you'll be rewarded for your efforts.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_AMES_ANY" Language="en_US">
+			<Text>The bonds you've formed with others will be your salvation. Those connections are your greatest weapon. Try not to forget.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_AMES_ANY" Language="en_US">
+			<Text>I cherish you, my dear friend. But move your army at my borders away, or I will pull no punches if they bother me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>No, everyone...! I shouldn't be defeated here!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>OK, thanks.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>You probably don't understand a word I'm saying.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_AMES_ANY" Language="en_US">
+			<Text>Glad to see you again.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_AMES_ANY" Language="en_US">
+			<Text>I hope all of us can have peace as soon as possible.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_AMES_ANY" Language="en_US">
+			<Text>In real world, you can change nothing with mere wishes.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>All our troops are living people... We cannot let this twisted world kill them. Let us make peace right now.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>If so, you can go fix this world's distortions. I know you can do it, and will support you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_AMES_ANY" Language="en_US">
+			<Text>Being separated is actually some kind of blessing. I suggest you stop your actions.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_AMES_ANY" Language="en_US">
+			<Text>I know this might be inappropriate, but please forgive me. Please save this world together, and let our army pass through to fight against our enemies!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_MANY_ALLIANCES" Language="en_US">
+			<Text>Ameth approves of your alliance-making</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_FEW_ALLIANCES" Language="en_US">
+			<Text>Ameth is unhappy you are in so few alliances</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_GUIDE_FAIRY_NAME" Language="en_US">
+			<Text>Guide Fairy</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_GUIDE_FAIRY_DESCRIPTION" Language="en_US">
+			<Text>Respects those who form multiple alliances. Dislikes those with few alliances.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AMES_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AMES_RIFARE_PIUMA_NAME" Language="en_US">
+			<Text>Rifàre-Piuma</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AMES_RIFARE_PIUMA_DESCRIPTION" Language="en_US">
+			<Text>If killed in combat, receive a free unit of the same kind in your capital.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_NAME" Language="en_US">
+			<Text>Enter Dream World</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_SHORT_NAME" Language="en_US">
+			<Text>Enter Dream</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ENTER_DREAM_WORLD_DESCRIPTION" Language="en_US">
+			<Text>If the game still has available [ICON_GreatArtist] Guild Members to create [ICON_GreatWork_Portrait] Memory Piece Great Work, earn one upon completion. If all [ICON_GreatArtist] Guild Members has been recruited, grants 300 [ICON_Faith] Faith. All players can earn 24 [ICON_GreatArtist] Guild Members in total in a game.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_WORK_OBJECT_MEMORY_PIECE_NAME" Language="en_US">
+			<Text>Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORKOBJECT_MEMORY_PIECE" Language="en_US">
+			<Text>[ICON_GreatWork_Portrait] Memory Piece</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_LANDSOL_KOKKORO_AMES_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<!--Memory Pieces-->
+		<Row Tag="LOC_GREATWORKOBJECT_MEMORY_PIECE_PLURAL" Language="en_US">
+			<Text>[ICON_GreatWork_Portrait] Memory Pieces</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_CLASS_GUILD_MEMBER_NAME" Language="en_US">
+			<Text>Guild Member</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUILD_MEMBER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE_NAME" Language="en_US">
+			<Text>Pecorine</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PECORINE_NAME" Language="en_US">
+			<Text>Pecorine's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO_NAME" Language="en_US">
+			<Text>Kokkoro</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KOKKORO_NAME" Language="en_US">
+			<Text>Kokkoro's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU_NAME" Language="en_US">
+			<Text>Karyl</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KYARU_NAME" Language="en_US">
+			<Text>Karyl's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI_NAME" Language="en_US">
+			<Text>Hiyori</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_HIYORI_NAME" Language="en_US">
+			<Text>Hiyori's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI_NAME" Language="en_US">
+			<Text>Rei</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_REI_NAME" Language="en_US">
+			<Text>Rei's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI_NAME" Language="en_US">
+			<Text>Yui</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_YUI_NAME" Language="en_US">
+			<Text>Yui's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA_NAME" Language="en_US">
+			<Text>Kyoka</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KYOUKA_NAME" Language="en_US">
+			<Text>Kyoka's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI_NAME" Language="en_US">
+			<Text>Mimi</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MIMI_NAME" Language="en_US">
+			<Text>Mimi's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI_NAME" Language="en_US">
+			<Text>Misogi</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MISOGI_NAME" Language="en_US">
+			<Text>Misogi's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA_NAME" Language="en_US">
+			<Text>Chika</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_CHIKA_NAME" Language="en_US">
+			<Text>Chika's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI_NAME" Language="en_US">
+			<Text>Nozomi</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_NOZOMI_NAME" Language="en_US">
+			<Text>Nozomi's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI_NAME" Language="en_US">
+			<Text>Tsumugi</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_TSUMUGI_NAME" Language="en_US">
+			<Text>Tsumugi's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA_NAME" Language="en_US">
+			<Text>Labyrista</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_LABYRISTA_NAME" Language="en_US">
+			<Text>Labyrista's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO_NAME" Language="en_US">
+			<Text>Rino</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_RINO_NAME" Language="en_US">
+			<Text>Rino's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU_NAME" Language="en_US">
+			<Text>Shizuru</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_SHIZURU_NAME" Language="en_US">
+			<Text>Shizuru's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA_NAME" Language="en_US">
+			<Text>Illya</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_IRIYA_NAME" Language="en_US">
+			<Text>Illya's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU_NAME" Language="en_US">
+			<Text>Shinobu</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_SHINOBU_NAME" Language="en_US">
+			<Text>Shinobu's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO_NAME" Language="en_US">
+			<Text>Miyako</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MIYAKO_NAME" Language="en_US">
+			<Text>Miyako's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO_NAME" Language="en_US">
+			<Text>Misato</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MISATO_NAME" Language="en_US">
+			<Text>Misato's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE_NAME" Language="en_US">
+			<Text>Hatsune</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_HATSUNE_NAME" Language="en_US">
+			<Text>Hatsune's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI_NAME" Language="en_US">
+			<Text>Aoi</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_AOI_NAME" Language="en_US">
+			<Text>Aoi's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO_NAME" Language="en_US">
+			<Text>Maho</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MAHO_NAME" Language="en_US">
+			<Text>Maho's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO_NAME" Language="en_US">
+			<Text>Makoto</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_MAKOTO_NAME" Language="en_US">
+			<Text>Makoto's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI_NAME" Language="en_US">
+			<Text>Kaori</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_KAORI_NAME" Language="en_US">
+			<Text>Kaori's Memory Piece</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUILD_MEMBER_NAME" Language="en_US">
+			<Text>Guild Member</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUILD_MEMBER_DESCRIPTION" Language="en_US">
+			<Text>Each [ICON_GreatArtist] Guild Member generates a [ICON_GreatWork_Portrait] Memory Piece Great Work when activated.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_LANDSOL_KOKKORO_AMES_NAME" Language="en_US">
+			<Text>{LOC_UNIT_LANDSOL_KOKKORO_AMES_NAME}</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_ACCELERATION_NAME" Language="en_US">
+			<Text>Acceleration</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_ACCELERATION_DESCRIPTION" Language="en_US">
+			<Text>Can scale Cliff walls. Kokkoro and units within 2 tiles have {LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_ACCELERATION_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_ACCELERATION_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_ACCELERATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_WALL_OF_SPIRITS_NAME" Language="en_US">
+			<Text>Wall of Spirits</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_WALL_OF_SPIRITS_DESCRIPTION" Language="en_US">
+			<Text>Kokkoro and units within 2 tiles have {LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_WALL_OF_SPIRITS_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_WALL_OF_SPIRITS_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength when defending.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_WALL_OF_SPIRITS_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_BLAZINGLY_BRIGHT_NAME" Language="en_US">
+			<Text>Blazingly Bright</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_BLAZINGLY_BRIGHT_DESCRIPTION" Language="en_US">
+			<Text>If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion. Kokkoro and units within 2 tiles spread your Religion to nearby cities when defeating a unit belonging to an enemy civilization or city-state.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_BLAZINGLY_BRIGHT_DESCRIPTION" Language="en_US">
+			<Text>Your Religion is spread to nearby cities when defeating a unit belonging to an enemy civilization or city-state.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_BLAZINGLY_BRIGHT_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_SPIRITS_INSPIRATION_NAME" Language="en_US">
+			<Text>Spirits' Inspiration</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_SPIRITS_INSPIRATION_DESCRIPTION" Language="en_US">
+			<Text>Combat victories of units within 2 tiles provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit (on Standard Speed). Combat victories of Kokkoro have this bonus doubled.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPIRITS_INSPIRATION_DESCRIPTION" Language="en_US">
+			<Text>Combat victories provide [ICON_Culture] Culture equal to 50% of the [ICON_Strength] Combat Strength of the defeated unit (on Standard Speed).</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_SPIRITS_INSPIRATION_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_SPRING_GALE_NAME" Language="en_US">
+			<Text>Spring Gale</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_SPRING_GALE_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. land units. Kokkoro and units within 2 tiles are not affected by enemy zone of control.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_SPRING_GALE_DESCRIPTION" Language="en_US">
+			<Text>Not affected by enemy zone of control.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_SPRING_GALE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_TRIPLE_SLASH_NAME" Language="en_US">
+			<Text>Triple Slash</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_TRIPLE_SLASH_DESCRIPTION" Language="en_US">
+			<Text>+1 additional attack per turn if [ICON_Movement] Movement allows. Kokkoro and units within 2 tiles can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_TRIPLE_SLASH_DESCRIPTION" Language="en_US">
+			<Text>Can move after attacking.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_TRIPLE_SLASH_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_AMES_AURORA_SANCTUARY_NAME" Language="en_US">
+			<Text>Aurora Sanctuaty</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AMES_AURORA_SANCTUARY_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength in all situations. Kokkoro and units within 2 tiles have +10 HP healing and heals at the end of every turn.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_LANDSOL_KOKKORO_AMES_RECEIVE_AURORA_SANCTUARY_AMES_DESCRIPTION" Language="en_US">
+			<Text>+10 HP healing. Heals at the end of every turn.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITPROMOTIONS_PAGE_PROMOTION_AMES_AURORA_SANCTUARY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength on a continent other than your home continent.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MAHO_FOREIGN_CONTINENT_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement on a continent other than your home continent.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELF_DEFENSE_GROUP_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from Guildhouse (Self Defense Group). This number is doubled when this unit is in your territory or adjacent to your territory.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELF_DEFENSE_GROUP_XP_DESCRIPTION" Language="en_US">
+			<Text>+50% experience in Combat from Guildhouse (Self Defense Group).</Text>
+		</Row>
+		<Row Tag="LOC_SELF_DEFENSE_GROUP_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from Guildhouse (Self Defense Group)</Text>
+		</Row>
+		<Row Tag="LOC_SELF_DEFENSE_GROUP_LOCAL_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength when in your territory or adjacent to your territory</Text>
+		</Row>
+		<Row Tag="LOC_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>+7 [ICON_Strength] Combat Strength on a continent other than your home continent</Text>
+		</Row>
+
+		<Row Tag="LOC_AGENDA_PRINCESS_EXPLORER_NAME" Language="en_US">
+			<Text>Princess Explorer</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_PRINCESS_EXPLORER_DESCRIPTION" Language="en_US">
+			<Text>Tries to explore the map, likes civilizations from her home continent, and wants to expand to all continents. Doesn’t like civilizations on continents where she has no city.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_HOME_CONTINENT" Language="en_US">
+			<Text>Maho is pleased you share the same home continent</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_NEW_CONTINENT" Language="en_US">
+			<Text>Maho wants to expand to a continent you occupy</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIMEMIYA_MAHO_EXPLORER_QUOTE" Language="en_US">
+			<Text>Don't panic. In a fairy tale, wisdom is the key to weather crises.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>I would like to tell all people in Maho Maho Kingdom about how this adventure is when I finish my trip.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>An adventure, with scents of plants, various kinds of animals, wet soil and traps awaiting... I feel excited about it.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Though I am so awkward that always make troubles, I hope I can help you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>You? I cannot trust you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>I hope we can attempt to achieve harmony... A world where all people can live happily is like something that only exist in a fairy tale, but that is exactly what I want to create.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Hehe. It is just like a fairy tale! I look forward to your friendship.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>What... How can you be so merciless? I feel disappointed.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Whoever could it be that is after us? I can't see how we could provoked this.... Hmm?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>I can't bear to watch you trampling over our sphere of influence. We will do what we can to resist.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>As the princess of Maho Maho Kingdom, I hope to communicate with you friendly!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Wow, someone uninvited has come... No.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>It would be great if our delegation can meet you, an honorable king, greet you courteously and have an elegant tea party with you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Trying to start a war, are you?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>I trust you have an explanation for all this? (Denounces You)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Who might you be? Pardon me. My accent is not used that much these days, but I cannot ignore our tradition since I am a princess.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Let us know each other better! And I want to invite you to visit our city nearby!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>So let us go!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Well, as a step of international communication, I would like to invite you to speak of our capitals.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Would you like to form an alliance?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Don't you think it is inappropriate to tread too close to borders of another nation without permission? Won't you think you can do whatever you want?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Oops... I am defeated...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>No need to thank me.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>You are troublesome.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Nice to meet you.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>Let forgive each other for what we have done and unite again.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>We still must wage this war. Wars will break out again sooner or later if the fundamental conflicts between us remain untreated.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>We cannot pretend what has been done never happened before. But we must lead the war between us to a peaceful end.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>We will do our best to help. Feel free to tell us your need.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>I feel worried for you. No, you cannot wage wars unrestrainedly.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY" Language="en_US">
+			<Text>As a princess, I cannot leave my enemies out of control. Please, mighty king, allow us to pass through your lands.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_CAPSULE_BODY" Language="en_US">
+			<Text>With help of the Princess Knight, Landosol leaders can unlock a unique "Union Brust" ability which provides powerful bonuses. Explorer Maho explores the world actively and expand their cities to every continent.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_DETAILED_BODY" Language="en_US">
+			<Text>Explorer Maho uses strong recon units to explore the map as soon as possible. Once they found a city on a new continent, they can instantly receive a free Settler to help them truly settle down in the new world. Build Maho Maho Camp unique building in these cities can boost [ICON_Culture] Culture and [ICON_Gold] Gold output of them. Their flourishing cities are beneficial for any kind of victory.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Civilopedia articles are not translated yet.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_7" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_8" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIMEMIYA_MAHO_EXPLORER_CHAPTER_HISTORY_PARA_9" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_TITLE" Language="en_US">
+			<Text>Kyoka (Little Model)</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

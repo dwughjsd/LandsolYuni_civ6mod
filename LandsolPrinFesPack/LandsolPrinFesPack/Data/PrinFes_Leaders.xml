@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_AMES" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_RIFARE_PIUMA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_FIORE_FELICITA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_AGENDA_GUIDE_FAIRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_LANDSOL_KOKKORO_AMES" Kind="KIND_TRAIT"/>
+		<InsertOrIgnore Type="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL" Kind="KIND_MODIFIER"/>
+		<InsertOrIgnore Type="MODIFIER_PLAYER_ALLOW_PROJECT_CATHERINE" Kind="KIND_MODIFIER"/>
+	</Types>
+	
+	<DynamicModifiers>
+		<InsertOrIgnore ModifierType="MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL" CollectionType="COLLECTION_PLAYER_CAPITAL_CITY" EffectType="EFFECT_GRANT_GREAT_PERSON_CLASS_IN_CITY"/>
+		<InsertOrIgnore>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_CATHERINE</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADD_PLAYER_PROJECT_AVAILABILITY</EffectType>
+		</InsertOrIgnore>
+	</DynamicModifiers>
+	
+	<DistrictModifiers>
+		<!--For Rifare Piuma, leader trait of Ames-->
+		<Row>
+			<DistrictType>DISTRICT_HOLY_SITE</DistrictType>
+			<ModifierId>AMES_GRANT_PROPHET</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+	<DuplicateLeaders>
+		<Row LeaderType="LEADER_AMES" OtherLeaderType="LEADER_NATSUME_KOKORO_PRINCESS"/>
+	</DuplicateLeaders>
+
+	<Leaders>
+		<Row LeaderType="LEADER_AMES" Name="LOC_LEADER_AMES_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_AMES" Quote="LOC_LEADER_AMES_QUOTE" QuoteAudio="LANS_AM_MISC_PEP_TALK_A" />
+	</LeaderQuotes>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_AMES" CapitalName="LOC_CITY_NAME_LANDSOL" />
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_RIFARE_PIUMA" Name="LOC_TRAIT_LEADER_AMES_NAME" Description="LOC_TRAIT_LEADER_AMES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" Name="LOC_TRAIT_LEADER_FIORE_FELICITA_NAME" Description="LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_GUIDE_FAIRY" />
+		<Row TraitType="TRAIT_UNIT_LANDSOL_KOKKORO_AMES" />
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_AMES" TraitType="TRAIT_LEADER_RIFARE_PIUMA"/>
+		<Row LeaderType="LEADER_AMES" TraitType="TRAIT_LEADER_FIORE_FELICITA"/>
+		<Row LeaderType="LEADER_AMES" TraitType="TRAIT_UNIT_LANDSOL_KOKKORO_AMES"/>
+		<Row LeaderType="LEADER_AMES" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
+	</LeaderTraits>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_AMES" AgendaType="AGENDA_GUIDE_FAIRY"/>
+	</HistoricalAgendas>
+	<Agendas>
+		<Row AgendaType="AGENDA_GUIDE_FAIRY" Name="LOC_AGENDA_GUIDE_FAIRY_NAME" Description="LOC_AGENDA_GUIDE_FAIRY_DESCRIPTION"/>
+	</Agendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_GUIDE_FAIRY" AgendaTwo="AGENDA_SYMPATHIZER"/>
+		<Row AgendaOne="AGENDA_GUIDE_FAIRY" AgendaTwo="AGENDA_SYCOPHANT"/>
+	</ExclusiveAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_GUIDE_FAIRY" TraitType="TRAIT_AGENDA_GUIDE_FAIRY"/>
+	</AgendaTraits>
+	
+
+	<AiListTypes>
+		<Row ListType="AmesTechs"/>
+		<Row ListType="AmesWonders"/>
+		<Row ListType="AmesCivics"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="AmesTechs" LeaderType="TRAIT_LEADER_RIFARE_PIUMA" System="Technologies"/>
+		<Row ListType="AmesCivics" LeaderType="TRAIT_LEADER_RIFARE_PIUMA" System="Civics"/>
+		<Row ListType="AmesWonders" LeaderType="TRAIT_LEADER_RIFARE_PIUMA" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="AmesTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="AmesTechs" Item="TECH_COMPUTERS" Favored="true"/>
+		<Row ListType="AmesCivics" Item="CIVIC_MYSTICISM" Favored="true"/>
+		<Row ListType="AmesCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
+		<Row ListType="AmesCivics" Item="CIVIC_THE_ENLIGHTENMENT" Favored="true"/>
+		<Row ListType="AmesWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="AmesWonders" Item="BUILDING_ORACLE" Favored="true"/>
+	</AiFavoredItems>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_RIFARE_PIUMA" ModifierId="GOODY_FAITH_SMALL_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_TECH_BOOST_ON_NEW_ERA"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_CIVIC_BOOST_ON_NEW_ERA"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_TECH_BOOST_DARK_AGE"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_CIVIC_BOOST_DARK_AGE"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_MEMORY_PIECE_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_MEMORY_PIECE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_MEMORY_PIECE_GOLD"/>
+		<Row TraitType="TRAIT_LEADER_FIORE_FELICITA" ModifierId="TRAIT_FIORE_FELICITA_GUILDHOUSE_MEMORY_PIECE"/>
+		<Row TraitType="TRAIT_AGENDA_GUIDE_FAIRY" ModifierId="AGENDA_GUIDE_FAIRY_FEW_ALLIANCES"/>
+		<Row TraitType="TRAIT_AGENDA_GUIDE_FAIRY" ModifierId="AGENDA_GUIDE_FAIRY_MANY_ALLIANCES"/>
+	</TraitModifiers>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_GUIDE_FAIRY_FEW_ALLIANCES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_GUIDE_FAIRY_MANY_ALLIANCES" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_GUILDHOUSE</BuildingType>
+			<ModifierId>TRAIT_FIORE_FELICITA_ENTER_DREAM_WORLD</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>AMES_GRANT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_GRANT_GREAT_PERSON_CLASS_IN_CAPITAL</ModifierType>
+			<SubjectRequirementSetId>AMES_ASTROLOGY_CAN_EARN_PROPHET_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_TECH_BOOST_ON_NEW_ERA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_ON_NEW_ERA</ModifierType>
+			<!--<SubjectRequirementSetId>AMES_PLAYER_HAS_NOT_DARK_AGE_REQUIREMENTS</SubjectRequirementSetId>-->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_ON_NEW_ERA</ModifierType>
+			<!--<SubjectRequirementSetId>AMES_PLAYER_HAS_NOT_DARK_AGE_REQUIREMENTS</SubjectRequirementSetId>-->
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_TECH_BOOST_DARK_AGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_DARK_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_CIVIC_BOOST_DARK_AGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_DARK_AGE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_ENTER_DREAM_WORLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ALLOW_PROJECT_CATHERINE</ModifierType>
+			<SubjectRequirementSetId>AMES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_MEMORY_PIECE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_AUTOTHEME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEMED_BUILDING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_FEW_ALLIANCES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_MANY_ALLIANCES</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AMES_GRANT_PROPHET</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMES_GRANT_PROPHET</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_TECH_BOOST_ON_NEW_ERA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_CIVIC_BOOST_ON_NEW_ERA</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_TECH_BOOST_DARK_AGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_CIVIC_BOOST_DARK_AGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_ENTER_DREAM_WORLD</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_ENTER_DREAM_WORLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_SCIENCE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MEMORY_PIECE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_SCIENCE</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_PRODUCTION</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MEMORY_PIECE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_PRODUCTION</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_GOLD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MEMORY_PIECE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_MEMORY_PIECE_GOLD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_MEMORY_PIECE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GUILDHOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_MEMORY_PIECE</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_ART</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_MEMORY_PIECE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FIORE_FELICITA_GUILDHOUSE_AUTOTHEME</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GUILDHOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_AMES_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_MANY_ALLIANCES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_MANY_ALLIANCES</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>MaxValue</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>IncrementTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_AMES_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_GUIDE_FAIRY_FEW_ALLIANCES</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_GUIDE_FAIRY_FEW_ALLIANCES</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>AMES_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_PLAYER_HAS_NOT_DARK_AGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_NOT_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AMES_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LEADER_IS_AMES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_ASTROLOGY_AMES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_PLAYER_HAS_NOT_DARK_AGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NOT_DARK_AGE_AMES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LEADER_IS_AMES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_EVER_EARN_PROPHET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_NOT_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LEADER_IS_AMES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AMES_ASTROLOGY_CAN_NOT_EARN_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_NOT_EVER_EARN_PROPHET</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_LEADER_IS_AMES" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_ASTROLOGY_AMES" RequirementType="REQUIREMENT_PLAYER_HAS_TECHNOLOGY"/>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_NOT_DARK_AGE_AMES" RequirementType="REQUIREMENT_PLAYER_HAS_DARK_AGE" Inverse="true"/>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_LEADER_IS_AMES" Name="LeaderType" Value="LEADER_AMES"/>
+		<Row RequirementId="REQUIRES_PLAYER_HAS_ASTROLOGY_AMES" Name="TechnologyType" Value="TECH_ASTROLOGY"/>
+	</RequirementArguments>
+	
+	
+	<!--Maho-->
+	<Types>
+		<Row Type="LEADER_HIMEMIYA_MAHO_EXPLORER" Kind="KIND_LEADER" />
+		<Row Type="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_FAIRYTALE_EXPLORATION" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_LEADER_BUILDING_MAHOMAHO_CAMP" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_PRINCESS_EXPLORER" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_MAHO_FOREIGN_CONTINENT_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SELF_DEFENSE_GROUP_STRENGTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SELF_DEFENSE_GROUP_XP" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<TypeTags>
+		<Row Type="ABILITY_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_MAHO_FOREIGN_CONTINENT_MOVEMENT" Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_SELF_DEFENSE_GROUP_STRENGTH" Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_SELF_DEFENSE_GROUP_XP" Tag="CLASS_ALL_UNITS"/>
+	</TypeTags>
+
+	<Leaders>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" Name="LOC_LEADER_HIMEMIYA_MAHO_EXPLORER_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" Quote="LOC_LEADER_HIMEMIYA_MAHO_EXPLORER_QUOTE"/>
+	</LeaderQuotes>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" CapitalName="LOC_CITY_NAME_LANDSOL" />
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" Name="LOC_TRAIT_LEADER_MAHOMAHO_ADVENTURERS_NAME" Description="LOC_TRAIT_LEADER_MAHOMAHO_ADVENTURERS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" Name="LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_NAME" Description="LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_MAHOMAHO_CAMP" />
+		<Row TraitType="TRAIT_AGENDA_PRINCESS_EXPLORER" />
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" TraitType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS"/>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION"/>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" TraitType="TRAIT_LEADER_BUILDING_MAHOMAHO_CAMP"/>
+	</LeaderTraits>
+
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_HIMEMIYA_MAHO_EXPLORER" AgendaType="AGENDA_PRINCESS_EXPLORER"/>
+	</HistoricalAgendas>
+
+	<Agendas>
+		<Row AgendaType="AGENDA_PRINCESS_EXPLORER" Name="LOC_AGENDA_PRINCESS_EXPLORER_NAME" Description="LOC_AGENDA_PRINCESS_EXPLORER_DESCRIPTION"/>
+	</Agendas>
+
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_PRINCESS_EXPLORER" AgendaTwo="AGENDA_EXPLORER"/>
+	</ExclusiveAgendas>
+
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_PRINCESS_EXPLORER" TraitType="TRAIT_AGENDA_PRINCESS_EXPLORER"/>
+	</AgendaTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" ModifierId="TRAIT_LEADER_MAHOMAHO_ADVENTURERS_FOREIGN_FREE_RECON"/>
+		<Row TraitType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" ModifierId="TRAIT_LEADER_MAHOMAHO_ADVENTURERS_RECON_FOREIGN_CONTINENT_STRENGTH"/>
+		<!--Free Settler is implemented in lua script.-->
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="TRAIT_LEADER_FAIRYTALE_EXPLORATION_FOREIGN_FREE_RECON"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="TRAIT_LEADER_FAIRYTALE_EXPLORATION_UNITS_FOREIGN_CONTINENT_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="TRAIT_LEADER_FAIRYTALE_EXPLORATION_DELEGATION_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="TRAIT_LEADER_FAIRYTALE_EXPLORATION_EMBASSY_CULTURE"/>
+		<Row TraitType="TRAIT_AGENDA_PRINCESS_EXPLORER" ModifierId="AGENDA_PRINCESS_EXPLORER_HOME_CONTINENT"/>
+		<Row TraitType="TRAIT_AGENDA_PRINCESS_EXPLORER" ModifierId="AGENDA_PRINCESS_EXPLORER_NEW_CONTINENT"/>
+	</TraitModifiers>
+
+	<AiListTypes>
+		<Row ListType="MahoExplorerTechs"/>
+		<Row ListType="MahoExplorerWonders"/>
+		<Row ListType="MahoExplorerCivics"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MahoExplorerTechs" LeaderType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" System="Technologies"/>
+		<Row ListType="MahoExplorerCivics" LeaderType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" System="Civics"/>
+		<Row ListType="MahoExplorerWonders" LeaderType="TRAIT_LEADER_MAHOMAHO_ADVENTURERS" System="Buildings"/>
+		<Row ListType="ExplorationObsessedExplorers" AgendaType="TRAIT_AGENDA_PRINCESS_EXPLORER" System="PseudoYields"/>
+		<Row ListType="SettleAllContinents" AgendaType="TRAIT_AGENDA_PRINCESS_EXPLORER" System="PlotEvaluations"/>
+	</AiLists>
+	
+	<AiFavoredItems>
+		<Row ListType="MahoExplorerTechs" Item="TECH_CARTOGRAPHY" Favored="true"/>
+		<Row ListType="MahoExplorerTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="MahoExplorerCivics" Item="CIVIC_EXPLORATION" Favored="true"/>
+		<Row ListType="MahoExplorerCivics" Item="CIVIC_COLONIALISM" Favored="true"/>
+		<Row ListType="MahoExplorerCivics" Item="CIVIC_MOBILIZATION" Favored="true"/>
+		<InsertOrIgnore ListType="MahoExplorerCivics" Item="CIVIC_EXODUS_IMPERATIVE" Favored="true"/>
+	</AiFavoredItems>
+
+	<!--Used for leader trait-->
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_RECON_FOREIGN_CONTINENT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_UNITS_FOREIGN_CONTINENT_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_FOREIGN_FREE_RECON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_FOREIGN_FREE_RECON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SETTLE_FOREIGN_CONTINENT_UNIT_CLASS</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_DELEGATION_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_FROM_DELEGATIONS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_EMBASSY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_FROM_EMBASSIES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_HOME_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_SAME_HOME_CONTINENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_NEW_CONTINENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_ON_NEW_CONTINENT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_RECON_FOREIGN_CONTINENT_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MAHO_RECON_FOREIGN_CONTINENT_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_UNITS_FOREIGN_CONTINENT_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MAHO_FOREIGN_CONTINENT_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_FOREIGN_FREE_RECON</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RECON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_FOREIGN_FREE_RECON</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_MAHOMAHO_ADVENTURERS_FOREIGN_FREE_RECON</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_FOREIGN_FREE_RECON</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_RECON</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_DELEGATION_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_DELEGATION_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_EMBASSY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_FAIRYTALE_EXPLORATION_EMBASSY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_HOME_CONTINENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_HOME_CONTINENT</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_HOME_CONTINENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_HOME_CONTINENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_NEW_CONTINENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_NEW_CONTINENT</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_EXIT_LEADER_HIMEMIYA_MAHO_EXPLORER_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCESS_EXPLORER_NEW_CONTINENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_PRINCESS_EXPLORER_NEW_CONTINENT</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MAHO_EXPLORER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MAHO_BUILDING_IS_PALACE_LANDSOL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MAHO_EXPLORER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LEADER_IS_MAHO_EXPLORER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAHO_BUILDING_IS_PALACE_LANDSOL</RequirementSetId>
+			<RequirementId>REQUIRES_LEADER_IS_MAHO_EXPLORER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MAHO_BUILDING_IS_PALACE_LANDSOL</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_LEADER_IS_MAHO_EXPLORER" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_LEADER_IS_MAHO_EXPLORER" Name="LeaderType" Value="LEADER_HIMEMIYA_MAHO_EXPLORER"/>
+	</RequirementArguments>
+
+	<!--Maho Guildhouse Bonuses-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="GUILDHOUSE_SELF_DEFENSE_GROUP_LOCAL_STRENGTH"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="GUILDHOUSE_SELF_DEFENSE_GROUP_XP"/>
+		<Row TraitType="TRAIT_LEADER_FAIRYTALE_EXPLORATION" ModifierId="GUILDHOUSE_SELF_DEFENSE_GROUP_AMENITYBONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_LOCAL_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_XP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>LANDSOL_GUILDHOUSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_AMENITYBONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>GUILDHOUSE_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>SELF_DEFENSE_GROUP_LOCAL_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SELF_DEFENSE_GROUP_XP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_LOCAL_STRENGTH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SELF_DEFENSE_GROUP_LOCAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_XP</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SELF_DEFENSE_GROUP_XP</Value>
+		</Row>
+		<Row>
+			<ModifierId>SELF_DEFENSE_GROUP_LOCAL_STRENGTH</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SELF_DEFENSE_GROUP_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>SELF_DEFENSE_GROUP_XP</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SELF_DEFENSE_GROUP_XP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GUILDHOUSE_SELF_DEFENSE_GROUP_AMENITYBONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>GUILDHOUSE_GARRISON_UNIT_REQUIERMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GUILDHOUSE_GARRISON_UNIT_REQUIERMENT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GUILDHOUSE_YUNI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GUILDHOUSE_GARRISON_UNIT_REQUIERMENT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GARRISON_UNIT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--End-->
+
+	<!--Helper modifiers used by Lua Script-->
+	<Modifiers>
+		<Row>
+			<ModifierId>MAHO_EXPLORER_FREE_SETTLER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MAHO_EXPLORER_FREE_SETTLER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHO_EXPLORER_FREE_SETTLER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+
+	<!--Kyouka Summer-->
+	<Types>
+		<Row Type="LEADER_HIKAWA_KYOUKA_SUMMER"		Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_AQUA_CREST"			Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_SUMMER_AQUA_FLOCK"	Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_AQUA_FLOCK"				Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_AQUA_FLOCK_DEBUFF"		Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_AQUA_FLOCK_COUNTER"		Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Leaders>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" Name="LOC_LEADER_HIKAWA_KYOUKA_SUMMER_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<DuplicateLeaders>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" OtherLeaderType="LEADER_HIKAWA_KYOUKA"/>
+	</DuplicateLeaders>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" CapitalName="LOC_CITY_NAME_LANDSOL"/>
+	</CivilizationLeaders>
+	<!--Not set yet-->
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_HIKAWA_KYOUKA_SUMMER_QUOTE" QuoteAudio="LANS_HK_SUMMER_MISC_PEP_TALK_A"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" TraitType="TRAIT_LEADER_AQUA_CREST"/>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" TraitType="TRAIT_LEADER_SUMMER_AQUA_FLOCK"/>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" TraitType="TRAIT_LEADER_SCIENCE_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_HIKAWA_KYOUKA_SUMMER" TraitType="TRAIT_LEADER_CULTURAL_MAJOR_CIV"/>
+	</LeaderTraits>
+	<AiListTypes>
+		<Row ListType="KyoukaSummerCivics"/>
+		<Row ListType="KyoukaSummerTechs"/>
+		<Row ListType="KyoukaSummerWonders"/>
+		<Row ListType="KyoukaSummerPreference"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="KyoukaSummerCivics"		LeaderType="TRAIT_LEADER_AQUA_CREST" System="Civics"/>
+		<Row ListType="KyoukaSummerTechs"		LeaderType="TRAIT_LEADER_AQUA_CREST" System="Technologies"/>
+		<Row ListType="KyoukaSummerWonders"		LeaderType="TRAIT_LEADER_AQUA_CREST" System="Buildings"/>
+		<Row ListType="KyoukaSummerPreference"	LeaderType="TRAIT_LEADER_AQUA_CREST" System="Yields"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="KyoukaSummerCivics"		Item="CIVIC_GAMES_RECREATION"		Favored="true"/>
+		<Row ListType="KyoukaSummerCivics"		Item="CIVIC_NATURAL_HISTORY"		Favored="true"/>
+	</AiFavoredItems>
+	
+	<Agendas>
+	</Agendas>
+	<HistoricalAgendas>
+	</HistoricalAgendas>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_AQUA_CREST" Name="LOC_TRAIT_LEADER_AQUA_CREST_NAME" Description="LOC_TRAIT_LEADER_AQUA_CREST_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_SUMMER_AQUA_FLOCK" Name="LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_NAME" Description="LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SUMMER_AQUA_FLOCK" ModifierId="AQUA_FLOCK_RANGED_UNITS_GRANT_ABILITY"/>
+	</TraitModifiers>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_AQUA_FLOCK" Name="LOC_ABILITY_AQUA_FLOCK_NAME" Description="LOC_ABILITY_AQUA_FLOCK_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_AQUA_FLOCK_DEBUFF" Name="LOC_ABILITY_AQUA_FLOCK_DEBUFF_NAME" Description="LOC_ABILITY_AQUA_FLOCK_DEBUFF_DESCRIPTION" Inactive="true" ShowFloatTextWhenEarned="true"/>
+		<Row UnitAbilityType="ABILITY_AQUA_FLOCK_COUNTER"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row UnitAbilityType="ABILITY_AQUA_FLOCK_DEBUFF" ModifierId="AQUA_FLOCK_STRENGTH_DEBUFF"/>
+	</UnitAbilityModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>AQUA_FLOCK_RANGED_UNITS_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AQUA_FLOCK_STRENGTH_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>AQUA_FLOCK_RANGED_UNITS_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_AQUA_FLOCK</Value>
+		</Row>
+		<Row>
+			<ModifierId>AQUA_FLOCK_STRENGTH_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>-7</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AQUA_FLOCK_STRENGTH_DEBUFF" Context="Preview" Text="LOC_ABILITY_AQUA_FLOCK_DEBUFF_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA_SUMMER" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLAYER_IS_HIKAWA_KYOUKA_SUMMER" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA_SUMMER"/>
+		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA_SUMMER"/>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA_SUMMER" RequirementType="REQUIREMENT_PLAYER_TYPE_MATCHES"/>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="REQUIRES_LEADER_IS_HIKAWA_KYOUKA_SUMMER" Name="LeaderType" Value="LEADER_HIKAWA_KYOUKA_SUMMER"/>
+	</RequirementArguments>
+	
+	<!--Guildhouse-->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_SUMMER_AQUA_FLOCK" ModifierId="TRAIT_GUILDHOUSE_AMENITIES"/>
+		<Row TraitType="TRAIT_LEADER_SUMMER_AQUA_FLOCK" ModifierId="TRAIT_GUILDHOUSE_CULTURE"/>
+	</TraitModifiers>
+	
+</GameData>

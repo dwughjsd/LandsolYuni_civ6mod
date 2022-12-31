@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="GREAT_PERSON_CLASS_GUILD_MEMBER" Kind="KIND_GREAT_PERSON_CLASS"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>	
+		<Row Type="GREATWORK_PECORINE" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatWorkObjectTypes>
+		<!--Use a slightly larger value to avoid collision. Well, not very large...-->
+		<Row GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" Value="12" PseudoYieldType="PSEUDOYIELD_GREATWORK_PORTRAIT" Name="LOC_GREAT_WORK_OBJECT_MEMORY_PIECE_NAME" IconString="[ICON_GreatWork_Portrait]"/>
+	</GreatWorkObjectTypes>
+	
+	<GreatWork_ValidSubTypes>
+		<Row GreatWorkSlotType="GREATWORKSLOT_ART" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE"/>
+		<Row GreatWorkSlotType="GREATWORKSLOT_PALACE" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE"/>
+	</GreatWork_ValidSubTypes>
+	
+	<GreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" Name="LOC_GREAT_PERSON_CLASS_GUILD_MEMBER_NAME" UnitType="UNIT_GUILD_MEMBER" DistrictType="DISTRICT_CITY_CENTER" AvailableInTimeline="false"  PseudoYieldType="PSEUDOYIELD_GPP_ARTIST" IconString="[ICON_GreatArtist]" ActionIcon="ICON_UNITOPERATION_ARTIST_ACTION"/>
+	</GreatPersonClasses>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_PECORINE" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_PECORINE" Name="LOC_GREATWORK_PECORINE_NAME" Image="GREATWORK_IMAGE_PECORINE" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_PECORINE" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_KOKKORO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_KOKKORO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KOKKORO" Name="LOC_GREATWORK_KOKKORO_NAME" Image="GREATWORK_IMAGE_KOKKORO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_KOKKORO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_KYARU" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_KYARU" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYARU" Name="LOC_GREATWORK_KYARU_NAME" Image="GREATWORK_IMAGE_KYARU" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_KYARU" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_HIYORI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_HIYORI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HIYORI" Name="LOC_GREATWORK_HIYORI_NAME" Image="GREATWORK_IMAGE_HIYORI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_HIYORI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_REI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_REI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_REI" Name="LOC_GREATWORK_REI_NAME" Image="GREATWORK_IMAGE_REI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_REI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_YUI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_YUI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_YUI" Name="LOC_GREATWORK_YUI_NAME" Image="GREATWORK_IMAGE_YUI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_YUI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_KYOUKA" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_KYOUKA" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KYOUKA" Name="LOC_GREATWORK_KYOUKA_NAME" Image="GREATWORK_IMAGE_KYOUKA" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_KYOUKA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MIMI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MIMI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIMI" Name="LOC_GREATWORK_MIMI_NAME" Image="GREATWORK_IMAGE_MIMI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MIMI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MISOGI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MISOGI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISOGI" Name="LOC_GREATWORK_MISOGI_NAME" Image="GREATWORK_IMAGE_MISOGI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MISOGI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_CHIKA" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_CHIKA" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_CHIKA" Name="LOC_GREATWORK_CHIKA_NAME" Image="GREATWORK_IMAGE_CHIKA" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_CHIKA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_NOZOMI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_NOZOMI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_NOZOMI" Name="LOC_GREATWORK_NOZOMI_NAME" Image="GREATWORK_IMAGE_NOZOMI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_NOZOMI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_TSUMUGI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_TSUMUGI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_TSUMUGI" Name="LOC_GREATWORK_TSUMUGI_NAME" Image="GREATWORK_IMAGE_TSUMUGI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_TSUMUGI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_LABYRISTA" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_LABYRISTA" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_LABYRISTA" Name="LOC_GREATWORK_LABYRISTA_NAME" Image="GREATWORK_IMAGE_LABYRISTA" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_LABYRISTA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_RINO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_RINO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_RINO" Name="LOC_GREATWORK_RINO_NAME" Image="GREATWORK_IMAGE_RINO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_RINO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_SHIZURU" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_SHIZURU" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHIZURU" Name="LOC_GREATWORK_SHIZURU_NAME" Image="GREATWORK_IMAGE_SHIZURU" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_SHIZURU" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_IRIYA" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_IRIYA" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_IRIYA" Name="LOC_GREATWORK_IRIYA_NAME" Image="GREATWORK_IMAGE_IRIYA" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_IRIYA" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_SHINOBU" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_SHINOBU" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_SHINOBU" Name="LOC_GREATWORK_SHINOBU_NAME" Image="GREATWORK_IMAGE_SHINOBU" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_SHINOBU" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MIYAKO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MIYAKO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MIYAKO" Name="LOC_GREATWORK_MIYAKO_NAME" Image="GREATWORK_IMAGE_MIYAKO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MIYAKO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MISATO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MISATO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MISATO" Name="LOC_GREATWORK_MISATO_NAME" Image="GREATWORK_IMAGE_MISATO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MISATO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_HATSUNE" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_HATSUNE" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_HATSUNE" Name="LOC_GREATWORK_HATSUNE_NAME" Image="GREATWORK_IMAGE_HATSUNE" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_HATSUNE" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_AOI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_AOI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_AOI" Name="LOC_GREATWORK_AOI_NAME" Image="GREATWORK_IMAGE_AOI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_AOI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MAHO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MAHO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAHO" Name="LOC_GREATWORK_MAHO_NAME" Image="GREATWORK_IMAGE_MAHO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MAHO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_MAKOTO" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_MAKOTO" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_MAKOTO" Name="LOC_GREATWORK_MAKOTO_NAME" Image="GREATWORK_IMAGE_MAKOTO" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_MAKOTO" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+	<!--Packaged Memory Piece Great Work Template-->
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREATWORK_KAORI" Kind="KIND_GREATWORK"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GUILD_MEMBER" EraType="ERA_ANCIENT" Gender="F" ActionCharges="0"/>
+	</GreatPersonIndividuals>
+	<GreatWorks>
+		<Row GreatWorkType="GREATWORK_KAORI" GreatWorkObjectType="GREATWORKOBJECT_MEMORY_PIECE" GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUILD_MEMBER_KAORI" Name="LOC_GREATWORK_KAORI_NAME" Image="GREATWORK_IMAGE_KAORI" Tourism="4"/>
+	</GreatWorks>
+	<GreatWork_YieldChanges>
+		<Row GreatWorkType="GREATWORK_KAORI" YieldType="YIELD_CULTURE" YieldChange="4"/>
+	</GreatWork_YieldChanges>
+	<!--Packaged Memory Piece Great Work Template-->
+</GameData>

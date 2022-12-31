@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_LANDSOL_PRINFES_PACK_TITLE</Name>
+    <Guid>4661ec16-b9fa-4f29-a9dc-0bf4394fbcc1</Guid>
+    <ProjectGuid>4e5f758b-ffd2-42e0-9dfa-d8b2e4f36e92</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>LOC_LANDSOL_PRINFES_PACK_TEASER</Teaser>
+    <Description>LOC_LANDSOL_PRINFES_PACK_DESCRIPTION</Description>
+    <Authors>UzukiShimamura</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>LandsolPrinFesPack</AssemblyName>
+    <RootNamespace>LandsolPrinFesPack</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Mod" title="Yuni" id="f370d486-00c2-4228-bd7e-2d8a71a32af4" />
+  <Reference type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+  <Reference type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>Data/PrinFes_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>Text/PrinFes_ConfigText_Translations.xml</File><File>Text/PrinFes_ConfigText_AFallback.xml</File></UpdateText><UpdateColors id="ConfigColors"><File>Data/PrinFes_Colors.xml</File></UpdateColors><UpdateIcons id="ConfigIcons"><File>Data/PrinFes_Icons.xml</File></UpdateIcons><UpdateDatabase id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LandsolPrinFes</Criteria><File>Data/PrinFes_Leaders.xml</File><File>Data/PrinFes_UnitAbilities.xml</File><File>Data/PrinFes_Leaders.xml</File><File>Data/PrinFes_Projects.xml</File><File>Data/PrinFes_GreatPeople.xml</File><File>Data/PrinFes_Units.xml</File><File>Data/PrinFes_Buildings.xml</File><File>Data/PrinFes_KyoukaSummer.sql</File></UpdateDatabase><UpdateText id="Text"><Criteria>LandsolPrinFes</Criteria><File>Text/PrinFes_Text_AFallback.xml</File><File>Text/PrinFes_Text_Translations.xml</File><File>Text/PrinFes_ConfigText_AFallback.xml</File><File>Text/PrinFes_ConfigText_Translations.xml</File></UpdateText><UpdateColors id="Colors"><Criteria>LandsolPrinFes</Criteria><File>Data/PrinFes_Colors.xml</File></UpdateColors><AddGameplayScripts id="Gameplay_Script"><Criteria>LandsolPrinFes</Criteria><File>Scripts/PrinFes_Ames_Script.lua</File><File>Scripts/PrinFes_MahoExplorer_Script.lua</File><File>Scripts/PrinFes_KyoukaSummer_Script.lua</File></AddGameplayScripts><AddUserInterfaces id="UI_Script"><Properties><Context>InGame</Context></Properties><Criteria>LandsolPrinFes</Criteria><File>UI/Addition/PrinFes_Ames_UI.xml</File><File>UI/Addition/PrinFes_KyoukaSummer_UI.xml</File></AddUserInterfaces><UpdateDatabase id="Expansion2"><Criteria>LandsolPrinFes_Expansion2</Criteria><File>Data/PrinFes_Expansion2.xml</File></UpdateDatabase><UpdateIcons id="Config_Icons"><Criteria>LandsolPrinFes</Criteria><File>Data/PrinFes_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LandsolPrinFes</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Expansion1"><Criteria>LandsolPrinFes_Expansion1</Criteria><File>Data/PrinFes_Expansion1.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LandsolPrinFes"><LeaderPlayable>Players:Expansion1_Players::LEADER_AMES,Players:Expansion2_Players::LEADER_AMES,Players:Expansion1_Players::LEADER_HIMEMIYA_MAHO_EXPLORER,Players:Expansion2_Players::LEADER_HIMEMIYA_MAHO_EXPLORER,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA_SUMMER,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA_SUMMER</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolPrinFes_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_AMES,Players:Expansion1_Players::LEADER_HIMEMIYA_MAHO_EXPLORER,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA_SUMMER</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LandsolPrinFes_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_AMES,Players:Expansion2_Players::LEADER_HIMEMIYA_MAHO_EXPLORER,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA_SUMMER</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolPrinFes_Expansion1_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_AMES,Players:Expansion2_Players::LEADER_HIMEMIYA_MAHO_EXPLORER,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA_SUMMER</LeaderPlayable><ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LandsolPrinFesPack.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\PrinFes_KyoukaSummer.sql">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Ethiopia.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Expansion1.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Expansion2.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_GreatPeople.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Projects.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_UnitAbilities.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\PrinFes_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\PrinFes_KyoukaSummer_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\PrinFes_Ames_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Scripts\PrinFes_MahoExplorer_Script.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PrinFes_ConfigText_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PrinFes_Text_AFallback.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PrinFes_Text_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\PrinFes_ConfigText_Translations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\PrinFes_KyoukaSummer_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\PrinFes_KyoukaSummer_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\PrinFes_Ames_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UI\Addition\PrinFes_Ames_UI.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="UI" />
+    <Folder Include="Scripts" />
+    <Folder Include="Text" />
+    <Folder Include="UI\Addition" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

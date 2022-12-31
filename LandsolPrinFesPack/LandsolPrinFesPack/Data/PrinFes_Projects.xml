@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<Types>
+		<!--Entering the Dream World-->
+		<Row Type="PROJECT_ENTER_DREAM_WORLD" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_ENTER_DREAM_WORLD" Name="LOC_PROJECT_ENTER_DREAM_WORLD_NAME" ShortName="LOC_PROJECT_ENTER_DREAM_WORLD_SHORT_NAME" Description="LOC_PROJECT_ENTER_DREAM_WORLD_DESCRIPTION" Cost="20" AdvisorType="ADVISOR_GENERIC"  RequiredBuilding="BUILDING_GUILDHOUSE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_GROUP_COPIES" CostProgressionParam1="40" UnlocksFromEffect="true" />
+	</Projects>
+	<TypeProperties>
+		<Row Type="PROJECT_ENTER_DREAM_WORLD"		Name="COST_PROGRESSION_GROUP" Value="COST_GROUP_ENTER_DREAM_PROJECTS"/>
+	</TypeProperties>
+
+	<!--Need a lua script to handle Great Works. See Script.lua for details.-->
+
+</GameData>

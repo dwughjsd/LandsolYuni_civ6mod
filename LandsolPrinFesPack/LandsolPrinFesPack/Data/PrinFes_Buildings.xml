@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_MAHOMAHO_CAMP" Kind="KIND_BUILDING" />
+	</Types>
+
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MAHOMAHO_CAMP" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row BuildingType="BUILDING_MAHOMAHO_CAMP" Name="LOC_BUILDING_MAHOMAHO_CAMP_NAME" Description="LOC_BUILDING_MAHOMAHO_CAMP_DESCRIPTION"  PrereqDistrict="DISTRICT_CITY_CENTER" TraitType="TRAIT_LEADER_BUILDING_MAHOMAHO_CAMP" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE" />
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MAHOMAHO_CAMP" YieldType="YIELD_CULTURE" YieldChange="1"/>
+	</Building_YieldChanges>
+
+
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MAHOMAHO_CAMP</BuildingType>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_LOYALTY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHOMAHO_CAMP</BuildingType>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHOMAHO_CAMP</BuildingType>
+			<ModifierId>MAHOMAHO_CAMP_COTTON_DYES_CULTURE</ModifierId>
+		</Row>
+
+
+		<Row BuildingType="BUILDING_MAHOMAHO_CAMP" ModifierId="MONUMENT_LOYALTY"/>
+		<Row BuildingType="BUILDING_MAHOMAHO_CAMP" ModifierId="MONUMENT_CULTURE_AT_FULL_LOYALTY"/>
+
+
+	</BuildingModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_COTTON_DYES_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COTTON_OR_DYES_WITH_PLANTATION_REQUIREMENTS_MAHO</SubjectRequirementSetId>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_EXTRA_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_COTTON_DYES_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHOMAHO_CAMP_COTTON_DYES_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_WITH_PLANTATION_REQUIREMENTS_MAHO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_MAHO" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_WITH_PLANTATION_REQUIREMENTS_MAHO" RequirementId="REQUIRES_PLOT_HAS_PLANTATION"/>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_WITH_PLANTATION_REQUIREMENTS_MAHO" RequirementId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_FULFILLED_MAHO"/>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_MAHO" RequirementId="REQUIRES_COTTON_IN_PLOT_MAHO"/>
+		<Row RequirementSetId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_MAHO" RequirementId="REQUIRES_DYES_IN_PLOT_MAHO"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_FULFILLED_MAHO" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET"/>
+		<Row>
+			<RequirementId>REQUIRES_COTTON_IN_PLOT_MAHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_DYES_IN_PLOT_MAHO</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_FULFILLED_MAHO" Name="RequirementSetId" Value="PLOT_HAS_COTTON_OR_DYES_REQUIREMENTS_MAHO"/>
+		<Row>
+			<RequirementId>REQUIRES_COTTON_IN_PLOT_MAHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COTTON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_DYES_IN_PLOT_MAHO</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_DYES</Value>
+		</Row>
+	</RequirementArguments>
+
+</GameData>

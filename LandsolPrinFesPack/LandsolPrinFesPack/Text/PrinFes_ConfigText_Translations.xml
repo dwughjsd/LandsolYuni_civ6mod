@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_TRAIT_LEADER_AMES_NAME" Language="zh_Hans_CN">
+			<Text>重塑之羽</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AMES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>若2级或以上的单位在战斗中阵亡，在首都获得一个免费的同类单位。以20点 [ICON_Faith] 信仰值开始游戏（标准速度下）。若未创立宗教，建造圣地后立即获得一个 [ICON_GreatProphet] 大预言家。爱梅斯与可可萝被视为重复领袖。获得特色单位“可可萝”。</Text>
+		</Row>
+		
+
+		<Row Tag="LOC_TRAIT_LEADER_FIORE_FELICITA_NAME" Language="zh_Hans_CN">
+			<Text>繁花之幸</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>研发新时代的首个科技或市政后获得1个该时代的 [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞。处于黑暗时代时，[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞可立即完成科技或市政。每个 [ICON_GreatWork_Portrait] 记忆碎片巨作提供 +2 [ICON_Science] 科技值、+2 [ICON_Production] 生产力、+4 [ICON_Gold] 金币。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION_SHARED}{LOC_TRAIT_AMES_GUILDHOUSE_BONUS}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION_SHARED}{LOC_TRAIT_AMES_GUILDHOUSE_BONUS_XP2}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_AMES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}“{LOC_TRAIT_LEADER_FIORE_FELICITA_NAME}”：{LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_AMES_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}“{LOC_TRAIT_LEADER_FIORE_FELICITA_NAME}”：{LOC_TRAIT_LEADER_FIORE_FELICITA_DESCRIPTION_XP2}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_AMES_GUILDHOUSE_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：拥有3个艺术巨作槽位。解锁“入梦”项目，在完成时赠予一个能够生成 [ICON_GreatWork_Portrait] 记忆碎片巨作的公会成员。</Text>
+		</Row>
+		
+		<Row Tag="LOC_TRAIT_AMES_GUILDHOUSE_BONUS_XP2" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：拥有3个艺术巨作槽位，全部槽位填满时可自动获得主题。解锁“入梦”项目，在完成时赠予一个能够生成 [ICON_GreatWork_Portrait] 记忆碎片巨作的 [ICON_GreatArtist] 公会成员。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_AMES_NAME" Language="zh_Hans_CN">
+			<Text>爱梅斯</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_KOKKORO_AMES_NAME" Language="zh_Hans_CN">
+			<Text>可可萝</Text>
+		</Row>
+
+		<Row Tag="LOC_UNIT_LANDSOL_KOKKORO_AMES_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>爱梅斯作为领袖时的兰德索尔特色抗骑兵单位。仅能在创立宗教时免费获得一个。有3点 [ICON_Movement] 移动力。基础 [ICON_Strength] 战斗力等于城市曾生产之最强单位的战斗力。被击杀时将保留1点体力值，撤退至 [ICON_Capital] 首都。拥有独特的升级树。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_AMES" Language="zh_Hans_CN">
+			<Text>回应信徒的祈祷吧，可敬的爱梅斯，您担负着女神的职责。无论经历过多少困难，您的使者都将永远忠诚于您。进入梦境指引您的人民揭露神秘，并在艰难时刻守护好他们。踏入世界，重塑历史，亲手为您的史诗写下大团圆结局吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_HIMEMIYA_MAHO_EXPLORER_NAME" Language="zh_Hans_CN">
+			<Text>真步（探险家）</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_MAHOMAHO_ADVENTURERS_NAME" Language="zh_Hans_CN">
+			<Text>真步真步冒险团</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_MAHOMAHO_ADVENTURERS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>生产侦查单位时 +50% [ICON_Production] 生产力。侦查单位在非首都所在大陆 +7 [ICON_Strength] 战斗力。可在市中心中建造真步真步营地。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_NAME" Language="zh_Hans_CN">
+			<Text>童话探险</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>外国文明的每个代表团或大使馆提供+1 [ICON_CULTURE] 文化值。在新大陆（非首都所在大陆）建造首座城市时免费获得1个开拓者和1个侦查单位。所有单位在非首都所在大陆时 +1 [ICON_Movement] 移动力。{LOC_SELF_DEFENSE_GROUP_GUILDHOUSE_BONUS}</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIMEMIYA_MAHO_EXPLORER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}“{LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_NAME}”：{LOC_TRAIT_LEADER_FAIRYTALE_EXPLORATION_DESCRIPTION}</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_MAHOMAHO_CAMP_NAME" Language="zh_Hans_CN">
+			<Text>真步真步营地</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_MAHOMAHO_CAMP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>真步（探险家）特色建筑。使此城每回合的忠诚度+1。如城市忠诚度已达最高，则额外+1 [ICON_Culture] 文化值。若建设在与原始 [ICON_Capital] 首都不在同一大陆的城市中，此城每回合的忠诚度额外+1，并 +2 [ICON_Gold] 金币。本城市已改良的 [ICON_RESOURCE_COTTON] 棉花和 [ICON_RESOURCE_DYES] 染料 +1 [ICON_Culture] 文化值。</Text>
+		</Row>
+
+		<Row Tag="LOC_SELF_DEFENSE_GROUP_GUILDHOUSE_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：本城市训练的单位获得 +50% 战斗经验值和 +5 [ICON_Strength] 战斗力，位于或靠近领土作战时额外 +5 [ICON_Strength] 战斗力。此城市拥有驻军单位时 +2 [ICON_Amenities] 宜居度。</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIMEMIYA_MAHO_EXPLORER" Language="zh_Hans_CN">
+			<Text>开始统治吧，童话公主真步，属于您的时代已经到来。这个世界虽隐藏着黑暗，但您教导人民无论何时都要乐观以待。军团守卫着您的庭院，并准备好应召出发远征。信任您的国民吧，愿他们在您治下获得魔法般的强大力量，将梦幻化为现实。</Text>
+		</Row>
+
+		<Replace Tag="LOC_LEADER_HIKAWA_KYOUKA_NAME" Language="zh_Hans_CN">
+			<Text>镜华（小小模范）</Text>
+		</Replace>
+
+		<Row Tag="LOC_LEADER_HIKAWA_KYOUKA_SUMMER_NAME" Language="zh_Hans_CN">
+			<Text>镜华（夏日戏水）</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_AQUA_CREST_NAME" Language="zh_Hans_CN">
+			<Text>水跃浪峰</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_AQUA_CREST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与海岸或湖泊相邻的改良设施为单元格增加随机额外 [ICON_Science] 科技值、[ICON_Culture] 文化值和 [ICON_Production] 生产力，总计 3 点。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_NAME" Language="zh_Hans_CN">
+			<Text>夏日水弹群</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个与海岸或湖泊相邻的改良设施或建筑为所在城市 +3% [ICON_Science] 科技值、[ICON_Production] 生产力和 [ICON_Culture] 文化值，每个与海岸或湖泊相邻的区域则 +9%，每座城市上限 90%。陆地远程单位的攻击使目标单位在2回合内 -7 [ICON_Strength] 战斗力。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_SUMMER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION}“{LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_NAME}”：{LOC_TRAIT_LEADER_SUMMER_AQUA_FLOCK_DESCRIPTION}</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA_SUMMER" Language="zh_Hans_CN">
+			<Text>{LOC_LOADING_INFO_LEADER_HIKAWA_KYOUKA}</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
