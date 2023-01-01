@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<GameData>
-	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_KOKKORO_AMES" Texture="Moment_UniqueUnit_Landsol_Kokkoro"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_MAHOMAHO_CAMP" Texture="Moment_Infrastructure_MahoExplorer"/>
-	</MomentIllustrations>
-</GameData>
