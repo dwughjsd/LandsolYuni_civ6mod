@@ -724,6 +724,10 @@
 		<Row TraitType="TRAIT_LEADER_COSMOBLUE_FLASH" ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION"/>
 		<Row TraitType="TRAIT_AGENDA_DIGNIFIED_AND_DELICATE" ModifierId="MODIFIER_AGENDA_DIGNIFIED_AND_DELICATE"/>
 	</TraitModifiers>
+
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_AGENDA_DIGNIFIED_AND_DELICATE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
 	
 	<!--Cosmo Blue Flash: XP1-->
 	<DistrictModifiers>
@@ -1237,6 +1241,10 @@
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="TRAIT_KOKKORO_UNIT_HEAL_CHARMING"/>
 		<Row TraitType="TRAIT_AGENDA_GUIDE_OF_NATURE" ModifierId="AGENDA_GUIDE_OF_NATURE"/>
 	</TraitModifiers>
+
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_GUIDE_OF_NATURE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
 	
 	<Modifiers>
 		<Row>
