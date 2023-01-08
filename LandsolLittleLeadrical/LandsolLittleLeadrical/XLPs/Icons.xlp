@@ -89,7 +89,7 @@
 			<m_EntryID text="LeaderYuni80"/>
 			<m_ObjectName text="LeaderYuni80"/>
 		</Element>
-				<Element>
+		<Element>
 			<m_EntryID text="LeaderHikawaKyouka256"/>
 			<m_ObjectName text="LeaderHikawaKyouka256"/>
 		</Element>
@@ -120,6 +120,30 @@
 		<Element>
 			<m_EntryID text="LeaderHikawaKyouka80"/>
 			<m_ObjectName text="LeaderHikawaKyouka80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse128"/>
+			<m_ObjectName text="Guildhouse128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse256"/>
+			<m_ObjectName text="Guildhouse256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse32"/>
+			<m_ObjectName text="Guildhouse32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse38"/>
+			<m_ObjectName text="Guildhouse38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse50"/>
+			<m_ObjectName text="Guildhouse50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Guildhouse80"/>
+			<m_ObjectName text="Guildhouse80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

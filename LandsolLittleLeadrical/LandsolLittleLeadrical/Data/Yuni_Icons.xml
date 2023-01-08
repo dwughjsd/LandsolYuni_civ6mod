@@ -23,6 +23,14 @@
 		<Row Filename="Landsol30" IconsPerColumn="1" IconsPerRow="1" IconSize="30" Name="ICON_ATLAS_LANDSOL"/>
 		<Row Filename="Landsol22" IconsPerColumn="1" IconsPerRow="1" IconSize="22" Name="ICON_ATLAS_LANDSOL"/>
 
+		<Row Filename="Guildhouse256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE_FOW"/>
+		<Row Filename="Guildhouse256" IconsPerColumn="1" IconsPerRow="1" IconSize="256" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+		<Row Filename="Guildhouse128" IconsPerColumn="1" IconsPerRow="1" IconSize="128" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+		<Row Filename="Guildhouse80" IconsPerColumn="1" IconsPerRow="1" IconSize="80" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+		<Row Filename="Guildhouse50" IconsPerColumn="1" IconsPerRow="1" IconSize="50" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+		<Row Filename="Guildhouse38" IconsPerColumn="1" IconsPerRow="1" IconSize="38" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+		<Row Filename="Guildhouse32" IconsPerColumn="1" IconsPerRow="1" IconSize="32" Name="ICON_ATLAS_LANDSOL_GUILDHOUSE"/>
+
 		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="22"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units22.dds"/>
 		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="32"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units32.dds"/>
 		<Row Name="ICON_ATLAS_YUNI_UNITS_2" IconSize="38"  IconsPerRow="4" IconsPerColumn="1" Filename="XP1_Units38.dds"/>
@@ -50,14 +58,13 @@
 		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits70_1"/>
 		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits50_1"/>
 		<Row Name="ICON_ATLAS_YUNI_UNIT_PORTRAITS"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits38_1"/>
-
-
-
 	</IconTextureAtlases>
+	
 	<IconDefinitions>
 		<Row Name="ICON_CIVILIZATION_LANDSOL" Atlas="ICON_ATLAS_LANDSOL" Index="0"/>
 		<Row Name="ICON_LEADER_SHINGYOUJI_YUNI" Atlas="ICON_ATLAS_SHINGYOUJI_YUNI" Index="0"/>
-		<Row Name="ICON_BUILDING_GUILDHOUSE" Atlas="ICON_ATLAS_BUILDINGS" Index="20"/>
+		<Row Name="ICON_BUILDING_GUILDHOUSE" Atlas="ICON_ATLAS_LANDSOL_GUILDHOUSE" Index="0"/>
+		<Row Name="ICON_BUILDING_GUILDHOUSE_FOW" Atlas="ICON_ATLAS_LANDSOL_GUILDHOUSE_FOW" Index="0"/>
 		<Row Name="ICON_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" Atlas="ICON_ATLAS_YUNI_UNITS" Index="56"/>
 		<Row Name="ICON_UNIT_LANDSOL_YUNICOPTER" Atlas="ICON_ATLAS_YUNI_UNITS_2" Index="8"/>
 		<Row Name="ICON_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_PORTRAIT" Atlas="ICON_ATLAS_YUNI_UNIT_PORTRAITS" Index="54"/>
@@ -102,9 +109,8 @@
 		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="70" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits70_1"/>
 		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="50" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits50_1"/>
 		<Row Name="ICON_ATLAS_UNIT_PORTRAITS_KOKKORO"   IconSize="38" IconsPerRow="8" IconsPerColumn="8" Filename="UnitPortraits38_1"/>
-
-
 	</IconTextureAtlases>
+	
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_NATSUME_KOKORO_PRINCESS" Atlas="ICON_ATLAS_NATSUME_KOKORO_PRINCESS" Index="0"/>
 		<Row Name="ICON_UNIT_LANDSOL_MIKO_OF_AMES" Atlas="ICON_ATLAS_UNITS_KOKKORO" Index="18"/>
