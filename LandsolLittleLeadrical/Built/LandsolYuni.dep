@@ -4,7 +4,12 @@
 		<name text="LandsolYuni"/>
 		<id text="f370d486-00c2-4228-bd7e-2d8a71a32af4"/>
 	</ID>
-	<RequiredGameArtIDs/>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="Expansion2"/>
+			<id text="b1b63999-6b16-4dd2-a5b6-eb19794aa8ca"/>
+		</Element>
+	</RequiredGameArtIDs>
 	<SystemDependencies>
 		<Element>
 			<ConsumerName text="Units"/>

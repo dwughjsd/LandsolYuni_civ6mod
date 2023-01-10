@@ -4,7 +4,7 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1666358826</Created>
+    <Created>1673359364</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>UzukiShimamura</Authors>
     <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino, MIMMIMME</SpecialThanks>
@@ -61,36 +61,36 @@
     </Criteria>
   </ActionCriteria>
   <FrontEndActions>
-    <UpdateDatabase id="Config">
+    <UpdateDatabase id="YuniSettings">
       <File>Data/Yuni_Config.xml</File>
     </UpdateDatabase>
-    <UpdateText id="ConfigText">
+    <UpdateText id="YuniSettingsText">
       <File>Text/Yuni_ConfigText_AFallback.xml</File>
       <File>Text/Yuni_ConfigText_Translations.xml</File>
       <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     </UpdateText>
-    <UpdateIcons id="ConfigIcons">
+    <UpdateIcons id="YuniSettingsIcons">
       <File>Data/Yuni_Icons.xml</File>
     </UpdateIcons>
-    <UpdateArt id="ConfigArt">
+    <UpdateArt id="YuniSettingsArt">
       <File>LandsolYuni.dep</File>
     </UpdateArt>
-    <UpdateColors id="ConfigColors">
+    <UpdateColors id="YuniSettingsColors">
       <File>Data/Yuni_Colors.xml</File>
     </UpdateColors>
-    <ImportFiles id="ConfigUI">
+    <ImportFiles id="YuniSettingsFiles">
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
   </FrontEndActions>
   <InGameActions>
-    <UpdateDatabase id="Gameplay">
+    <UpdateDatabase id="YuniGameplay">
       <Criteria>LandsolYuni</Criteria>
       <File>Data/Yuni_Leaders.xml</File>
       <File>Data/Yuni_Civilizations.xml</File>
       <File>Data/Yuni_Buildings.xml</File>
       <File>Data/Yuni_Units.xml</File>
     </UpdateDatabase>
-    <UpdateText id="Text">
+    <UpdateText id="YuniText">
       <Criteria>LandsolYuni</Criteria>
       <File>Text/Yuni_ConfigText_AFallback.xml</File>
       <File>Text/Yuni_Text_AFallback.xml</File>
@@ -98,57 +98,57 @@
       <File>Text/Yuni_Text_Translations.xml</File>
       <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     </UpdateText>
-    <UpdateIcons id="Icons">
+    <UpdateIcons id="YuniIcons">
       <Criteria>LandsolYuni</Criteria>
       <File>Data/Yuni_Icons.xml</File>
     </UpdateIcons>
-    <UpdateArt id="Art">
+    <UpdateArt id="YuniArt">
       <Criteria>LandsolYuni</Criteria>
       <File>LandsolYuni.dep</File>
     </UpdateArt>
-    <UpdateDatabase id="Gameplay_Vietnam">
+    <UpdateDatabase id="YuniGameplay_Vietnam">
       <Criteria>Vietnam</Criteria>
       <Criteria>LandsolKokkoro</Criteria>
       <File>Data/Kokkoro_Vietnam.xml</File>
     </UpdateDatabase>
-    <UpdateColors id="Colors">
+    <UpdateColors id="YuniColors">
       <Criteria>LandsolYuni</Criteria>
       <File>Data/Yuni_Colors.xml</File>
     </UpdateColors>
-    <UpdateDatabase id="Gameplay_XP1">
+    <UpdateDatabase id="YuniGameplay_XP1">
       <Criteria>LandsolYuni_Expansion1</Criteria>
       <File>Data/Yuni_Expansion1.xml</File>
     </UpdateDatabase>
-    <UpdateDatabase id="Gameplay_XP2">
+    <UpdateDatabase id="YuniGameplay_XP2">
       <Criteria>LandsolYuni_Expansion2</Criteria>
       <File>Data/Yuni_Expansion2.xml</File>
     </UpdateDatabase>
-    <UpdateLogitechARX id="ARX">
+    <UpdateLogitechARX id="YuniARX">
       <Criteria>LandsolYuni</Criteria>
       <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
       <File>Data/ARX/Civ_LEADER_NATSUME_KOKORO_PRINCESS.png</File>
       <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
     </UpdateLogitechARX>
-    <UpdateDatabase id="Gameplay_XP1_XP2">
+    <UpdateDatabase id="YuniGameplay_XP1_XP2">
       <Criteria>LandsolYuni_Expansion1_Expansion2</Criteria>
       <File>Data/Yuni_Expansion1_Expansion2.xml</File>
     </UpdateDatabase>
-    <UpdateAudio id="Audio">
+    <UpdateAudio id="YuniAudio">
       <Criteria>LandsolYuni</Criteria>
       <File>Platforms/Windows/Audio/YuniBanks.ini</File>
     </UpdateAudio>
-    <ImportFiles id="UI">
+    <ImportFiles id="YuniFiles">
       <File>UI/DiplomacyActionView.lua</File>
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
-    <UpdateDatabase id="Gameplay_HD">
+    <UpdateDatabase id="Yuni_HarmonyInDiversity">
       <Properties>
         <LoadOrder>16021</LoadOrder>
       </Properties>
       <Criteria>HarmonyInDiversity</Criteria>
       <File>Data/Kokkoro_Vietnam_HD.sql</File>
     </UpdateDatabase>
-    <AddGameplayScripts id="Gameplay_Script">
+    <AddGameplayScripts id="YuniScripts">
       <Criteria>LandsolYuni</Criteria>
       <File>Scripts/Kokkoro_Script.lua</File>
     </AddGameplayScripts>
