@@ -18,7 +18,7 @@
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LandsolYuni"><LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion1"><LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="LandsolYuni_Expansion1_Expansion2"><LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable><ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse><RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse></Criteria><Criteria id="Vietnam"><LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable><ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse></Criteria><Criteria id="HarmonyInDiversity"><LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable><ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>LandsolYuni</AssemblyName>
     <RootNamespace>LandsolYuni</RootNamespace>
-    <Authors>UzukiShimamura</Authors>
+    <Authors>Shimamura et al.</Authors>
     <AssociationData><![CDATA[<Associations>
   <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Reference type="Dlc" title="LOC_EXPANSION1_MOD_TITLE" id="1B28771A-C749-434B-9053-D1380C553DE9" />
@@ -28,7 +28,8 @@
     <ModProperties>
       <CustomProperties xmlns="" />
     </ModProperties>
-    <SpecialThanks>KevinLiu, hemmelfort, Lao Sha, Boa of the Boaians, www139154, Konomi Sakakino, MIMMIMME</SpecialThanks>
+    <SpecialThanks>
+    </SpecialThanks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
