@@ -4,7 +4,7 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1673359364</Created>
+    <Created>1674453622</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>2.0</CompatibleVersions>
@@ -34,28 +34,28 @@
   </References>
   <ActionCriteria>
     <Criteria id="LandsolYuni">
-      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
     </Criteria>
     <Criteria id="LandsolYuni_Expansion1">
-      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
     </Criteria>
     <Criteria id="LandsolYuni_Expansion2">
-      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
     </Criteria>
     <Criteria id="LandsolYuni_Expansion1_Expansion2">
-      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
       <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
     </Criteria>
     <Criteria id="Vietnam">
-      <LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
     </Criteria>
     <Criteria id="HarmonyInDiversity">
-      <LeaderPlayable>Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS</LeaderPlayable>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <ModInUse>521b8777-0977-4859-a5ee-3e411a732e5c</ModInUse>
     </Criteria>
   </ActionCriteria>
@@ -107,7 +107,6 @@
     </UpdateArt>
     <UpdateDatabase id="YuniGameplay_Vietnam">
       <Criteria>Vietnam</Criteria>
-      <Criteria>LandsolKokkoro</Criteria>
       <File>Data/Kokkoro_Vietnam.xml</File>
     </UpdateDatabase>
     <UpdateColors id="YuniColors">
@@ -137,6 +136,7 @@
       <File>Platforms/Windows/Audio/YuniBanks.ini</File>
     </UpdateAudio>
     <ImportFiles id="YuniFiles">
+      <Criteria>LandsolYuni</Criteria>
       <File>UI/DiplomacyActionView.lua</File>
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
