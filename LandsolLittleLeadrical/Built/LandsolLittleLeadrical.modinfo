@@ -125,7 +125,7 @@
       <Criteria>LandsolYuni</Criteria>
       <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
       <File>Data/ARX/Civ_LEADER_NATSUME_KOKORO_PRINCESS.png</File>
-      <File>Data/ARX/Civ_LEADER_SHINGYOUJI_YUNI.png</File>
+      <File>Data/ARX/Civ_LEADER_HIKAWA_KYOUKA.png</File>
     </UpdateLogitechARX>
     <UpdateDatabase id="YuniGameplay_XP1_XP2">
       <Criteria>LandsolYuni_Expansion1_Expansion2</Criteria>
