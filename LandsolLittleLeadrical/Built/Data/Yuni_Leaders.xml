@@ -372,7 +372,6 @@
 		<Row ListType="ShingyoujiYuniCivics"/>
 		<Row ListType="ShingyoujiYuniWonders"/>
 		<Row ListType="ShingyoujiYuniDistricts"/>
-		<!--<Row ListType="ShingyoujiYuniFavorWalls"/>-->
 	</AiListTypes>
 
 	<AiLists>
@@ -380,9 +379,6 @@
 		<Row ListType="ShingyoujiYuniWonders" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Buildings"/>
 		<Row ListType="ShingyoujiYuniCivics" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Civics"/>
 		<Row ListType="ShingyoujiYuniDistricts" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Districts"/>
-		<!--
-		<Row ListType="ShingyoujiYuniFavorWalls" LeaderType="TRAIT_LEADER_KNOWLEDGE_OF_ERUDITES" System="Buildings"/>
-		-->
 	</AiLists>
 
 	<AiFavoredItems>
@@ -395,14 +391,9 @@
 		<Row ListType="ShingyoujiYuniCivics" Item="CIVIC_RECORDED_HISTORY" Favored="true"/>
 		<Row ListType="ShingyoujiYuniCivics" Item="CIVIC_HUMANISM" Favored="true"/>
 		<Row ListType="ShingyoujiYuniDistricts" Item="DISTRICT_CAMPUS" Favored="true"/>
-		<!--
-		<Row ListType="ShingyoujiYuniFavorWalls" Item="BUILDING_WALLS" Favored="true"/>
-		-->
 	</AiFavoredItems>
 
-
 	<!--A nasty workaround for Babylon. Doesn't work if Babylon is modified. Doesn't work when...-->
-
 	<Modifiers>
 		<Update>
 			<Where ModifierId="MINOR_CIV_BABYLON_WRITING_BONUS"/>
@@ -1160,7 +1151,7 @@
 	</HistoricalAgendas>
 
 	<Agendas>
-		<!--Wontfix: The relations tooltip for this agenda won't work with only "unknown reason" can be shown, and there is no way to fix. Fuck firaxis for making it unmoddable-->
+		<!--Wontfix: The relations tooltip for this agenda cannot be altered and only default one can be shown, and there is no way to fix. Fuck firaxis for making it unmoddable-->
 		<Row AgendaType="AGENDA_GUIDE_OF_NATURE" Name="LOC_AGENDA_GUIDE_OF_NATURE_NAME" Description="LOC_AGENDA_GUIDE_OF_NATURE_DESCRIPTION"/>
 	</Agendas>
 
