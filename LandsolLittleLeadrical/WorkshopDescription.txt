@@ -1,4 +1,4 @@
-[h1]↑好评是工坊最有用的赞誉，轻点一下就能给出。给我们的作品点好评就能激励我们继续努力，谢谢♪
+[h1]↑轻点一下就能给出好评，激励我们继续努力，谢谢♪当然社区奖励我们也很欢迎～
 
 欢迎加入“圣特蕾莎文明mod学园”QQ群（519747236）寻访关于我们的作品的最新动态。[/h1]
 
@@ -76,7 +76,7 @@ Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是
 
 在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
 
-[h1]↑ Positive rates are the most useful awards in the Workshop and can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better![/h1]
+[h1]↑ Positive rates can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better! Community Awards are also welcome~[/h1]
 
 You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset.
 
