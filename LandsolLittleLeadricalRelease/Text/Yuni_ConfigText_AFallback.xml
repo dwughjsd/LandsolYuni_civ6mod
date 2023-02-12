@@ -99,7 +99,7 @@
 			<Text>Cosmo Blue Flash</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="en_US">
-			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
+			<Text>Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water with Writing. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="en_US">
 			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} When the first Spaceport is constructed the Nanotechnology technology is unlocked.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>

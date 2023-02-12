@@ -780,7 +780,7 @@
 			<SubjectRequirementSetId>LANDSOL_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 
-		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="LANDSOL_REQUIREMENTS"/>
+		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION" ModifierType="MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="LANDSOL_WRITING_REQUIREMENTS"/>
 		<Row ModifierId="TRAIT_HIKAWA_KYOUKA_WATER_PLOT_PRODUCTION_MODIFIER" ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD" SubjectRequirementSetId="ADJACENT_TO_WATER_REQUIREMENTS"/>
 		<Row>
 			<ModifierId>TRAIT_HIKAWA_KYOUKA_SPACEPORT_TECHNOLOGY1</ModifierId>
@@ -947,6 +947,7 @@
 		<Row RequirementSetId="PLAYER_IS_LITTLE_LYRICAL" RequirementSetType="REQUIREMENTSET_TEST_ANY"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<Row RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	
 	<RequirementSetRequirements>
@@ -955,6 +956,8 @@
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
 		<Row RequirementSetId="KYOUKA_CAMPUS_COAST" RequirementId="REQUIRES_CITY_HAS_5_COAST_KYOUKA"/>
 		<InsertOrIgnore RequirementSetId="CITY_HAS_CAMPUS_MACEDON" RequirementId="REQUIRES_CITY_HAS_CAMPUS"/>
+		<Row RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="PLAYER_IS_LANDSOL"/>
+		<Row RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="REQUIRES_PLAYER_HAS_WRITING"/>
 	</RequirementSetRequirements>
 	
 	<Requirements>

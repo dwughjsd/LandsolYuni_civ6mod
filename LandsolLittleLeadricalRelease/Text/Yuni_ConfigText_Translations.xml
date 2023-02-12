@@ -96,7 +96,7 @@
 			<Text>宇宙蓝闪光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
-			<Text>学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
+			<Text>学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。解锁“写作”科技后与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“纳米技术”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>

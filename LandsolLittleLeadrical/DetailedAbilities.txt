@@ -52,9 +52,9 @@ Little Model Student
 
 Cosmo Blue Flash
 
-[RISE & FALL] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When the first Spaceport is constructed the Nanotechnology technology are unlocked.
+[RISE & FALL] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1 Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water with Writing. When the first Spaceport is constructed the Nanotechnology technology are unlocked.
 
-[GATHERING STORM] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1  Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water. When Launch Mars Colony is completed the Offworld Mission technology are unlocked.
+[GATHERING STORM] Campuses are granted a Major adjacency with Rivers and a Standard adjacency from Coasts. Ranged units receive +1 Range in land tiles adjacent to water. +1 Production to all tiles adjacent to water with Writing. When Launch Mars Colony is completed the Offworld Mission technology are unlocked.
 
 Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, Great Writer, Great Artist and Great Musician point.
 
@@ -112,8 +112,8 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 宇宙蓝闪光
 
-【迭起兴衰】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。建成宇航中心区域后，即可解锁“纳米技术”科技。
+【迭起兴衰】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。解锁“写作”科技后与水域相邻的单元格+1生产力。建成宇航中心区域后，即可解锁“纳米技术”科技。
 
-【风云变幻】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。与水域相邻的单元格+1生产力。完成“启动火星殖民”项目后，即可解锁“外星任务”科技。
+【风云变幻】学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。陆地远程单位在与水域相邻的单元格+1射程。解锁“写作”科技后与水域相邻的单元格+1生产力。完成“启动火星殖民”项目后，即可解锁“外星任务”科技。
 
 公会之家加成：+2宜居度，+2文化值，+1大工程师、大商人、大文学家、大艺术家和大音乐家点数。
