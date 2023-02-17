@@ -119,5 +119,9 @@
 		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_THE_SCARED_RUIN" />
 		<Row CivilizationType="CIVILIZATION_LANDSOL" CityName="LOC_CITY_NAME_THE_SHRINE" />
 	</CityNames>
+
+	<CivilizationAudioTags>
+		<Row CivilizationType="CIVILIZATION_LANDSOL" MusicOverride="true"/>
+	</CivilizationAudioTags>
 	
 </GameData>
