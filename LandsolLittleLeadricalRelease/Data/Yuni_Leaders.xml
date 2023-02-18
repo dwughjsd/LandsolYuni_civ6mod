@@ -187,7 +187,7 @@
 		<Row>
 			<ModifierId>TRAIT_LIBRARY_ONE_WRITING_SLOT</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_LIBRARY_GREAT_WRITER_POINT</ModifierId>

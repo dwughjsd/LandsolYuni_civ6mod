@@ -12,7 +12,7 @@ Yuni:
 
 Knowledge of Erudites
 
-Each Library gets a Writing great work slot, +1 Great Writer Point for each Campus district with a Library building. +3 Science and +3 Culture from each Great Work of Writing. Gain the Yunicopter unique unit with Electricity.
+The Library gains 2 Great Writing slots and +1 Great Writer Point. Great Works of Writing receive +3 Science and +3 Culture. Gain the Yunicopter unique unit with Electricity.
 
 Philosophy of Cognition and Development
 
@@ -72,7 +72,7 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 博学者的教诲
 
-图书馆+1著作槽位，建有图书馆的学院区+1大作家点数。文学著作提供+3科技值和+3文化值。解锁“电力”科技后获得特色单位“优妮旋翼机”。
+图书馆获得2个著作槽位以及+1大作家点数。文学著作提供+3科技值和+3文化值。解锁“电力”科技后获得特色单位“优妮旋翼机”。
 
 认知发展哲学
 

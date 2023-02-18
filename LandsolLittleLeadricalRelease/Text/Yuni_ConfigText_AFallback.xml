@@ -30,7 +30,7 @@
 			<Text>Knowledge of Erudites</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION">
-			<Text>Each Library gets a [ICON_GreatWork_Writing] Writing great work slot. +1 [ICON_GreatWriter] Great Writer Point for each Campus district with a Library building. +3 [ICON_SCIENCE] Science and +3 [ICON_Culture] Culture from each [ICON_GreatWork_WRITING] Great Work of Writing. Gain the Yunicopter unique unit with Electricity.</Text>
+			<Text>The Library gains 2 [ICON_GreatWork_Writing] Great Writing slots and +1 [ICON_GreatWriter] Great Writer Point. Great Works of Writing receive +3 [ICON_SCIENCE] Science and +3 [ICON_Culture] Culture. Gain the Yunicopter unique unit with Electricity.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS">

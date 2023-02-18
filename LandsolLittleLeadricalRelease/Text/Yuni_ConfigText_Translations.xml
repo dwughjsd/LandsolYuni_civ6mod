@@ -29,7 +29,7 @@
 			<Text>博学者的教诲</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>图书馆 +1 [ICON_GreatWork_Writing] 著作槽位。建有图书馆的学院区 +1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_Writing] 著作提供 +3 [ICON_Science] 科技值和 +3 [ICON_Culture] 文化值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
+			<Text>图书馆获得 2 个 [ICON_GreatWork_Writing] 著作槽位以及+1 [ICON_GreatWriter] 大作家点数。[ICON_GreatWork_Writing] 著作提供 +3 [ICON_Science] 科技值和 +3 [ICON_Culture] 文化值。解锁“电力”科技后获得特色单位“优妮旋翼机”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
@@ -188,7 +188,7 @@
 			<Text>상아탑의 현자</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="ko_KR">
-			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 1개를 얻고. 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +3 [ICON_SCIENCE] 과학과 +3 [ICON_CULTURE] 문화. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
+			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 2개를 얻고. 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +3 [ICON_SCIENCE] 과학과 +3 [ICON_CULTURE] 문화. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
