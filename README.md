@@ -1,4 +1,4 @@
-# Little Lead-rical Leadee Pack- Modbuddy project and Wwise project
+# Little Lead-rical Leader Pack- Modbuddy project and Wwise project
 
 This mod aims to be a good (though still having some unsolvable issues) example for creating a custom leader and civilization for Sid Meier's Civilization VI. The built playable mod is released on Steam Workshop as Little Leadrical Leader Pack.
 
