@@ -188,7 +188,7 @@
 			<Text>상아탑의 현자</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SHINGYOUJI_YUNI_DESCRIPTION" Language="ko_KR">
-			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 2개를 얻고. 도서관이 있는 캠퍼스마다 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +3 [ICON_SCIENCE] 과학과 +3 [ICON_CULTURE] 문화. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
+			<Text>도서관이 [ICON_GreatWork_Writing] 걸작 저서 슬롯 2개를 얻고 [ICON_GreatWriter] 위대한 작가 점수를 1 만듭니다. [ICON_GreatWork_WRITING] 걸작 저서마다 +3 [ICON_SCIENCE] 과학과 +3 [ICON_CULTURE] 문화. 전기 개발 후 고유 유닛 유니콥터를 생산할 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
@@ -255,16 +255,16 @@
 			<Text>코스모 블루 플래시</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="ko_KR">
-			<Text>캠퍼스는 강에서 상당량의 인접 보너스를 받고, 해안에서 적당한 인접 보너스를 받습니다. 물에 인접해있는 모든 타일에 [ICON_Production] 생산력 +1. 물에 인접한 육지 타일에 있는 원거리 유닛의 [ICON_Range] 사거리 +1.</Text>
+			<Text>캠퍼스는 강에서 상당량의 인접 보너스를 받고, 해안에서 적당한 인접 보너스를 받습니다. 문자를 개발한 이후 물에 인접해있는 모든 타일에 [ICON_Production] 생산력 +1. 물에 인접한 육지 타일에 있는 원거리 유닛의 [ICON_Range] 사거리 +1.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="ko_KR">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 우주공항을 건설하면 나노기술 을 즉시 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 우주공항을 건설하면 나노기술을 즉시 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION" Language="ko_KR">
 			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION} {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="ko_KR">
-			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 화성 이주지 발족 프로젝트를 완료하면 즉시 오프월드 미션 을 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED} 화성 이주지 발족 프로젝트를 완료하면 즉시 오프월드 미션을 해금합니다.{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_LANDSOL_HIKAWA_KYOUKA_DESCRIPTION_XP2" Language="ko_KR">
 			<Text>{LOC_TRAIT_CIVILIZATION_LANDSOL_ALL_DESCRIPTION} {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_NAME}: {LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2}</Text>
