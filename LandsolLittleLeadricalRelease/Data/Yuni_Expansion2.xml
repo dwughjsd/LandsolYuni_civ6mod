@@ -90,8 +90,20 @@
 		<Row NamedSeaType="NAMED_SEA_MALJEAN" CivilizationType="CIVILIZATION_LANDSOL"/>
 		<Row NamedSeaType="NAMED_SEA_LORETTA" CivilizationType="CIVILIZATION_LANDSOL"/>
 	</NamedSeaCivilizations>
+
+	<AiListTypes>
+		<Row ListType="ShingyoujiYuniResolutions"/>
+		<Row ListType="ShingyoujiYuniDiscussions"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="ShingyoujiYuniResolutions" AgendaType="TRAIT_AGENDA_ROMANCE_OF_ARTS" System="Resolutions"/>
+		<Row ListType="ShingyoujiYuniDiscussions" AgendaType="TRAIT_AGENDA_ROMANCE_OF_ARTS" System="Discussions"/>
+	</AiLists>
 	
 	<AiFavoredItems>
+		<Row ListType="ShingyoujiYuniResolutions" Item="WC_RES_WORLD_IDEOLOGY" Favored="true"/>
+		<Row ListType="ShingyoujiYuniResolutions" Item="WC_RES_HERITAGE_ORG" Favored="true"/>
+		<Row ListType="ShingyoujiYuniDiscussions" Item="WC_EMERGENCY_SPACE_STATION" Favored="true"/>
 		<Row ListType="ShingyoujiYuniWonders" Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/>
 		<Row ListType="ShingyoujiYuniTechs" Item="TECH_ADVANCED_AI" Favored="true"/>
 	</AiFavoredItems>
@@ -149,7 +161,7 @@
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_LANDSOL_MIKO_OF_AMES" Texture="Moment_NationalPark.dds"/>
 	</MomentIllustrations>
-	<!--Wontfix: The relations tooltip for this agenda won't work with only "unknown reason" can be shown, and there is no way to fix. Fuck firaxis for making it unmoddable-->
+
 	<Agendas>
 		<Update>
 			<Where AgendaType="AGENDA_GUIDE_OF_NATURE"/>
@@ -216,12 +228,15 @@
 		</InsertOrIgnore>
 	</DynamicModifiers>
 
-	
-	<!--Proving ground-->
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PLANT_WOODS_DIVINE_RIGHT"/>
 		<Row TraitType="TRAIT_LEADER_PURE_WHITE_REVELATION" ModifierId="TRAIT_KOKKORO_PREVENT_PLANT_WOODS_WITHOUT_CONSERVATION"/>
 	</TraitModifiers>
+
+	<AiLists>
+		<Row ListType="EnvironmentalistResolutions" AgendaType="TRAIT_AGENDA_GUIDE_OF_NATURE" System="Resolutions"/>
+		<Row ListType="EnvironmentalistDiscussions" AgendaType="TRAIT_AGENDA_GUIDE_OF_NATURE" System="Discussions"/>
+	</AiLists>
 
 	<Modifiers>
 		<Row>
