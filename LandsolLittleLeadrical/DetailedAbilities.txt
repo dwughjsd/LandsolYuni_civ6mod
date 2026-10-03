@@ -84,7 +84,7 @@ Guildhouse bonus: +2 Amenities, +2 Culture, +1 Great Engineer, Great Merchant, G
 
 优妮作为领袖时的兰德索尔特色现代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位+1射程、+5炮击攻击力。
 
-可可萝：
+可可萝（公主）：
 
 纯白神启
 
