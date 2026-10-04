@@ -24,6 +24,7 @@
   <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Reference type="Dlc" title="LOC_EXPANSION1_MOD_TITLE" id="1B28771A-C749-434B-9053-D1380C553DE9" />
   <Reference type="Dlc" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" />
+  <Reference type="Mod" title="Sistine" id="2545c7e0-035e-4a78-b925-6f6080e775ea" />
 </Associations>]]></AssociationData>
     <ModProperties>
       <CustomProperties xmlns="" />
