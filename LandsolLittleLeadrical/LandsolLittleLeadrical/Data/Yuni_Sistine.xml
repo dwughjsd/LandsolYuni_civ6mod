@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" />
+			<Set Combat="40" Bombard="45" />
+		</Update>
+	</Units>
 </GameData>

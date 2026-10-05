@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>优妮作为领袖时的兰德索尔特色电气时代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位 +1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兰德索尔特色启蒙时代攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时 +10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>学院从海岸单元格获得标准相邻加成，从河流获得大量相邻加成。解锁“书写”科技后与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}完成“启动火星殖民”项目后，即可解锁“地外任务”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>
