@@ -6,4 +6,23 @@
 			<Set Combat="40" Bombard="45" />
 		</Update>
 	</Units>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_RIVER_ADJACENCY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+	</ModifierArguments>
+	<RequirementSetRequirements>
+		<!--For Kyouka's leader ability-->
+		<Delete RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="REQUIRES_PLAYER_HAS_WRITING"/>
+		<Row RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="REQUIRES_PLAYER_HAS_APPRENTICESHIP"/>
+	</RequirementSetRequirements>
 </GameData>
