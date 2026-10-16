@@ -19,7 +19,15 @@
 		<Replace Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>拥有学院区域的城市 +5% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide +2 [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide +2 [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供+2 [ICON_Production] 生产力。</Text>
+		</Replace>
 		<!--Translation replacement-->
 		<Replace Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>优妮作为领袖时的兰德索尔特色电气时代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位 +1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>

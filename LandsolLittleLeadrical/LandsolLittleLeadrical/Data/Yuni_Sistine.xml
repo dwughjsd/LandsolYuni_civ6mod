@@ -19,6 +19,10 @@
 			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_RIVER_ADJACENCY" Name="Amount"/>
 			<Set Value="1"/>
 		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
 	</ModifierArguments>
 	<RequirementSetRequirements>
 		<!--For Kyouka's leader ability-->
