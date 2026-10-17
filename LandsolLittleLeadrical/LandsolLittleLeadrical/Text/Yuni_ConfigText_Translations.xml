@@ -126,7 +126,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。森林单元格为相邻的单元格提供额外 +1 魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
@@ -135,6 +135,10 @@
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">
 			<Text>极光圣域</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>未改良的迷人或惊艳魅力的平原、平原丘陵、草原、草原丘陵、冻土、冻土丘陵单元格的基础地形产出增加至 2 [ICON_Food] 食物和 2 [ICON_Production] 生产力。若城市有国家公园，以上效果额外 +1 [ICON_Food] 食物、 +1 [ICON_Production] 生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">
@@ -294,6 +298,10 @@
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="ko_KR">
 			<Text>오로라 생츄어리</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="ko_KR">
+			<Text>Base terrain yields of unimproved Plains, Plains Hills, Grassland, Grassland Hills, Tundra and Tundra Hills tiles with Charming or Breathtaking appeal are increased to 2 [ICON_Food] Food and 2 [ICON_Production] Production. Units heal +10 HP faster in Charming or Breathtaking tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="ko_KR">

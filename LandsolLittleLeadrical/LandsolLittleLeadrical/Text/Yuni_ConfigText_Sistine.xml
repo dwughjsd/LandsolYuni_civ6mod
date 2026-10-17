@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="en_US">
+			<Text>Every unit gets a free Promotion when produced or upgraded. +2 [ICON_CULTURE] Culture for each specialty district in cities with a Campus district. +0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in cities with a Theater Square district. +1 [ICON_Science] Science and +1 [ICON_Culture] Culture from improved Strategic resources.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="ko_KR">
+			<Text>Every unit gets a free Promotion when produced or upgraded. +2 [ICON_CULTURE] Culture for each specialty district in cities with a Campus district. +0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in cities with a Theater Square district. +1 [ICON_Science] Science and +1 [ICON_Culture] Culture from improved Strategic resources.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个单位在生产或升级完成时获得一次晋升。拥有学院的城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。拥有剧院广场的城市每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。改良后的战略资源 +1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="en_US">
 			<Text>Campuses are granted a Standard adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water with Apprenticeship. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
 		</Replace>
@@ -39,7 +48,7 @@
 			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}完成“启动火星殖民”项目后，即可解锁“地外任务”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。森林单元格为相邻的单元格提供额外 +1 魅力。解锁“君权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“君权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

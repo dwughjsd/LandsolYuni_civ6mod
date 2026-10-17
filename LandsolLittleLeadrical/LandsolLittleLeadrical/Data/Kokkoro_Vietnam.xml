@@ -13,16 +13,8 @@
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_UNIVERSITY_BREATHTAKING_SCIENCE_ATTACH"/>
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_CHARMING_PRODUCTION_ATTACH"/>
 		<Delete TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_FACTORY_BREATHTAKING_PRODUCTION_ATTACH"/>
-		<!--<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BOOST_PRESERVE_PRODUCTION"/>-->
+
 		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE"/>
-		<Row TraitType="TRAIT_LEADER_AURORA_SANCTUARY" ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION"/>
 	</TraitModifiers>
 
 	<BuildingModifiers>
@@ -40,10 +32,6 @@
 	</BuildingModifiers>
 
 	<Modifiers>
-		<Row>
-			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
-		</Row>
 		<Row>
 			<ModifierId>KOKKORO_GROVE_CHARMING_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
@@ -111,51 +99,9 @@
 		<Row>
 			<ModifierId>KOKKORO_PRESERVE_BUILDING_FAITH_PURCHASE_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_AVERAGE_PRESERVE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_AVERAGE_PRESERVE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_CHARMING_PRESERVE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_CHARMING_PRESERVE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_BREATHTAKING_PRESERVE_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_APPEAL</ModifierType>
-		</Row>		
+		</Row>	
 	</Modifiers>
 	<ModifierArguments>
-		<Row>
-			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_PRESERVE</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_BOOST_PRESERVE_PRODUCTION</ModifierId>
-			<Name>Amount</Name>
-			<Value>100</Value>
-		</Row>
 
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="YieldType" Value="YIELD_FAITH"/>
 		<Row ModifierId="KOKKORO_GROVE_CHARMING_FAITH" Name="Amount" Value="1"/>
@@ -190,96 +136,6 @@
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_PRESERVE</Value>
 		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_PRESERVE</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_TUNDRA</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>TilesRequired</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRA_ADJACENCY</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_TUNDRA_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_PRESERVE</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>TerrainType</Name>
-			<Value>TERRAIN_TUNDRA_HILLS</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>TilesRequired</Name>
-			<Value>1</Value>
-		</Row>
-		<Row>
-			<ModifierId>KOKKORO_PRESERVE_FOOD_TUNDRAHILLS_ADJACENCY</ModifierId>
-			<Name>Description</Name>
-			<Value>LOC_DISTRICT_TUNDRA_FOOD</Value>
-		</Row>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE" Name="RequiredAppeal" Value="0"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_CULTURE" Name="Description" Value="LOC_DISTRICT_APPEAL_CULTURE"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION" Name="RequiredAppeal" Value="0"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_AVERAGE_PRESERVE_PRODUCTION" Name="Description" Value="LOC_DISTRICT_APPEAL_PRODUCTION"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE" Name="RequiredAppeal" Value="2"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_CULTURE" Name="Description" Value="LOC_DISTRICT_APPEAL_CULTURE"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION" Name="RequiredAppeal" Value="2"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_CHARMING_PRESERVE_PRODUCTION" Name="Description" Value="LOC_DISTRICT_APPEAL_PRODUCTION"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE" Name="RequiredAppeal" Value="4"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_CULTURE" Name="Description" Value="LOC_DISTRICT_APPEAL_CULTURE"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION" Name="YieldType" Value="YIELD_PRODUCTION"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION" Name="RequiredAppeal" Value="4"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION" Name="YieldChange" Value="1"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION" Name="DistrictType" Value="DISTRICT_PRESERVE"/>
-		<Row ModifierId="KOKKORO_BREATHTAKING_PRESERVE_PRODUCTION" Name="Description" Value="LOC_DISTRICT_APPEAL_PRODUCTION"/>
 	</ModifierArguments>
 	<RequirementSets>
 		<Row RequirementSetId="PLOT_IS_AT_2HEX_CHARMING_UNIMPROVED_KOKKORO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -323,15 +179,5 @@
 	<AiFavoredItems>
 		<Row ListType="NatsumeKokoroPrincessDistricts" Item="DISTRICT_PRESERVE" Favored="true"/>
 	</AiFavoredItems>
-
-	<Districts>
-		<Update>
-			<Where DistrictType="DISTRICT_PRESERVE"/>
-			<Set>
-				<CostProgressionModel>COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH</CostProgressionModel>
-				<CostProgressionParam1>40</CostProgressionParam1>
-			</Set>
-		</Update>
-	</Districts>
 	
 </GameData>
