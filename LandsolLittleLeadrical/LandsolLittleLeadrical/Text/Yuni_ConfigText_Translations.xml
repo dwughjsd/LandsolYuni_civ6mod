@@ -138,7 +138,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="zh_Hans_CN">
-			<Text>未改良的迷人或惊艳魅力的平原、平原丘陵、草原、草原丘陵、冻土、冻土丘陵单元格的基础地形产出增加至 2 [ICON_Food] 食物和 2 [ICON_Production] 生产力。若城市有国家公园，以上效果额外 +1 [ICON_Food] 食物、 +1 [ICON_Production] 生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。</Text>
+			<Text>未改良的迷人或惊艳魅力的平原、草原和冻土单元格的基础地形产出增加至 2 [ICON_Food] 食物和 2 [ICON_Production] 生产力。若城市有国家公园，以上效果额外 +1 [ICON_Food] 食物、 +1 [ICON_Production] 生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">

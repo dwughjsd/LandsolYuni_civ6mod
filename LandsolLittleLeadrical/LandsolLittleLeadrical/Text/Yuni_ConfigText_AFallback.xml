@@ -142,7 +142,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="en_US">
-			<Text>Base terrain yields of unimproved Plains, Plains Hills, Grassland, Grassland Hills, Tundra and Tundra Hills tiles with Charming or Breathtaking appeal are increased to 2 [ICON_Food] Food and 2 [ICON_Production] Production. Additional +1 [ICON_Food] Food and +1 [ICON_Production] Production in cities with a National Park. Units heal +10 HP faster in Charming or Breathtaking tiles.</Text>
+			<Text>Base terrain yields of unimproved Plains, Grassland and Tundra tiles with Charming or Breathtaking appeal are increased to 2 [ICON_Food] Food and 2 [ICON_Production] Production. Additional +1 [ICON_Food] Food and +1 [ICON_Production] Production in cities with a National Park. Units heal +10 HP faster in Charming or Breathtaking tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="en_US">
