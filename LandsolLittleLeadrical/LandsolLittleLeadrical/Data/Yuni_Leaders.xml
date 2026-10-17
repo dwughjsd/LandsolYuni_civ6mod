@@ -1187,7 +1187,8 @@
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_THE_ENLIGHTENMENT" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_NATURAL_HISTORY" Favored="true"/>
 		<Row ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_CONSERVATION" Favored="true"/>
-		<Row ListType="NatsumeKokoroPrincessEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="10"/>
+		<Row ListType="NatsumeKokoroPrincessEnvironmentPreference" Item="PSEUDOYIELD_ENVIRONMENT" Value="100"/>
+		<Row ListType="NatsumeKokoroPrincessEnvironmentPreference" Item="PSEUDOYIELD_IMPROVEMENT" Value="-50"/>
 		<Row ListType="NatsumeKokoroPrincessFaithPreference" Item="YIELD_FAITH" Value="20"/>
 		<InsertOrIgnore ListType="NatsumeKokoroPrincessCivics" Item="CIVIC_ENVIRONMENTALISM" Favored="true"/>
 		<InsertOrIgnore ListType="NatsumeKokoroPrincessWonders" Item="BUILDING_ETEMENANKI" Favored="true"/>
