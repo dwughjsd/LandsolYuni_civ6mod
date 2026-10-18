@@ -126,7 +126,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+			<Text>创立万神殿后每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
@@ -289,7 +289,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="ko_KR">
-			<Text>종교관을 만들면 즉시 신비주의가 해금되며, 턴당 +2 [ICON_GreatProphet] 위대한 예언자 위인 점수를 얻습니다. 산, 숲, 또는 자연경관에 인접한 멋지거나 놀라운 매력적인 타일에 +1 [ICON_Faith] 신앙. 숲 타일은 인접한 타일에 추가로 +1 매력도를 부여합니다. 신권을 연구하면 특유의 유닛 아메스의 무녀 를 얻을 수 있습니다.</Text>
+			<Text>Founding a Pantheon provides +2 [ICON_GreatProphet] Great Prophet points per turn. 산, 숲, 또는 자연경관에 인접한 멋지거나 놀라운 매력적인 타일에 +1 [ICON_Faith] 신앙. 숲 타일은 인접한 타일에 추가로 +1 매력도를 부여합니다. 신권을 연구하면 특유의 유닛 아메스의 무녀 를 얻을 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="ko_KR">
