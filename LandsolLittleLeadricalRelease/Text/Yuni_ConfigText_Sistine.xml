@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="en_US">
+			<Text>Every unit gets a free Promotion when produced or upgraded. +2 [ICON_CULTURE] Culture for each specialty district in cities with a Campus district. +0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in cities with a Theater Square district. +1 [ICON_Science] Science and +1 [ICON_Culture] Culture from improved Strategic resources.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="ko_KR">
+			<Text>Every unit gets a free Promotion when produced or upgraded. +2 [ICON_CULTURE] Culture for each specialty district in cities with a Campus district. +0.5 [ICON_SCIENCE] Science per [ICON_Citizen] Citizen in cities with a Theater Square district. +1 [ICON_Science] Science and +1 [ICON_Culture] Culture from improved Strategic resources.{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个单位在生产或升级完成时获得一次晋升。拥有学院的城市每拥有1处专业化区域，则+2 [ICON_CULTURE] 文化值。拥有剧院广场的城市每位 [ICON_Citizen] 公民每回合带来+0.5 [ICON_SCIENCE] 科技值。改良后的战略资源 +1 [ICON_Science] 科技值和 [ICON_Culture] 文化值。{LOC_TRAIT_FRIENDSHIP_CLUB_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="en_US">
+			<Text>Campuses are granted a Standard adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water with Apprenticeship. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="ko_KR">
+			<Text>Campuses are granted a Standard adjacency with Rivers and a Standard adjacency from Coasts. +1 [ICON_Production] Production to all tiles adjacent to water with Apprenticeship. Ranged units receive +1 [ICON_Range] Range in land tiles adjacent to water.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>学院从海岸单元格与河流获得标准相邻加成。解锁“学徒制度”科技后与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="en_US">
+			<Text>+5% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production in cities with a Campus district. If there are 5 Coast tiles within 3 tiles of a city and owned by you these yields are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="ko_KR">
+			<Text>+5% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production in cities with a Campus district. If there are 5 Coast tiles within 3 tiles of a city and owned by you these yields are doubled.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_HIKAWA_KYOUKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有学院区域的城市 +5% [ICON_SCIENCE] 科技值和 [ICON_PRODUCTION] 生产力。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为您所拥有，则这些产出加倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="en_US">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide +2 [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="ko_KR">
+			<Text>[NEWLINE][NEWLINE]Guildhouse bonus: Libraries and Universities provide +2 [ICON_Production] Production.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_FRIENDSHIP_CLUB_BONUS" Language="zh_Hans_CN">
+			<Text>[NEWLINE][NEWLINE]公会之家加成：图书馆和大学提供+2 [ICON_Production] 生产力。</Text>
+		</Replace>
+		<!--Translation replacement-->
+		<Replace Tag="LOC_UNIT_LANDSOL_YUNICOPTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>优妮作为领袖时的兰德索尔特色电气时代支援单位。取代无人机。造价更低。由“电力”科技解锁。为1单元格内的攻城类单位 +1 [ICON_Range] 射程、+5 [ICON_Bombard] 炮击攻击力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>兰德索尔特色启蒙时代攻城单位，取代射石炮。无法在一回合中移动和攻击，除非他们已获得“专家组”的升级强化。与陆地和海洋单位作战时 +10 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_XP2" Language="zh_Hans_CN">
+			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}完成“启动火星殖民”项目后，即可解锁“地外任务”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>创立众神信仰后每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

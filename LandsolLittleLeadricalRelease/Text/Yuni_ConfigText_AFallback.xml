@@ -130,7 +130,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="en_US">
-			<Text>Founding a Pantheon unlocks the Mysticism civic and provides +2 [ICON_GreatProphet] Great Prophet points per turn. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. Woods tiles grant additioanl +1 Appeal to adjacent tiles. Gain the Miko of Ameth unique unit with Divine Right.</Text>
+			<Text>Founding a Pantheon provides +2 [ICON_GreatProphet] Great Prophet points per turn. Charming or Breathtaking tiles adjacent to Mountains, Woods, or Natural Wonders receive +1 [ICON_Faith] Faith. +1 Appeal to all tiles in a city with a Holy Site district. Gain the Miko of Ameth unique unit with Divine Right.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="en_US">
@@ -139,6 +139,10 @@
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="en_US">
 			<Text>Aurora Sanctuary</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="en_US">
+			<Text>Base terrain yields of unimproved Plains, Grassland and Tundra tiles with Charming or Breathtaking appeal are increased to 2 [ICON_Food] Food and 2 [ICON_Production] Production. Additional +1 [ICON_Food] Food and +1 [ICON_Production] Production in cities with a National Park. Units heal +10 HP faster in Charming or Breathtaking tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="en_US">

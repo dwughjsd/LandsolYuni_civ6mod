@@ -59,7 +59,7 @@
 		</Row>
 
 		<Row Tag="LOC_BUILDING_GUILDHOUSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>兰德索尔特色建筑物。为该城市+10% [ICON_Production] 生产力，并为每位兰德索尔领袖提供独特加成（详见各位领袖）。</Text>
+			<Text>兰德索尔特色建筑。为该城市+10% [ICON_Production] 生产力，并为每位兰德索尔领袖提供独特加成（详见各位领袖）。</Text>
 		</Row>
 
 		<Row Tag="LOC_UNIT_LANDSOL_YUNICOPTER_NAME" Language="zh_Hans_CN">
@@ -96,7 +96,7 @@
 			<Text>宇宙蓝闪光</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED" Language="zh_Hans_CN">
-			<Text>学院从海岸单元格获得标准相邻加成，河流获得大量相邻加成。解锁“写作”科技后与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
+			<Text>学院从海岸单元格获得标准相邻加成，从河流获得大量相邻加成。解锁“写作”科技后与水域相邻的单元格 +1 [ICON_Production] 生产力。陆地远程单位在与水域相邻的单元格 +1 [ICON_Range] 射程。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_TRAIT_LEADER_COSMOBLUE_FLASH_DESCRIPTION_SHARED}建成宇航中心区域后，即可解锁“纳米技术”科技。{LOC_TRAIT_LITTLE_LYRICAL_BONUS}</Text>
@@ -122,11 +122,11 @@
 
 	<LocalizedText>
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">
-			<Text>纯白神启</Text>
+			<Text>纯白天启</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>创立万神殿解锁“神秘主义”市政并提供每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。森林单元格为相邻的单元格提供额外 +1 魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
+			<Text>创立万神殿后每回合 +2 [ICON_GreatProphet] 大预言家点数。与山脉、森林或自然奇观相邻的迷人或惊艳单元格 +1 [ICON_Faith] 信仰值。拥有圣地的城市，所有单元格+1魅力。解锁“王权神授”市政后获得特色单位“爱梅斯巫女”。</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="zh_Hans_CN">
@@ -135,6 +135,10 @@
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="zh_Hans_CN">
 			<Text>极光圣域</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="zh_Hans_CN">
+			<Text>未改良的迷人或惊艳魅力的平原、草原和冻土单元格的基础地形产出增加至 2 [ICON_Food] 食物和 2 [ICON_Production] 生产力。若城市有国家公园，以上效果额外 +1 [ICON_Food] 食物、 +1 [ICON_Production] 生产力。单位位于迷人或惊艳单元格每回合可多恢复10点生命值。</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="zh_Hans_CN">
@@ -285,7 +289,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_NATSUME_KOKORO_PRINCESS_DESCRIPTION" Language="ko_KR">
-			<Text>종교관을 만들면 즉시 신비주의가 해금되며, 턴당 +2 [ICON_GreatProphet] 위대한 예언자 위인 점수를 얻습니다. 산, 숲, 또는 자연경관에 인접한 멋지거나 놀라운 매력적인 타일에 +1 [ICON_Faith] 신앙. 숲 타일은 인접한 타일에 추가로 +1 매력도를 부여합니다. 신권을 연구하면 특유의 유닛 아메스의 무녀 를 얻을 수 있습니다.</Text>
+			<Text>Founding a Pantheon provides +2 [ICON_GreatProphet] Great Prophet points per turn. 산, 숲, 또는 자연경관에 인접한 멋지거나 놀라운 매력적인 타일에 +1 [ICON_Faith] 신앙. 숲 타일은 인접한 타일에 추가로 +1 매력도를 부여합니다. 신권을 연구하면 특유의 유닛 아메스의 무녀 를 얻을 수 있습니다.</Text>
 		</Row>
 
 		<Row Tag="LOC_TRAIT_GOURMET_EDIFICE_BONUS" Language="ko_KR">
@@ -294,6 +298,10 @@
 
 		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_NAME" Language="ko_KR">
 			<Text>오로라 생츄어리</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AURORA_SANCTUARY_DESCRIPTION_SHARED" Language="ko_KR">
+			<Text>Base terrain yields of unimproved Plains, Plains Hills, Grassland, Grassland Hills, Tundra and Tundra Hills tiles with Charming or Breathtaking appeal are increased to 2 [ICON_Food] Food and 2 [ICON_Production] Production. Units heal +10 HP faster in Charming or Breathtaking tiles.</Text>
 		</Row>
 
 		<Row Tag="LOC_LEADER_NATSUME_KOKORO_PRINCESS_NAME" Language="ko_KR">

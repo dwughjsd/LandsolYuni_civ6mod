@@ -4,34 +4,26 @@
     <Name>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE</Name>
     <Description>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION</Description>
     <CustomProperties></CustomProperties>
-    <Created>1676085494</Created>
+    <Created>1792294555</Created>
     <Teaser>LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER</Teaser>
     <Authors>Shimamura et al.</Authors>
     <CompatibleVersions>2.0</CompatibleVersions>
   </Properties>
-  <LocalizedText>
-    <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE">
-      <en_US>Little Lead-rical of Landosol Civilization Pack</en_US>
-      <zh_Hans_CN>兰德索尔的儿童文明包</zh_Hans_CN>
-      <ko_KR>랜드솔 문명의 리틀 리더컬 팩</ko_KR>
-    </Text>
-      <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER">
-      <en_US>New Civilization and Leaders - Yuni, Kokkoro (Princess) and Kyoka of Landosol</en_US>
-      <zh_Hans_CN>新文明和领袖——兰德索尔的优妮、可可萝（公主）和镜华</zh_Hans_CN>
-      <ko_KR>새로운 문명과 지도자 - 랜드솔을 이끄는 유니, 콧코로(프린세스), 쿄우카</ko_KR>
-    </Text>
-      <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION">
-      <en_US>Contains a new civilization and 3 leaders.</en_US>
-      <zh_Hans_CN>包含1个新文明及3位领袖。</zh_Hans_CN>
-      <ko_KR>새로운 문명과 지도자 셋을 추가합니다.</ko_KR>  
-    </Text>
-  </LocalizedText>
   <References>
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
     <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE" />
     <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="LOC_KUBLAIKHAN_VIETNAM_MOD_TITLE" />
+    <Mod id="2545c7e0-035e-4a78-b925-6f6080e775ea" title="Sistine" />
   </References>
   <ActionCriteria>
+    <Criteria id="YuniSettings_Sistine">
+      <ModInUse>2545c7e0-035e-4a78-b925-6f6080e775ea</ModInUse>
+    </Criteria>
+    <Criteria id="LandsolYuni_Sistine">
+      <RuleSetInUse>RULESET_STANDARD,RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
+      <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
+      <ModInUse>2545c7e0-035e-4a78-b925-6f6080e775ea</ModInUse>
+    </Criteria>
     <Criteria id="LandsolYuni">
       <LeaderPlayable>Players:Expansion1_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion2_Players::LEADER_SHINGYOUJI_YUNI,Players:Expansion1_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion2_Players::LEADER_NATSUME_KOKORO_PRINCESS,Players:Expansion1_Players::LEADER_HIKAWA_KYOUKA,Players:Expansion2_Players::LEADER_HIKAWA_KYOUKA</LeaderPlayable>
       <RuleSetInUse>RULESET_EXPANSION_1,RULESET_EXPANSION_2</RuleSetInUse>
@@ -79,6 +71,10 @@
     <ImportFiles id="YuniSettingsFiles">
       <File>UI/FrontEnd/LoadScreen.lua</File>
     </ImportFiles>
+    <UpdateText id="YuniSettingsText">
+      <Criteria>YuniSettings_Sistine</Criteria>
+      <File>Text/Yuni_ConfigText_Sistine.xml</File>
+    </UpdateText>
   </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="YuniGameplay">
@@ -143,7 +139,32 @@
       <Criteria>LandsolYuni</Criteria>
       <File>Scripts/Kokkoro_Script.lua</File>
     </AddGameplayScripts>
+    <UpdateText id="YuniText_Sistine">
+      <Criteria>LandsolYuni_Sistine</Criteria>
+      <File>Text/Yuni_ConfigText_Sistine.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="YuniGameplay_Sistine">
+      <Criteria>LandsolYuni_Sistine</Criteria>
+      <File>Data/Yuni_Sistine.xml</File>
+    </UpdateDatabase>
   </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TITLE">
+      <en_US>Little Lead-rical of Landosol Civilization Pack</en_US>
+      <zh_Hans_CN>兰德索尔的儿童文明包</zh_Hans_CN>
+      <ko_KR>랜드솔 문명의 리틀 리더컬 팩</ko_KR>
+    </Text>
+    <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_TEASER">
+      <en_US>New Civilization and Leaders - Yuni, Kokkoro (Princess) and Kyoka of Landosol</en_US>
+      <zh_Hans_CN>新文明和领袖——兰德索尔的优妮、可可萝（公主）和镜华</zh_Hans_CN>
+      <ko_KR>새로운 문명과 지도자 - 랜드솔을 이끄는 유니, 콧코로(프린세스), 쿄우카</ko_KR>
+    </Text>
+    <Text id="LOC_LANDSOL_LITTLE_LEADRICAL_MOD_DESCRIPTION">
+      <en_US>Contains a new civilization and 3 leaders.</en_US>
+      <zh_Hans_CN>包含1个新文明及3位领袖。</zh_Hans_CN>
+      <ko_KR>새로운 문명과 지도자 셋을 추가합니다.</ko_KR>
+    </Text>
+  </LocalizedText>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
     <File>ArtDefs/Cultures.artdef</File>
@@ -165,6 +186,7 @@
     <File>Data/Yuni_Expansion2.xml</File>
     <File>Data/Yuni_Icons.xml</File>
     <File>Data/Yuni_Leaders.xml</File>
+    <File>Data/Yuni_Sistine.xml</File>
     <File>Data/Yuni_Units.xml</File>
     <File>LandsolYuni.dep</File>
     <File>Platforms/Windows/Audio/1006496830.wem</File>
@@ -204,6 +226,7 @@
     <File>Scripts/Kokkoro_Script.lua</File>
     <File>Text/Kokkoro_ConfigText_Vietnam.sql</File>
     <File>Text/Yuni_ConfigText_AFallback.xml</File>
+    <File>Text/Yuni_ConfigText_Sistine.xml</File>
     <File>Text/Yuni_ConfigText_Translations.xml</File>
     <File>Text/Yuni_Text_AFallback.xml</File>
     <File>Text/Yuni_Text_Translations.xml</File>

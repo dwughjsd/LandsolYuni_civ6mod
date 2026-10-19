@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_THEATER_SCIENCE"/>
+		<Delete TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_CAMPUS_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_CAMPUS_DISTRICT_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT" ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_THEATER_POP_SCIENCE"/>
+	</TraitModifiers>
+
+	<Modifiers>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_CAMPUS_DISTRICT_CULTURE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT" SubjectRequirementSetId="CITY_HAS_CAMPUS_SST"/>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_THEATER_POP_SCIENCE" ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION" SubjectRequirementSetId="CITY_HAS_THEATER_DISTRICT_SST"/>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_CAMPUS_DISTRICT_CULTURE" Name="Amount" Value="2"/>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_CAMPUS_DISTRICT_CULTURE" Name="YieldType" Value="YIELD_CULTURE"/>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_THEATER_POP_SCIENCE" Name="Amount" Value="0.5"/>
+		<Row ModifierId="TRAIT_PHILOSOPHY_OF_COGNITION_AND_DEVELOPMENT_THEATER_POP_SCIENCE" Name="YieldType" Value="YIELD_SCIENCE"/>
+	</ModifierArguments>
+	
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_LANDSOL_ROYALPALACE_ORDER_CANNON" />
+			<Set Combat="40" Bombard="45" />
+		</Update>
+	</Units>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_SCIENCE_COAST" Name="Amount"/>
+			<Set Value="5"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_HIKAWA_KYOUKA_CAMPUS_RIVER_ADJACENCY" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_GUILDHOUSE_UNIVERSITY_PRODUCTION_MODIFIER" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_KOKKORO_UNIMPROVED_CHARMING_PLAINS_HILLS_FOOD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_KOKKORO_UNIMPROVED_CHARMING_GRASS_HILLS_FOOD" Name="Amount"/>
+			<Set Value="1"/>
+		</Update>
+		<Update>
+			<Where ModifierId="TRAIT_KOKKORO_UNIMPROVED_CHARMING_TUNDRA_HILLS_FOOD" Name="Amount"/>
+			<Set Value="2"/>
+		</Update>
+	</ModifierArguments>
+	<RequirementSetRequirements>
+		<!--For Kyouka's leader ability-->
+		<Delete RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="REQUIRES_PLAYER_HAS_WRITING"/>
+		<Row RequirementSetId="LANDSOL_WRITING_REQUIREMENTS" RequirementId="REQUIRES_PLAYER_HAS_APPRENTICESHIP"/>
+	</RequirementSetRequirements>
+</GameData>
