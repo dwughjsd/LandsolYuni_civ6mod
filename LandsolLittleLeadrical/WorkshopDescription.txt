@@ -1,42 +1,42 @@
-[h1]↑轻点一下就能给出好评，激励我们继续努力，谢谢♪当然社区奖励我们也很欢迎～
+[h1]点击上方的好评按钮就可以支持我们！[/h1]
 
-欢迎加入“圣特蕾莎文明mod学园”QQ群（519747236）寻访关于我们的作品的最新动态。[/h1]
+此mod需要迭起兴衰或风云变幻资料片的其中之一才能运行。平衡性以风云变幻资料片中的数值为准。现已为[url=steamcommunity.com/sharedfiles/filedetails/?id=3258307214]鉴古维新大修[/url]完成优化！
 
-此mod需要迭起兴衰或风云变幻资料片的其中之一才能运行。平衡性以风云变幻资料片中的数值为准。
-
-[h1]支持语言：简体中文、英语、韩语[/h1]
+[h1]支持语言：简体中文、英语、韩语（未更新）[/h1]
 
 [h1]优妮、可可萝（公主）、镜华领导的兰德索尔：先睹为快[/h1]
 
 优妮、可可萝、镜华位列《公主连结 Re:Dive》最受欢迎的角色之中。本领袖包包含了三位体型娇小的领袖，在儿童节到来之际为《文明6》添加一抹童趣。
 
-[b]兰德索尔[/b]的特色建筑是[b]公会之家[/b]，可为城市提供额外的生产力，并为每个领袖提供独特的加成。特色单位[b]王宫骑士团炮[/b]解锁于文艺复兴时期，拥有更强的战斗力，且不需要战略资源。
+[b]兰德索尔[/b]的文明特性[b]“公主骑士”[/b]是一种特别的能力，对于每位领导兰德索尔的领袖而言，它都提供截然不同的加成。他们的特色建筑是[b]公会之家[/b]，可为城市提供额外的生产力，并为每个领袖提供独特的加成。兰德索尔特色启蒙时代单位[b]王宫骑士团炮[/b]相比其替代的射石炮拥有更强的战斗力，且不需要战略资源。
 
-[b]优妮[/b]的特色能力是[b]“博学者的教诲”[/b]。建设图书馆可以获得额外的大作家点数和文学著作槽位，且文学著作可以提供额外产出。她同样带来了[b]“优妮旋翼机”[/b]单位，比其所替代的无人机要更早解锁且更为廉价。
+[b]优妮[/b]的特色能力是[b]“博学者的教诲”[/b]。建设图书馆能够提供额外的大作家点数和文学著作槽位，文学著作则提供额外的科技值和文化值。她同时解锁[b]“优妮旋翼机”[/b]单位，比其所替代的无人机要更早解锁且更为廉价。
 
-文明特性[b]“公主骑士”[/b]是一种特别的能力，对于每位领导兰德索尔的领袖而言，它都提供截然不同的加成。对于优妮，此特性提供的是[b]“认知发展哲学”[/b]，令学院、剧院广场和战略资源同时提供科技值和文化值，且单位在生产或升级完成后能获得一次免费的晋升。
+对于优妮，公主骑士特性提供[b]“认知发展哲学”[/b]，令学院、剧院广场和战略资源同时提供科技值和文化值，且单位在生产或升级完成后能获得一次免费的晋升。
 
-[b]可可萝的“公主”造型[/b]的独特能力是[b]“纯白神启”[/b]。若与山脉、森林或自然奇观相邻，单元格产出额外信仰。公主可可萝还提供“爱梅斯巫女”单位，这一平民单位在王权神授市政即可解锁，可以建设国家公园或者植树造林。
+[b]公主可可萝[/b]的独特能力是[b]“纯白天启”[/b]。若与山脉、森林或自然奇观相邻，单元格产出额外信仰。圣地可提升城市单元格魅力。公主可可萝还拥有“爱梅斯巫女”单位，这一平民单位在君权神授市政即可解锁，可以建设国家公园或者植树造林。
 
-“公主骑士”特性为她提供的是[b]“极光圣域”[/b]。可以从保护区获得额外的文化、生产力甚至食物，保护区建筑的效果范围也增大了一个单元格。此外，在魅力较高的单元格，单位可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
+“公主骑士”特性为她提供的是[b]“极光圣域”[/b]，让他们善于利用自然的力量。对他们而言，未改良的自然风光是很好的食物和生产力来源。如果他们在城市中建设区域建筑或国家公园，还可以从这些单元格获得更为可观的收益。在魅力较高的单元格，单位可以获得额外回复。（若您没有越南DLC，她的能力会有所改变。详情请查看游戏内描述。）
 
-[b]镜华[/b]的独特能力是[b]“小小优等生”[/b]。拥有学院区域的城市获得额外科技值和生产力。若一座城市的3个单元格范围内有5个海岸单元格，且这些单元格为她所拥有，则这些产出加倍。
+[b]镜华[/b]的独特能力是[b]“小小优等生”[/b]。拥有学院区域的城市获得额外科技值和生产力。若城市拥有较多海岸单元格，则这些产出还会进一步强化。
 
-“公主骑士”特性为她提供的是[b]“宇宙蓝闪光”[/b]，令水域可以为他们提供大量战术和战略优势。学院可以从河流获得额外的大量相邻加成，从海岸获得标准的相邻加成。沿河或沿海的陆地远程单位获得额外射程，单元格则可以拥有额外的生产力。一旦他们在科技胜利中获得进展，便可以免费获得一项对胜利至关重要的科技。
+“公主骑士”特性为她提供的是[b]“宇宙蓝闪光”[/b]，令水域为他们提供大量战术和战略优势。学院可以从河流及海岸获得额外相邻加成。沿河或沿海的陆地远程单位可获得额外射程，单元格则有额外的生产力。一旦他们在太空竞赛项目中获得进展，还可以免费获得一项对胜利至关重要的科技。
 
 您能够成为小小的伟大领袖吗？您将会如何带领兰德索尔建立经得起时间考验的文明？
 
 [b]能力详情请参阅讨论贴。[/b]
 
-[h1]模组特性：[/h1]
+[h1]我们的风格：[/h1]
 
-[b]强力而不超模。[/b]每位领袖的能力均鼓励一种独特的游玩方式，并在设计时充分考虑了领袖的能力强度，使其拥有充分的竞争力但并不显著过强。
+[b]有玩法，不超模。[/b]每位领袖的能力组都经过精心设计与测试，使它们能够支持一种独特的玩法。能力强度与官方的强力领袖相当而不会击碎原作平衡。
 
-[b]忠于原作。[/b]本作品在制作过程中进行了精细的考证，包括人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
+[b]忠于原作。[/b]我们的作品在制作过程中精细考证了领袖和他们的故事，拥有完整的人名、地名、城市名称和外交用语，以尽最大可能表现原作的风土人情和领袖性格特征。
 
-[b]和谐风格。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各个界面正确显示且整洁清爽。
+[b]广泛兼容。[/b]所有已制作的美术素材均参照《文明6》游戏的规格进行处理，确保其在各种分辨率和设置下都能正确显示且整洁清爽。
 
-[b]背景音乐和领袖语音。[/b]是谁从Wwise Soundbank中寻找了播放音频的正确方式？是的，就是我！
+[b]背景音乐和领袖语音。[/b]是谁找到了在Wwise Soundbank中设置这些音频的正确播放方式？是的，就是我！
+
+[b]负责任的AI使用。[/b]我们谨慎地使用生成式AI创作的内容，确保不含“数字泔水”。
 
 [h1]已知问题：[/h1]
 
@@ -57,9 +57,11 @@
 （3）更多语言的本地化
 （4）图标和时代得分美术
 
-[h1]向大家介绍 Shimamura et al.[/h1]
+[h1]我们是 Shimamura et al.[/h1]
 
-Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是 UzukiShimamura卯月 与小伙伴们的合作团队——我们由一群富有经验的文明6mod制作者组成，致力于设计富有特色而与原版游戏相协调的领袖mod。当然，如果你能做得更好，我们也需要你的帮助！
+Shimamura et al. （字面意思为“岛村和其他人”）是 UzukiShimamura卯月 与小伙伴们的合作团队——我们是玩家、创作者，也乐于提供协助！此外，如果你能做得更好，那就请快加入我们！
+
+除此之外，这个作品还仰赖他们的支持：
 
 [b][url=steamcommunity.com/id/kevinxy]Kevin Liu[/url][/b]：帮助我完成了领袖语音试验的重要环节。他在一局游戏中建设了70座国家公园，成为可可萝特性的灵感来源。
 [b][url=space.bilibili.com/28399130]hemmelfort[/url][/b]：为模组作者提供了关于blender的操作说明，以及一系列其他教程。
@@ -72,47 +74,47 @@ Shimamura et al. （字面意思为“岛村和其他人”）简而言之就是
 
 封面图像：RYUKI（pixiv插画ID：80628407）。本模组使用了来自手机游戏《公主连结 Re:Dive》的素材。模组作者并不拥有素材的所有权。
 
-需要mod制作支持，或者发现了什么问题吗？请在Steam私信，或加入QQ群“圣特蕾莎文明mod学园”（519747236）联系我。
+在[url=github.com/dwughjsd]GitHub[/url]（仅英文）上可以查看卯月所有作品的工程文件。给个Star或者提出Pull Request就更好了！
 
-在[url=github.com/dwughjsd]我的GitHub[/url]（仅英文）上可以查看我所有作品的工程文件。给我Star或者提出Pull Request就更好了！
+[h1]Click the thumbs up button above to support us![/h1]
 
-[h1]↑ Positive rates can be easily given by simply clicking the thumbs up button. Click it and you can encourage us to do better! Community Awards are also welcome~[/h1]
+You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset. It is now optimized for [url=steamcommunity.com/sharedfiles/filedetails/?id=3258307214]Project Sistine, the medium-scale overhaul[/url]!
 
-You need either Rise and Fall or Gathering Storm to use this mod. All gameplay balancing is set to fit Gathering Storm ruleset.
-
-[h1]Supported language: Simplified Chinese, English, Korean[/h1]
+[h1]Supported language: Simplified Chinese, English, Korean (not updated)[/h1]
 
 [h1]Yuni, Kokkoro (Princess) and Kyoka Lead Landosol: First Look[/h1]
 
-Yuni, Kokkoro and Kyoka are some of the most popular characters in the mobile game Princess Connect Re:Dive. This mod contains three little leaders, and brings some cuteness to Civilization VI to celebrate China's Children's Day (June 1).
+Yuni, Kokkoro and Kyoka are some of the most popular characters in the mobile game Princess Connect Re:Dive. This mod contains three little leaders who lead Landosol, and brings some cuteness to Civilization VI to celebrate China's Children's Day (June 1).
 
-[b]Guildhouse[/b] is the unique building of [b]Landosol[/b], which provides Production and unique bonuses for each Landsol leader. The unique unit [b]Royal Palace Cannon[/b] is unlocked at Renaissance Era, with stronger Combat Strength and don't need any Strategic resource.
+The unique ability of Landosol civilization [b]Princess Knight[/b] is a special ability that provides entirely different abilities to each Landosol leader. Their unique building is [b]Guildhouse[/b] which provides Production and unique bonuses for each Landosol leader. Landosol unique Renaissance Era unit [b]Royal Palace Cannon[/b] has stronger Combat Strength than Bombard it replaces and does not need any Strategic resource.
 
-[b]Yuni[/b]'s unique ability is [b]Knowledge of Erudites[/b]. Constructing Library can provide extra Great Writer Points and Writing great work slot, and Writing great works provide yields. She also unlocks [b]Yunicopter[/b], which is available earlier and cheaper than the Drone unit it replaces. 
+[b]Yuni[/b]'s unique ability is [b]Knowledge of Erudites[/b]. Constructing Library provides extra Great Writer Points and Writing great work slot, and Writing great works provide additional Science and Culture. She also unlocks [b]Yunicopter[/b], which is available earlier and cheaper than the Drone unit it replaces. 
 
-The unique ability of Landosol civilization [b]Princess Knight[/b] is a special ability that provides entirely different abilities to each Landosol leader. For Yuni, this ability grants [b]Philosophy of Cognition and Development[/b], which allows Campuses, Theater Squares and Strategic resources provide Science and Culture at the same time, and let units receive a free Promotion when they are produced or upgraded.
+For Yuni, Princess Knight grants [b]Philosophy of Cognition and Development[/b], which allows Campuses, Theater Squares and Strategic resources provide Science and Culture at the same time, and let units receive a free Promotion when they are produced or upgraded.
 
-The [b]Princess Persona of Kokkoro[/b] has a unique ability named [b]Pure White Revelation[/b]. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Princess Kokkoro also provides the Miko of Ameth unique unit. This unique civilian unit is unlocked with Divine Right, and can create a National Park or plant Woods. 
+The [b]Princess Persona of Kokkoro[/b] has a unique ability named [b]Pure White Revelation[/b]. Tiles provide additional Faith when adjacent to Mountains, Woods, or Natural Wonders. Holy Sites increase Appeal of cities they are in. Princess Kokkoro also have the Miko of Ameth unique unit. This civilian unit is unlocked with Divine Right, and can create a National Park or plant Woods. 
 
-Princess Knight grants her [b]Aurora Sanctuary[/b]. Kokkoro can receive bonus Culture, Production or even Food from Preserve, and effect range of Preserve buildings are extended by 1. Also, Units heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
+Princess Knight grants her [b]Aurora Sanctuary[/b], allowing them to harness natural power. For them, unimproved natural scenery is a good source of Food and Production. They can gain even more from these tiles if they construct districts, buildings or national parks. Units also heal faster in tiles with high Appeal. (Her ability changes if you don't have Vietnam DLC. For details check in-game description.)
 
-The unique ability of Kyoka is [b]Little Model Student[/b]. Cities with a Campus district will have increased output of Science and Production. If there are 5 Coast tiles within 3 tiles of a city and owned by her, these yields are doubled.
+The unique ability of Kyoka is [b]Little Model Student[/b]. Cities with a Campus district will have increased output of Science and Production. These yields are further enhanced if the city owns many Coast tiles.
 
-Princess Knight grants her [b]Cosmo Blue Flash[/b], allowing water to provide them with tactical and strategic advantages. Campuses are granted an extra Major adjacency with Rivers and a Standard adjacency from Coasts. When adjacent to a River or Coast, Ranged units receive Range bonus, and tiles can have additional Production. Additionally, when they make progress in pursuing a Science Victory, they can unlock a free technology vital for winning.
+Princess Knight grants her [b]Cosmo Blue Flash[/b], allowing water to provide them with tactical and strategic advantages. Campuses are granted an extra adjacency with Rivers and from Coasts. When adjacent to a River or Coast, Ranged units receive Range bonus, and tiles can have additional Production. When they make progress in Space Race projects, they can unlock a free technology vital for winning.
 
 Can you become a little great leader? How will you lead Landosol to build a civilization that stands the test of time?
 
 [b]For detailed ability description, see discussions.[/b]
 
-[h1]Mod Highlights:[/h1]
+[h1]Our Way of Modding:[/h1]
 
-[b]"Powered" without "Over"[/b]: Each Landosol leader has several abilities that promote a unique play-style. This mod is designed to make abilities of all leaders included competent but not overpowered.
+[b]Yes for Uniqueness, No for Overpowering[/b]: All leaders are designed and tested so that each of their ability sets promotes a unique play-style. They are set to be as powerful as strong official leaders and won't break game balancing.
 
-[b]Lore-Loyalty[/b]: This mod is made with a fine research of the original Princess Connect franchise, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
+[b]Lore-Loyalty[/b]: Our mods are made with a fine research of the leaders and their stories, and provides full lists of named places, citizen names, city names and diplomacy statements to better represent lore and leader characteristics.
 
-[b]Harmonized Mix[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly.
+[b]Optimized for Compatibility[/b]: All art assets included in this mod are processed to fit the need of Civilization VI, so that they can display correctly and neatly on different screens / settings.
 
-[b]Background Music and Leader Speeches[/b]: Who found the correct way to play audios in Wwise Soundbanks? Yes, that was me!
+[b]Background Music and Leader Speeches[/b]: Who found the correct way to properly set these audio in Wwise Soundbanks? Yes, that was me!
+
+[b]Responsible AI Usage[/b]: We use generative-AI-created contents with caution to ensure the mod is slop-free.
 
 [h1]Known issues:[/h1]
 
@@ -135,7 +137,9 @@ This mod replaces loading screen and diplomacy screen to hide unneeded Princess 
 
 [h1]Introducing Shimamura et al.[/h1]
 
-Shimamura et al. (literally means "Shimamura and other people") is the team of UzukiShimamura and his friends, a group of experienced modders trying their best to design some leader mods that are unique while keeping harmony with vanilla game. And of course, WE NEED YOUR SUPPORT if you can do better than us!
+Shimamura et al. (literally means "Shimamura and other people") means UzukiShimamura and his friends - players, creators, and helpers! And by the way, PLEASE JOIN US if you can do better than us!
+
+In addition, this mod relies on their support:
 
 [b][url=steamcommunity.com/id/kevinxy]Kevin Liu[/url][/b]: For his help in experiments about leader speeches, and for building 70 National Parks in one game, which inspired me to create Kokkoro.
 [b][url=space.bilibili.com/28399130]hemmelfort[/url][/b]: For providing tutorials of blender and CivVI modding.
@@ -146,8 +150,6 @@ Shimamura et al. (literally means "Shimamura and other people") is the team of U
 [b][url=steamcommunity.com/profiles/76561198283559923/]MIMMIMME[/url][/b]: For Korean translations.
 [b][url=steamcommunity.com/profiles/76561198210283139]C1Sen[/url][/b]: For the icon of Guildhouse.
 
-Cover image by RYUKI (pixiv illustration ID: 80628407). This mod uses assets from the mobile game Princess Connect Re:Dive. The author of this mod DOES NOT own these assets.
+Cover image by RYUKI (pixiv illustration ID: 80628407). This mod uses assets from the mobile game Princess Connect Re:Dive. The authors of this mod DOES NOT own these assets.
 
-Need modding support, or found some issues? PM me on Steam or join QQ group 519747236 to contact me.
-
-View project files of all my work on [url=github.com/dwughjsd]GitHub[/url]. It would be much appreciated if you can be my Stargazer or come up with some Pull Requests!
+View project files of all UzukiShimamura's work on [url=github.com/dwughjsd]GitHub[/url]. It would be much appreciated if you can be a Stargazer or come up with some Pull Requests!
